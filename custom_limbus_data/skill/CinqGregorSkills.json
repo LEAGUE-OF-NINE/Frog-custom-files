@@ -179,56 +179,21 @@
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
           "abilityScriptList": [
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Agility",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 1
-              }
-            }
           ],
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 5
+              "scale": 0
             },
             {
               "operatorType": "ADD",
-              "scale": 5,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Binding",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
+              "scale": 0
             }
           ]
         },
         {
           "gaksungLevel": 2,
           "abilityScriptList": [
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Agility",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 2,
-                "turn": 0,
-                "activeRound": 1
-              }
-            }
           ],
           "coinList": [
             {
@@ -293,7 +258,7 @@
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
                     "buffKeyword": "DuelDeclaration",
-                    "target": "Self",
+                    "target": "Target",
                     "buffOwner": "",
                     "stack": 1 ,
                     "turn": 0,
@@ -529,20 +494,6 @@
         {
           "gaksungLevel": 2,
           "abilityScriptList": [
-            {
-              "scriptName": "GiveBuffOnWinDuel",
-              "buffData": {
-                "buffKeyword": "Agility",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 1
-              }
-            },
-            {
-              "scriptName": "CoinScaleAdder1IfSpeedNotLessThan7"
-            }
           ],
           "coinList": [
             {
@@ -551,20 +502,7 @@
             },
             {
               "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHeadAfterWinDuel",
-                  "buffData": {
-                    "buffKeyword": "Binding",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
+              "scale": 3
             }
           ]
         },

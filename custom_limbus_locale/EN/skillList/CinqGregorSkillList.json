@@ -18,11 +18,11 @@
   {"level":4,"desc":"If at 5+ gain 7 base power\nGain skill power equal to (haste)\n[WhenUse] Gain 2 [Breath] count",
   "name":"So many weak spots","rawDesc":"","abName":"",
     "coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttackCritical] If target is above 1% HP, reuse Coin (Max 3)\n[OnSucceedAttack] If taget is above 1% HP, increase crit dmage by 250%\nif target isn't killed by this skilll gain 10 [Binding] for the next 2 turn","summary":""}]}]}]},
+    {"coindescs":[{"desc":"[CriticalOnSucceedAttack] If target is above 1% HP, reuse Coin (Max 3)\n[OnSucceedAttack] If taget is above 1% HP, increase crit dmage by 250%\n[OnSucceedAttack] if target isn't killed by this skilll gain 10 [Binding] for the next 2 turn","summary":""}]}]}]},
   
     "10305004": {"a":0,"id":"10305004","levelList":[{"level":3,"desc":"Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)","name":"Red Plum Blossoms Scatter","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]","summary":""}]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]","summary":""}]}]},
   {"level":4,"desc":"At 5+ haeste   become dodge+counter",
   "name":"So many weak spots","rawDesc":"","abName":"",
     "coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttackCritical] If at 5+[Agility] reuse coin (up to 2 times)","summary":""}]}]}]}
+    {"coindescs":[{"desc":"[CriticalOnSucceedAttack] If at 5+[Agility] reuse coin (up to 2 times)","summary":""}]}]}]}
 }
