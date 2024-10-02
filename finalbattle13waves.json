@@ -1,0 +1,900 @@
+{
+  "id": 44445001,
+  "stageLevel": 45,
+  "stageType": "Abnormality",
+  "isBatonPassOn": false,
+  "includeBoss": 1,
+  "participantInfo": {
+    "min": 8,
+    "max": 8
+  },
+  "waveList": [
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "LCorpCenter"
+      },
+      "unitList": [
+        {
+          "unitID": 80386,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 80486,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 80585,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 80688,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 80786,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 80883,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 80381,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 80684,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        }
+      ],
+      "supportUnitList": [
+        {
+          "unitID": 80981,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 801087,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 801182,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 801286,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 801487,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 801387,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 8296,
+          "unitCount": 1,
+          "unitSyncLevel": 4,
+          "unitLevel": 45
+        }
+      ],
+      "bgmList": [
+        "Battle_Cp1_Ally_3",
+        "Battle_Cp1_Enemy_3"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "LCorpCenter"
+      },
+      "unitList": [
+        {
+          "unitID": 8305,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8293,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8325,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80380,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80382,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80383,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80384,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80385,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "LCorpEntrance"
+      },
+      "unitList": [
+        {
+          "unitID": 8281,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8294,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8310,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8320,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80481,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80482,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80483,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80484,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "Walpu4_SafetyTeamTeamHallway_Hard",
+        "mapSize": 28
+      },
+      "unitList": [
+        {
+          "unitID": 8284,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8295,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8311,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8326,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80581,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80582,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80583,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80584,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "Walpu4_InformationTeamTeamHallway_Hard",
+        "mapSize": 28
+      },
+      "unitList": [
+        {
+          "unitID": 8306,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8317,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80681,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80682,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80683,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80685,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80686,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80687,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "Walpu4_TrainingTeamTeamHallway_Hard",
+        "mapSize": 28
+      },
+      "unitList": [
+        {
+          "unitID": 8285,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8292,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8312,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8322,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80782,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80783,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80784,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80785,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "Walpu4_TrainingTeamLobby_Hard",
+        "mapSize": 33.32
+      },
+      "unitList": [
+        {
+          "unitID": 8309,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8323,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80881,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80882,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80887,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80884,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80885,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80886,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "Cp6_Mansion_Laboratory_B1",
+        "mapSize": 28
+      },
+      "unitList": [
+        {
+          "unitID": 8283,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8304,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8316,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80982,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80983,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80984,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80987,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80986,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "Cp5_HeartEntrance2",
+        "mapSize": 28
+      },
+      "unitList": [
+        {
+          "unitID": 8307,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8321,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801081,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801082,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801083,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801084,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801085,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801086,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "FranchiseChicken"
+      },
+      "unitList": [
+        {
+          "unitID": 8282,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8308,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801181,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801183,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801184,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801185,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801186,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801187,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "SinclairMansion"
+      },
+      "unitList": [
+        {
+          "unitID": 8280,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8297,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8313,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801285,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801281,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801282,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801283,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801284,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "isBatonPassOn": true,
+      "battleMapInfo": {
+        "mapName": "Cp6_Mansion_CatherineRoom"
+      },
+      "unitList": [
+        {
+          "unitID": 8314,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8319,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801382,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801385,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801381,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801383,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801384,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801386,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ]
+    },
+
+    {
+      "battleMapInfo": {
+        "mapName": "Ab_BloodyGossypium"
+      },
+      "unitList": [
+        {
+          "unitID": 8315,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8318,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801481,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801482,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801483,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801484,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801485,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 801486,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "subUnitList": [
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ],
+      "allyPositionID": 1,
+      "enemyPositionID": 61
+    }
+  ],
+  "staminaCost": 0,
+  "recommendedLevel": 45,
+  "turnLimit": 99,
+  "questlist": [
+    {
+      "args": [
+        "10"
+      ],
+      "localizeId": 1
+    }
+  ],
+  "rewardList": [],
+  "dangerLevel": 0,
+  "stageScriptList": [
+    "8608"
+  ],
+  "eventScriptName": [
+  ],
+  "abnormalityEventList": [
+  ]
+}
