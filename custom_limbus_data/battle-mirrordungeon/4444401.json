@@ -1,0 +1,261 @@
+{
+  "list": [
+    {
+      "id": 4444401,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 1,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Walpu4_TrainingTeamLobby_Hard",
+            "mapSize": 33.32
+          },
+          "unitList": [
+            {
+              "unitID": 8500221,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_Leviathan",
+            "Battle_Audite_pauper"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 96
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 4444402,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 1,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Ab_RedJewel"
+          },
+          "unitList": [
+            {
+              "unitID": 8527,
+              "unitCount": 1,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 800579,
+              "unitCount": 1,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 800580,
+              "unitCount": 1,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 800581,
+              "unitCount": 1,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Statue",
+            "Battle_Cp5_AhabBattle"
+          ],
+          "enemyPositionID": 22
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Statue",
+        "8105_Rail"
+      ],
+      "eventScriptName": [
+        "Statue"
+      ],
+      "abnormalityEventList": [
+        852701
+      ]
+    },
+
+    {
+      "id": 4444403,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 1,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp6_Mansion_Laboratory_B2",
+            "mapSize": 20
+          },
+          "unitList": [
+            {
+              "unitID": 800204,
+              "unitCount": 1,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 800316,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80000303,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8305,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_Middle_BossBattle"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 68
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "FilterAddForce3_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 4444404,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 1,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp3_B3_BossBattle"
+          },
+          "unitList": [
+            {
+              "unitID": 80533,
+              "unitCount": 1,
+              "unitLevel": 49
+            },
+            {
+              "unitID": 800280,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 800517,
+              "unitCount": 1,
+              "unitLevel": 48
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp3_Cromer_p1",
+            "Battle_Cp3_Cromer_p2"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 25
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+      ],
+      "eventScriptName": [
+        "Cromer"
+      ],
+      "abnormalityEventList": [
+        802901,
+        803001
+      ]
+    }
+  ]
+}

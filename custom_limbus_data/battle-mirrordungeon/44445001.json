@@ -1,0 +1,3676 @@
+{
+  "list": [
+    {
+      "id": 44445001,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "LCorpCenter"
+          },
+          "unitList": [
+            {
+              "unitID": 80386,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80486,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80585,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80688,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80786,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80887,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80987,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801088,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801188,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801287,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801388,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801488,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp3_Ally_1",
+            "Battle_Cp3_Enemy_1"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445002,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "LCorpCenter"
+          },
+          "unitList": [
+            {
+              "unitID": 801387,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80486,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80585,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80688,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80786,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80887,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80987,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801088,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801188,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801287,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80387,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801488,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp3_Ally_1",
+            "Battle_Cp3_Enemy_1"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445003,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Sinclair_Village"
+          },
+          "unitList": [
+            {
+              "unitID": 801387,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80486,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80585,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80688,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80786,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80887,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80987,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801088,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801188,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801287,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80387,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801488,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp3_Ally_1",
+            "Battle_Cp3_Enemy_1"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445004,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6.5-2_WarpTrain_v2"
+          },
+          "unitList": [
+            {
+              "unitID": 801388,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80487,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80586,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80689,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80787,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80888,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80988,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801088,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801188,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801287,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80387,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801488,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_5_MOWE_Enemy"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445005,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6.5-2_WarpTrain_v2"
+          },
+          "unitList": [
+            {
+              "unitID": 80482,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8325,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801184,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80686,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801283,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801381,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80481,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801186,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80383,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 8295,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801486,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801385,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_5_MOWE_Enemy"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445006,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6.5-2_WarpTrain_v2"
+          },
+          "unitList": [
+            {
+              "unitID": 80781,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80685,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801385,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 8320,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80380,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80982,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80881,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801482,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8284,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801083,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801381,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801282,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_5_MOWE_Enemy"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445006,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6.5-2_WarpTrain_v2"
+          },
+          "unitList": [
+            {
+              "unitID": 80781,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80685,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801385,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 8320,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80380,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80982,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80881,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801482,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8284,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801083,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801381,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801282,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_5_MOWE_Enemy"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445007,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6_Mansion_DrawingRoom"
+          },
+          "unitList": [
+            {
+              "unitID": 80781,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80685,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801385,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 8320,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80380,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80982,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80881,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801482,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8284,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801083,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801381,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801282,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp4_Ally_5",
+            "Battle_Cp4_Enemy_5"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445008,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6_Mansion_DrawingRoom"
+          },
+          "unitList": [
+            {
+              "unitID": 80885,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8305,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80481,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801184,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80981,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 8311,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 8317,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801388,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801483,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+
+            {
+              "unitID": 80383,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80888,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8297,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp4_Ally_5",
+            "Battle_Cp4_Enemy_5"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445008,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6_Mansion_DrawingRoom"
+          },
+          "unitList": [
+            {
+              "unitID": 80885,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8305,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80481,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 801184,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80981,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 8311,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801388,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801483,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80383,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80888,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8297,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 8317,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp4_Ally_5",
+            "Battle_Cp4_Enemy_5"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 44445009,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp4_KCropLab_2F_Corridor_v2"
+          },
+          "unitList": [
+            {
+              "unitID": 8281,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8294,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8310,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8320,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80481,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80482,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 80487,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80483,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80484,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80482,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+                "Battle_Cp4_Ally_2",
+                "Battle_Cp4_Enemy_2"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450010,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp4_DonglangBattle"
+          },
+          "unitList": [
+            {
+              "unitID": 8305,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8293,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80382,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            
+            {
+              "unitID": 80383,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80384,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80385,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 80387,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8325,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80380,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80381,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8305,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8293,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_DongLangEGOBattle_Mirror",
+            "Battle_DongLangEGOBattle_Mirror"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality",
+        "8182"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+
+
+    {
+      "id": 444450011,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Ab_TiedKing",
+            "mapSize": 28
+          },
+          "unitList": [
+            {
+              "unitID": 80284,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80295,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80311,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8326,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80581,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80582,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 80583,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80584,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80586,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80284,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80295,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80311,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Audite_pauper"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450012,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Ab_TiedKing",
+            "mapSize": 28
+          },
+          "unitList": [
+            {
+              "unitID": 8306,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8317,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80681,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80682,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80683,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80685,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 80687,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80684,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80686,
+              "unitCount": 1,
+              "unitLevel": 46,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80687,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8306,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8317,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Audite_pauper"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450013,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Ab_TiedKing",
+            "mapSize": 28
+          },
+          "unitList": [
+            {
+              "unitID": 80285,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8292,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8312,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8322,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80782,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80783,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 80781,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80784,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80785,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80787,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80285,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8292,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Audite_pauper"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450014,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp5.5_YongjinTower_3~5F"
+          },
+          "unitList": [
+            {
+              "unitID": 8066,
+              "unitCount": 3,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8151,
+              "unitCount": 2,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "attackType": "",
+      "attributeType": ""
+    },
+
+    {
+      "id": 444450015,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp5.5_YongjinTower_3~5F"
+          },
+          "unitList": [
+            {
+              "unitID": 8066,
+              "unitCount": 2,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8151,
+              "unitCount": 3,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "attackType": "",
+      "attributeType": ""
+    },
+
+    {
+      "id": 444450016,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp5.5_YongjinTower_3~5F"
+          },
+          "unitList": [
+            {
+              "unitID": 8066,
+              "unitCount": 1,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8151,
+              "unitCount": 5,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "attackType": "",
+      "attributeType": ""
+    },
+
+    {
+      "id": 444450017,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp5.5_YongjinTower_3~5F"
+          },
+          "unitList": [
+            {
+              "unitID": 8066,
+              "unitCount": 5,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8151,
+              "unitCount": 1,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "attackType": "",
+      "attributeType": ""
+    },
+
+    {
+      "id": 444450018,
+      "stageLevel": 40,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp5.5_YongjinTower_3~5F"
+          },
+          "unitList": [
+            {
+              "unitID": 8066,
+              "unitCount": 2,
+              "unitLevel": 40
+            },
+            {
+              "unitID": 8152,
+              "unitCount": 1,
+              "unitLevel": 40
+            },
+            {
+              "unitID": 8151,
+              "unitCount": 1,
+              "unitLevel": 40
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "attackType": "",
+      "attributeType": ""
+    },
+
+    {
+      "id": 444450019,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "SmokeWar_v1"
+          },
+          "unitList": [
+            {
+              "unitID": 850001,
+              "unitCount": 2,
+              "unitLevel": 45,
+              "unitSyncLevel": 1
+          },
+          {
+              "unitID": 850002,
+              "unitCount": 3,
+              "unitLevel": 45,
+              "unitSyncLevel": 1
+          }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "attackType": "",
+      "attributeType": ""
+    },
+    {
+      "id": 444450020,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "SmokeWar_v1"
+          },
+          "unitList": [
+            {
+              "unitID": 850001,
+              "unitCount": 3,
+              "unitLevel": 45,
+              "unitSyncLevel": 1
+          },
+          {
+              "unitID": 850002,
+              "unitCount": 2,
+              "unitLevel": 45,
+              "unitSyncLevel": 1
+          }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "attackType": "",
+      "attributeType": ""
+    },
+    {
+      "id": 444450021,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "SmokeWar_v1"
+          },
+          "unitList": [
+            {
+              "unitID": 850001,
+              "unitCount": 3,
+              "unitLevel": 45,
+              "unitSyncLevel": 1
+          },
+          {
+              "unitID": 850002,
+              "unitCount": 3,
+              "unitLevel": 45,
+              "unitSyncLevel": 1
+          }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "attackType": "",
+      "attributeType": ""
+    },
+
+
+    {
+      "id": 444450022,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Ab_TiedKing",
+            "mapSize": 28
+          },
+          "unitList": [
+            {
+              "unitID": 8309,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8323,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80881,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80882,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80884,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80888,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 80883,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80885,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80886,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8323,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80881,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80882,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Audite_pauper"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450023,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6_Mansion_Laboratory_B1",
+            "mapSize": 28
+          },
+          "unitList": [
+            {
+              "unitID": 8283,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8304,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8316,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80982,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80983,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80984,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 80981,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80985,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80988,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80986,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80982,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80983,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Audite_pauper"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450024,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp5_TheDepthsOfHeart_Awaken"
+          },
+          "unitList": [
+            {
+              "unitID": 8307,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8321,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801081,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801082,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801083,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801084,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801085,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801086,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801088,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8307,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801085,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801086,
+              "unitCount": 1,
+              "unitLevel": 47,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_AhabBattle"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450025,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "FranchiseChicken"
+          },
+          "unitList": [
+            {
+              "unitID": 8282,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8308,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801181,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801183,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801184,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801185,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801189,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801186,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801188,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801182,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8308,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801185,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_Leviathan"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450026,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "SinclairMansion"
+          },
+          "unitList": [
+            {
+              "unitID": 8280,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8297,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8313,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801285,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801281,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801282,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801283,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801284,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801287,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8280,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8297,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8313,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp3_Cromer_p1",
+            "Battle_Cp3_Cromer_p2"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450027,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp6_Mansion_Hall_v1",
+            "mapSize": 28
+          },
+          "unitList": [
+            {
+              "unitID": 8314,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8319,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801381,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801382,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801385,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801383,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801384,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801386,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801388,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8296,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8314,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8319,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_Ally_5"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450028,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Ab_BloodyGossypium",
+            "mapSize": 33.3
+          },
+          "unitList": [
+            {
+              "unitID": 8315,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8318,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801481,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801482,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801483,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801484,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801485,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801486,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801488,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8315,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8315,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8315,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_Ally_2",
+            "Battle_Cp5_Enemy_3"
+          ],
+          "allyPositionID": 1,
+          "enemyPositionID": 2
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450029,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp5.5_YongjinTower_3~5F"
+          },
+          "unitList": [
+            {
+              "unitID": 8619,
+              "unitCount": 1,
+              "unitLevel": 48
+            },
+            {
+              "unitID": 8620,
+              "unitCount": 1,
+              "unitLevel": 48
+            },
+            {
+              "unitID": 8621,
+              "unitCount": 1,
+              "unitLevel": 48
+            },
+            {
+              "unitID": 80682,
+              "unitCount": 1,
+              "unitLevel": 48,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8623,
+              "unitCount": 1,
+              "unitLevel": 48
+            }
+          ],
+          "subUnitList": [
+            {
+              "unitID": 8619,
+              "unitCount": 1,
+              "unitLevel": 48
+            },
+            {
+              "unitID": 8620,
+              "unitCount": 1,
+              "unitLevel": 48
+            },
+            {
+              "unitID": 8621,
+              "unitCount": 1,
+              "unitLevel": 48
+            },
+            {
+              "unitID": 8622,
+              "unitCount": 1,
+              "unitLevel": 48
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Enemy"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450030,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Cp5.5_Satgat"
+          },
+          "unitList": [
+            {
+              "unitID": 8280,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8281,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8282,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8283,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8284,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8285,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 8292,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8293,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8294,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8295,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8296,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8297,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_5_YCGD_Boss"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450031,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Ab_SkinProphet",
+            "mapSize": 33.3
+          },
+          "unitList": [
+            {
+              "unitID": 801085,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801185,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801285,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+    
+            {
+              "unitID": 80685,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8305,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 801384,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 801481,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80883,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80781,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 8281,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80584,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            },
+            {
+              "unitID": 80983,
+              "unitCount": 1,
+              "unitLevel": 45,
+              "unitSyncLevel": 4
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_Ally_3",
+            "Battle_Cp5_Enemy_4"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450032,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "LCorpCenter"
+          },
+          "unitList": [
+            {
+              "unitID": 8311,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8304,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8306,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8310,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8312,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8309,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 8314,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8308,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8305,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8307,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8315,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8313,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_Enemy_6"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    },
+
+    {
+      "id": 444450033,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "includeBoss": 0,
+      "participantInfo": {
+        "min": 7,
+        "max": 7
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "LCorpCenter"
+          },
+          "unitList": [
+            {
+              "unitID": 8316,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8317,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8318,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8319,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8320,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8321,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 8322,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8323,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8324,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8325,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8326,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8327,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+              "Battle_Audite_pauper",
+              "Battle_Vovete_miserias"
+          ]
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "Refill_Abnormality"
+      ],
+      "eventScriptName": [
+      ],
+      "abnormalityEventList": [
+      ]
+    }
+
+
+  ]
+}

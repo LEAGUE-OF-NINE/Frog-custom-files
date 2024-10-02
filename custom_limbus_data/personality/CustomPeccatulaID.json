@@ -1,0 +1,757 @@
+{
+  "list": [
+    {
+      "id": 1000510,
+      "unitScriptID": "",
+      "viewid": 10510,
+      "deadsceneid": -1,
+      "sdPortrait": "",
+      "appearance": "10510_Meursault_DieciAppearance",
+      "panicSkillOnErosion": 1000104,
+      "mp": 45,
+      "hp": {
+          "defaultStat": 112,
+          "incrementByLevel": 3.819999933242798
+      },
+      "defCorrection": 2,
+      "aggro": 1,
+      "panicType": 9999,
+      "minSpeedList": [
+          3,
+          4,
+          4,
+          4
+      ],
+      "maxSpeedList": [
+          5,
+          5,
+          6,
+          6
+      ],
+      "defenseSkillIDList": [
+          1051004
+      ],
+      "mentalConditionInfo": {
+          "add": [
+              {
+                  "level": 1,
+                  "conditionIDList": [
+                      {
+                          "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                      },
+                      {
+                          "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                      },
+                      {
+                          "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                      }
+                  ]
+              }
+          ],
+          "min": [
+              {
+                  "level": 1,
+                  "conditionIDList": [
+                      {
+                          "conditionID": "OnDieAllyAsLevelRatio10"
+                      }
+                  ]
+              }
+          ]
+      },
+      "showUnitLevel": true,
+      "showAtkLevel": true,
+      "showDefLevel": true,
+      "showHp": true,
+      "slotWeightConditionList": [
+          "Default1"
+      ],
+      "breakSection": {
+          "sectionList": [
+              50
+          ]
+      },
+      "resistInfo": {
+          "atkResistList": [
+              {
+                  "type": "SLASH",
+                  "value": 2.0
+              },
+              {
+                  "type": "PENETRATE",
+                  "value": 1.0
+              },
+              {
+                  "type": "HIT",
+                  "value": 0.5
+              }
+          ],
+          "attributeResistList": []
+      },
+      "passiveSet": {
+          "passiveIdList": [],
+          "supportPassiveIdList": []
+      },
+      "attributeList": [
+          {
+              "number": 2,
+              "skillId": 1051001
+          },
+          {
+              "number": 2,
+              "skillId": 1051002
+          },
+          {
+              "number": 2,
+              "skillId": 1051003
+          }
+      ],
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "KnowledgeExplored",
+              "stack": 3
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "list": [
+            {
+              "buff": "MDEMdg",
+              "stack": 1
+            },
+            {
+              "buff": "KnowledgeExplored",
+              "stack": 3
+            }
+          ]
+        }
+      ],
+      "associationList": [
+          "DIECI"
+      ],
+      "unitKeywordList": [
+          "FIXER"
+      ],
+      "characterId": 5,
+      "season": 0,
+      "additionalAttachment": "",
+      "promotionId": 0,
+      "rank": 3,
+      "uniqueAttribute": "SHAMROCK",
+      "supporterPassiveSet": {
+          "passiveIdList": [],
+          "supportPassiveIdList": []
+      }
+    },
+
+    {
+    "id": 1000110,
+    "unitScriptID": "",
+    "viewid": 10108,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10108_YiSang_DieciAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 115,
+        "incrementByLevel": 4.0999999046325685
+    },
+    "defCorrection": 5,
+    "aggro": 1,
+    "panicType": 9999,
+    "initBuffList": [
+      {
+        "level": 1,
+        "list": [
+          {
+            "buff": "KnowledgeExplored",
+            "stack": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "list": [
+          {
+            "buff": "KnowledgeExplored",
+            "stack": 3
+          }
+        ]
+      }
+    ],
+    "passiveSet": {
+      "passiveIdList": [
+        {
+          "level": 1,
+          "passiveIdList": [ 
+            1010811
+
+          ]
+        },
+        {
+          "level": 2,
+          "passiveIdList": [ 
+            1010811
+
+          ]
+        },
+        {
+          "level": 4,
+          "passiveIdList": [ 
+            1010811
+
+          ]
+        }
+      ],
+      "supportPassiveIdList": [
+        {
+          "level": 3,
+          "passiveIdList": [ 
+            1010831
+
+          ]
+        }
+      ]
+    },
+    "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+    ],
+    "defenseSkillIDList": [
+        1010804
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            45,
+            30
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 1.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 2.0
+            },
+            {
+                "type": "HIT",
+                "value": 0.5
+            }
+        ],
+        "attributeResistList": []
+    },
+    "attributeList": [
+        {
+            "number": 2,
+            "skillId": 10100801
+        },
+        {
+            "number": 2,
+            "skillId": 10100802
+        },
+        {
+            "number": 2,
+            "skillId": 10100803
+        }
+    ],
+    "associationList": [
+        "DIECI"
+    ],
+    "unitKeywordList": [
+        "FIXER"
+    ],
+    "characterId": 1,
+    "season": 0,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "SHAMROCK"
+    },
+
+    {
+        "id": 100702,
+        "unitScriptID": "",
+        "viewid": 10702,
+        "deadsceneid": -1,
+        "sdPortrait": "",
+        "appearance": "10702_Heathclif_4Appearance",
+        "unitKeywordList": ["FIXER","SMALL"],
+        "associationList": ["SHI"],
+        "characterId": 7,
+        "panicType": 9999,
+        "season": 0,
+        "defenseSkillIDList": [
+          1070204
+        ],
+        "panicSkillOnErosion": 1000104,
+        "slotWeightConditionList": [
+          "Default1"
+        ],
+        "rank": 2,
+        "hp": {
+          "defaultStat": 174,
+          "incrementByLevel": 4.82
+        },
+        "defCorrection": 1,
+        "minSpeedList": [
+          1,
+          1,
+          2,
+          4
+        ],
+        "maxSpeedList": [
+          4,
+          5,
+          5,
+          6
+        ],
+        "initBuffList": [
+          {
+            "level": 1,
+            "list": [
+              {
+                "buff": "BreathSupport",
+                "stack": 1
+              },
+              {
+                "buff": "Breath",
+                "stack": 4
+              },
+              {
+              "buff": "GainSinStockAdder",
+              "count": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "list": [
+              {
+                "buff": "BreathSupport",
+                "stack": 1
+              },
+              {
+                "buff": "Breath",
+                "stack": 4
+              },
+              {
+              "buff": "GainSinStockAdder",
+              "count": 2
+              }
+            ]
+          }
+        ],
+        "passiveSet": {
+          "passiveIdList": [
+            {
+              "level": 1,
+              "passiveIdList": [ 
+                1070201
+  
+              ]
+            },
+            {
+              "level": 2,
+              "passiveIdList": [ 
+                1070201
+  
+              ]
+            },
+            {
+              "level": 4,
+              "passiveIdList": [ 
+                1070201
+  
+              ]
+            }
+          ],
+          "supportPassiveIdList": [
+            {
+              "level": 3,
+              "passiveIdList": [ 
+                1070221
+  
+              ]
+            }
+          ]
+        },
+        "uniqueAttribute": "SCARLET",
+        "mentalConditionInfo": {
+          "add": [
+            {
+              "level": 1,
+              "conditionIDList": [
+                {
+                  "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                },
+                {
+                  "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                },
+                {
+                  "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                }
+              ]
+            }
+          ],
+          "min": [
+            {
+              "level": 1,
+              "conditionIDList": [
+                {
+                  "conditionID": "OnDieAllyAsLevelRatio10"
+                }
+              ]
+            }
+          ]
+        },
+        "breakSection": {
+          "sectionList": [
+            85
+          ]
+        },
+        "resistInfo": {
+          "atkResistList": [
+            {
+              "type": "SLASH",
+              "value": 0.5
+            },
+            {
+              "type": "PENETRATE",
+              "value": 2
+            },
+            {
+              "type": "HIT",
+              "value": 1
+            }
+          ]
+        },
+        "attributeList": [
+          {
+            "skillId": 10070201,
+            "number": 3
+          },
+          {
+            "skillId": 10070202,
+            "number": 2
+          },
+          {
+            "skillId": 10070203,
+            "number": 1
+          }
+        ]
+    },
+
+    {
+        "id": 100303,
+        "appearance": "10303_Donquixote_ShiAssoAppearance",
+        "unitKeywordList": ["FIXER","SMALL"],
+        "associationList": ["SHI"],
+        "characterId": 3,
+        "panicType": 9999,
+        "season": 0,
+        "defenseSkillIDList": [
+          1030304
+        ],
+        "panicSkillOnErosion": 1000104,
+        "slotWeightConditionList": [
+          "Default1"
+        ],
+        "rank": 3,
+        "hp": {
+          "defaultStat": 158,
+          "incrementByLevel": 4.39
+        },
+        "defCorrection": -4,
+        "minSpeedList": [
+          2,
+          2,
+          3,
+          4
+        ],
+        "maxSpeedList": [
+          5,
+          6,
+          6,
+          8
+        ],
+        "passiveSet": {
+          "passiveIdList": [
+            {
+              "level": 1,
+              "passiveIdList": [ 
+                1030301
+  
+              ]
+            },
+            {
+              "level": 2,
+              "passiveIdList": [ 
+                1030301
+  
+              ]
+            },
+            {
+              "level": 4,
+              "passiveIdList": [ 
+                1030301
+  
+              ]
+            }
+          ],
+          "supportPassiveIdList": [
+            {
+              "level": 3,
+              "passiveIdList": [ 
+                1030321
+  
+              ]
+            }
+          ]
+        },
+        "initBuffList": [
+        {
+            "level": 1,
+            "list": [
+                {
+                "buff": "BreathSupport",
+                "count": 1
+                },
+                {
+                "buff": "Breath",
+                "count": 4
+                },
+                {
+                  "buff": "GainSinStockAdder",
+                  "count": 2
+                }
+            ]
+        }
+        ],
+        "uniqueAttribute": "CRIMSON",
+        "mentalConditionInfo": {
+          "add": [
+            {
+              "level": 1,
+              "conditionIDList": [
+                {
+                  "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                },
+                {
+                  "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                },
+                {
+                  "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                }
+              ]
+            }
+          ],
+          "min": [
+            {
+              "level": 1,
+              "conditionIDList": [
+                {
+                  "conditionID": "OnDieAllyAsLevelRatio10"
+                }
+              ]
+            }
+          ]
+        },
+        "breakSection": {
+          "sectionList": [
+            80,
+            20
+          ]
+        },
+        "resistInfo": {
+          "atkResistList": [
+            {
+              "type": "SLASH",
+              "value": 0.5
+            },
+            {
+              "type": "PENETRATE",
+              "value": 2
+            },
+            {
+              "type": "HIT",
+              "value": 1
+            }
+          ]
+        },
+        "attributeList": [
+          {
+            "skillId": 10030301,
+            "number": 3
+          },
+          {
+            "skillId": 10030302,
+            "number": 2
+          },
+          {
+            "skillId": 10030303,
+            "number": 1
+          }
+        ]
+    },
+
+    {
+      "id": 100422,
+      "appearance": "10402_Ryoshu_SevenAssoAppearance",
+      "unitKeywordList": ["FIXER","SMALL"],
+      "associationList": [],
+      "characterId": 4,
+      "panicType": 9999,
+      "season": 4,
+      "defenseSkillIDList": [
+        10040204
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 63,
+        "incrementByLevel": 5.17
+      },
+      "defCorrection": -4,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyMp15"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply10"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [ ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 10040201,
+          "number": 4
+        },
+        {
+          "skillId": 10040203,
+          "number": 3
+        },
+        {
+          "skillId": 10040202,
+          "number": 2
+        },
+        {
+          "skillId": 10040205,
+          "number": 2
+        },
+        {
+          "skillId": 10040206,
+          "number": 1
+        }
+      ]
+    }
+
+  ]
+}
