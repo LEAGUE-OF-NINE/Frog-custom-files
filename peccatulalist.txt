@@ -1,0 +1,186 @@
+**YI SANG**
+[The Ring Pointillist Student] Yi Sang: 8305
+[Blade Lineage Salsu] Yi Sang:: 8293
+[Dieci Assoc. South Section 4] Yi Sang: 8325
+
+*NEW ABNO UNITS*
+[The Pequod First Mate] Yi Sang: 80380
+[Seven Assoc. South Section 6] Yi Sang: 80381
+[Effloresced E.G.O::Spicebush] Yi Sang: 80382
+[Molar Office Fixer] Yi Sang: 80383
+[W Corp. L3 Cleanup Agent] Yi Sang: 80384
+[Lobotomy E.G.O:: Solemn Lament] Yi Sang: 80385
+LCB Yi Sang: 80386
+HIGH SP LCB Yi Sang: 80387
+
+*MODDED:
+[Dieci Assoc. South Section 3] Yi Sang: 800326
+
+**FAUST**
+[The One Who Grips] Faust: 8281
+[Blade Lineage Salsu] Faust: 8294
+[Seven Assoc. South Section 4] Faust: 8310
+[Wuthering Heights Butler] Faust: 8320
+
+*NEW ABNO UNITS*
+[W Corp. L2 Cleanup Agent] Faust: 80481
+[Lobotomy Corp. Remnant] Faust: 80482
+[Zwei Assoc. South Section 4] Faust: 80483
+[Lobotomy E.G.O::Regret] Faust: 80484
+[MultiCrack Office Rep] Faust: 80485
+LCB Faust: 80486
+HIGH SP LCB Faust: 80487
+
+**DON QUIXOTE**
+
+[N Corp. Mittelhammer] Don Quixote: 8284,
+[Blade Lineage Salsu] Don Quixote: 8295
+[W Corp. L3 Cleanup Agent] Don Quixote: 8311
+[Cinq Assoc. South Section 5 Director] Don Quixote: 8326
+
+*NEW ABNO UNITS*
+[Shi Assoc. South Section 5 Director] Don Quixote: 80581
+[The Middle Little Sister] Don Quixote: 80582
+[Lobotomy E.G.O::Lantern] Don Quixote: 80583
+[T Corp. Class 3 Collection Staff] Don Quixote: 80584
+LCB Don Quixote: 80585
+HIGH SP LCB Don Quixote: 80586
+
+**RYOSHU**
+
+[W Corp. L3 Cleanup Agent] Ryoshu: 8306
+[Edgar Family Chief Butler] Ryoshu: 8317
+
+*NEW ABNO UNITS*
+[Seven Assoc. South Section 6] Ryoshu: 80681
+[Kurokumo Clan Wakashu] Ryoshu: 80682
+[R.B. Chef de Cuisine] Ryoshu: 80683
+[LCCB Assistant Manager] Ryoshu: 80684
+[Liu Assoc. South Section 4] Ryoshu: 80685
+[District 20 Yurodivy] Ryoshu: 80686
+[Lobotomy E.G.O:: Red Eyes & Penitence] Ryoshu: 80687
+LCB Ryoshu: 80688
+HIGH SP LCB Ryoshu: 80689
+
+**MEURSAULT**
+
+[N Corp. Großhammer] Meursault: 8285,
+[Blade Lineage Mentor] Meursault: 8292
+[R Corp. 4th Pack Rhino] Meursault: 8312
+[Dead Rabbits Boss] Meursault: 8322
+
+*NEW ABNO UNITS*
+[Liu Assoc. South Section 6] Meursault: 80781
+[W Corp. L2 Cleanup Agent] Meursault: 80782
+[Rosespanner Workshop Fixer] Meursault: 80783
+[The Middle Little Brother] Meursault: 80784
+[Dieci Assoc. South Section 4 Director] Meursault: 80785
+LCB Meursault: 80786
+HIGH LCB Meursault: 80787
+HIGH SP [N Corp. Großhammer] Meursault: 80285,
+
+**HONG LU**
+
+[K Corp. Class 3 Excision Staff] Hong Lu: 8309
+[Dieci Assoc. South Section 4] Hong Lu: 8323
+
+*NEW ABNO UNITS*
+[Kurokumo Clan Wakashu] Hong Lu: 80881
+[Tingtang Gang Gangleader] Hong Lu: 80882
+[Liu Assoc. South Section 5] Hong Lu: 80883
+[W Corp. L2 Cleanup Agent] Hong Lu: 80884
+[Hook Office Fixer] Hong Lu: 80885
+[District 20 Yurodivy] Hong Lu: 80886
+LCB Hong Lu: 80887
+HIGH SP LCB HONG LU: 80888
+
+***HEATHCLIFF**
+
+N Corp. Kleinhammer Heathcliff: 8283,
+[R Corp. 4th Pack Rabbit] Heathcliff: 8304
+[Lobotomy E.G.O::Sunshower] Heathcliff: 8316
+
+*NEW ABNO UNITS*
+[Shi Assoc. South Section 5] Heathcliff: 80981
+[Seven Assoc. South Section 4] Heathcliff: 80982
+[The Pequod Harpooneer] Heathcliff: 80983
+[Öufi Assoc. South Section 3] Heathcliff: 80984
+[MultiCrack Office Fixer] Heathcliff: 80985
+[Wild Hunt] Heathcliff: 80986
+LCB Heathcliff: 80987
+HIGH SP LCB Heathcliff: 80988
+
+**ISHMAEL**
+
+[The Pequod Captain] Ishmael: 8307
+[Edgar Family Butler] Ishmael: 8321
+
+*NEW ABNO UNITS*
+[R Corp. 4th Pack Reindeer] Ishmael: 801081
+[Shi Assoc. South Section 5] Ishmael: 801082
+[LCCB Assistant Manager] Ishmael: 801083
+[Lobotomy E.G.O::Sloshing] Ishmael: 801084
+[Liu Assoc. South Section 4] Ishmael: 801085
+[Molar Boatworks Fixer] Ishmael: 801086
+LCB Ishmael: 801087
+HIGH SP LCB Ishmael: 801088
+
+**RODION**
+
+N Corp. Mittelhammer Rodion: 8282,
+[Dieci Assoc. South Section 4] Rodion: 8308
+
+*NEW ABNO UNITS*
+[Kurokumo Clan Wakashu] Rodion: 801181
+[LCCB Assistant Manager] Rodion: 801182
+[Rosespanner Workshop Rep] Rodion: 801183
+[Zwei Assoc. South Section 5] Rodion: 801184
+[Liu Assoc. South Section 4 Director] Rodion: 801185
+[T Corp. Class 2 Collection Staff] Rodion: 801186
+LCB Rodion: 801187
+HIGH SP LCB Rodion: 801188
+[Devyat' Assoc. North Section 3] Rodion: 801189
+
+**SINCLAIR**
+The One Who Shall Grip Sinclair: 8280,
+[Blade Lineage Salsu] Sinclair: 8297
+[Cinq Assoc. South Section 4 Director] Sinclair: 8313
+
+*NEW ABNO UNITS*
+[Zwei Assoc. South Section 6] Sinclair: 801281
+[Los Mariachis Jefe] Sinclair: 801282
+[Lobotomy E.G.O::Red Sheet] Sinclair: 801283
+[Molar Boatworks Fixer] Sinclair: 801284
+[Dawn Office Fixer] Sinclair: 801285
+LCB Sinclair: 801286
+HIGH SP LCB Sinclair: 801287
+
+**OUTIS**
+
+[Blade Lineage Salsu] Outis: 8296
+[Seven Assoc. South Section 6 Director] Outis: 8314
+[Wuthering Heights Chief Butler] Outis: 8319
+
+*NEW ABNO UNITS*
+[G Corp. Head Manager] Outis: 801381
+[Molar Office Fixer] Outis: 801382
+[Cinq Assoc. South Section 4] Outis: 801383
+[Lobotomy E.G.O::Magic Bullet] Outis: 801384
+[The Ring Pointillist Student] Outis: 801385
+[W Corp. L3 Cleanup Captain] Outis: 801386
+LCB Outis: 801387
+HIGH SP LCB Outis: 801388
+
+**GREGOR**
+[Zwei Assoc. South Section 4] Gregor: 8315
+[Edgar Family Heir] Gregor: 8318
+
+*NEW ABNO UNITS*
+[Liu Assoc. South Section 6] Gregor: 801481
+[G Corp. Manager Corporal] Gregor: 801482
+[R.B. Sous-chef] Gregor: 801483
+[Rosespanner Workshop Fixer] Gregor: 801484
+[Twinhook Pirates First Mate] Gregor: 801485
+[Kurokumo Clan Captain] Gregor: 801486
+LCB Gregor: 801487
+HIGH SP LCB Gregor: 801488
