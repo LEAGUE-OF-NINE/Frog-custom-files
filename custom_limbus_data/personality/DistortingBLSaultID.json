@@ -2,7 +2,7 @@
   "list": [
     {
       "id": 10558,
-      "appearance": "10508_Meursault_KimSatGatAppearance",
+      "appearance": "!custom_distorting_bl_sault",
       "unitKeywordList": [
         "CLAN",
         "SMALL"
@@ -16,8 +16,8 @@
       "additionalAttachment": "EVENT",
       "isPlusCoinUnit": false,
       "defenseSkillIDList": [
-        1050804,
-        1050805
+        10508004,
+        10508005
       ],
       "panicSkillOnErosion": 1000104,
       "slotWeightConditionList": [
@@ -78,7 +78,7 @@
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnLoseDuelAsParryingCountMultiply3AndPlus10Percent"
+                "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
               }
             ]
           }
@@ -88,7 +88,7 @@
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnWinDuelAsParryingCountMultiply6AndPlus20Percent"
+                "conditionID": "OnWinDuelAsParryingCountMultiply5AndPlus20Percent"
               },
               {
                 "conditionID": "OnDieAllyAsLevelRatio10"
@@ -110,7 +110,7 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 2
           },
           {
             "type": "PENETRATE",
@@ -118,7 +118,7 @@
           },
           {
             "type": "HIT",
-            "value": 2
+            "value": 0.5
           }
         ]
       },
@@ -128,11 +128,11 @@
           "number": 3
         },
         {
-          "skillId": 1050802,
+          "skillId": 10508002,
           "number": 2
         },
         {
-          "skillId": 1050803,
+          "skillId": 10508003,
           "number": 1
         }
       ]

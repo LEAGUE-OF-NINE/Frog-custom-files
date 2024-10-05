@@ -1,6 +1,5 @@
 {
   "list": [
-
     {
       "id": 10070204,
       "skillType": "SKILL",
@@ -54,10 +53,10 @@
     {
       "id": 90001401,
       "skillTier": 1,
-	    "textID": 90001401,	  	  	  
+      "textID": 90001401,
       "skillData": [
         {
-		  "iconID": 9001401,									
+          "iconID": 9001401,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -79,29 +78,29 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 3,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             },
             {
               "scriptName": "HealMpOnWinDuelEveryAlly10",
               "buffData": {
-                  "buffKeyword": "",
-                  "target": "",
-                  "buffOwner": "",
-                  "stack": 0,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 0.0,
-                  "limit": 0
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
               }
-            }  
+            }
           ],
           "coinList": [
             {
@@ -139,10 +138,10 @@
     {
       "id": 90001403,
       "skillTier": 1,
-	    "textID": 90001403,	  	  	  
+      "textID": 90001403,
       "skillData": [
         {
-          "iconID": 9001401,									
+          "iconID": 9001401,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -164,14 +163,14 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 3,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             }
           ],
@@ -198,17 +197,17 @@
               "scale": 3,
               "abilityScriptList": [
                 {
-                    "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_Burst",
-                    "buffData": {
-                        "buffKeyword": "Laceration",
-                        "target": "Target",
-                        "buffOwner": "Target",
-                        "stack": -1,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_Burst",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
                 }
               ]
             }
@@ -219,10 +218,10 @@
     {
       "id": 90001501,
       "skillTier": 1,
-	    "textID": 90001501,  
+      "textID": 90001501,
       "skillData": [
         {
-		  "iconID": 9001501,									
+          "iconID": 9001501,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -244,29 +243,29 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 3,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             },
             {
               "scriptName": "HealMpOnWinDuelEveryAlly10",
               "buffData": {
-                  "buffKeyword": "",
-                  "target": "",
-                  "buffOwner": "",
-                  "stack": 0,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 0.0,
-                  "limit": 0
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
               }
-            }  
+            }
           ],
           "coinList": [
             {
@@ -304,10 +303,10 @@
     {
       "id": 90001502,
       "skillTier": 1,
-	    "textID": 90001502,  
+      "textID": 90001502,
       "skillData": [
         {
-		  "iconID": 9001502,									
+          "iconID": 9001502,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -329,28 +328,28 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 3,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             },
             {
-                "scriptName": "CoinScaleAdderViaBuffCheckDevideByTurnWithLimit2",
-                "buffData": {
-                    "buffKeyword": "Laceration",  
-                    "target": "",
-                    "buffOwner": "Target",
-                    "stack": 0,
-                    "turn": 5,
-                    "activeRound": 0,
-                    "value": 1.0,
-                    "limit": 0
-                }
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByTurnWithLimit2",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 5,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
+              }
             }
           ],
           "coinList": [
@@ -389,39 +388,39 @@
               ]
             },
             {
-            "operatorType": "ADD",
-            "scale": 2,
-            "abilityScriptList": [
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
                 {
-                "scriptName": "GiveBuffOnSucceedAttackHead",
-                "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "Target",
-                  "buffOwner": "",
-                  "stack": 0,
-                  "turn": 3,
-                  "activeRound": 1
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 1
+                  }
                 }
-                }
-                ]
+              ]
             },
             {
-            "operatorType": "ADD",
-            "scale": 2,
-            "abilityScriptList": [
-              {
-                "scriptName": "GiveBuffOnSucceedAttackHead",
-                "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "Target",
-                  "buffOwner": "",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 1
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 5,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
                 }
-              }
-            ]
-          }
+              ]
+            }
           ]
         }
       ]
@@ -429,10 +428,10 @@
     {
       "id": 90001503,
       "skillTier": 2,
-	    "textID": 90001503,  
+      "textID": 90001503,
       "skillData": [
         {
-		  "iconID": 9001401,									
+          "iconID": 9001401,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -454,28 +453,28 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 3,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             },
             {
-                "scriptName": "CoinScaleAdderViaBuffCheckDevideByTurnWithLimit2",
-                "buffData": {
-                    "buffKeyword": "Laceration",  
-                    "target": "",
-                    "buffOwner": "Target",
-                    "stack": 0,
-                    "turn": 5,
-                    "activeRound": 0,
-                    "value": 1.0,
-                    "limit": 0
-                }
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByTurnWithLimit2",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 5,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
+              }
             }
           ],
           "coinList": [
@@ -520,47 +519,46 @@
     {
       "id": 90001402,
       "skillTier": 1,
-	    "textID": 90001402,	  	  
+      "textID": 90001402,
       "skillData": [
-        {	  	  	  
-      "iconID": 9001402,				
-      "skillTargetType": "FRONT",
-      "canTeamKill": false,
-      "canDuel": true,
-      "canChangeTarget": true,
-      "attributeType": "NEUTRAL",
-      "atkType": "NONE",
-      "defType": "GUARD",
-      "skillMotion": "Default",
-      "viewType": "ENCOUNTER",
-      "arearange": 1,
-      "parryingCloseType": "NEAR",
-      "targetNum": 1,
-      "defaultValue": 15,
-      "skillLevelCorrection": 5,
-      "abilityScriptList": [
         {
-          "scriptName": "EmptyBody"
-        }
-        ],
+          "iconID": 9001402,
+          "skillTargetType": "FRONT",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "attributeType": "NEUTRAL",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "skillMotion": "Default",
+          "viewType": "ENCOUNTER",
+          "arearange": 1,
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "defaultValue": 15,
+          "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
           "coinList": [
-          {
-            "operatorType": "ADD",
-            "scale": 5,
-            "abilityScriptList": []
-          }
-        ]  
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": []
+            }
+          ]
         }
       ]
     },
-
     {
       "id": 91000201,
       "skillTier": 1,
-	    "textID": 91000201,  
+      "textID": 91000201,
       "skillData": [
         {
-		  "iconID": 9100201,
+          "iconID": 9100201,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -581,114 +579,114 @@
             },
             {
               "scriptName": "GiveBuffOnBattleStart",
-                    "buffData": {
-                        "buffKeyword": "Agility",
-                        "target": "EveryAlly",
-                        "buffOwner": "",
-                        "stack": 1,
-                        "turn": 0,
-                        "activeRound": 1,
-                        "value": 0.0,
-                        "limit": 0
-                    }
+              "buffData": {
+                "buffKeyword": "Agility",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
             },
             {
               "scriptName": "HealMpOnWinDuelEveryAlly10",
               "buffData": {
-                  "buffKeyword": "",
-                  "target": "",
-                  "buffOwner": "",
-                  "stack": 0,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 0.0,
-                  "limit": 0
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
               }
             },
             {
-               "scriptName": "GiveBuffOnWinDuel",
-                    "buffData": {
-                        "buffKeyword": "AttackDmgUp",
-                        "target": "RandomAlly2",
-                        "buffOwner": "",
-                        "stack": 2,
-                        "turn": 0,
-                        "activeRound": 1,
-                        "value": 0.0,
-                        "limit": 0
-                    }
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "AttackDmgUp",
+                "target": "RandomAlly2",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
             }
           ],
           "coinList": [
             {
               "operatorType": "ADD",
               "abilityScriptList": [
-                  {
-                      "scriptName": "GiveMpDmgOnSucceedAttackHeadTarget5",
-                      "buffData": {
-                          "buffKeyword": "",
-                          "target": "",
-                          "buffOwner": "",
-                          "stack": 0,
-                          "turn": 0,
-                          "activeRound": 0,
-                          "value": 0.0,
-                          "limit": 0
-                      }
+                {
+                  "scriptName": "GiveMpDmgOnSucceedAttackHeadTarget5",
+                  "buffData": {
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
                   }
+                }
               ],
               "scale": 3,
               "prob": 0.5,
               "actionIndex": -1,
               "cutsceneStart": false
-          },
-          {
+            },
+            {
               "operatorType": "ADD",
               "abilityScriptList": [
-                  {
-                      "scriptName": "GiveMpDmgOnSucceedAttackHeadTarget5",
-                      "buffData": {
-                          "buffKeyword": "",
-                          "target": "",
-                          "buffOwner": "",
-                          "stack": 0,
-                          "turn": 0,
-                          "activeRound": 0,
-                          "value": 0.0,
-                          "limit": 0
-                      }
+                {
+                  "scriptName": "GiveMpDmgOnSucceedAttackHeadTarget5",
+                  "buffData": {
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
                   }
+                }
               ],
               "scale": 3,
               "prob": 0.5,
               "actionIndex": -1,
               "cutsceneStart": false
-          },
-          {
-            "operatorType": "ADD",
-            "abilityScriptList": [
+            },
+            {
+              "operatorType": "ADD",
+              "abilityScriptList": [
                 {
-                    "scriptName": "GiveMpDmgOnSucceedAttackHeadTarget5",
-                    "buffData": {
-                        "buffKeyword": "",
-                        "target": "",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
+                  "scriptName": "GiveMpDmgOnSucceedAttackHeadTarget5",
+                  "buffData": {
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
                 },
                 {
                   "scriptName": "RerollOnSAHUpto3"
                 }
-            ],
-            "scale": 3,
-            "prob": 0.5,
-            "actionIndex": -1,
-            "cutsceneStart": false
-        }
+              ],
+              "scale": 3,
+              "prob": 0.5,
+              "actionIndex": -1,
+              "cutsceneStart": false
+            }
           ]
         }
       ]
@@ -696,10 +694,10 @@
     {
       "id": 91000202,
       "skillTier": 1,
-	    "textID": 91000202,
+      "textID": 91000202,
       "skillData": [
         {
-		  "iconID": 9100202,
+          "iconID": 9100202,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -720,20 +718,20 @@
             },
             {
               "scriptName": "GiveBuffOnBattleStart",
-                    "buffData": {
-                        "buffKeyword": "AttackDmgUp",
-                        "target": "EveryAlly",
-                        "buffOwner": "",
-                        "stack": 1,
-                        "turn": 0,
-                        "activeRound": 1,
-                        "value": 0.0,
-                        "limit": 0
-                    }
+              "buffData": {
+                "buffKeyword": "AttackDmgUp",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
             },
             {
-            "scriptName": "HealMpOnWinDuelEveryAlly10",
-            "buffData": {
+              "scriptName": "HealMpOnWinDuelEveryAlly10",
+              "buffData": {
                 "buffKeyword": "",
                 "target": "",
                 "buffOwner": "",
@@ -742,45 +740,45 @@
                 "activeRound": 0,
                 "value": 0.0,
                 "limit": 0
-            }
+              }
             },
             {
-            "scriptName": "GiveBuffOnWinDuel",
+              "scriptName": "GiveBuffOnWinDuel",
               "buffData": {
-                    "buffKeyword": "Enhancement",
-                    "target": "RandomAlly2",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1,
-                    "value": 0.0,
-                    "limit": 0
+                "buffKeyword": "Enhancement",
+                "target": "RandomAlly2",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
             }
-            }  
           ],
           "coinList": [
             {
               "operatorType": "ADD",
               "abilityScriptList": [
-                  {
-                      "scriptName": "GiveBuffOnSucceedAttackHead",
-                      "buffData": {
-                        "buffKeyword": "Sinking",
-                        "target": "Target",
-                        "buffOwner": "",
-                        "stack": 4,
-                        "turn": 10,
-                        "activeRound": 1,
-                        "value": 0.0,
-                        "limit": 0
-                    }
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 10,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
                   }
+                }
               ],
               "scale": 10,
               "prob": 0.5,
               "actionIndex": -1,
               "cutsceneStart": false
-          }
+            }
           ]
         }
       ]
@@ -788,10 +786,10 @@
     {
       "id": 91000203,
       "skillTier": 3,
-	    "textID": 91000203,
+      "textID": 91000203,
       "skillData": [
         {
-		  "iconID": 9100203,
+          "iconID": 9100203,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -812,7 +810,7 @@
             },
             {
               "scriptName": "GiveBuffOnWinDuel",
-                "buffData": {
+              "buffData": {
                 "buffKeyword": "Enhancement",
                 "target": "EveryAlly",
                 "buffOwner": "",
@@ -821,84 +819,84 @@
                 "activeRound": 1,
                 "value": 0.0,
                 "limit": 0
-            }
+              }
             },
             {
-               "scriptName": "GiveBuffOnWinDuel",
-                    "buffData": {
-                    "buffKeyword": "AttackDmgUp",
-                    "target": "EveryAlly",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1,
-                    "value": 0.0,
-                    "limit": 0
-            }
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "AttackDmgUp",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
             },
             {
               "scriptName": "GiveBuffOnLoseDuel",
               "buffData": {
-                  "buffKeyword": "Reduction",
-                  "target": "EveryAlly",
-                  "buffOwner": "",
-                  "stack": 3,
-                  "turn": 0,
-                  "activeRound": 1,
-                  "value": 0.0,
-                  "limit": 0
-          }
-          } 
+                "buffKeyword": "Reduction",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
+            }
           ],
           "coinList": [
             {
               "operatorType": "ADD",
               "abilityScriptList": [
-                  {
-                    "scriptName": "GiveMpDmgOnSucceedAttackHeadTarget15",
-                    "buffData": {
-                      "buffKeyword": "",
-                      "target": "",
-                      "buffOwner": "",
-                      "stack": 0,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 0.0,
-                      "limit": 0
-                    }
-                  },
-                  {
-                      "scriptName": "GiveBuffOnSucceedAttack",
-                      "buffData": {
-                          "buffKeyword": "Reduction",
-                          "target": "Target",
-                          "buffOwner": "",
-                          "stack": 3,
-                          "turn": 0,
-                          "activeRound": 0,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                    },
-                    {
-                        "scriptName": "GiveBuffOnSucceedAttack",
-                        "buffData": {
-                            "buffKeyword": "Reduction",
-                            "target": "Target",
-                            "buffOwner": "",
-                            "stack": 3,
-                            "turn": 0,
-                            "activeRound": 1,
-                            "value": 0.0,
-                            "limit": 0
-                        }
-                    }
+                {
+                  "scriptName": "GiveMpDmgOnSucceedAttackHeadTarget15",
+                  "buffData": {
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Reduction",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Reduction",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                }
               ],
               "scale": 16,
               "prob": 0.5,
               "actionIndex": -1,
               "cutsceneStart": false
-          }
+            }
           ]
         }
       ]
@@ -906,59 +904,59 @@
     {
       "id": 91000204,
       "skillTier": 1,
-	    "textID": 91000204,	  	  
+      "textID": 91000204,
       "skillData": [
-        {	  	  	  
-      "iconID": 9100204,				
-      "skillTargetType": "FRONT",
-      "canTeamKill": false,
-      "canDuel": true,
-      "canChangeTarget": true,
-      "attributeType": "VIOLET",
-      "atkType": "NONE",
-      "defType": "GUARD",
-      "skillMotion": "Default",
-      "viewType": "ENCOUNTER",
-      "arearange": 1,
-      "parryingCloseType": "NEAR",
-      "targetNum": 1,
-      "defaultValue": 40,
-      "skillLevelCorrection": 5,
-      "abilityScriptList": [
         {
-          "scriptName": "EmptyBody"
-        },
-        {
-        "scriptName": "HealHpOnUseAttackSelf20",
-          "buffData": {
-            "buffKeyword": "",
-            "target": "",
-            "buffOwner": "",
-            "stack": 0,
-            "turn": 0,
-            "activeRound": 0,
-            "value": 0.0,
-            "limit": 0
-        }
-        }
-      ],
+          "iconID": 9100204,
+          "skillTargetType": "FRONT",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "skillMotion": "Default",
+          "viewType": "ENCOUNTER",
+          "arearange": 1,
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "defaultValue": 40,
+          "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "HealHpOnUseAttackSelf20",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            }
+          ],
           "coinList": [
-          {
-            "operatorType": "ADD",
-            "scale": 10,
-            "abilityScriptList": []
-          }
-          ]  
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "abilityScriptList": []
+            }
+          ]
         }
       ]
     },
     {
       "id": 91000205,
       "skillTier": 1,
-	    "textID": 91000205,
+      "textID": 91000205,
       "skillData": [
         {
-		  "iconID": 9100202,
+          "iconID": 9100202,
           "skillTargetType": "FRONT",
           "canTeamKill": false,
           "canDuel": true,
@@ -978,195 +976,193 @@
               "scriptName": "EmptyBody"
             },
             {
-            "scriptName": "HealMpOnWinDuelEveryAlly10"
+              "scriptName": "HealMpOnWinDuelEveryAlly10"
             }
           ],
           "coinList": [
             {
               "operatorType": "SUB",
               "abilityScriptList": [
-                  {
-                    "scriptName": "GiveBuffOnSucceedAttack",
-                    "buffData": {
-                      "buffKeyword": "Protection",
-                      "target": "RandomAlly2",
-                      "buffOwner": "",
-                      "stack": 2,
-                      "turn": 0,
-                      "activeRound": 1,
-                      "value": 0.0,
-                      "limit": 0
-                    }
-                  },
-                  {
-                      "scriptName": "GiveBuffOnSucceedAttackTail",
-                      "buffData": {
-                        "buffKeyword": "Sinking",
-                        "target": "Target",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 10,
-                        "activeRound": 1,
-                        "value": 0.0,
-                        "limit": 0
-                    }
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Protection",
+                    "target": "RandomAlly2",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
                   }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 10,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                }
               ],
               "scale": 6,
               "prob": 0.5,
               "actionIndex": -1,
               "cutsceneStart": false
-          }
+            }
           ]
         }
       ]
     },
-    
-  
     {
-    "id": 80002902,
-    "textID": 80002902,
-    "skillTier": 2,
-    "skillData": [
+      "id": 80002902,
+      "textID": 80002902,
+      "skillTier": 2,
+      "skillData": [
         {
-            "iconID": "802902",
-            "attributeType": "INDIGO",
-            "atkType": "SLASH",
-            "defType": "ATTACK",
-            "skillMotion": "S3",
-            "viewType": "BATTLE",
-            "parryingCloseType": "NEAR",
-            "canDuel": "true",
-            "canChangeTarget": "true",
-            "arearange": 1,
-            "targetNum": 1,
-            "defaultValue": 4,
-            "skillLevelCorrection": 0,
-            "skillTargetType": "RANDOM",
-            "canTeamKill": "false",
-            "abilityScriptList": [
-              {
-                "scriptName": "EmptyBody"
-              },
-              {
-                "scriptName": "CoinScaleAdderViaBuffCheckDevideByStack",
-                        "buffData": {
-                            "buffKeyword": "Nail",  
-                            "target": "",
-                            "buffOwner": "Target",
-                            "stack": 3,
-                            "turn": 0,
-                            "activeRound": 0,
-                            "value": 1.0,
-                            "limit": 0
-                        }
-              },
-              {
-                "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
-                "buffData": {
-                    "buffKeyword": "Laceration",
-                    "target": "",
-                    "buffOwner": "Target",
-                    "stack": 5,
-                    "turn": 0,
-                    "activeRound": 0,
-                    "value": 1.0,
-                    "limit": 3
-                }
-              },
-              {
-                "scriptName": "GiveBuffOnWinDuel",
+          "iconID": "802902",
+          "attributeType": "INDIGO",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S3",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "canDuel": "true",
+          "canChangeTarget": "true",
+          "arearange": 1,
+          "targetNum": 1,
+          "defaultValue": 4,
+          "skillLevelCorrection": 0,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": "false",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "Nail",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 3
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Assemble",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "HealMpOnUseSelf5",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                        "buffKeyword": "Assemble",
-                        "target": "EveryAlly",
-                        "buffOwner": "",
-                        "stack": 2,
-                        "turn": 0,
-                        "activeRound": 1,
-                        "value": 0.0,
-                        "limit": 0
-                }
-              },
-              {
-                "scriptName": "HealMpOnUseSelf5",
-                "buffData": {
-                    "buffKeyword": "",
-                    "target": "",
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
                     "buffOwner": "",
-                    "stack": 0,
+                    "stack": 6,
                     "turn": 0,
-                    "activeRound": 0,
+                    "activeRound": 1,
                     "value": 0.0,
                     "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
+                  }
                 }
-              }
-            ],
-            "coinList": [
-              {
-                "operatorType": "ADD",
-                "scale": 5,
-                "abilityScriptList": [
-                  {
-                    "scriptName": "GiveBuffOnSucceedAttack",
-                    "buffData": {
-                        "buffKeyword": "Laceration",
-                        "target": "Target",
-                        "buffOwner": "",
-                        "stack": 6,
-                        "turn": 0,
-                        "activeRound": 1,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                  },
-                  {
-                    "scriptName": "GiveBuffOnSucceedAttackHead",
-                    "buffData": {
-                      "buffKeyword": "Laceration",
-                      "target": "Target",
-                      "buffOwner": "",
-                      "stack": 0,
-                      "turn": 3,
-                      "activeRound": 1,
-                      "value": 0.0,
-                      "limit": 0
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 6,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
                   }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
                   }
-                ]
-              },
-              {
-                "operatorType": "ADD",
-                "scale": 5,
-                "abilityScriptList": [
-                  {
-                    "scriptName": "GiveBuffOnSucceedAttack",
-                    "buffData": {
-                        "buffKeyword": "Laceration",
-                        "target": "Target",
-                        "buffOwner": "",
-                        "stack": 6,
-                        "turn": 0,
-                        "activeRound": 1,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                  },
-                  {
-                    "scriptName": "GiveBuffOnSucceedAttackHead",
-                    "buffData": {
-                      "buffKeyword": "Laceration",
-                      "target": "Target",
-                      "buffOwner": "",
-                      "stack": 0,
-                      "turn": 3,
-                      "activeRound": 1,
-                      "value": 0.0,
-                      "limit": 0
-                  }
-                  }
-                ]
-              }
-            ]  
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1175,474 +1171,474 @@
       "textID": 80002905,
       "skillTier": 3,
       "skillData": [
-          {
-              "iconID": "802905",
-              "attributeType": "INDIGO",
-              "atkType": "PENETRATE",
-              "defType": "ATTACK",
-              "skillMotion": "S2",
-              "viewType": "ENCOUNTER",
-              "parryingCloseType": "NEAR",
-              "canDuel": "true",
-              "canChangeTarget": "true",
-              "arearange": 1,
-              "targetNum": 1,
-              "defaultValue": 4,
-              "skillLevelCorrection": 0,
-              "skillTargetType": "RANDOM",
-              "canTeamKill": "false",
+        {
+          "iconID": "802905",
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillMotion": "S2",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "canDuel": "true",
+          "canChangeTarget": "true",
+          "arearange": 1,
+          "targetNum": 1,
+          "defaultValue": 4,
+          "skillLevelCorrection": 0,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": "false",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "Nail",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 3
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Enhancement",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "1070204_gaksung4th",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "HealMpOnUseSelf5",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "EmptyBody"
-                },
-                {
-                  "scriptName": "CoinScaleAdderViaBuffCheckDevideByStack",
-                          "buffData": {
-                              "buffKeyword": "Nail",  
-                              "target": "",
-                              "buffOwner": "Target",
-                              "stack": 3,
-                              "turn": 0,
-                              "activeRound": 0,
-                              "value": 1.0,
-                              "limit": 0
-                          }
-                },
-                {
-                  "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                      "buffKeyword": "Laceration",
-                      "target": "",
-                      "buffOwner": "Target",
-                      "stack": 5,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 1.0,
-                      "limit": 3
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
                   }
-                },
-                {
-                  "scriptName": "GiveBuffOnWinDuel",
-                    "buffData": {
-                          "buffKeyword": "Enhancement",
-                          "target": "EveryAlly",
-                          "buffOwner": "",
-                          "stack": 1,
-                          "turn": 0,
-                          "activeRound": 1,
-                          "value": 0.0,
-                          "limit": 0
-                  }
-                  }, 
-                  {
-                    "scriptName": "1070204_gaksung4th",
-                    "buffData": {
-                        "buffKeyword": "",
-                        "target": "",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                  },
-                  {
-                    "scriptName": "HealMpOnUseSelf5",
-                    "buffData": {
-                        "buffKeyword": "",
-                        "target": "",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                  }
-              ],
-              "coinList": [
-                {
-                  "operatorType": "ADD",
-                  "scale": 4,
-                  "abilityScriptList": [
-                    {
-                      "scriptName": "GiveBuffOnSucceedAttack",
-                      "buffData": {
-                          "buffKeyword": "Nail",
-                          "target": "Target",
-                          "buffOwner": "",
-                          "stack": 1,
-                          "turn": 0,
-                          "activeRound": 1,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                  }
-                  ]
-                },
-                {
-                  "operatorType": "ADD",
-                  "scale": 4,
-                  "abilityScriptList": [
-                    {
-                      "scriptName": "GiveBuffOnSucceedAttack",
-                      "buffData": {
-                          "buffKeyword": "Nail",
-                          "target": "Target",
-                          "buffOwner": "",
-                          "stack": 1,
-                          "turn": 0,
-                          "activeRound": 1,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                  }
-                  ]
-                },
-                {
-                  "operatorType": "ADD",
-                  "scale": 4,
-                  "abilityScriptList": [
-                    {
-                      "scriptName": "GiveBuffOnSucceedAttack",
-                      "buffData": {
-                          "buffKeyword": "Nail",
-                          "target": "Target",
-                          "buffOwner": "",
-                          "stack": 2,
-                          "turn": 0,
-                          "activeRound": 1,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                  }
-                  ]
                 }
-              ]  
-          }
-        ]
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 80002904,
       "textID": 80002904,
       "skillTier": 3,
       "skillData": [
-          {
-              "iconID": "802904",
-              "attributeType": "INDIGO",
-              "atkType": "SLASH",
-              "defType": "ATTACK",
-              "skillMotion": "S1",
-              "viewType": "ENCOUNTER",
-              "parryingCloseType": "NEAR",
-              "canDuel": "true",
-              "canChangeTarget": "true",
-              "arearange": 1,
-              "targetNum": 1,
-              "defaultValue": 4,
-              "skillLevelCorrection": 0,
-              "skillTargetType": "RANDOM",
-              "canTeamKill": "false",
+        {
+          "iconID": "802904",
+          "attributeType": "INDIGO",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S1",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "canDuel": "true",
+          "canChangeTarget": "true",
+          "arearange": 1,
+          "targetNum": 1,
+          "defaultValue": 4,
+          "skillLevelCorrection": 0,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": "false",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Nail",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
+              }
+            },
+            {
+              "scriptName": "HealMpOnWinDuelEveryAlly10",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "GiveMpDmgOnUseTarget10",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "1070204_gaksung4th",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 12,
               "abilityScriptList": [
                 {
-                  "scriptName": "EmptyBody"
-                },
-                {
-                  "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
-                          "buffData": {
-                              "buffKeyword": "Nail",  
-                              "target": "",
-                              "buffOwner": "Target",
-                              "stack": 3,
-                              "turn": 0,
-                              "activeRound": 0,
-                              "value": 1.0,
-                              "limit": 5
-                          }
-                },
-                {
-                  "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
                   "buffData": {
-                      "buffKeyword": "Laceration",
-                      "target": "",
-                      "buffOwner": "Target",
-                      "stack": 3,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 1.0,
-                      "limit": 5
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 6,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
                   }
                 },
                 {
-                  "scriptName": "HealMpOnWinDuelEveryAlly10",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                      "buffKeyword": "",
-                      "target": "",
-                      "buffOwner": "",
-                      "stack": 0,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 0.0,
-                      "limit": 0
-                    }
-                  },
-                  {
-                    "scriptName": "GiveMpDmgOnUseTarget10",
-                    "buffData": {
-                        "buffKeyword": "",
-                        "target": "",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                  },
-                  {
-                    "scriptName": "1070204_gaksung4th",
-                    "buffData": {
-                        "buffKeyword": "",
-                        "target": "",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                  } 
-              ],
-              "coinList": [
-                {
-                  "operatorType": "ADD",
-                  "scale": 12,
-                  "abilityScriptList": [
-                    {
-                      "scriptName": "GiveBuffOnSucceedAttackHead",
-                      "buffData": {
-                          "buffKeyword": "Laceration",
-                          "target": "Target",
-                          "buffOwner": "",
-                          "stack": 6,
-                          "turn": 0,
-                          "activeRound": 1,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                    },
-                    {
-                      "scriptName": "GiveBuffOnSucceedAttack",
-                      "buffData": {
-                          "buffKeyword": "Enhancement",
-                          "target": "Self",
-                          "buffOwner": "",
-                          "stack": 1,
-                          "turn": 0,
-                          "activeRound": 1,
-                          "value": 0.0,
-                          "limit": 0
-                      }
+                    "buffKeyword": "Enhancement",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
                   }
-                  ]
                 }
-              ]  
-          }
-        ]
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 80002906,
       "textID": 80002906,
       "skillTier": 3,
       "skillData": [
-          {
-              "iconID": "802906",
-              "attributeType": "SCARLET",
-              "atkType": "PENETRATE",
-              "defType": "ATTACK",
-              "skillMotion": "S4",
-              "viewType": "ENCOUNTER",
-              "parryingCloseType": "NEAR",
-              "canDuel": "true",
-              "canChangeTarget": "true",
-              "skillLevelCorrection": -1,
-              "skillTargetType": "RANDOM",
-              "canTeamKill": "false",
-              "targetNum": 2,
-              "defaultValue": 4,
+        {
+          "iconID": "802906",
+          "attributeType": "SCARLET",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillMotion": "S4",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "canDuel": "true",
+          "canChangeTarget": "true",
+          "skillLevelCorrection": -1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": "false",
+          "targetNum": 2,
+          "defaultValue": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "CromerSkillPowerUpLowHp",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "1070204_gaksung4th",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "Nail",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 3
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnWinDuel",
+              "buffData": {
+                "buffKeyword": "Assemble",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 0.0,
+                "limit": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
               "abilityScriptList": [
-                  {
-                      "scriptName": "EmptyBody",
-                      "buffData": {
-                          "buffKeyword": "",
-                          "target": "",
-                          "buffOwner": "",
-                          "stack": 0,
-                          "turn": 0,
-                          "activeRound": 0,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                  },
-                  {
-                      "scriptName": "CromerSkillPowerUpLowHp",
-                      "buffData": {
-                          "buffKeyword": "",
-                          "target": "",
-                          "buffOwner": "",
-                          "stack": 0,
-                          "turn": 0,
-                          "activeRound": 0,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                  },
-                  {
-                    "scriptName": "1070204_gaksung4th",
-                    "buffData": {
-                        "buffKeyword": "",
-                        "target": "",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                  },
-                  {
-                    "scriptName": "CoinScaleAdderViaBuffCheckDevideByStack",
-                            "buffData": {
-                                "buffKeyword": "Nail",  
-                                "target": "",
-                                "buffOwner": "Target",
-                                "stack": 3,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 1.0,
-                                "limit": 0
-                            }
-                  },
-                  {
-                    "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
-                    "buffData": {
-                        "buffKeyword": "Laceration",
-                        "target": "",
-                        "buffOwner": "Target",
-                        "stack": 5,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 1.0,
-                        "limit": 3
-                    }
-                  },
-                  {
-                    "scriptName": "GiveBuffOnWinDuel",
-                      "buffData": {
-                            "buffKeyword": "Assemble",
-                            "target": "EveryAlly",
-                            "buffOwner": "",
-                            "stack": 2,
-                            "turn": 0,
-                            "activeRound": 1,
-                            "value": 0.0,
-                            "limit": 0
-                    }
-                  }  
-              ],
-              "coinList": [
-                    {
-                      "operatorType": "ADD",
-                      "scale": 4,
-                      "abilityScriptList": [
-                          {
-                              "scriptName": "GiveBuffOnSucceedAttack",
-                              "buffData": {
-                                  "buffKeyword": "Nail",
-                                  "target": "Target",
-                                  "buffOwner": "",
-                                  "stack": 1,
-                                  "turn": 0,
-                                  "activeRound": 0,
-                                  "value": 0.0,
-                                  "limit": 0
-                              }
-                          }
-                      ]
-                    },
-                    {
-                      "operatorType": "ADD",
-                      "scale": 4,
-                      "abilityScriptList": [
-                          {
-                              "scriptName": "GiveBuffOnSucceedAttack",
-                              "buffData": {
-                                  "buffKeyword": "Nail",
-                                  "target": "Target",
-                                  "buffOwner": "",
-                                  "stack": 1,
-                                  "turn": 0,
-                                  "activeRound": 0,
-                                  "value": 0.0,
-                                  "limit": 0
-                              }
-                          }
-                      ]
-                    },
-                    {
-                      "operatorType": "ADD",
-                      "scale": 4,
-                      "abilityScriptList": [
-                          {
-                              "scriptName": "GiveBuffOnSucceedAttack",
-                              "buffData": {
-                                  "buffKeyword": "Nail",
-                                  "target": "Target",
-                                  "buffOwner": "",
-                                  "stack": 2,
-                                  "turn": 0,
-                                  "activeRound": 0,
-                                  "value": 0.0,
-                                  "limit": 0
-                              }
-                          }
-                      ]
-                    },
-                    {
-                      "operatorType": "ADD",
-                      "scale": 4,
-                      "abilityScriptList": [
-                          {
-                              "scriptName": "BreakTargetOnSucceedAttackIfTargetHasStack_Nail5",
-                              "buffData": {
-                                  "buffKeyword": "",
-                                  "target": "",
-                                  "buffOwner": "",
-                                  "stack": 0,
-                                  "turn": 0,
-                                  "activeRound": 0,
-                                  "value": 0.0,
-                                  "limit": 0
-                              }
-                          },
-                          {
-                              "scriptName": "DestroyActivatedBuffOnSucceedAttackIfTargetHasStack_Nail5",
-                              "buffData": {
-                                  "buffKeyword": "Nail",
-                                  "target": "Target",
-                                  "buffOwner": "",
-                                  "stack": 0,
-                                  "turn": 0,
-                                  "activeRound": 0,
-                                  "value": 0.0,
-                                  "limit": 0
-                              }
-                          }
-                      ]
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
                   }
+                }
               ]
-          }
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "BreakTargetOnSucceedAttackIfTargetHasStack_Nail5",
+                  "buffData": {
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "DestroyActivatedBuffOnSucceedAttackIfTargetHasStack_Nail5",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -1650,130 +1646,130 @@
       "textID": 80002908,
       "skillTier": 3,
       "skillData": [
-          {
-              "iconID": "802908",
-              "attributeType": "CRIMSON",
-              "atkType": "HIT",
-              "defType": "ATTACK",
-              "skillMotion": "S5",
-              "viewType": "ENCOUNTER",
-              "parryingCloseType": "NEAR",
-              "canDuel": "true",
-              "canChangeTarget": "true",
-              "targetNum": 5,
-              "defaultValue": 10,
+        {
+          "iconID": "802908",
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillMotion": "S5",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "canDuel": "true",
+          "canChangeTarget": "true",
+          "targetNum": 5,
+          "defaultValue": 10,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "BreakSelfOnLoseDuel",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 10
+              }
+            },
+            {
+              "scriptName": "HealMpOnWinDuelEveryAlly10",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            }
+          ],
+          "mpUsage": -1,
+          "skillLevelCorrection": 0,
+          "range": 20.0,
+          "arearange": -1.0,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": "false",
+          "coinList": [
+            {
+              "operatorType": "ADD",
               "abilityScriptList": [
-                  {
-                      "scriptName": "EmptyBody",
-                      "buffData": {
-                          "buffKeyword": "",
-                          "target": "",
-                          "buffOwner": "",
-                          "stack": 0,
-                          "turn": 0,
-                          "activeRound": 0,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                  },
-                  {
-                      "scriptName": "BreakSelfOnLoseDuel",
-                      "buffData": {
-                          "buffKeyword": "",
-                          "target": "",
-                          "buffOwner": "",
-                          "stack": 0,
-                          "turn": 0,
-                          "activeRound": 0,
-                          "value": 0.0,
-                          "limit": 0
-                      }
-                  },
-                  {
-                    "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
-                    "buffData": {
-                        "buffKeyword": "Laceration",
-                        "target": "",
-                        "buffOwner": "Target",
-                        "stack": 2,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 1.0,
-                        "limit": 10
-                    }
-                  },
-                  {
-                    "scriptName": "HealMpOnWinDuelEveryAlly10",
-                    "buffData": {
-                        "buffKeyword": "",
-                        "target": "",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 0,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
+                {
+                  "scriptName": "BreakTargetOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
                   }
-              ],
-              "mpUsage": -1,
-              "skillLevelCorrection": 0,
-              "range": 20.0,
-              "arearange": -1.0,
-              "skillTargetType": "RANDOM",
-              "canTeamKill": "false",
-              "coinList": [
-                  {
-                      "operatorType": "ADD",
-                      "abilityScriptList": [
-                          {
-                              "scriptName": "BreakTargetOnSucceedAttack",
-                              "buffData": {
-                                  "buffKeyword": "",
-                                  "target": "",
-                                  "buffOwner": "",
-                                  "stack": 0,
-                                  "turn": 0,
-                                  "activeRound": 0,
-                                  "value": 0.0,
-                                  "limit": 0
-                              }
-                          },
-                          {
-                              "scriptName": "GiveBuffOnSucceedAttack",
-                              "buffData": {
-                                  "buffKeyword": "Vulnerable",
-                                  "target": "Target",
-                                  "buffOwner": "",
-                                  "stack": 10,
-                                  "turn": 0,
-                                  "activeRound": 1,
-                                  "value": 0.0,
-                                  "limit": 0
-                              }
-                          },
-                          {
-                            "scriptName": "RerollOnSAHUpto3",
-                            "buffData": {
-                                "buffKeyword": "",
-                                "target": "",
-                                "buffOwner": "",
-                                "stack": 0,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                          }
-                      ],
-                      "scale": 19,
-                      "prob": 0.5,
-                      "actionIndex": -1,
-                      "cutsceneStart": false
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vulnerable",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 0.0,
+                    "limit": 0
                   }
+                },
+                {
+                  "scriptName": "RerollOnSAHUpto3",
+                  "buffData": {
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
+                  }
+                }
               ],
-              "actionList": []
-          }
+              "scale": 19,
+              "prob": 0.5,
+              "actionIndex": -1,
+              "cutsceneStart": false
+            }
+          ],
+          "actionList": []
+        }
       ],
       "requireIDList": [],
       "skillType": "SKILL"
@@ -1781,79 +1777,78 @@
     {
       "id": 80002910,
       "skillTier": 1,
-	    "textID": 80002910,	  	  
+      "textID": 80002910,
       "skillData": [
-        {	  	  	  
-      "iconID": 802910,				
-      "skillTargetType": "RANDOM",
-      "canTeamKill": false,
-      "canDuel": true,
-      "canChangeTarget": true,
-      "attributeType": "SCARLET",
-      "atkType": "NONE",
-      "defType": "EVADE",
-      "skillMotion": "Default",
-      "viewType": "BATTLE",
-      "arearange": 1,
-      "parryingCloseType": "NEAR",
-      "targetNum": 1,
-      "defaultValue": 6,
-      "skillLevelCorrection": 0,
-      "abilityScriptList": [
         {
-          "scriptName": "EmptyBody"
-        },
-        {
-          "scriptName": "GiveMpDmgOnSucceedEvadeTarget5",
-          "buffData": {
-              "buffKeyword": "",
-              "target": "",
-              "buffOwner": "",
-              "stack": 0,
-              "turn": 0,
-              "activeRound": 0,
-              "value": 0.0,
-              "limit": 0
-          }
-        },
-        {
-          "scriptName": "HealMpOnSucceedEvadeSelf3(limit:5)",
-          "buffData": {
-              "buffKeyword": "",
-              "target": "",
-              "buffOwner": "",
-              "stack": 0,
-              "turn": 0,
-              "activeRound": 0,
-              "value": 0.0,
-              "limit": 0
-          }
-        },
-        {
-        "scriptName": "CoinScaleAdderViaBuffCheckDevideByStack",
-                "buffData": {
-                    "buffKeyword": "Nail",  
-                    "target": "",
-                    "buffOwner": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0,
-                    "value": 1.0,
-                    "limit": 0
-                }
-        }
-        ],
+          "iconID": 802910,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "SCARLET",
+          "atkType": "NONE",
+          "defType": "EVADE",
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "arearange": 1,
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "defaultValue": 6,
+          "skillLevelCorrection": 0,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "GiveMpDmgOnSucceedEvadeTarget5",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "HealMpOnSucceedEvadeSelf3(limit:5)",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStack",
+              "buffData": {
+                "buffKeyword": "Nail",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
+              }
+            }
+          ],
           "coinList": [
-          {
-            "operatorType": "ADD",
-            "scale": 10,
-            "abilityScriptList": []
-          }
-          ]  
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "abilityScriptList": []
+            }
+          ]
         }
       ]
     },
-
     {
       "id": 910001601,
       "skillTier": 1,
@@ -1881,27 +1876,27 @@
             {
               "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 0
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
               }
             },
             {
               "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 0
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
               }
             }
           ],
@@ -1963,14 +1958,14 @@
                 {
                   "scriptName": "RerollOnSAHUpto2",
                   "buffData": {
-                      "buffKeyword": "",
-                      "target": "",
-                      "buffOwner": "",
-                      "stack": 0,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 0.0,
-                      "limit": 0
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
                   }
                 }
               ]
@@ -1979,7 +1974,6 @@
         }
       ]
     },
-
     {
       "id": 91001602,
       "textID": 91001602,
@@ -2007,53 +2001,53 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             },
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             },
             {
               "scriptName": "CoinScaleAdderViaBuffCheckDevideByTurnWithLimit2",
               "buffData": {
-                  "buffKeyword": "Laceration",  
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 0,
-                  "turn": 5,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 0
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 5,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
               }
             },
             {
               "scriptName": "CoinScaleAdderViaBuffCheckDevideByTurnWithLimit2",
               "buffData": {
-                  "buffKeyword": "Burst",  
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 0,
-                  "turn": 5,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 0
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 5,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
               }
             },
             {
@@ -2146,7 +2140,6 @@
         }
       ]
     },
-
     {
       "id": 91001603,
       "textID": 91001603,
@@ -2174,27 +2167,27 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 4,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             },
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 4,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 5
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 5
               }
             },
             {
@@ -2283,7 +2276,6 @@
         }
       ]
     },
-
     {
       "id": 91001606,
       "textID": 91001606,
@@ -2311,27 +2303,27 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 10
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 10
               }
             },
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 10
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 10
               }
             }
           ],
@@ -2434,7 +2426,6 @@
         }
       ]
     },
-
     {
       "id": 91001607,
       "textID": 91001607,
@@ -2462,27 +2453,27 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 10
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 10
               }
             },
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 10
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 10
               }
             }
           ],
@@ -2513,7 +2504,6 @@
                 }
               ]
             },
-
             {
               "operatorType": "ADD",
               "scale": 4,
@@ -2540,7 +2530,6 @@
                 }
               ]
             },
-
             {
               "operatorType": "ADD",
               "scale": 4,
@@ -2597,7 +2586,6 @@
         }
       ]
     },
-
     {
       "id": 91001604,
       "textID": 91001604,
@@ -2607,7 +2595,7 @@
           "skillTargetType": "RANDOM",
           "iconID": 9101604,
           "canTeamKill": false,
-          "canDuel": true,
+          "canDuel": false,
           "canChangeTarget": true,
           "attributeType": "SCARLET",
           "atkType": "NONE",
@@ -2635,14 +2623,14 @@
             {
               "scriptName": "9009805",
               "buffData": {
-                  "buffKeyword": "",
-                  "target": "",
-                  "buffOwner": "",
-                  "stack": 0,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 0.0,
-                  "limit": 0
+                "buffKeyword": "",
+                "target": "",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 0.0,
+                "limit": 0
               }
             }
           ],
@@ -2655,7 +2643,6 @@
         }
       ]
     },
-
     {
       "id": 91001605,
       "textID": 91001605,
@@ -2724,7 +2711,6 @@
         }
       ]
     },
-
     {
       "id": 10100801,
       "textID": 10100801,
@@ -2908,16 +2894,16 @@
             {
               "scriptName": "1090703",
               "buffData": {
-                  "buffKeyword": "KnowledgeExplored",
-                  "target": "",
-                  "buffOwner": "Self",
-                  "stack": 1,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 0
+                "buffKeyword": "KnowledgeExplored",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
               }
-          }
+            }
           ],
           "coinList": [
             {
@@ -2955,14 +2941,14 @@
                 {
                   "scriptName": "HealFirstBreakSectionOnSuccessAttack10",
                   "buffData": {
-                      "buffKeyword": "",
-                      "target": "",
-                      "buffOwner": "",
-                      "stack": 0,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 0.0,
-                      "limit": 0
+                    "buffKeyword": "",
+                    "target": "",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
                   }
                 }
               ]
@@ -3421,6 +3407,5 @@
         }
       ]
     }
-
   ]
 }

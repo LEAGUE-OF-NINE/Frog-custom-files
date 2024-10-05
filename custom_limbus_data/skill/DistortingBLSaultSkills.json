@@ -400,7 +400,7 @@
         },
         {
           "gaksungLevel": 3,
-          "defaultValue": 3
+          "defaultValue": 20
         },
         {
           "gaksungLevel": 4,
@@ -414,7 +414,7 @@
                 "stack": 7,
                 "turn": 0,
                 "activeRound": 0,
-                "value": 1
+                "value": -1
               }
             },
             {
@@ -436,7 +436,7 @@
                 "target": "Self",
                 "buffOwner": "",
                 "stack": 0,
-                "turn": 3,
+                "turn": 4,
                 "activeRound": 0
               }
             },
@@ -454,7 +454,7 @@
           ],
           "coinList": [
             {
-              "operatorType": "ADD",
+              "operatorType": "SUB",
               "scale": 5,
               "abilityScriptList": [
                 {
@@ -467,20 +467,54 @@
                     "turn": 0,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
                 }
               ]
             },
             {
-              "operatorType": "ADD",
-              "scale": 5,
-              "abilityScriptList": []
-            },
-            {
-              "operatorType": "ADD",
+              "operatorType": "SUB",
               "scale": 5,
               "abilityScriptList": [
                 {
-                  "scriptName": "CriticalDmgUpByRatio60"
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 5,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "CriticalDmgUpByRatio80"
                 }
               ]
             }
@@ -507,7 +541,7 @@
           "targetNum": 1,
           "mpUsage": 0,
           "skillLevelCorrection": 0,
-          "defaultValue": 20,
+          "defaultValue": 10,
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -587,7 +621,7 @@
               }
             },
             {
-              "scriptName": "UseNewCounterFirst_1050805"
+              "scriptName": "UseNewCounterFirst_10508005"
             },
             {
               "scriptName": "DistoryIgnoreNaturalBreak"
@@ -613,7 +647,7 @@
           ],
           "coinList": [
             {
-              "operatorType": "SUB",
+              "operatorType": "ADD",
               "scale": 8,
               "cutsceneStart": true,
               "abilityScriptList": []
@@ -639,9 +673,9 @@
           "targetNum": 1,
           "mpUsage": 0,
           "skillLevelCorrection": 5,
-          "defaultValue": 8,
+          "defaultValue": 28,
           "canTeamKill": false,
-          "canDuel": false,
+          "canDuel": true,
           "canChangeTarget": true,
           "skillMotion": "S1",
           "viewType": "BATTLE",
@@ -661,7 +695,7 @@
           ],
           "coinList": [
             {
-              "operatorType": "ADD",
+              "operatorType": "SUB",
               "scale": 10,
               "actionIndex": 2,
               "abilityScriptList": [
@@ -685,23 +719,23 @@
           "iconID": "1050804_4",
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnUse(limit:1)",
+              "scriptName": "GiveBuffOnUse",
               "buffData": {
                 "buffKeyword": "SlashResultUp",
                 "target": "Self",
                 "buffOwner": "",
-                "stack": 1,
+                "stack": 2,
                 "turn": 0,
                 "activeRound": 1
               }
             },
             {
-              "scriptName": "atkmulMeur50And25"
+              "scriptName": "atkmulMeur100And50"
             }
           ],
           "coinList": [
             {
-              "operatorType": "ADD",
+              "operatorType": "SUB",
               "scale": 10,
               "actionIndex": 2,
               "abilityScriptList": [
@@ -741,11 +775,11 @@
           "targetNum": 1,
           "mpUsage": 0,
           "skillLevelCorrection": 5,
-          "defaultValue": 4,
+          "defaultValue": 24,
           "canTeamKill": false,
           "canDuel": false,
           "canChangeTarget": true,
-          "skillMotion": "S4",
+          "skillMotion": "S2",
           "viewType": "ENCOUNTER",
           "arearange": 3,
           "parryingCloseType": "NEAR",
@@ -831,7 +865,7 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "TagetNumAdderBBPerViaBuffCheck1WithLimit2",
+              "scriptName": "TagetNumAdderBBPerViaBuffCheck1WithLimit3",
               "buffData": {
                 "buffKeyword": "Breath",
                 "target": "",
@@ -842,7 +876,7 @@
               }
             },
             {
-              "scriptName": "CriticalDmgUpByRatioOnStartTurnViaBuffCheckDevideByStackWithLimit50",
+              "scriptName": "CriticalDmgUpByRatioOnStartTurnViaBuffCheckDevideByStackWithLimit100",
               "buffData": {
                 "buffKeyword": "Breath",
                 "target": "",
@@ -850,14 +884,14 @@
                 "stack": 1,
                 "turn": 0,
                 "activeRound": 0,
-                "value": 0.02
+                "value": 0.04
               }
             },
             {
-              "scriptName": "CriticalDmgUpByRatio30"
+              "scriptName": "CriticalDmgUpByRatio50"
             },
             {
-              "scriptName": "atkmulMeur50And25"
+              "scriptName": "atkmulMeur100And50"
             },
             {
               "scriptName": "AttackDmgUpByRatio100IfTargetIsOne"
@@ -865,23 +899,59 @@
           ],
           "coinList": [
             {
-              "operatorType": "ADD",
+              "operatorType": "SUB",
               "scale": 4,
               "cutsceneStart": true,
-              "abilityScriptList": []
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
             },
             {
-              "operatorType": "ADD",
+              "operatorType": "SUB",
               "scale": 4,
-              "abilityScriptList": []
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
             },
             {
-              "operatorType": "ADD",
+              "operatorType": "SUB",
               "scale": 4,
-              "abilityScriptList": []
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
             },
             {
-              "operatorType": "ADD",
+              "operatorType": "SUB",
               "scale": 4,
               "abilityScriptList": [
                 {

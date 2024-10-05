@@ -3,10 +3,15 @@
     {
       "id": 10227,
       "appearance": "10207_Faust_ForsakenMurderer_LOBAppearance",
-      "unitKeywordList": ["LOBOTOMY_HEAD","SMALL"],
-      "associationList": ["L_CORP"],
+      "unitKeywordList": [
+        "LOBOTOMY_HEAD",
+        "SMALL"
+      ],
+      "associationList": [
+        "L_CORP"
+      ],
       "characterId": 2,
-      "panicType": 9999,
+      "panicType": 1004,
       "season": 9101,
       "walpurgisType": "LC",
       "defenseSkillIDList": [
@@ -38,32 +43,28 @@
         "passiveIdList": [
           {
             "level": 1,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1020711
-
             ]
           },
           {
             "level": 2,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1020711
-
             ]
           },
           {
             "level": 4,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1020711
-
             ]
           }
         ],
         "supportPassiveIdList": [
           {
             "level": 3,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1020721
-
             ]
           }
         ]
@@ -75,10 +76,10 @@
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                "conditionID": "OnWinDuelAsParryingCountMultiply5AndPlus20Percent"
               },
               {
-                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply5"
               },
               {
                 "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"

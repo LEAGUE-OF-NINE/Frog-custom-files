@@ -69,85 +69,6 @@
           ]
         },
         {
-          "gaksungLevel": 2,
-          "abilityScriptList": [
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 3,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 6,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 3,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 3,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 3,
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 7,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 3,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 3,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
@@ -167,7 +88,7 @@
                 "buffKeyword": "Paralysis",
                 "target": "Self",
                 "buffOwner": "",
-                "stack": 1,
+                "stack": 2,
                 "turn": 0,
                 "activeRound": 1
               }
@@ -203,7 +124,7 @@
                 "stack": 1,
                 "turn": 0,
                 "activeRound": 0,
-                "value": 4
+                "value": 5
               }
             },
             {
@@ -214,6 +135,25 @@
             {
               "operatorType": "SUB",
               "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 3,
+              "color": "GREY",
+              "grade": 2,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -243,7 +183,6 @@
         }
       ]
     },
-
     {
       "id": 10207002,
       "textID": 10207002,
@@ -325,96 +264,8 @@
           ]
         },
         {
-          "gaksungLevel": 2,
-          "abilityScriptList": [
-            {
-              "scriptName": "TagetNumAdderOnUseViaBuffCheck",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 5
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 4,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "AttackDown",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "actionIndex": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 5,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "PlusCoinValueDown",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
           "gaksungLevel": 3,
-          "defaultValue": 16
+          "defaultValue": 18
         },
         {
           "gaksungLevel": 4,
@@ -445,7 +296,7 @@
                 "buffKeyword": "Paralysis",
                 "target": "Self",
                 "buffOwner": "",
-                "stack": 2,
+                "stack": 3,
                 "turn": 0,
                 "activeRound": 1
               }
@@ -470,7 +321,7 @@
                 "stack": 1,
                 "turn": 0,
                 "activeRound": 0,
-                "value": 4
+                "value": 5
               }
             },
             {
@@ -529,6 +380,8 @@
             {
               "operatorType": "SUB",
               "scale": 4,
+              "color": "GREY",
+              "grade": 2,
               "actionIndex": 3,
               "abilityScriptList": [
                 {
@@ -548,7 +401,6 @@
         }
       ]
     },
-
     {
       "id": 10207003,
       "textID": 10207003,
@@ -607,6 +459,8 @@
           "coinList": [
             {
               "operatorType": "ADD",
+              "color": "GREY",
+              "grade": 2,
               "scale": 5,
               "abilityScriptList": [
                 {
@@ -616,6 +470,8 @@
             },
             {
               "operatorType": "ADD",
+              "color": "GREY",
+              "grade": 2,
               "scale": 5,
               "abilityScriptList": [
                 {
@@ -667,7 +523,7 @@
                 "stack": 1,
                 "turn": 0,
                 "activeRound": 0,
-                "value": 4
+                "value": 6
               }
             },
             {
@@ -687,7 +543,7 @@
                 "buffKeyword": "Paralysis",
                 "target": "Self",
                 "buffOwner": "",
-                "stack": 2,
+                "stack": 4,
                 "turn": 0,
                 "activeRound": 1
               }
@@ -714,18 +570,22 @@
             {
               "operatorType": "SUB",
               "scale": 6,
+              "color": "GREY",
+              "grade": 2,
               "abilityScriptList": [
                 {
-                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio80WithLimit40"
+                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio100WithLimit100"
                 }
               ]
             },
             {
               "operatorType": "SUB",
               "scale": 6,
+              "color": "GREY",
+              "grade": 2,
               "abilityScriptList": [
                 {
-                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio80WithLimit50"
+                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio100WithLimit100"
                 }
               ]
             },
@@ -736,7 +596,7 @@
               "actionIndex": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio90WithLimit60"
+                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio150WithLimit150"
                 },
                 {
                   "scriptName": "LoseBuffOnSucceedAttack",
@@ -754,7 +614,6 @@
         }
       ]
     },
-
     {
       "id": 10207004,
       "textID": 10207004,
@@ -774,7 +633,7 @@
           "skillLevelCorrection": 5,
           "defaultValue": 20,
           "canTeamKill": false,
-          "canDuel": false,
+          "canDuel": true,
           "canChangeTarget": true,
           "skillMotion": "Default",
           "viewType": "BATTLE",
@@ -801,6 +660,8 @@
         },
         {
           "gaksungLevel": 4,
+          "color": "GREY",
+          "grade": 2,
           "attributeType": "AZURE",
           "abilityScriptList": [
             {
@@ -831,22 +692,24 @@
                 "buffKeyword": "Binding",
                 "target": "Self",
                 "buffOwner": "",
-                "stack": 3,
+                "stack": 4,
                 "turn": 0,
                 "activeRound": 1
               }
             },
             {
               "scriptName": "TenthHeathcliffFifthSkillMpHealAbility0And10And1And25"
-           }
+            }
           ],
           "coinList": [
             {
               "operatorType": "SUB",
+              "color": "GREY",
+              "grade": 2,
               "scale": 9,
               "abilityScriptList": [
                 {
-                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio100WithLimit60"
+                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio150WithLimit200"
                 },
                 {
                   "scriptName": "LoseBuffOnSucceedAttack",
@@ -864,6 +727,5 @@
         }
       ]
     }
-
   ]
 }
