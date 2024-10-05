@@ -1,0 +1,140 @@
+{
+    "id": 11107,
+    "unitScriptID": "",
+    "viewid": 11107,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "11107_Outis_DerFreischutzAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.2799999713897707
+    },
+    "defCorrection": -3,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1110704
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            40,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 1.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1110701
+        },
+        {
+            "number": 2,
+            "skillId": 1110702
+        },
+        {
+            "number": 1,
+            "skillId": 1110703
+        }
+    ],
+    "initBuffList": [
+        {
+            "level": 1,
+            "list": [
+                {
+                    "buff": "FreischutzShotCount",
+                    "stack": 0,
+                    "turn": 0
+                }
+            ]
+        }
+    ],
+    "associationList": [
+        "L_CORP"
+    ],
+    "unitKeywordList": [
+        "LOBOTOMY_HEAD",
+        "SMALL"
+    ],
+    "characterId": 11,
+    "season": 9102,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "INDIGO",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": "LC"
+}

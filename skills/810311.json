@@ -1,0 +1,159 @@
+{
+    "id": 810311,
+    "textID": -1,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "SCARLET",
+            "atkType": "PENETRATE",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 14,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "810311",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 3,
+            "range": -1.0,
+            "arearange": 4.0,
+            "skillTargetType": "RANDOM",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "HealAbnormalityFirstSelfOnSuccessAttackByDmgRatio50",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "HealSelfOnSuccessAttackByDmgRatio50",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "AaCePcBk",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "HealAbnormalityFirstSelfOnSuccessAttackByDmgRatio50",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "HealSelfOnSuccessAttackByDmgRatio50",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

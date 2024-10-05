@@ -1,0 +1,130 @@
+{
+    "id": 10709,
+    "unitScriptID": "MultiCrack_Ally",
+    "viewid": 10709,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10709_Heathclif_CyborgFixerAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 71,
+        "incrementByLevel": 2.549999952316284
+    },
+    "defCorrection": -1,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1070904
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            65,
+            35,
+            15
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 1.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 2.0
+            },
+            {
+                "type": "HIT",
+                "value": 0.5
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1070901
+        },
+        {
+            "number": 2,
+            "skillId": 1070902
+        },
+        {
+            "number": 1,
+            "skillId": 1070903
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "MULTI_CRACK"
+    ],
+    "unitKeywordList": [
+        "FIXER",
+        "MACHINE_BOUND_ORGANISM",
+        "SMALL"
+    ],
+    "characterId": 7,
+    "season": 4,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "EVENT",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "VIOLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

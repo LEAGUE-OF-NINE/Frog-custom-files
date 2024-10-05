@@ -1,0 +1,126 @@
+{
+    "id": 10000710,
+    "unitScriptID": "",
+    "viewid": 10000710,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "!enemy_8099_MiddleFinger_RicardoAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 86,
+        "incrementByLevel": 2.9600000381469728
+    },
+    "defCorrection": -2,
+    "aggro": 1,
+    "panicType": 1014,
+    "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        700000011
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyMp15"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply10"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": []
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            50,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 1.0
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 700000001
+        },
+        {
+            "number": 2,
+            "skillId": 700000004
+        },
+        {
+            "number": 1,
+            "skillId": 700000005
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "MIDDLE_FINGER"
+    ],
+    "unitKeywordList": [
+        "CLAN"
+    ],
+    "characterId": 7,
+    "season": 3,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "AZURE",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

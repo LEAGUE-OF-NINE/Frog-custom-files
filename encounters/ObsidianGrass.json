@@ -1,0 +1,123 @@
+{
+    "id": 10631,
+    "stageLevel": 42,
+    "stageType": "Normal",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 20.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 20,
+    "recommendedLevel": 42,
+    "story": {
+        "enter": [],
+        "exit": [
+            "S631A"
+        ],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "a1c6p2_Buff_Normal_Filter"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 6,
+        "max": 6,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp6_Mansion_Laboratory_B2",
+                "mapSize": 20.0
+            },
+            "unitList": [
+                {
+                    "unitID": 90118,
+                    "unitLevel": 42,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90119,
+                    "unitLevel": 42,
+                    "unitCount": 3,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp6_Ally_2",
+                "Battle_Cp6_Enemy_2"
+            ],
+            "allyPositionID": 65,
+            "enemyPositionID": 66
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 90118,
+                    "unitLevel": 42,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90119,
+                    "unitLevel": 42,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 91015,
+                    "unitLevel": 42,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 65,
+            "enemyPositionID": 66
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

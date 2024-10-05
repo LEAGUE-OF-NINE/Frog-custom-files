@@ -1,0 +1,129 @@
+{
+    "id": 10206,
+    "unitScriptID": "",
+    "viewid": 10206,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10206_Faust_SevenAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 76,
+        "incrementByLevel": 2.4000000953674318
+    },
+    "defCorrection": -2,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+    ],
+    "maxSpeedList": [
+        6,
+        7,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1020604
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            40,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 1.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1020601
+        },
+        {
+            "number": 2,
+            "skillId": 1020602
+        },
+        {
+            "number": 1,
+            "skillId": 1020603
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "SEVEN"
+    ],
+    "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+    ],
+    "characterId": 2,
+    "season": 0,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "SHAMROCK",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

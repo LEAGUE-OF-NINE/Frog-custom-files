@@ -1,0 +1,127 @@
+{
+    "id": 11006,
+    "unitScriptID": "",
+    "viewid": 11006,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "11006_Sinclair_TalismanAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 76,
+        "incrementByLevel": 2.700000047683716
+    },
+    "defCorrection": 0,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        2,
+        3,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1100604
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            30
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 1.0
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1100601
+        },
+        {
+            "number": 2,
+            "skillId": 1100602
+        },
+        {
+            "number": 1,
+            "skillId": 1100603
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "ATL"
+    ],
+    "unitKeywordList": [
+        "SMALL"
+    ],
+    "characterId": 10,
+    "season": 2,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "SCARLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

@@ -1,0 +1,109 @@
+{
+    "id": 10002,
+    "stageLevel": 1,
+    "stageType": "Normal",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 0,
+    "story": {
+        "enter": [
+            "S002B"
+        ],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "Tutorial_2"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 0,
+        "max": 5,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "DarkForest",
+                "mapSize": 33.0
+            },
+            "unitList": [
+                {
+                    "unitID": 99004,
+                    "unitLevel": 1,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 99005,
+                    "unitLevel": 1,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 99006,
+                    "unitLevel": 1,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 99007,
+                    "unitLevel": 1,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 99008,
+                    "unitLevel": 1,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp1_Ally_1",
+                "Battle_Cp1_Enemy_1"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 2
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": true,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

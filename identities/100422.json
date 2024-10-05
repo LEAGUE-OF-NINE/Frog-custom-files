@@ -1,0 +1,134 @@
+{
+    "id": 100422,
+    "unitScriptID": "",
+    "viewid": 100422,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10402_Ryoshu_SevenAssoAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 63,
+        "incrementByLevel": 5.170000076293945
+    },
+    "defCorrection": -4,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        10040204
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyMp15"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply10"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": []
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            40,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 1.0
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 4,
+            "skillId": 10040201
+        },
+        {
+            "number": 3,
+            "skillId": 10040203
+        },
+        {
+            "number": 2,
+            "skillId": 10040202
+        },
+        {
+            "number": 2,
+            "skillId": 10040205
+        },
+        {
+            "number": 1,
+            "skillId": 10040206
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [],
+    "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+    ],
+    "characterId": 4,
+    "season": 4,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "AMBER",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

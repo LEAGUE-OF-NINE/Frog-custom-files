@@ -1,0 +1,3750 @@
+{
+  "wideScreen": [
+    {
+      "id": 10502,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.264051735401154,
+        "rootY": -0.218423709273338
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.288624376058578,
+        "rootY": 0.160671010613441
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0441474504768848,
+        "rootY": 0.262848883867264
+      }
+    },
+    {
+      "id": 10102,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.264051735401154,
+        "rootY": -0.218423709273338
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.292333334684372,
+        "rootY": -0.244741022586823
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.261136323213577,
+        "rootY": 0.290244400501251
+      }
+    },
+    {
+      "id": 11202,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.264051735401154,
+        "rootY": -0.218423709273338
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.279878169298172,
+        "rootY": -0.24952132999897
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.261136323213577,
+        "rootY": 0.290244400501251
+      }
+    },
+    {
+      "id": 10402,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0424815081059933,
+        "rootY": -0.0244338400661945
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.264468222856522,
+        "rootY": 0.127352133393288
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.269049555063248,
+        "rootY": 0.364286333322525
+      }
+    },
+    {
+      "id": 10303,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.12536209821701,
+        "rootY": -0.0836673900485039
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.27071550488472,
+        "rootY": 0.0755227729678154
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.258637428283691,
+        "rootY": 0.387239336967468
+      }
+    },
+    {
+      "id": 10702,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.189917325973511,
+        "rootY": -0.293946504592896
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.266967117786407,
+        "rootY": -0.226568326354027
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.111201599240303,
+        "rootY": 0.301350682973862
+      }
+    },
+    {
+      "id": 10803,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.189500853419304,
+        "rootY": 0.238415032625198
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.257804453372955,
+        "rootY": -0.276916861534119
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.123696155846119,
+        "rootY": 0.235453367233276
+      }
+    },
+    {
+      "id": 11003,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.226000010967255,
+        "rootY": 0.028444480150938
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.259470403194427,
+        "rootY": -0.0932928398251534
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.252999991178513,
+        "rootY": 0.199111357331276
+      }
+    },
+    {
+      "id": 10602,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0937092080712318,
+        "rootY": -0.276916861534119
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.264468222856522,
+        "rootY": 0.00370209687389433
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.161179840564728,
+        "rootY": 0.293946504592896
+      }
+    },
+    {
+      "id": 10403,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.18242059648037,
+        "rootY": 0.273214757442474
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.263635247945786,
+        "rootY": -0.125130876898766
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.210741594433784,
+        "rootY": 0.123650036752224
+      }
+    },
+    {
+      "id": 10902,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.0137440171092749,
+        "rootY": -0.125130876898766
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.261969298124313,
+        "rootY": 0.0496080964803696
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.00624728063121438,
+        "rootY": 0.190287783741951
+      }
+    },
+    {
+      "id": 11102,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.18242059648037,
+        "rootY": 0.00592335499823093
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.143270969390869,
+        "rootY": -0.260627627372742
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.214073479175568,
+        "rootY": 0.185104846954346
+      }
+    },
+    {
+      "id": 10103,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.281127631664276,
+        "rootY": -0.0777440369129181
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.201995402574539,
+        "rootY": -0.243597969412804
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.217821851372719,
+        "rootY": 0.290984809398651
+      }
+    },
+    {
+      "id": 11002,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.223666682839394,
+        "rootY": -0.240000292658806
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.252666652202606,
+        "rootY": -0.238815113902092
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.000666666659526527,
+        "rootY": 0.146963149309158
+      }
+    },
+    {
+      "id": 10802,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.249474734067917,
+        "rootY": -0.242117136716843
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.252806633710861,
+        "rootY": -0.184364423155785
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0816311314702034,
+        "rootY": 0.280618935823441
+      }
+    },
+    {
+      "id": 10703,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.27446386218071,
+        "rootY": -0.216942876577377
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.185000002384186,
+        "rootY": -0.253037333488464
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.157847955822945,
+        "rootY": 0.239895880222321
+      }
+    },
+    {
+      "id": 10202,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.284875988960266,
+        "rootY": 0.16955603659153
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.216572403907776,
+        "rootY": -0.200653657317162
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.00957916397601366,
+        "rootY": 0.133275493979454
+      }
+    },
+    {
+      "id": 10302,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.279000014066696,
+        "rootY": 0.154074266552925
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.0912102982401848,
+        "rootY": -0.201394066214561
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.191583275794983,
+        "rootY": 0.29912942647934
+      }
+    },
+    {
+      "id": 10503,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.224902108311653,
+        "rootY": -0.151045545935631
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.27446386218071,
+        "rootY": 0.0695994198322296
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.211991056799889,
+        "rootY": 0.302091091871262
+      }
+    },
+    {
+      "id": 10203,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0540000014007092,
+        "rootY": -0.24355585873127
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.239666670560837,
+        "rootY": 0.0930371508002281
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.141605034470558,
+        "rootY": 0.295427322387695
+      }
+    },
+    {
+      "id": 11203,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.10578728467226,
+        "rootY": -0.231010839343071
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.223236158490181,
+        "rootY": 0.139198839664459
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.040399082005024,
+        "rootY": 0.284321039915085
+      }
+    },
+    {
+      "id": 11103,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.00458133919164538,
+        "rootY": -0.260627627372742
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.17450737953186,
+        "rootY": 0.119207516312599
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.240728542208672,
+        "rootY": 0.244338393211365
+      }
+    },
+    {
+      "id": 10603,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0536666661500931,
+        "rootY": -0.238815113902092
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.258666664361954,
+        "rootY": 0.130370527505875
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.14701934158802,
+        "rootY": 0.273214757442474
+      }
+    },
+    {
+      "id": 11004,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.159513905644417,
+        "rootY": -0.232491686940193
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.281960606575012,
+        "rootY": 0.251742601394653
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.139939084649086,
+        "rootY": 0.242117136716843
+      }
+    },
+    {
+      "id": 10804,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.147333338856697,
+        "rootY": -0.222222506999969
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.290290296077728,
+        "rootY": 0.0222125817090273
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0470628477632999,
+        "rootY": 0.239895880222321
+      }
+    },
+    {
+      "id": 10903,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.109952136874199,
+        "rootY": -0.240636304020882
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.17450737953186,
+        "rootY": -0.228049173951149
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0528936423361301,
+        "rootY": 0.242117136716843
+      }
+    },
+    {
+      "id": 10904,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.165666669607162,
+        "rootY": -0.136889055371284
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.252666652202606,
+        "rootY": -0.19792614877224
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.156000003218651,
+        "rootY": 0.261926233768463
+      }
+    },
+    {
+      "id": 10504,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": 0.00458646705374122,
+        "rootY": -0.294275492429733
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.32397136092186,
+        "rootY": 0.190500766038895
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0617088302969933,
+        "rootY": 0.291310518980026
+      }
+    },
+    {
+      "id": 10204,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.293333321809769,
+        "rootY": 0.152022466063499
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.126000002026558,
+        "rootY": -0.221629902720451
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.116666667163372,
+        "rootY": 0.244741022586823
+      }
+    },
+    {
+      "id": 10704,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.282000005245209,
+        "rootY": -0.228741019964218
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.261666655540466,
+        "rootY": -0.199703946709633
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.130999997258186,
+        "rootY": 0.253629952669144
+      }
+    },
+    {
+      "id": 11104,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.243543162941933,
+        "rootY": -0.253858774900436
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.157366350293159,
+        "rootY": 0.0170226003974676
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0940867587924004,
+        "rootY": 0.301226019859314
+      }
+    },
+    {
+      "id": 10604,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0873333439230919,
+        "rootY": -0.240592926740646
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.271019816398621,
+        "rootY": 0.0747514218091965
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0949193835258484,
+        "rootY": 0.302706241607666
+      }
+    },
+    {
+      "id": 10404,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.26297864317894,
+        "rootY": -0.222274884581566
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.131280943751335,
+        "rootY": -0.0903917849063873
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.00750176794826984,
+        "rootY": 0.0852053686976433
+      }
+    },
+    {
+      "id": 11204,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": 0.267666667699814,
+        "rootY": -0.181333556771278
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.063348263502121,
+        "rootY": -0.0207456555217505
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.0466776676476002,
+        "rootY": 0.41565403342247
+      }
+    },
+    {
+      "id": 10304,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0920832231640816,
+        "rootY": -0.268888890743256
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.159583136439323,
+        "rootY": -0.0644444450736046
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0479166097939014,
+        "rootY": 0.269629627466202
+      }
+    },
+    {
+      "id": 11005,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0883332267403603,
+        "rootY": 0.305925935506821
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.168749794363976,
+        "rootY": 0.0444444455206394
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.246666371822357,
+        "rootY": -0.0318518504500389
+      }
+    },
+    {
+      "id": 10905,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.202083081007004,
+        "rootY": 0.207407400012016
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0412499494850636,
+        "rootY": -0.283703714609146
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.127916514873505,
+        "rootY": 0.140000000596046
+      }
+    },
+    {
+      "id": 10505,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.260999977588654,
+        "rootY": 0.206222459673882
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.184666648507118,
+        "rootY": -0.234074339270592
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.184999987483025,
+        "rootY": 0.274370700120926
+      }
+    },
+    {
+      "id": 11205,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.049129843711853,
+        "rootY": -0.294594377279282
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.280206650495529,
+        "rootY": -0.0925233587622643
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.09284707903862,
+        "rootY": 0.270908415317535
+      }
+    },
+    {
+      "id": 10705,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.321000009775162,
+        "rootY": 0.284928798675537
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.275168746709824,
+        "rootY": 0.0481048636138439
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.06910440325737,
+        "rootY": 0.359676361083984
+      }
+    },
+    {
+      "id": 10805,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.190333306789398,
+        "rootY": -0.202074319124222
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.202499747276306,
+        "rootY": -0.193333327770233
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.17833311855793,
+        "rootY": 0.414074063301086
+      }
+    },
+    {
+      "id": 10104,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.210416406393051,
+        "rootY": 0.258518517017365
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.146249815821648,
+        "rootY": -0.0837037041783333
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.141999989748001,
+        "rootY": 0.262962967157364
+      }
+    },
+    {
+      "id": 11006,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.149583145976067,
+        "rootY": 0.259259253740311
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.289582967758179,
+        "rootY": -0.300740748643875
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.212499737739563,
+        "rootY": 0.219259262084961
+      }
+    },
+    {
+      "id": 10605,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.200833082199097,
+        "rootY": 0.231851845979691
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0374999530613422,
+        "rootY": -0.243555843830109
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.14533331990242,
+        "rootY": 0.156296297907829
+      }
+    },
+    {
+      "id": 10806,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.224166393280029,
+        "rootY": 0.105185188353062
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.160416468977928,
+        "rootY": -0.352592587471008
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0708332434296608,
+        "rootY": 0.265185177326202
+      }
+    },
+    {
+      "id": 10506,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.259999692440033,
+        "rootY": -0.223703697323799
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.224583059549332,
+        "rootY": -0.0666666701436043
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0591665953397751,
+        "rootY": 0.197777777910233
+      }
+    },
+    {
+      "id": 10906,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.290416300296783,
+        "rootY": 0.379999995231628
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0566665977239609,
+        "rootY": -0.183703705668449
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.148749813437462,
+        "rootY": 0.292592585086823
+      }
+    },
+    {
+      "id": 10305,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.281793773174286,
+        "rootY": 0.209724485874176
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.210094764828682,
+        "rootY": 0.00741075910627842
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0608607828617096,
+        "rootY": 0.171188533306122
+      }
+    },
+    {
+      "id": 10807,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0295855328440666,
+        "rootY": -0.274094790220261
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.28752139210701,
+        "rootY": -0.130380228161812
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0395862758159637,
+        "rootY": 0.300022691488266
+      }
+    },
+    {
+      "id": 11007,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.173346221446991,
+        "rootY": -0.112601101398468
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.260019332170486,
+        "rootY": -0.146677747368813
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0891732946038246,
+        "rootY": 0.28150275349617
+      }
+    },
+    {
+      "id": 10205,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.289694368839264,
+        "rootY": 0.28158974647522
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.0225086268037558,
+        "rootY": -0.240833342075348
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.00250095850788057,
+        "rootY": 0.249725639820099
+      }
+    },
+    {
+      "id": 11206,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.173399791121483,
+        "rootY": 0.367548733949661
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.105457089841366,
+        "rootY": -0.150428205728531
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.203411296010017,
+        "rootY": 0.177846148610115
+      }
+    },
+    {
+      "id": 10405,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.201634898781776,
+        "rootY": -0.262921869754791
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.144977152347565,
+        "rootY": -0.0229593738913536
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.258709222078323,
+        "rootY": 0.223668739199638
+      }
+    },
+    {
+      "id": 10606,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.220999971032143,
+        "rootY": -0.188444659113884
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.288999974727631,
+        "rootY": -0.222815081477165
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0629067569971085,
+        "rootY": 0.205153107643127
+      }
+    },
+    {
+      "id": 10706,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": 0.272873669862747,
+        "rootY": -0.239962488412857
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.210383519530296,
+        "rootY": 0.251812487840652
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.207467302680016,
+        "rootY": 0.436968713998795
+      }
+    },
+    {
+      "id": 10206,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.23746258020401,
+        "rootY": -0.277734369039536
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.161224588751793,
+        "rootY": 0.230334356427193
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.263291835784912,
+        "rootY": -0.0770249962806702
+      }
+    },
+    {
+      "id": 10105,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.267041265964508,
+        "rootY": -0.268846869468689
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.279539287090302,
+        "rootY": 0.158493742346764
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.232879966497421,
+        "rootY": 0.171084359288216
+      }
+    },
+    {
+      "id": 11105,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.197052285075188,
+        "rootY": -0.209596857428551
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.245378002524376,
+        "rootY": -0.290324985980988
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.104983456432819,
+        "rootY": 0.206634357571602
+      }
+    },
+    {
+      "id": 10907,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.219219848513603,
+        "rootY": -0.288218438625336
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.202549144625664,
+        "rootY": -0.270436316728592
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0562636516988277,
+        "rootY": 0.247467756271362
+      }
+    },
+    {
+      "id": 10607,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.139200434088707,
+        "rootY": -0.256358802318573
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.285902708768845,
+        "rootY": 0.149666130542755
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0696002170443535,
+        "rootY": 0.15411165356636
+      }
+    },
+    {
+      "id": 10207,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.213801875710487,
+        "rootY": 0.222815066576004
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.118362046778202,
+        "rootY": -0.259322494268417
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.193380251526833,
+        "rootY": 0.199307858943939
+      }
+    },
+    {
+      "id": 10106,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0341951921582222,
+        "rootY": -0.232045710086823
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.294829308986664,
+        "rootY": 0.15049609541893
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0433695130050182,
+        "rootY": 0.136410251259804
+      }
+    },
+    {
+      "id": 11207,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0245973411947489,
+        "rootY": -0.303135961294174
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.268486231565475,
+        "rootY": -0.231243073940277
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.178851842880249,
+        "rootY": 0.17862044274807
+      }
+    },
+    {
+      "id": 10406,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.279325723648071,
+        "rootY": -0.0852338224649429
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.188440635800362,
+        "rootY": -0.201596528291702
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.23763532936573,
+        "rootY": 0.160091355443001
+      }
+    },
+    {
+      "id": 10507,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.281300157308578,
+        "rootY": -0.0777917429804802
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.115437254309654,
+        "rootY": -0.157806098461151
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0329225361347198,
+        "rootY": 0.0829778537154198
+      }
+    },
+    {
+      "id": 10306,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.150860235095024,
+        "rootY": 0.297831237316132
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.250878065824509,
+        "rootY": -0.214112505316734
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.193784549832344,
+        "rootY": 0
+      }
+    },
+    {
+      "id": 10107,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.129999846220016,
+        "rootY": -0.280740737915039
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.274583011865616,
+        "rootY": 0.104444444179535
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0158333145081997,
+        "rootY": 0.128148153424263
+      }
+    },
+    {
+      "id": 10707,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.234999716281891,
+        "rootY": -0.289629638195038
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.181666448712349,
+        "rootY": -0.264444440603256
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0212499741464853,
+        "rootY": 0.307407408952713
+      }
+    },
+    {
+      "id": 11008,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.175554275512695,
+        "rootY": -0.232034027576447
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.198488920927048,
+        "rootY": 0.114163711667061
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.252698093652725,
+        "rootY": 0.0415140762925148
+      }
+    },
+    {
+      "id": 11106,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": 0.253949075937271,
+        "rootY": -0.246860489249229
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.198071926832199,
+        "rootY": 0.213500961661339
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.18889807164669,
+        "rootY": 0.120835609734058
+      }
+    },
+    {
+      "id": 10307,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.237767681479454,
+        "rootY": -0.139912500977516
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.241931736469269,
+        "rootY": -0.190991669893265
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.169893532991409,
+        "rootY": 0.226525008678436
+      }
+    },
+    {
+      "id": 11107,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.222333312034607,
+        "rootY": -0.0784694477915764
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.125666663050652,
+        "rootY": -0.133333504199982
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.216999992728233,
+        "rootY": 0.29463055729866
+      }
+    },
+    {
+      "id": 10108,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.271393954753876,
+        "rootY": 0.157120555639267
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0983855202794075,
+        "rootY": -0.210482254624367
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.247214451432228,
+        "rootY": 0.190471619367599
+      }
+    },
+    {
+      "id": 10608,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.10797393321991,
+        "rootY": -0.257914870977402
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.103388167917728,
+        "rootY": -0.041503544896841
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.237626031041145,
+        "rootY": 0.313499987125397
+      }
+    },
+    {
+      "id": 10808,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.183809444308281,
+        "rootY": -0.200064942240715
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.264252126216888,
+        "rootY": -0.118557006120682
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.085444301366806,
+        "rootY": 0.297133505344391
+      }
+    },
+    {
+      "id": 10308,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.186046227812767,
+        "rootY": -0.255848616361618
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.260297864675522,
+        "rootY": 0.106788992881775
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.046720128506422,
+        "rootY": 0.20542049407959
+      }
+    },
+    {
+      "id": 11208,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.178954780101776,
+        "rootY": -0.130519881844521
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.1426632553339,
+        "rootY": -0.0719342529773712
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.215246304869652,
+        "rootY": 0.26252293586731
+      }
+    },
+    {
+      "id": 10508,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.179553836584091,
+        "rootY": -0.239220231771469
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.129978641867638,
+        "rootY": 0.0696182698011398
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.185386210680008,
+        "rootY": 0.250329524278641
+      }
+    },
+    {
+      "id": 10208,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.258707493543625,
+        "rootY": -0.275510609149933
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.286202967166901,
+        "rootY": 0.190339326858521
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0341610535979271,
+        "rootY": 0.220704734325409
+      }
+    },
+    {
+      "id": 10908,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.240959107875824,
+        "rootY": 0.00148225692100823
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.217196702957153,
+        "rootY": -0.106722503900528
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.140906885266304,
+        "rootY": 0.355000555515289
+      }
+    },
+    {
+      "id": 10407,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.136738032102585,
+        "rootY": -0.104499116539955
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.266805917024612,
+        "rootY": 0.134885385632515
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.045023500919342,
+        "rootY": 0.232714340090752
+      }
+    },
+    {
+      "id": 10708,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.259302020072937,
+        "rootY": 0.38464567065239
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.178426459431648,
+        "rootY": -0.125250712037086
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.143825069069862,
+        "rootY": 0.17564745247364
+      }
+    },
+    {
+      "id": 11108,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.268605947494507,
+        "rootY": 0.302800923585892
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0916175320744514,
+        "rootY": -0.151770636439323
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.242786467075348,
+        "rootY": 0.0814379006624222
+      }
+    },
+    {
+      "id": 10509,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.358141273260117,
+        "rootY": 0.147328570485115
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0743333399295807,
+        "rootY": -0.164356499910355
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0483333356678486,
+        "rootY": 0.266074419021606
+      }
+    },
+    {
+      "id": 10209,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.244497075676918,
+        "rootY": -0.302856475114822
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.264073491096497,
+        "rootY": -0.248801425099373
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0270737819373608,
+        "rootY": 0.270275354385376
+      }
+    },
+    {
+      "id": 11209,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.287790924310684,
+        "rootY": 0.352439045906067
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.150350973010063,
+        "rootY": -0.261367619037628
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.0308198686689138,
+        "rootY": 0.118466906249523
+      }
+    },
+    {
+      "id": 10408,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.27016869187355,
+        "rootY": 0.25868034362793
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.285594999790192,
+        "rootY": -0.139346435666084
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.104231745004654,
+        "rootY": 0.257197946310043
+      }
+    },
+    {
+      "id": 10809,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.268917918205261,
+        "rootY": 0.402474015951157
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0087554669007659,
+        "rootY": -0.243856266140938
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.16135074198246,
+        "rootY": 0.123781144618988
+      }
+    },
+    {
+      "id": 11009,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.26754692196846,
+        "rootY": -0.182995274662971
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.107102118432522,
+        "rootY": -0.140024721622467
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.139191076159477,
+        "rootY": 0.187440514564514
+      }
+    },
+    {
+      "id": 11109,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.174999997019768,
+        "rootY": 0.147555738687515
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.14466667175293,
+        "rootY": -0.310528934001923
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.16425034403801,
+        "rootY": 0.0429849103093147
+      }
+    },
+    {
+      "id": 10109,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.259715646505356,
+        "rootY": -0.110426753759384
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.182176142930984,
+        "rootY": -0.130436971783638
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.233452260494232,
+        "rootY": 0.111167877912521
+      }
+    },
+    {
+      "id": 10609,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.285066217184067,
+        "rootY": 0.307479202747345
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.125029042363167,
+        "rootY": -0.19263756275177
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.125029042363167,
+        "rootY": 0.243760615587234
+      }
+    },
+    {
+      "id": 10409,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.280898571014404,
+        "rootY": -0.0348229445517063
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.16128745675087,
+        "rootY": -0.243760615587234
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0687659680843353,
+        "rootY": 0.0451957359910011
+      }
+    },
+    {
+      "id": 10909,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.144565537571907,
+        "rootY": -0.171090260148048
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.300796300172806,
+        "rootY": -0.143686190247536
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.168729230761528,
+        "rootY": 0.143686190247536
+      }
+    },
+    {
+      "id": 10309,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.202130272984505,
+        "rootY": -0.0222274120897055
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.143783390522003,
+        "rootY": -0.173373818397522
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.141699567437172,
+        "rootY": 0.117064371705055
+      }
+    },
+    {
+      "id": 10510,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.27638640999794,
+        "rootY": 0.215658903121948
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0254288222640753,
+        "rootY": -0.128209590911865
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.00333492737263441,
+        "rootY": 0.0859671235084534
+      }
+    },
+    {
+      "id": 11110,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.194028854370117,
+        "rootY": -0.282022267580032
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.16405014693737,
+        "rootY": -0.216143056750298
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.119914829730988,
+        "rootY": 0.19837786257267
+      }
+    },
+    {
+      "id": 10709,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.247768819332123,
+        "rootY": -0.159904778003693
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.218619540333748,
+        "rootY": -0.292418450117111
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0116597088053823,
+        "rootY": 0.0917971879243851
+      }
+    },
+    {
+      "id": 10210,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.285246461629868,
+        "rootY": -0.25318256020546
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.211124017834663,
+        "rootY": -0.26058554649353
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.13866725564003,
+        "rootY": 0.156203269958496
+      }
+    },
+    {
+      "id": 10710,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.275668829679489,
+        "rootY": -0.119188278913498
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.206959828734398,
+        "rootY": -0.256143748760223
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.142831429839134,
+        "rootY": 0.0718090906739235
+      }
+    },
+    {
+      "id": 10410,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0320641994476318,
+        "rootY": -0.176191374659538
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.206127002835274,
+        "rootY": 0.165827170014381
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0337298735976219,
+        "rootY": 0.257624357938766
+      }
+    },
+    {
+      "id": 10110,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.260261356830597,
+        "rootY": -0.155462980270386
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.198215052485466,
+        "rootY": -0.0799523890018463
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0999403670430183,
+        "rootY": 0.199880972504616
+      }
+    },
+    {
+      "id": 10910,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.191556632518768,
+        "rootY": 0.276878327131271
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.275258541107178,
+        "rootY": -0.238381877541542
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.151163160800934,
+        "rootY": 0.275397688150406
+      }
+    },
+    {
+      "id": 10810,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.103742890059948,
+        "rootY": -0.15776714682579
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.277897626161575,
+        "rootY": -0.0437007583677769
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0179154388606548,
+        "rootY": 0.186654090881348
+      }
+    }
+  ],
+  "standardScreen": [
+    {
+      "id": 10502,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.116333335638046,
+        "rootY": -0.262518852949142
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.328666657209396,
+        "rootY": 0.0337778180837631
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.181666672229767,
+        "rootY": 0.26488921046257
+      }
+    },
+    {
+      "id": 10102,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.264051735401154,
+        "rootY": -0.2184237241745
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.292333334684372,
+        "rootY": -0.244741037487984
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.296000003814697,
+        "rootY": 0.244148448109627
+      }
+    },
+    {
+      "id": 11202,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.238333329558372,
+        "rootY": -0.184889122843742
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.226333335042,
+        "rootY": -0.216296568512917
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.221333339810371,
+        "rootY": 0.265481799840927
+      }
+    },
+    {
+      "id": 10402,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.00166666670702398,
+        "rootY": -0.0485926531255245
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.293000012636185,
+        "rootY": -0.0557037703692913
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.311333328485489,
+        "rootY": 0.298074454069138
+      }
+    },
+    {
+      "id": 10303,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.12536209821701,
+        "rootY": -0.126222372055054
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.27071550488472,
+        "rootY": 0.0755227729678154
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.225999996066093,
+        "rootY": 0.357333779335022
+      }
+    },
+    {
+      "id": 10702,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.249333336949348,
+        "rootY": -0.232296586036682
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.275000005960464,
+        "rootY": -0.202074319124222
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.175666660070419,
+        "rootY": 0.255407720804214
+      }
+    },
+    {
+      "id": 10803,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.176666662096977,
+        "rootY": 0.205037295818329
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.210333332419395,
+        "rootY": -0.253629952669144
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.146666660904884,
+        "rootY": 0.205629885196686
+      }
+    },
+    {
+      "id": 11003,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.225999996066093,
+        "rootY": 0.028444480150938
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.259666681289673,
+        "rootY": -0.135111272335052
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.252999991178513,
+        "rootY": 0.199111357331276
+      }
+    },
+    {
+      "id": 10602,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.00833333376795053,
+        "rootY": -0.26488921046257
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.272333323955536,
+        "rootY": -0.0225185453891754
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.142333328723907,
+        "rootY": 0.269037365913391
+      }
+    },
+    {
+      "id": 10403,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.230666667222977,
+        "rootY": 0.253037333488464
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.307000011205673,
+        "rootY": -0.116148293018341
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.209666669368744,
+        "rootY": 0.18962986767292
+      }
+    },
+    {
+      "id": 10902,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.0137440171092749,
+        "rootY": -0.125130876898766
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.23933333158493,
+        "rootY": 0.0811852887272835
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.0213333331048489,
+        "rootY": 0.160000190138817
+      }
+    },
+    {
+      "id": 11102,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.18133333325386,
+        "rootY": 0.0414815321564674
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.151666671037674,
+        "rootY": -0.24355585873127
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.228333339095116,
+        "rootY": 0.178963184356689
+      }
+    },
+    {
+      "id": 10103,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.256666660308838,
+        "rootY": -0.0776297226548195
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.184000000357628,
+        "rootY": -0.226963236927986
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.217666670680046,
+        "rootY": 0.254222542047501
+      }
+    },
+    {
+      "id": 11002,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.223666667938232,
+        "rootY": -0.240000292658806
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.252666652202606,
+        "rootY": -0.238815113902092
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.000666666659526527,
+        "rootY": 0.146963149309158
+      }
+    },
+    {
+      "id": 10802,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.249474734067917,
+        "rootY": -0.242117136716843
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.248999997973442,
+        "rootY": -0.0539259910583496
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0816666632890701,
+        "rootY": 0.260741055011749
+      }
+    },
+    {
+      "id": 10703,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.266333341598511,
+        "rootY": -0.215111374855042
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.185000002384186,
+        "rootY": -0.253037333488464
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.175333335995674,
+        "rootY": 0.245926231145859
+      }
+    },
+    {
+      "id": 10202,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.284875988960266,
+        "rootY": 0.16955603659153
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.216572403907776,
+        "rootY": -0.200653657317162
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.00957916397601366,
+        "rootY": 0.133275493979454
+      }
+    },
+    {
+      "id": 10302,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.279000014066696,
+        "rootY": 0.154074266552925
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.096000000834465,
+        "rootY": -0.182518735527992
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.216333329677582,
+        "rootY": 0.251259565353394
+      }
+    },
+    {
+      "id": 10503,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.177666664123535,
+        "rootY": -0.179555773735046
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.289666652679443,
+        "rootY": 0.097777895629406
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.176333338022232,
+        "rootY": 0.268444776535034
+      }
+    },
+    {
+      "id": 10203,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0540000014007092,
+        "rootY": -0.24355585873127
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.239666670560837,
+        "rootY": 0.0930371508002281
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.106333330273628,
+        "rootY": 0.247704014182091
+      }
+    },
+    {
+      "id": 11203,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.10578728467226,
+        "rootY": -0.231010839343071
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.223236158490181,
+        "rootY": 0.139198839664459
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0676666647195816,
+        "rootY": 0.246518820524216
+      }
+    },
+    {
+      "id": 11103,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.00458133919164538,
+        "rootY": -0.260627627372742
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.17450737953186,
+        "rootY": 0.119207508862019
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.240728542208672,
+        "rootY": 0.244338393211365
+      }
+    },
+    {
+      "id": 10603,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0536666661500931,
+        "rootY": -0.238815113902092
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.258666664361954,
+        "rootY": 0.130370527505875
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.143666669726372,
+        "rootY": 0.235259547829628
+      }
+    },
+    {
+      "id": 11004,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.159513905644417,
+        "rootY": -0.232491701841354
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.284000009298325,
+        "rootY": 0.218074336647987
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.139939084649086,
+        "rootY": 0.242117136716843
+      }
+    },
+    {
+      "id": 10804,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.147333338856697,
+        "rootY": -0.222222492098808
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.316000014543533,
+        "rootY": -0.0177778005599976
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0189999993890524,
+        "rootY": 0.233481764793396
+      }
+    },
+    {
+      "id": 10903,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.109952136874199,
+        "rootY": -0.240636304020882
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.17450737953186,
+        "rootY": -0.228049173951149
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0528936423361301,
+        "rootY": 0.242117136716843
+      }
+    },
+    {
+      "id": 10904,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.165666669607162,
+        "rootY": -0.136889055371284
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.252666652202606,
+        "rootY": -0.197926163673401
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.156000003218651,
+        "rootY": 0.261926233768463
+      }
+    },
+    {
+      "id": 10504,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": 0.00458646705374122,
+        "rootY": -0.294275492429733
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.32397136092186,
+        "rootY": 0.190500766038895
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0617088302969933,
+        "rootY": 0.291310518980026
+      }
+    },
+    {
+      "id": 10204,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.293333321809769,
+        "rootY": 0.13807424902916
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.126000002026558,
+        "rootY": -0.221629902720451
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.105999998748302,
+        "rootY": 0.249481782317162
+      }
+    },
+    {
+      "id": 10704,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.282000005245209,
+        "rootY": -0.228741019964218
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.263999998569489,
+        "rootY": -0.18311133980751
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.130999997258186,
+        "rootY": 0.253629952669144
+      }
+    },
+    {
+      "id": 11104,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.204666689038277,
+        "rootY": -0.234666973352432
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.123000010848045,
+        "rootY": -0.00414815358817577
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0686666741967201,
+        "rootY": 0.302815198898315
+      }
+    },
+    {
+      "id": 10604,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0873333439230919,
+        "rootY": -0.240592911839485
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.235666692256927,
+        "rootY": 0.0746667608618736
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0686666741967201,
+        "rootY": 0.302815198898315
+      }
+    },
+    {
+      "id": 10404,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.26297864317894,
+        "rootY": -0.222274884581566
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.131280943751335,
+        "rootY": -0.0903917849063873
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.00750176794826984,
+        "rootY": 0.0852053761482239
+      }
+    },
+    {
+      "id": 11204,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": 0.267666667699814,
+        "rootY": -0.181333556771278
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0453333333134651,
+        "rootY": -0.0800000950694084
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.0439999997615814,
+        "rootY": 0.351407825946808
+      }
+    },
+    {
+      "id": 10304,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0706666633486748,
+        "rootY": -0.240000292658806
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.116666667163372,
+        "rootY": -0.0811852887272835
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0480000004172325,
+        "rootY": 0.255407720804214
+      }
+    },
+    {
+      "id": 11005,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0726666674017906,
+        "rootY": 0.269037365913391
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.19366666674614,
+        "rootY": 0.0527408048510551
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.246666386723518,
+        "rootY": -0.0318518504500389
+      }
+    },
+    {
+      "id": 10905,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.240999981760979,
+        "rootY": 0.107259385287762
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0412499494850636,
+        "rootY": -0.283703714609146
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.094333328306675,
+        "rootY": 0.148148313164711
+      }
+    },
+    {
+      "id": 10505,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.260999977588654,
+        "rootY": 0.206222459673882
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.184666648507118,
+        "rootY": -0.234074339270592
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.184999987483025,
+        "rootY": 0.274370700120926
+      }
+    },
+    {
+      "id": 11205,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0260000005364418,
+        "rootY": -0.252444744110107
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.299666672945023,
+        "rootY": -0.078222319483757
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0996666699647903,
+        "rootY": 0.242963254451752
+      }
+    },
+    {
+      "id": 10705,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.321000009775162,
+        "rootY": 0.232889175415039
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.275333344936371,
+        "rootY": 0.0112592726945877
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.0666666701436043,
+        "rootY": 0.283852189779282
+      }
+    },
+    {
+      "id": 10805,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.190333321690559,
+        "rootY": -0.202074304223061
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.245333313941956,
+        "rootY": -0.188444659113884
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.175666645169258,
+        "rootY": 0.345481872558594
+      }
+    },
+    {
+      "id": 10104,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.23599998652935,
+        "rootY": 0.238222494721413
+      },
+      "root2Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.121999986469746,
+        "rootY": -0.124444589018822
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.141999989748001,
+        "rootY": 0.242963239550591
+      }
+    },
+    {
+      "id": 11006,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.129999995231628,
+        "rootY": 0.230518788099289
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.286999970674515,
+        "rootY": -0.267852157354355
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.212499737739563,
+        "rootY": 0.219259262084961
+      }
+    },
+    {
+      "id": 10605,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.227333322167397,
+        "rootY": 0.228741005063057
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.00966666545718908,
+        "rootY": -0.243555843830109
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.14533331990242,
+        "rootY": 0.183703914284706
+      }
+    },
+    {
+      "id": 10806,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.224166378378868,
+        "rootY": 0.105185188353062
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.137999981641769,
+        "rootY": -0.341333717107773
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0696666613221169,
+        "rootY": 0.245333611965179
+      }
+    },
+    {
+      "id": 10506,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.28099998831749,
+        "rootY": -0.223703697323799
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.182333320379257,
+        "rootY": -0.0995556712150574
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0591665953397751,
+        "rootY": 0.20859283208847
+      }
+    },
+    {
+      "id": 10906,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.287333309650421,
+        "rootY": 0.319407790899277
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.000999999931082129,
+        "rootY": -0.203259497880936
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.14699998497963,
+        "rootY": 0.248296588659286
+      }
+    },
+    {
+      "id": 10305,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.310333341360092,
+        "rootY": 0.203852102160454
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.255666673183441,
+        "rootY": 0.0242963265627623
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0608607828617096,
+        "rootY": 0.171188518404961
+      }
+    },
+    {
+      "id": 10807,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.056000005453825,
+        "rootY": -0.241185501217842
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.295666694641113,
+        "rootY": -0.0764445438981056
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0550000034272671,
+        "rootY": 0.260741084814072
+      }
+    },
+    {
+      "id": 11007,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.175333350896835,
+        "rootY": -0.0829630717635155
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.281333357095718,
+        "rootY": -0.132148325443268
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0616666711866856,
+        "rootY": 0.264889240264893
+      }
+    },
+    {
+      "id": 10205,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.289694368839264,
+        "rootY": 0.28158974647522
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.0225086249411106,
+        "rootY": -0.240833342075348
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.00250095850788057,
+        "rootY": 0.249725639820099
+      }
+    },
+    {
+      "id": 11206,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.176000013947487,
+        "rootY": 0.303407788276672
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.126666679978371,
+        "rootY": -0.20266692340374
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.184000015258789,
+        "rootY": 0.18133357167244
+      }
+    },
+    {
+      "id": 10405,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.191999986767769,
+        "rootY": -0.245926216244698
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.138333320617676,
+        "rootY": -0.0229593757539988
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.226333320140839,
+        "rootY": 0.223668739199638
+      }
+    },
+    {
+      "id": 10606,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.220999985933304,
+        "rootY": -0.188444659113884
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.288999974727631,
+        "rootY": -0.222815066576004
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0583333298563957,
+        "rootY": 0.237037315964699
+      }
+    },
+    {
+      "id": 10706,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": 0.306999981403351,
+        "rootY": -0.239962488412857
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.261666655540466,
+        "rootY": 0.229926198720932
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.153999984264374,
+        "rootY": 0.365630060434341
+      }
+    },
+    {
+      "id": 10206,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.215666651725769,
+        "rootY": -0.240592867136002
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.113333322107792,
+        "rootY": 0.220444694161415
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.227999985218048,
+        "rootY": -0.0314074419438839
+      }
+    },
+    {
+      "id": 10105,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.265999972820282,
+        "rootY": -0.243555843830109
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.267999976873398,
+        "rootY": 0.143407568335533
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.230999976396561,
+        "rootY": 0.213333576917648
+      }
+    },
+    {
+      "id": 11105,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.197052285075188,
+        "rootY": -0.20959684252739
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.245378017425537,
+        "rootY": -0.290324985980988
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0819999948143959,
+        "rootY": 0.250666946172714
+      }
+    },
+    {
+      "id": 10907,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.190666660666466,
+        "rootY": -0.244741037487984
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.207333326339722,
+        "rootY": -0.195555791258812
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0780000016093254,
+        "rootY": 0.250666975975037
+      }
+    },
+    {
+      "id": 10607,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.139200434088707,
+        "rootY": -0.256358802318573
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.285902708768845,
+        "rootY": 0.149666130542755
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0533333346247673,
+        "rootY": 0.173037245869637
+      }
+    },
+    {
+      "id": 10207,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.188333332538605,
+        "rootY": 0.222815081477165
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.143999993801117,
+        "rootY": -0.237629920244217
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.201333329081535,
+        "rootY": 0.221037313342094
+      }
+    },
+    {
+      "id": 10106,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0341951921582222,
+        "rootY": -0.232045710086823
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.308333337306976,
+        "rootY": 0.0983704924583435
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0433695130050182,
+        "rootY": 0.136410251259804
+      }
+    },
+    {
+      "id": 11207,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.00733333313837647,
+        "rootY": -0.266667008399963
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.307000011205673,
+        "rootY": -0.216889157891273
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.180666670203209,
+        "rootY": 0.207407668232918
+      }
+    },
+    {
+      "id": 10406,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.323000013828278,
+        "rootY": -0.0853334367275238
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.218666672706604,
+        "rootY": -0.216889157891273
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.229000002145767,
+        "rootY": 0.191407635807991
+      }
+    },
+    {
+      "id": 10507,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.29066663980484,
+        "rootY": -0.0777917355298996
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.10533332824707,
+        "rootY": -0.167703896760941
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.0369999967515469,
+        "rootY": 0.12266680598259
+      }
+    },
+    {
+      "id": 10306,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.15999998152256,
+        "rootY": 0.252444744110107
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.246333315968513,
+        "rootY": -0.192592814564705
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.195666655898094,
+        "rootY": 0.0349630042910576
+      }
+    },
+    {
+      "id": 10107,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.160999998450279,
+        "rootY": -0.252444744110107
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.274583011865616,
+        "rootY": 0.104444444179535
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.00566666666418314,
+        "rootY": 0.190815046429634
+      }
+    },
+    {
+      "id": 10707,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.228666663169861,
+        "rootY": -0.258963286876678
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.181666448712349,
+        "rootY": -0.264444440603256
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0113333333283663,
+        "rootY": 0.261333644390106
+      }
+    },
+    {
+      "id": 11008,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.175554275512695,
+        "rootY": -0.232034027576447
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.189666673541069,
+        "rootY": 0.0841482505202293
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.23933333158493,
+        "rootY": 0.0634074881672859
+      }
+    },
+    {
+      "id": 11106,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": 0.253949075937271,
+        "rootY": -0.246860489249229
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.248333334922791,
+        "rootY": 0.221629902720451
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.228000000119209,
+        "rootY": 0.138666838407516
+      }
+    },
+    {
+      "id": 10307,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.237767681479454,
+        "rootY": -0.173629850149155
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.21733333170414,
+        "rootY": -0.155259445309639
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.106333330273628,
+        "rootY": 0.226524993777275
+      }
+    },
+    {
+      "id": 11107,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.221333339810371,
+        "rootY": -0.153481677174568
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.125666663050652,
+        "rootY": -0.133333504199982
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.216999992728233,
+        "rootY": 0.23051880300045
+      }
+    },
+    {
+      "id": 10108,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.282000005245209,
+        "rootY": 0.136296465992928
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0693333297967911,
+        "rootY": -0.215111374855042
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.268333345651627,
+        "rootY": 0.211555808782578
+      }
+    },
+    {
+      "id": 10608,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.160666659474373,
+        "rootY": -0.204444691538811
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.137666672468185,
+        "rootY": -0.0669630467891693
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.237626031041145,
+        "rootY": 0.245926231145859
+      }
+    },
+    {
+      "id": 10808,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.211333334445953,
+        "rootY": -0.181926146149635
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.210333332419395,
+        "rootY": -0.15940760076046
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.125,
+        "rootY": 0.273185521364212
+      }
+    },
+    {
+      "id": 10308,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.186046227812767,
+        "rootY": -0.255848616361618
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.260297864675522,
+        "rootY": 0.106788992881775
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0359999984502792,
+        "rootY": 0.239407688379288
+      }
+    },
+    {
+      "id": 11208,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.178954780101776,
+        "rootY": -0.130519881844521
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.1426632553339,
+        "rootY": -0.0719342529773712
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.215246304869652,
+        "rootY": 0.26252293586731
+      }
+    },
+    {
+      "id": 10508,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.17955382168293,
+        "rootY": -0.239220231771469
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.129978641867638,
+        "rootY": 0.0696182698011398
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.185386210680008,
+        "rootY": 0.250329524278641
+      }
+    },
+    {
+      "id": 10208,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.250666677951813,
+        "rootY": -0.261333674192429
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.267000019550323,
+        "rootY": 0.170666888356209
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0250000022351742,
+        "rootY": 0.220704734325409
+      }
+    },
+    {
+      "id": 10908,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.240959107875824,
+        "rootY": 0.00148225692100823
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.169666677713394,
+        "rootY": -0.159407615661621
+      },
+      "root3Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.113000005483627,
+        "rootY": 0.337185621261597
+      }
+    },
+    {
+      "id": 10407,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.136738032102585,
+        "rootY": -0.153481677174568
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.257333368062973,
+        "rootY": 0.102518655359745
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.045023500919342,
+        "rootY": 0.232714340090752
+      }
+    },
+    {
+      "id": 10708,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.272000014781952,
+        "rootY": 0.315852254629135
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.207666680216789,
+        "rootY": -0.193778023123741
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.129666671156883,
+        "rootY": 0.225778073072433
+      }
+    },
+    {
+      "id": 11108,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.268605947494507,
+        "rootY": 0.302800923585892
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0916175320744514,
+        "rootY": -0.151770636439323
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.19700001180172,
+        "rootY": 0.100148275494576
+      }
+    },
+    {
+      "id": 10509,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.326000034809113,
+        "rootY": 0.144592776894569
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0743333399295807,
+        "rootY": -0.206222489476204
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0483333356678486,
+        "rootY": 0.266074419021606
+      }
+    },
+    {
+      "id": 10209,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.22966668009758,
+        "rootY": -0.25007438659668
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.264073491096497,
+        "rootY": -0.248801425099373
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.0270737800747156,
+        "rootY": 0.270275354385376
+      }
+    },
+    {
+      "id": 11209,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.30566668510437,
+        "rootY": 0.322963386774063
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.136333346366882,
+        "rootY": -0.234074383974075
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.0308198668062687,
+        "rootY": 0.118466906249523
+      }
+    },
+    {
+      "id": 10408,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.27016869187355,
+        "rootY": 0.25868034362793
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.285594999790192,
+        "rootY": -0.139346435666084
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.104231752455235,
+        "rootY": 0.257197946310043
+      }
+    },
+    {
+      "id": 10809,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.268917918205261,
+        "rootY": 0.345481932163239
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0087554669007659,
+        "rootY": -0.243856281042099
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.141000017523766,
+        "rootY": 0.145777970552444
+      }
+    },
+    {
+      "id": 11009,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.26754692196846,
+        "rootY": -0.182995274662971
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0740000009536743,
+        "rootY": -0.14637054502964
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.139191076159477,
+        "rootY": 0.187440514564514
+      }
+    },
+    {
+      "id": 11109,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.174999997019768,
+        "rootY": 0.147555738687515
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.14466667175293,
+        "rootY": -0.274370700120926
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.16425034403801,
+        "rootY": 0.0429849103093147
+      }
+    },
+    {
+      "id": 10109,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.312000006437302,
+        "rootY": -0.103111237287521
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.180666670203209,
+        "rootY": -0.167703911662102
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.233452275395393,
+        "rootY": 0.15288907289505
+      }
+    },
+    {
+      "id": 10609,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.296999990940094,
+        "rootY": 0.256000310182571
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.125029042363167,
+        "rootY": -0.192637577652931
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0989999994635582,
+        "rootY": 0.254222542047501
+      }
+    },
+    {
+      "id": 10409,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.280898571014404,
+        "rootY": -0.0348229445517063
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.196333333849907,
+        "rootY": -0.188444674015045
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.0226666666567326,
+        "rootY": 0.0681482329964638
+      }
+    },
+    {
+      "id": 10909,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.110666669905186,
+        "rootY": -0.171090260148048
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.275999993085861,
+        "rootY": -0.143686190247536
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0743333324790001,
+        "rootY": 0.209778040647507
+      }
+    },
+    {
+      "id": 10309,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.257333338260651,
+        "rootY": 0.000592593336477876
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.15933333337307,
+        "rootY": -0.182518735527992
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.145999997854233,
+        "rootY": 0.113777920603752
+      }
+    },
+    {
+      "id": 10510,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.301926404237747,
+        "rootY": 0.192758649587631
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0262726042419672,
+        "rootY": -0.166068986058235
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.00999999977648258,
+        "rootY": 0.093413807451725
+      }
+    },
+    {
+      "id": 11110,
+      "root1Data": {
+        "panningDirection": "UP",
+        "rootX": -0.138999998569489,
+        "rootY": -0.273778110742569
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.211333334445953,
+        "rootY": -0.173037245869637
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.136666670441628,
+        "rootY": 0.229333609342575
+      }
+    },
+    {
+      "id": 10709,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.293999999761581,
+        "rootY": -0.130370527505875
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.218619540333748,
+        "rootY": -0.133926093578339
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0116597088053823,
+        "rootY": 0.133333504199982
+      }
+    },
+    {
+      "id": 10210,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.285246461629868,
+        "rootY": -0.218666940927505
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.219999998807907,
+        "rootY": -0.26058554649353
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.121666669845581,
+        "rootY": 0.189037263393402
+      }
+    },
+    {
+      "id": 10710,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": 0.297666668891907,
+        "rootY": -0.111785277724266
+      },
+      "root2Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.240333333611488,
+        "rootY": -0.256143748760223
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": -0.12899999320507,
+        "rootY": 0.097777895629406
+      }
+    },
+    {
+      "id": 10410,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.0320641994476318,
+        "rootY": -0.176191374659538
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.16666667163372,
+        "rootY": 0.144000172615051
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.0486666671931744,
+        "rootY": 0.242963254451752
+      }
+    },
+    {
+      "id": 10110,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.260261356830597,
+        "rootY": -0.160000190138817
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.178333327174187,
+        "rootY": -0.0693334192037582
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.119666665792465,
+        "rootY": 0.190815046429634
+      }
+    },
+    {
+      "id": 10910,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": -0.19155664741993,
+        "rootY": 0.276878327131271
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.275258541107178,
+        "rootY": -0.238381877541542
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.151163160800934,
+        "rootY": 0.275397688150406
+      }
+    },
+    {
+      "id": 10810,
+      "root1Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0670000016689301,
+        "rootY": -0.168296501040459
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": 0.300000011920929,
+        "rootY": -0.028444480150938
+      },
+      "root3Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.00600000005215406,
+        "rootY": 0.21748174726963
+      }
+    }
+  ]
+}

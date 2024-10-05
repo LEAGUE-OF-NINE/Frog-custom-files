@@ -1,0 +1,123 @@
+{
+    "id": 9750701,
+    "textID": 9009101,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "9009101",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "SHAMROCK",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "S1",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 10,
+            "abilityScriptList": [
+                {
+                    "scriptName": "9009101",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": -9,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "9009101_coin",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "Sinking",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "9009101_coin",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "Sinking",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

@@ -1,0 +1,97 @@
+{
+    "id": 804402,
+    "textID": -1,
+    "skillTier": 2,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "AMBER",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "S2",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 3,
+            "defaultValue": 7,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "RANDOM",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DongbaekFlorescence",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 1,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DongbaekFlorescence",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 1,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

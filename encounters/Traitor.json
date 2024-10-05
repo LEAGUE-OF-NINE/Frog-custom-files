@@ -1,0 +1,123 @@
+{
+    "id": 10421,
+    "stageLevel": 33,
+    "stageType": "Normal",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 20,
+    "recommendedLevel": 33,
+    "story": {
+        "enter": [
+            "S421B"
+        ],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "Troubleshooter"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 5,
+        "max": 5,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp4_AdaptedLobotomy2",
+                "mapSize": 23.0
+            },
+            "unitList": [
+                {
+                    "unitID": 90052,
+                    "unitLevel": 33,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90053,
+                    "unitLevel": 33,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp4_Ally_3",
+                "Battle_Cp4_Enemy_3"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 2
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 90052,
+                    "unitLevel": 33,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90053,
+                    "unitLevel": 33,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 91008,
+                    "unitLevel": 33,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 1,
+            "enemyPositionID": 2
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

@@ -1,0 +1,132 @@
+{
+    "id": 10516,
+    "stageLevel": 40,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 1,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 40,
+    "story": {
+        "enter": [
+            "5D304B"
+        ],
+        "exit": [
+            "5D304A"
+        ],
+        "others": [
+            {
+                "phase": "STORY_AFTER_ABNORMALITY_CHOICE",
+                "storyIndex": 0,
+                "storyID": "5D304I"
+            },
+            {
+                "phase": "STORY_AFTER_ABNORMALITY_CHOICE",
+                "storyIndex": 1,
+                "storyID": "5D304I2"
+            },
+            {
+                "phase": "STORY_AFTER_ABNORMALITY_CHOICE",
+                "storyIndex": 2,
+                "storyID": "5D304I3"
+            },
+            {
+                "phase": "STORY_AFTER_ABNORMALITY_CHOICE",
+                "storyIndex": 3,
+                "storyID": "5D304I4"
+            },
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 4,
+                "storyID": "5D304I5"
+            },
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 5,
+                "storyID": "5D304I6"
+            },
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 6,
+                "storyID": "5D304I7"
+            },
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 7,
+                "storyID": "5D304I8"
+            },
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 8,
+                "storyID": "5D304I9"
+            }
+        ]
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [
+        810601,
+        810602,
+        810603
+    ],
+    "stageScriptList": [
+        "8106"
+    ],
+    "eventScriptName": "8106",
+    "participantInfo": {
+        "min": 6,
+        "max": 6,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp5_TheDepthsOfHeart_Awaken",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8106,
+                    "unitLevel": 40,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp5_AhabBossBattle"
+            ],
+            "allyPositionID": 58,
+            "enemyPositionID": 59
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

@@ -1,0 +1,152 @@
+{
+    "id": 10560,
+    "stageLevel": 40,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.20000000298023225,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 40.0
+    },
+    "includeBoss": 0,
+    "staminaType": "ENKEPHALIN_MODULE",
+    "staminaCost": 0,
+    "recommendedLevel": 45,
+    "story": {
+        "enter": [
+            "E064X"
+        ],
+        "exit": [
+            "E065X"
+        ],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "8363"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 5,
+        "max": 5,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Walpu4_SafetyTeamTeamHallway",
+                "mapSize": 28.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8363,
+                    "unitLevel": 45,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8364,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_LOB_Dawn_Normal"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 95
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "Walpu4_InformationTeamTeamHallway",
+                "mapSize": 28.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8363,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8364,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8365,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 1,
+            "enemyPositionID": 95
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "Walpu4_TrainingTeamTeamHallway",
+                "mapSize": 28.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8364,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8365,
+                    "unitLevel": 45,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 1,
+            "enemyPositionID": 95
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 2,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

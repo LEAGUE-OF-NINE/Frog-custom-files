@@ -1,0 +1,171 @@
+{
+    "id": 1060103,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "SCARLET",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 5,
+            "abilityScriptList": [
+                {
+                    "scriptName": "CoinScaleAdderIfNotDamagedPrevTurn2",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": 0,
+            "skillLevelCorrection": 2,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "Reduction",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": 6,
+            "abilityScriptList": [],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "Reduction",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Sinking",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Burst",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [
+        "CheckAwakenLevel3"
+    ],
+    "skillType": "SKILL"
+}

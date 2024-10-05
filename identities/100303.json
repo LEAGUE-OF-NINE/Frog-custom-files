@@ -1,0 +1,155 @@
+{
+    "id": 100303,
+    "unitScriptID": "",
+    "viewid": 100303,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10303_Donquixote_ShiAssoAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 158,
+        "incrementByLevel": 4.389999866485596
+    },
+    "defCorrection": -4,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        2,
+        2,
+        3,
+        4
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        6,
+        8
+    ],
+    "defenseSkillIDList": [
+        1030304
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            80,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 2.0
+            },
+            {
+                "type": "HIT",
+                "value": 1.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [
+            0,
+            0,
+            0
+        ],
+        "supportPassiveIdList": [
+            0
+        ]
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 10030301
+        },
+        {
+            "number": 2,
+            "skillId": 10030302
+        },
+        {
+            "number": 1,
+            "skillId": 10030303
+        }
+    ],
+    "initBuffList": [
+        {
+            "level": 1,
+            "list": [
+                {
+                    "buff": "BreathSupport",
+                    "stack": 0,
+                    "turn": 0
+                },
+                {
+                    "buff": "Breath",
+                    "stack": 0,
+                    "turn": 0
+                },
+                {
+                    "buff": "GainSinStockAdder",
+                    "stack": 0,
+                    "turn": 0
+                }
+            ]
+        }
+    ],
+    "associationList": [
+        "SHI"
+    ],
+    "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+    ],
+    "characterId": 3,
+    "season": 0,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "CRIMSON",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

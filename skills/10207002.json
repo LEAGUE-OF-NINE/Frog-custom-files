@@ -1,0 +1,349 @@
+{
+    "id": 10207002,
+    "textID": 10207002,
+    "skillTier": 2,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "1020702",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 16,
+            "abilityScriptList": [],
+            "mpUsage": 0,
+            "skillLevelCorrection": 4,
+            "range": -1.0,
+            "arearange": 2.5,
+            "skillTargetType": "",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": 3,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 2,
+            "informationID": -1,
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": 3,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": 16,
+            "abilityScriptList": [],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "",
+            "canTeamKill": "",
+            "coinList": [],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "TagetNumAdderOnCompleteCommandUsingBuffTurn1",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 0,
+                        "turn": 5,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnUse",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 4,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnUse",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnUse",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 3,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveMpDmgOnEndSkillSelfViaBuffCheckDevideByStack",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 5.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "SkillPowerResultAdderOnUse3IfSelfMpLessThanMinus15",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "SkillPowerResultAdderOnUse2IfSelfMpLessThanMinus25",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "",
+                    "color": "",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackTail",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 2,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "",
+                    "color": "",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 5,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "",
+                    "color": "",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": 3,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": ""
+}

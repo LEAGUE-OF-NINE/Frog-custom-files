@@ -1,0 +1,73 @@
+{
+    "id": 874903,
+    "textID": 851903,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "851903",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "VIOLET",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "S2",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 8,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": -5,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "RANDOM",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Paralysis",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 3,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

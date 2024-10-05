@@ -1,0 +1,123 @@
+{
+    "id": 9014803,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "VIOLET",
+            "atkType": "SLASH",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 5,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "UsedSelfHpAndChargeOnUse_15_2_coinScaleAdder2",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 6,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseDown",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 6,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "AbsorptionBuffStackAndRecoverHp",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "",
+                                "buffOwner": "Target",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.019999999552965165,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

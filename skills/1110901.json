@@ -1,0 +1,248 @@
+{
+    "id": 1110901,
+    "textID": -1,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "SCARLET",
+            "atkType": "PENETRATE",
+            "defType": "ATTACK",
+            "skillMotion": "S1",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 2,
+            "abilityScriptList": [],
+            "mpUsage": 0,
+            "skillLevelCorrection": 0,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 2,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 6,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": 3,
+            "abilityScriptList": [],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 6,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "CoinScaleAdderViaBuffCheck",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 10,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

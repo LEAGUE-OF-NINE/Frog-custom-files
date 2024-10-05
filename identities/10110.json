@@ -1,0 +1,139 @@
+{
+    "id": 10110,
+    "unitScriptID": "",
+    "viewid": 10110,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10110_Yisang_DeadButterflyAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.2799999713897707
+    },
+    "defCorrection": 2,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        6,
+        7,
+        8,
+        8
+    ],
+    "defenseSkillIDList": [
+        1011004
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            60,
+            30,
+            15
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 1.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1011001
+        },
+        {
+            "number": 2,
+            "skillId": 1011002
+        },
+        {
+            "number": 1,
+            "skillId": 1011003
+        }
+    ],
+    "initBuffList": [
+        {
+            "level": 1,
+            "list": [
+                {
+                    "buff": "BulletLament",
+                    "stack": 10,
+                    "turn": 10
+                }
+            ]
+        }
+    ],
+    "associationList": [
+        "L_CORP"
+    ],
+    "unitKeywordList": [
+        "LOBOTOMY_HEAD"
+    ],
+    "characterId": 1,
+    "season": 9104,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "AZURE",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": "LC"
+}

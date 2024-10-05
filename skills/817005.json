@@ -1,0 +1,158 @@
+{
+    "id": 817005,
+    "textID": -1,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "816505",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "AZURE",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NONE",
+            "canDuel": "false",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 2,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 0,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "RANDOM",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "AttackUp",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 1,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "AttackUp",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 1,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "AttackUp",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 1,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveAdditionalDmgOnSuccessAttackViaBuffCheckHit",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "Target",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.30000001192092898,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "HealSelfOnSuccessAttackByDmgRatioViaBuffCheck",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "Target",
+                                "stack": 5,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.5,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 1,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

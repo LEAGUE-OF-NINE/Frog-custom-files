@@ -1,0 +1,187 @@
+{
+    "id": 10228,
+    "stageLevel": 15,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 1,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 15,
+    "story": {
+        "enter": [
+            "2D306B"
+        ],
+        "exit": [
+            "2D306A"
+        ],
+        "others": [
+            {
+                "phase": "BEFORE_END_WAVE",
+                "storyIndex": 1,
+                "storyID": "2D306I"
+            }
+        ]
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 2,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "BabaYaga"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 5,
+        "max": 5,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "BabayagaIceCastle",
+                "mapSize": 40.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8019,
+                    "unitLevel": 15,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8020,
+                    "unitLevel": 15,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp2_Rodion",
+                "Battle_Cp1_Ally_3"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 2
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "B3_FathomsOfTheEgoEntrance_L",
+                "mapSize": 40.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8019,
+                    "unitLevel": 15,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8020,
+                    "unitLevel": 15,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 1,
+            "enemyPositionID": 2
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "B3_FathomsOfTheEgoEntrance_M",
+                "mapSize": 40.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8019,
+                    "unitLevel": 15,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8020,
+                    "unitLevel": 15,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8021,
+                    "unitLevel": 15,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 1,
+            "enemyPositionID": 18
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "B3_FathomsOfTheEgoEntrance_R",
+                "mapSize": 40.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8021,
+                    "unitLevel": 15,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8022,
+                    "unitLevel": 15,
+                    "unitCount": 3,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 1,
+            "enemyPositionID": 18
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

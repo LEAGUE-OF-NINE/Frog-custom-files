@@ -1,0 +1,89 @@
+{
+    "id": 10447,
+    "stageLevel": 35,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 20,
+    "recommendedLevel": 35,
+    "story": {
+        "enter": [
+            "S447B"
+        ],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "Dongbaek_UmbrellaFox"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 7,
+        "max": 7,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp4_SheddingTearsBlind",
+                "mapSize": 33.33000183105469
+            },
+            "unitList": [
+                {
+                    "unitID": 8043,
+                    "unitLevel": 35,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [
+                {
+                    "unitID": 8053,
+                    "unitLevel": 34,
+                    "unitCount": 4,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp4_Ally_3",
+                "Battle_Cp4_Enemy_3"
+            ],
+            "allyPositionID": 36,
+            "enemyPositionID": 35
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

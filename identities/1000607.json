@@ -1,0 +1,138 @@
+{
+    "id": 1000607,
+    "unitScriptID": "",
+    "viewid": 1000607,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "!custom_multicrack_hong_lu",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 69,
+        "incrementByLevel": 2.359999895095825
+    },
+    "defCorrection": -3,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        6,
+        7,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1060704
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            40,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 1.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [
+            0,
+            0,
+            0
+        ],
+        "supportPassiveIdList": [
+            0
+        ]
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 10060701
+        },
+        {
+            "number": 2,
+            "skillId": 10060702
+        },
+        {
+            "number": 1,
+            "skillId": 10060703
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "HOOK_OFFICE",
+        "MULTI_CRACK"
+    ],
+    "unitKeywordList": [
+        "FIXER",
+        "BACK_STREET",
+        "MACHINE_BOUND_ORGANISM",
+        "SMALL"
+    ],
+    "characterId": 6,
+    "season": 9101,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "SCARLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": "LOR"
+}

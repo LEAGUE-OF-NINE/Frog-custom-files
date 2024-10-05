@@ -1,0 +1,318 @@
+{
+    "id": 2030621,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "VIOLET",
+            "atkType": "PENETRATE",
+            "defType": "ATTACK",
+            "skillMotion": "Default",
+            "viewType": "SKILL",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 2,
+            "defaultValue": 28,
+            "abilityScriptList": [
+                {
+                    "scriptName": "203061111",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203061131",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203062113",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 20,
+                        "activeRound": 0,
+                        "value": 0.014999999664723874,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203062141",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 20,
+                        "activeRound": 0,
+                        "value": 0.02500000037252903,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": 25,
+            "skillLevelCorrection": 5,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "RANDOM",
+            "canTeamKill": "true",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnKillTarget",
+                            "buffData": {
+                                "buffKeyword": "Charge",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 12,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "203061113",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203062133",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203062113",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 20,
+                        "activeRound": 0,
+                        "value": 0.014999999664723874,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203062141",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 20,
+                        "activeRound": 0,
+                        "value": 0.03500000014901161,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnKillTarget",
+                            "buffData": {
+                                "buffKeyword": "Charge",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 12,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "203061114",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203062134",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203062113",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 20,
+                        "activeRound": 0,
+                        "value": 0.009999999776482582,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "203062141",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 20,
+                        "activeRound": 0,
+                        "value": 0.05000000074505806,
+                        "limit": 1
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnKillTarget",
+                            "buffData": {
+                                "buffKeyword": "Charge",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 12,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "EGO_EROSION"
+}

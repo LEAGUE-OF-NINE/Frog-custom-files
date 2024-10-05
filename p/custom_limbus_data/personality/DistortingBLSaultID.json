@@ -1,0 +1,141 @@
+{
+  "list": [
+    {
+      "id": 10558,
+      "appearance": "10508_Meursault_KimSatGatAppearance",
+      "unitKeywordList": [
+        "CLAN",
+        "SMALL"
+      ],
+      "associationList": [
+        "BLADE_LINEAGE"
+      ],
+      "characterId": 5,
+      "panicType": 1016,
+      "season": 3,
+      "additionalAttachment": "EVENT",
+      "isPlusCoinUnit": false,
+      "defenseSkillIDList": [
+        1050804,
+        1050805
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 82,
+        "incrementByLevel": 2.73
+      },
+      "defCorrection": 3,
+      "minSpeedList": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 1,
+            "passiveIdList": [
+              1050811
+            ]
+          },
+          {
+            "level": 2,
+            "passiveIdList": [
+              1050811
+            ]
+          },
+          {
+            "level": 4,
+            "passiveIdList": [
+              1050811
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": [
+              1050821
+            ]
+          }
+        ]
+      },
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnLoseDuelAsParryingCountMultiply3AndPlus10Percent"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply6AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              },
+              {
+                "conditionID": "OnDieBladeLineageAlly10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          80,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 10508001,
+          "number": 3
+        },
+        {
+          "skillId": 1050802,
+          "number": 2
+        },
+        {
+          "skillId": 1050803,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}

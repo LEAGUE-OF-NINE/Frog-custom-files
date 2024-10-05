@@ -1,0 +1,98 @@
+{
+    "id": 1100904,
+    "textID": -1,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "NEUTRAL",
+            "atkType": "NONE",
+            "defType": "GUARD",
+            "skillMotion": "Default",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "false",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 15,
+            "abilityScriptList": [
+                {
+                    "scriptName": "SkillPowerAdderViaBuffDevide",
+                    "buffData": {
+                        "buffKeyword": "Combustion",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 10
+                    }
+                }
+            ],
+            "mpUsage": 0,
+            "skillLevelCorrection": 5,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 5,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "1100904_4",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "SCARLET",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "SkillPowerAdderViaBuffDevide",
+                    "buffData": {
+                        "buffKeyword": "Combustion",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 20
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

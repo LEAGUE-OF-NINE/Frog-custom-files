@@ -1,0 +1,223 @@
+{
+    "id": 10641,
+    "stageLevel": 44,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": -10.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 20,
+    "recommendedLevel": 44,
+    "story": {
+        "enter": [],
+        "exit": [],
+        "others": [
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 0,
+                "storyID": "S641I"
+            },
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 1,
+                "storyID": "S641I2"
+            },
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 2,
+                "storyID": "S641I3"
+            }
+        ]
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "WH"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 6,
+        "max": 6,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp6_BrokenLaboratory_v1",
+                "mapSize": 20.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8159,
+                    "unitLevel": 44,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8160,
+                    "unitLevel": 44,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8169,
+                    "unitLevel": 44,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp6_Enemy_6",
+                "Battle_Cp6_Leviathan",
+                "Battle_Cp6_Ally_3"
+            ],
+            "allyPositionID": 69,
+            "enemyPositionID": 75
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8220,
+                    "unitLevel": 44,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 69,
+            "enemyPositionID": 70
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8167,
+                    "unitLevel": 44,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8168,
+                    "unitLevel": 44,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8169,
+                    "unitLevel": 44,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8170,
+                    "unitLevel": 44,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [
+                {
+                    "unitID": 8161,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": true
+                },
+                {
+                    "unitID": 8160,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": true
+                },
+                {
+                    "unitID": 8151,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": true
+                },
+                {
+                    "unitID": 8170,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": true
+                },
+                {
+                    "unitID": 8167,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": true
+                },
+                {
+                    "unitID": 8168,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": true
+                },
+                {
+                    "unitID": 8169,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": true
+                }
+            ],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 69,
+            "enemyPositionID": 78
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

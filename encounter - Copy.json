@@ -1,0 +1,243 @@
+{
+  "id": 4444401,
+  "stageLevel": 45,
+  "stageType": "Abnormality",
+  "isBatonPassOn": true,
+  "includeBoss": 1,
+  "participantInfo": {
+    "min": 7,
+    "max": 7
+  },
+  "waveList": [
+    {
+      "battleMapInfo": {
+        "mapName": "SmokeWar_v1",
+        "mapSize": 28
+      },
+      "unitList": [
+        {
+            "unitID": 850001,
+            "unitCount": 2,
+            "unitLevel": 45,
+            "unitSyncLevel": 1
+        },
+        {
+            "unitID": 850002,
+            "unitCount": 3,
+            "unitLevel": 45,
+            "unitSyncLevel": 1
+        }
+      ],
+      "subUnitList": [ 
+        {
+          "unitID": 850001,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 1
+        },
+        {
+          "unitID": 850002,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 1
+        },
+        {
+          "unitID": 850004,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        }
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ],
+      "allyPositionID": 1,
+      "enemyPositionID": 49
+    },
+
+    {
+      "battleMapInfo": {
+          "mapName": "Ab_TiedKing"
+        },
+        "unitList": [
+          {
+            "unitID": 800323,
+            "unitCount": 1,
+            "unitLevel": 48,
+            "unitSyncLevel": 4
+          },
+          {
+            "unitID": 800324,
+            "unitCount": 1,
+            "unitLevel": 48,
+            "unitSyncLevel": 4
+          },
+          {
+            "unitID": 800325,
+            "unitCount": 1,
+            "unitLevel": 48,
+            "unitSyncLevel": 4
+          },
+          {
+            "unitID": 800326,
+            "unitCount": 1,
+            "unitLevel": 48,
+            "unitSyncLevel": 4
+          }
+         ],
+         "subUnitList": [],
+          "bgmList": [
+            "Battle_Audite_pauper",
+            "Battle_Vovete_miserias"
+          ],
+          "allyPositionID": 89,
+          "enemyPositionID": 90
+    },
+
+    {
+      "battleMapInfo": {
+        "mapName": "Ab_RedJewel"
+      },
+      "unitList": [
+        {
+          "unitID": 8527,
+          "unitCount": 1,
+          "unitLevel": 48
+        },
+        {
+          "unitID": 800579,
+          "unitCount": 1,
+          "unitLevel": 48
+        },
+        {
+          "unitID": 800580,
+          "unitCount": 1,
+          "unitLevel": 48
+        },
+        {
+          "unitID": 800581,
+          "unitCount": 1,
+          "unitLevel": 48
+        }
+      ],
+      "bgmList": [
+        "Battle_Statue"
+      ],
+      "enemyPositionID": 22
+    },
+
+    {
+      "battleMapInfo": {
+        "mapName": "Walpu4_TrainingTeamLobby_Hard",
+        "mapSize": 33.32
+      },
+      "unitList": [
+        {
+          "unitID": 8500221,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        }
+      ],
+      "bgmList": [
+        "Battle_Cp6_Leviathan",
+        "Battle_Audite_pauper"
+      ],
+      "allyPositionID": 1,
+      "enemyPositionID": 96
+    },
+
+    {
+      "battleMapInfo": {
+        "mapName": "Cp6_Mansion_Laboratory_B2"
+      },
+      "unitList": [
+        {
+          "unitID": 800204,
+          "unitCount": 1,
+          "unitLevel": 48
+        },
+        {
+          "unitID": 800316,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80000303,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 8305,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        }
+      ],
+      "bgmList": [
+        "Battle_Cp6_Enemy_3"
+      ],
+      "allyPositionID": 1,
+      "enemyPositionID": 68
+    },
+
+    {
+      "battleMapInfo": {
+        "mapName": "Cp3_B3_BossBattle"
+      },
+      "unitList": [
+        {
+          "unitID": 80533,
+          "unitCount": 1,
+          "unitLevel": 49
+        },
+        {
+          "unitID": 800280,
+          "unitCount": 1,
+          "unitLevel": 48,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 800517,
+          "unitCount": 1,
+          "unitLevel": 48
+        }
+      ],
+      "bgmList": [
+        "Battle_Cp3_Cromer_p1",
+        "Battle_Cp3_Cromer_p2"
+      ],
+      "allyPositionID": 1,
+      "enemyPositionID": 25
+    }
+  ],
+  "staminaCost": 0,
+  "recommendedLevel": 45,
+  "turnLimit": 99,
+  "questlist": [
+    {
+      "args": [
+        "10"
+      ],
+      "localizeId": 1
+    }
+  ],
+  "rewardList": [],
+  "dangerLevel": 0,
+  "stageScriptList": [
+    "Refill_Abnormality",
+    "AbnormalityEvent",
+    "Statue"
+  ],
+  "eventScriptName": [
+    "Cromer",
+    "Statue"
+  ],
+  "abnormalityEventList": [
+    802901,
+    803001
+  ]
+}

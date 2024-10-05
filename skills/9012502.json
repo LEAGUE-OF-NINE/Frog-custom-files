@@ -1,0 +1,136 @@
+{
+    "id": 9012502,
+    "textID": -1,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "SCARLET",
+            "atkType": "SLASH",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 2,
+            "abilityScriptList": [
+                {
+                    "scriptName": "AttackDmgUpOnlyWinDuelByRatio50IfTMtHpRatioNotLessThan80",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnLoseDuel",
+                    "buffData": {
+                        "buffKeyword": "DefenseDown",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 4,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 4,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 2,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 5,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveAdditionalDmgOnSuccessAttackViaBuffCheck",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "Target",
+                                "stack": 5,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.20000000298023225,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 5,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

@@ -1,0 +1,422 @@
+{
+    "id": 2080621,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "SHAMROCK",
+            "atkType": "SLASH",
+            "defType": "ATTACK",
+            "skillMotion": "Default",
+            "viewType": "SKILL",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 3,
+            "defaultValue": 39,
+            "abilityScriptList": [
+                {
+                    "scriptName": "AttackLowestHpAbnormalityTarget",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstMainSkillAbility5And5",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstSubSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "Enhancement",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstSubSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "Agility",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": 25,
+            "skillLevelCorrection": 0,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "RANDOM",
+            "canTeamKill": "true",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "IshmaelSixthErodedEgoCoinHealAbility10",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackTailWithRangeStackByValue",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 4.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 24,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "AttackLowestHpAbnormalityTarget",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "TargetNumAdderBBViaMaxRCWithMinCount3Upto1",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstMainSkillAbility5And5",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstSubSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "Enhancement",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstSubSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "Agility",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoSecondSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "AttackUp",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": -1,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 10.0,
+                        "limit": 3
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "IshmaelSixthErodedEgoCoinHealAbility15",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackTailWithRangeStackByValue",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 5.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 24,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "AttackLowestHpAbnormalityTarget",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "TargetNumAdderBBViaMaxRCWithMinCount3Upto2",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstMainSkillAbility5And5",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstSubSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "Enhancement",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoFirstSubSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "Agility",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "IshmaelSixthErodedEgoSecondSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "AttackUp",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": -1,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 10.0,
+                        "limit": 6
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "IshmaelSixthErodedEgoCoinHealAbility20",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackTailWithRangeStackByValue",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 3,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 6.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnKillTarget",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 3
+                            }
+                        }
+                    ],
+                    "scale": 24,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "EGO_EROSION"
+}

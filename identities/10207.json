@@ -1,0 +1,128 @@
+{
+    "id": 10207,
+    "unitScriptID": "",
+    "viewid": 10207,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10207_Faust_ForsakenMurderer_LOBAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 82,
+        "incrementByLevel": 2.819999933242798
+    },
+    "defCorrection": 1,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        5,
+        5,
+        6,
+        6
+    ],
+    "defenseSkillIDList": [
+        1020704
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            65,
+            35
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 2.0
+            },
+            {
+                "type": "HIT",
+                "value": 1.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1020701
+        },
+        {
+            "number": 2,
+            "skillId": 1020702
+        },
+        {
+            "number": 1,
+            "skillId": 1020703
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "L_CORP"
+    ],
+    "unitKeywordList": [
+        "LOBOTOMY_HEAD",
+        "SMALL"
+    ],
+    "characterId": 2,
+    "season": 9101,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "CRIMSON",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": "LC"
+}

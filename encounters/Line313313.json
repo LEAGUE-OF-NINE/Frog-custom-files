@@ -1,0 +1,99 @@
+{
+    "id": 313,
+    "stageLevel": 40,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": -10.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 40,
+    "story": {
+        "enter": [],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [
+        858501,
+        85850101,
+        85850102,
+        85850103,
+        858502,
+        85850201,
+        85850202,
+        85850203,
+        85850204,
+        85850205,
+        85850206,
+        85850207
+    ],
+    "stageScriptList": [
+        "8585"
+    ],
+    "eventScriptName": "8585",
+    "participantInfo": {
+        "min": 6,
+        "max": 6,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Ab_ContemptSprial",
+                "mapSize": 33.29999923706055
+            },
+            "unitList": [
+                {
+                    "unitID": 8585,
+                    "unitLevel": 48,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [
+                {
+                    "unitID": 8604,
+                    "unitLevel": 48,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cur_dolorem_sentis"
+            ],
+            "allyPositionID": 48,
+            "enemyPositionID": 63
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

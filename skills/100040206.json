@@ -1,0 +1,303 @@
+{
+    "id": 100040206,
+    "textID": 10040206,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "10040206",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "WHITE",
+            "atkType": "SLASH",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "false",
+            "targetNum": 9,
+            "defaultValue": 15,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "BuffStackAdderOnWinDuel2",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "HealHpOnKillTargetEveryAllyAbnoNPartByRatio15",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+                    "buffData": {
+                        "buffKeyword": "Burst",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 0,
+                        "turn": 3,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 10
+                    }
+                },
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 0,
+                        "turn": 3,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 10
+                    }
+                },
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+                    "buffData": {
+                        "buffKeyword": "DefenseDown",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 0,
+                        "turn": 3,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 10
+                    }
+                }
+            ],
+            "mpUsage": 0,
+            "skillLevelCorrection": 4,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Burst",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseDown",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 5,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveAdditionalHitDmgOnSuccessAttackTarget10",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Burst",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseDown",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 5,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveAdditionalHitDmgOnSuccessAttackTarget10",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Burst",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseDown",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 5,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveAdditionalHitDmgOnSuccessAttackTarget10",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

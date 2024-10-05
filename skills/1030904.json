@@ -1,0 +1,124 @@
+{
+    "id": 1030904,
+    "textID": -1,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "ClockGuard",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "NEUTRAL",
+            "atkType": "NONE",
+            "defType": "GUARD",
+            "skillMotion": "S10",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "false",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 12,
+            "abilityScriptList": [
+                {
+                    "scriptName": "1030904",
+                    "buffData": {
+                        "buffKeyword": "TimeRentalTwoPersonality",
+                        "target": "Self",
+                        "buffOwner": "Self",
+                        "stack": 0,
+                        "turn": 4,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffToEnemyAttackerIfUsedThisSkill(limit:1)",
+                    "buffData": {
+                        "buffKeyword": "Vibration",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 2,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 2
+                    }
+                }
+            ],
+            "mpUsage": 0,
+            "skillLevelCorrection": 2,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 5,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "1030904_4",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "AMBER",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": 15,
+            "abilityScriptList": [
+                {
+                    "scriptName": "1030904",
+                    "buffData": {
+                        "buffKeyword": "TimeRentalTwoPersonality",
+                        "target": "Self",
+                        "buffOwner": "Self",
+                        "stack": 0,
+                        "turn": 4,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffToEnemyAttackerIfUsedThisSkill(limit:1)",
+                    "buffData": {
+                        "buffKeyword": "Vibration",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 3,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 6
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

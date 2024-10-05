@@ -1,0 +1,97 @@
+{
+    "id": 100109,
+    "stageLevel": 7,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 2,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 7,
+    "story": {
+        "enter": [
+            "1D306B"
+        ],
+        "exit": [
+            "1D306A"
+        ],
+        "others": [
+            {
+                "phase": "STORY_AFTER_ABNORMALITY_CHOICE",
+                "storyIndex": -1,
+                "storyID": "1D306I"
+            },
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": 0,
+                "storyID": "1D306I2"
+            }
+        ]
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [
+        800801
+    ],
+    "stageScriptList": [
+        "MuckwormedApple_StoryDungeon"
+    ],
+    "eventScriptName": "MuckwormedApple",
+    "participantInfo": {
+        "min": 5,
+        "max": 5,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "LCorpCenter",
+                "mapSize": 40.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8008,
+                    "unitLevel": 8,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp1_Ally_3",
+                "Battle_Cp1_Enemy_2",
+                "Battle_Cp1_Enemy_3"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 13
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

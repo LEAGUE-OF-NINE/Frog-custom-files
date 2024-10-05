@@ -1,0 +1,115 @@
+{
+    "id": 6,
+    "stageLevel": 20,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 35,
+    "recommendedLevel": 20,
+    "story": {
+        "enter": [],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [
+        801501,
+        801502
+    ],
+    "stageScriptList": [
+        "PinkShoe"
+    ],
+    "eventScriptName": "PinkShoe_Easy",
+    "participantInfo": {
+        "min": 5,
+        "max": 5,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Ab_PinkShoes",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8709,
+                    "unitLevel": 20,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8710,
+                    "unitLevel": 20,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8711,
+                    "unitLevel": 20,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp2_Ally_3",
+                "Battle_Cp2_Enemy_3"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 16
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [
+        {
+            "type": "ITEM",
+            "rewardId": 1,
+            "num": 1,
+            "prob": 0.5
+        },
+        {
+            "type": "EXP",
+            "rewardId": 1,
+            "num": 1,
+            "prob": 1.0
+        },
+        {
+            "type": "ITEM",
+            "rewardId": 1,
+            "num": 100,
+            "prob": 1.0
+        }
+    ],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

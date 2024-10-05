@@ -1,0 +1,357 @@
+{
+    "id": 2110711,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "VIOLET",
+            "atkType": "SLASH",
+            "defType": "ATTACK",
+            "skillMotion": "Default",
+            "viewType": "SKILL",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 3,
+            "defaultValue": 21,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EDimensionShredderTargetAddByMaxResonance_condition4_adder1_limit0",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "EDimensionShredderConvertSelfHpToBuff",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 10,
+                        "activeRound": 0,
+                        "value": 15.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "EDimensionShredderDmgMulitplierAfterUseBuffTurn_Charge40_value1_limit10",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": 25,
+            "skillLevelCorrection": 5,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "EDimensionShredderGiveBuffOnSucceedAttackBaseChargeStack",
+                            "buffData": {
+                                "buffKeyword": "DimensionRift",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": -1.0,
+                                "limit": 1
+                            }
+                        },
+                        {
+                            "scriptName": "EDimensionShredderAddBuffSelfViaChargeStack_Agility_ChargeLoad_limit1",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnKillTarget",
+                            "buffData": {
+                                "buffKeyword": "Charge",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 2,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 9,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": 21,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EDimensionShredderTargetAddByMaxResonance_condition3_adder1_limit0",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "EDimensionShredderConvertSelfHpToBuff",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 10,
+                        "activeRound": 0,
+                        "value": 15.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "EDimensionShredderDmgMulitplierAfterUseBuffTurn_Charge40_value1_limit20",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "EDimensionShredderGiveBuffOnSucceedAttackBaseChargeStack",
+                            "buffData": {
+                                "buffKeyword": "DimensionRift",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": -1.0,
+                                "limit": 2
+                            }
+                        },
+                        {
+                            "scriptName": "EDimensionShredderAddBuffSelfViaChargeStack_Agility_ChargeLoad_limit2",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnKillTarget",
+                            "buffData": {
+                                "buffKeyword": "Charge",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 2,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 9,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": 4,
+            "defaultValue": 21,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EDimensionShredderTargetAddByMaxResonanceSub_condition2_adder0_limit2",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "EDimensionShredderConvertSelfHpToBuff",
+                    "buffData": {
+                        "buffKeyword": "Charge",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 10,
+                        "activeRound": 0,
+                        "value": 10.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "EDimensionShredderDmgMulitplierAfterUseBuffTurn_Charge40_value1_limit30",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "EDimensionShredderGiveBuffOnSucceedAttackBaseChargeStack",
+                            "buffData": {
+                                "buffKeyword": "DimensionRift",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": -1.0,
+                                "limit": 2
+                            }
+                        },
+                        {
+                            "scriptName": "EDimensionShredderAddBuffSelfViaChargeStack_Agility_ChargeLoad_limit3",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnKillTarget",
+                            "buffData": {
+                                "buffKeyword": "Charge",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 2,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 9,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "EGO_AWAKEN"
+}

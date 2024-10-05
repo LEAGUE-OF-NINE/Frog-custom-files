@@ -1,0 +1,129 @@
+{
+    "id": 10409,
+    "unitScriptID": "",
+    "viewid": 10409,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10409_Ryoshu_YuroAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 71,
+        "incrementByLevel": 2.4000000953674318
+    },
+    "defCorrection": 0,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+    ],
+    "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1040904
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            40,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 1.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1040901
+        },
+        {
+            "number": 2,
+            "skillId": 1040902
+        },
+        {
+            "number": 1,
+            "skillId": 1040903
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "YURODIVY"
+    ],
+    "unitKeywordList": [
+        "CLAN",
+        "SMALL"
+    ],
+    "characterId": 4,
+    "season": 4,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "EVENT",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "SCARLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

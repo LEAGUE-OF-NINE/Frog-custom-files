@@ -1,0 +1,99 @@
+{
+    "id": 10448,
+    "stageLevel": 35,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 1,
+    "staminaType": "",
+    "staminaCost": 20,
+    "recommendedLevel": 35,
+    "story": {
+        "enter": [
+            "S448B"
+        ],
+        "exit": [
+            "S448A"
+        ],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "15"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "EgoAwaken_Dongbaek"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 7,
+        "max": 7,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp4_SheddingTears",
+                "mapSize": 33.33000183105469
+            },
+            "unitList": [
+                {
+                    "unitID": 8044,
+                    "unitLevel": 35,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [
+                {
+                    "unitID": 8054,
+                    "unitLevel": 35,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8055,
+                    "unitLevel": 35,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp4_Ally_3",
+                "Battle_Cp4_Enemy_3",
+                "Battle_Cp4_DongbaekBattle"
+            ],
+            "allyPositionID": 33,
+            "enemyPositionID": 29
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

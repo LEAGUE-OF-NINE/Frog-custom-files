@@ -1,0 +1,105 @@
+{
+    "id": 10506,
+    "stageLevel": 39,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 39,
+    "story": {
+        "enter": [
+            "5D105B"
+        ],
+        "exit": [
+            "5D105A"
+        ],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "a1c5p1_4_2"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 6,
+        "max": 6,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp5_PequodTown",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8103,
+                    "unitLevel": 39,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [
+                {
+                    "unitID": 8110,
+                    "unitLevel": 39,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8111,
+                    "unitLevel": 39,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp5_Ally_4",
+                "Battle_Cp5_Enemy_5"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 54
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [
+        {
+            "type": "EGO_GIFT",
+            "rewardId": 2018,
+            "num": 1,
+            "prob": 1.0
+        }
+    ],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

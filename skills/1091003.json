@@ -1,0 +1,311 @@
+{
+    "id": 1091003,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "SHAMROCK",
+            "atkType": "SLASH",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 5,
+            "abilityScriptList": [
+                {
+                    "scriptName": "AttackDmgUpByRatioViaBuffCheckDevideByStackWithLimit40",
+                    "buffData": {
+                        "buffKeyword": "DevyatDimensionalSack",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.019999999552965165,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "TenthRodionCoinAdderSkillAbility10And6And1And1",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "TenthRodionThirdSkillAbility1And10And0",
+                    "buffData": {
+                        "buffKeyword": "Burst",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 15,
+                        "turn": 3,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": 0,
+            "skillLevelCorrection": 4,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack(limit:1)",
+                            "buffData": {
+                                "buffKeyword": "Burst",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "DmgUpByBuff",
+                            "buffData": {
+                                "buffKeyword": "DevyatDimensionalSack",
+                                "target": "",
+                                "buffOwner": "Self",
+                                "stack": 15,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.15000000596046449,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnBreakOrKillTarget(limit:1)",
+                            "buffData": {
+                                "buffKeyword": "Agility",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "TenthRodionThirdSkillRerollCoinAbility",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "AttackDmgUpByRatioViaBuffCheckDevideByStackWithLimit80",
+                    "buffData": {
+                        "buffKeyword": "DevyatDimensionalSack",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.03999999910593033,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "TenthRodionCoinAdderSkillAbility10And6And1And2",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "TenthRodionThirdSkillAbility1And10And0",
+                    "buffData": {
+                        "buffKeyword": "Burst",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 15,
+                        "turn": 3,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "TenthRodionThirdSkillSecondCoinAbility10(limit:1)",
+                            "buffData": {
+                                "buffKeyword": "Burst",
+                                "target": "Target",
+                                "buffOwner": "Self",
+                                "stack": 0,
+                                "turn": 3,
+                                "activeRound": 0,
+                                "value": 1.0,
+                                "limit": 2
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "DmgUpByBuff",
+                            "buffData": {
+                                "buffKeyword": "DevyatDimensionalSack",
+                                "target": "",
+                                "buffOwner": "Self",
+                                "stack": 15,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.25,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnBreakOrKillTarget(limit:1)",
+                            "buffData": {
+                                "buffKeyword": "Agility",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "TenthRodionThirdSkillRerollCoinAbility",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [
+        "CheckAwakenLevel3"
+    ],
+    "skillType": "SKILL"
+}

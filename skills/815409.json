@@ -1,0 +1,132 @@
+{
+    "id": 815409,
+    "textID": -1,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "CRIMSON",
+            "atkType": "SLASH",
+            "defType": "ATTACK",
+            "skillMotion": "S6",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NONE",
+            "canDuel": "true",
+            "canChangeTarget": "false",
+            "targetNum": 1,
+            "defaultValue": 29,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "AttackLowestHpTarget",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnKillTargetByDuplicateStack_Grudge",
+                    "buffData": {
+                        "buffKeyword": "Grudge",
+                        "target": "Self",
+                        "buffOwner": "Self",
+                        "stack": -1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "HealHpOnKillTargetAbnormalityNSelfViaBuffCheckDevideByStack",
+                    "buffData": {
+                        "buffKeyword": "Grudge",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 5,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "RANDOM",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 5,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 5,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "SUB",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveAdditionalBuffStackDmgOnSuccessAttack",
+                            "buffData": {
+                                "buffKeyword": "Grudge",
+                                "target": "Target",
+                                "buffOwner": "Self",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 1.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 5,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillType": "SKILL"
+}

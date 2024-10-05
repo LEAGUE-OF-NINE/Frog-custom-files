@@ -1,0 +1,129 @@
+{
+    "id": 10204,
+    "unitScriptID": "",
+    "viewid": 10204,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10204_Faust_CromerAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.2799999713897707
+    },
+    "defCorrection": -1,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1020404
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            40,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 2.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 1.0
+            },
+            {
+                "type": "HIT",
+                "value": 0.5
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1020401
+        },
+        {
+            "number": 2,
+            "skillId": 1020402
+        },
+        {
+            "number": 1,
+            "skillId": 1020403
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "N_CORP",
+        "N_CORP_FNATIC"
+    ],
+    "unitKeywordList": [
+        "SMALL"
+    ],
+    "characterId": 2,
+    "season": 1,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "SCARLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

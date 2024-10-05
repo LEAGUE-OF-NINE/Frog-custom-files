@@ -1,0 +1,11 @@
+{
+  "CRIMSON": {"a":0,"id":"CRIMSON","name":"Wrath","desc":"Unknown"},
+  "SCARLET": {"a":0,"id":"SCARLET","name":"Lust","desc":"Unknown"},
+  "AMBER": {"a":0,"id":"AMBER","name":"Sloth","desc":"Unknown"},
+  "SHAMROCK": {"a":0,"id":"SHAMROCK","name":"Glut.","desc":"Unknown"},
+  "AZURE": {"a":0,"id":"AZURE","name":"Gloom","desc":"Unknown"},
+  "INDIGO": {"a":0,"id":"INDIGO","name":"Pride","desc":"Unknown"},
+  "VIOLET": {"a":0,"id":"VIOLET","name":"Envy","desc":"Unknown"},
+  "WHITE": {"a":0,"id":"WHITE","name":"Mad.","desc":"Unknown"},
+  "BLACK": {"a":0,"id":"BLACK","name":"Angst","desc":"Unknown"}
+}

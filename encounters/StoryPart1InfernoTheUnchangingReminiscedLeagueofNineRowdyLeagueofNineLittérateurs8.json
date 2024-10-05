@@ -1,0 +1,111 @@
+{
+    "id": 10418,
+    "stageLevel": 34,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 34,
+    "story": {
+        "enter": [
+            "4D204B"
+        ],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 1,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [
+        804601
+    ],
+    "stageScriptList": [
+        "AbnormalityEvent"
+    ],
+    "eventScriptName": "UmbrellaFox",
+    "participantInfo": {
+        "min": 5,
+        "max": 5,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp4_BandofnineSummer",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8046,
+                    "unitLevel": 34,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8052,
+                    "unitLevel": 33,
+                    "unitCount": 4,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [
+                {
+                    "unitID": 8052,
+                    "unitLevel": 33,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp4_Ally_6",
+                "Battle_Cp4_Enemy_6"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 31
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [
+        {
+            "type": "EGO_GIFT",
+            "rewardId": 9011,
+            "num": 1,
+            "prob": 1.0
+        },
+        {
+            "type": "EGO_GIFT",
+            "rewardId": 2013,
+            "num": 1,
+            "prob": 1.0
+        }
+    ],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

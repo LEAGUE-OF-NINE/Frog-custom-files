@@ -1,0 +1,190 @@
+{
+    "id": 405,
+    "stageLevel": 50,
+    "stageType": "Abnormality",
+    "isBatonPassOn": true,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 10.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 45,
+    "story": {
+        "enter": [],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [
+        860801
+    ],
+    "stageScriptList": [
+        "8608"
+    ],
+    "eventScriptName": "8608",
+    "participantInfo": {
+        "min": 6,
+        "max": 6,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "LCorpCenter",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8311,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8304,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8306,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8310,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8312,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8309,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [
+                {
+                    "unitID": 8314,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8308,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8305,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8307,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8315,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8313,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 4,
+                    "isHide": false
+                }
+            ],
+            "isBatonPassOn": true,
+            "bgmList": [
+                "Battle_Cp1_Ally_3",
+                "Battle_Cp1_Enemy_3"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 2
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "Ab_ElectricSheep",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8608,
+                    "unitLevel": 50,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [
+                {
+                    "unitID": 8628,
+                    "unitLevel": 50,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": true
+                }
+            ],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp6_Enemy_6"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 86
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

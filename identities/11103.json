@@ -1,0 +1,127 @@
+{
+    "id": 11103,
+    "unitScriptID": "",
+    "viewid": 11103,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "11103_Outis_GCorpAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 76,
+        "incrementByLevel": 2.5999999046325685
+    },
+    "defCorrection": 2,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+    ],
+    "maxSpeedList": [
+        6,
+        7,
+        8,
+        8
+    ],
+    "defenseSkillIDList": [
+        1110304
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            65,
+            35
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 1.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1110301
+        },
+        {
+            "number": 2,
+            "skillId": 1110302
+        },
+        {
+            "number": 1,
+            "skillId": 1110303
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "G_CORP"
+    ],
+    "unitKeywordList": [
+        "SMALL"
+    ],
+    "characterId": 11,
+    "season": 1,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "AMBER",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

@@ -1,0 +1,140 @@
+{
+  "list": [
+    {
+      "id": 10215,
+      "appearance": "!custom_liu_faust",
+      "unitKeywordList": ["FIXER","SMALL"],
+      "associationList": ["LIU"],
+      "characterId": 2,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        1020001504
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 76,
+        "incrementByLevel": 3.1
+      },
+      "defCorrection": -2,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        8,
+        8
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 1,
+            "passiveIdList": [ 
+              1020401,
+              1090811
+
+            ]
+          },
+          {
+            "level": 2,
+            "passiveIdList": [ 
+              1020401,
+              1090811
+
+            ]
+          },
+          {
+            "level": 4,
+            "passiveIdList": [ 
+              1020401,
+              1090811
+
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": [ 
+              1020421
+
+            ]
+          }
+        ]
+      },
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          15
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 1020001501,
+          "number": 3
+        },
+        {
+          "skillId": 1020001502,
+          "number": 2
+        },
+        {
+          "skillId": 1020001503,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}

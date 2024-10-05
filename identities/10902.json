@@ -1,0 +1,129 @@
+{
+    "id": 10902,
+    "unitScriptID": "",
+    "viewid": 10902,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10902_Rodion_BlackCloudAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 86,
+        "incrementByLevel": 2.9600000381469728
+    },
+    "defCorrection": 2,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        1,
+        1,
+        2,
+        2
+    ],
+    "maxSpeedList": [
+        4,
+        5,
+        5,
+        5
+    ],
+    "defenseSkillIDList": [
+        1090204,
+        1090205
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            60,
+            30
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 1.0
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1090201
+        },
+        {
+            "number": 2,
+            "skillId": 1090202
+        },
+        {
+            "number": 1,
+            "skillId": 1090203
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "BLACK_CLOUD"
+    ],
+    "unitKeywordList": [
+        "CLAN",
+        "SMALL"
+    ],
+    "characterId": 9,
+    "season": 0,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "AZURE",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

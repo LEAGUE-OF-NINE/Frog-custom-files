@@ -1,0 +1,109 @@
+{
+    "id": 10432,
+    "stageLevel": 35,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 35,
+    "story": {
+        "enter": [
+            "4D304B"
+        ],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 1,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "Distorted_Dongrang"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 7,
+        "max": 7,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp4_DonglangBattle_v1",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8049,
+                    "unitLevel": 35,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [
+                {
+                    "unitID": 8056,
+                    "unitLevel": 35,
+                    "unitCount": 4,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8057,
+                    "unitLevel": 35,
+                    "unitCount": 4,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8057,
+                    "unitLevel": 35,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp4_DongLangBattle"
+            ],
+            "allyPositionID": 33,
+            "enemyPositionID": 39
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [
+        {
+            "type": "EGO_GIFT",
+            "rewardId": 2015,
+            "num": 1,
+            "prob": 1.0
+        }
+    ],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

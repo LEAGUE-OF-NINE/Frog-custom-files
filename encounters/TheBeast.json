@@ -1,0 +1,90 @@
+{
+    "id": 10634,
+    "stageLevel": 45,
+    "stageType": "Abnormality",
+    "isBatonPassOn": false,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 20.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 20,
+    "recommendedLevel": 45,
+    "story": {
+        "enter": [
+            "S634B"
+        ],
+        "exit": [
+            "S634A"
+        ],
+        "others": [
+            {
+                "phase": "BEFORE_ROUND_END",
+                "storyIndex": -1,
+                "storyID": "S634I"
+            }
+        ]
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [
+        816401
+    ],
+    "stageScriptList": [
+        "8164"
+    ],
+    "eventScriptName": "8164",
+    "participantInfo": {
+        "min": 6,
+        "max": 6,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp6_Mansion_Laboratory_B2",
+                "mapSize": 20.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8164,
+                    "unitLevel": 45,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp6_Middle_BossBattle"
+            ],
+            "allyPositionID": 65,
+            "enemyPositionID": 67
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

@@ -1,0 +1,140 @@
+{
+    "id": 11207,
+    "unitScriptID": "",
+    "viewid": 11207,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "11207_Gregor_SmeeAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.2799999713897707
+    },
+    "defCorrection": -3,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1120704
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            40,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 1.0
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1120701
+        },
+        {
+            "number": 2,
+            "skillId": 1120702
+        },
+        {
+            "number": 1,
+            "skillId": 1120703
+        }
+    ],
+    "initBuffList": [
+        {
+            "level": 3,
+            "list": [
+                {
+                    "buff": "Bullet",
+                    "stack": 7,
+                    "turn": 0
+                }
+            ]
+        }
+    ],
+    "associationList": [
+        "DUAL_HOOK_PIRATE"
+    ],
+    "unitKeywordList": [
+        "CLAN",
+        "SMALL"
+    ],
+    "characterId": 12,
+    "season": 3,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "SCARLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

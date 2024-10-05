@@ -1,0 +1,552 @@
+{
+    "id": 1100000303,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "AMBER",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 10,
+            "defaultValue": 30,
+            "abilityScriptList": [
+                {
+                    "scriptName": "GiveBuffOnBattleStart",
+                    "buffData": {
+                        "buffKeyword": "Protection",
+                        "target": "EveryAlly",
+                        "buffOwner": "",
+                        "stack": 10,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnBattleStart",
+                    "buffData": {
+                        "buffKeyword": "DefenseUp",
+                        "target": "EveryAlly",
+                        "buffOwner": "",
+                        "stack": 50,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": 0,
+            "skillLevelCorrection": -2,
+            "range": 7.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SwitchVibrationOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "VibrationEcho",
+                                "target": "",
+                                "buffOwner": "Target",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Vulnerable",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "EveryAlly",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "EveryAlly",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "EveryAlly",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "EveryAlly",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "2020611_gaksung",
+                    "buffData": {
+                        "buffKeyword": "Vibration",
+                        "target": "Target",
+                        "buffOwner": "",
+                        "stack": 4,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 3.0,
+                        "limit": 20
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnBattleStart",
+                    "buffData": {
+                        "buffKeyword": "Protection",
+                        "target": "EveryAlly",
+                        "buffOwner": "",
+                        "stack": 10,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnBattleStart",
+                    "buffData": {
+                        "buffKeyword": "DefenseUp",
+                        "target": "EveryAlly",
+                        "buffOwner": "",
+                        "stack": 50,
+                        "turn": 0,
+                        "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "AddTauntOnUse10",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Vibration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 20,
+                                "turn": 20,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "SwitchVibrationOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "VibrationEcho",
+                                "target": "",
+                                "buffOwner": "Target",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Vulnerable",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "EveryAlly",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "EveryAlly",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "EveryAlly",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Enhancement",
+                                "target": "EveryAlly",
+                                "buffOwner": "",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 20,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": true
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [
+        "CheckAwakenLevel3"
+    ],
+    "skillType": "SKILL"
+}

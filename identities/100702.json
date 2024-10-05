@@ -1,0 +1,174 @@
+{
+    "id": 100702,
+    "unitScriptID": "",
+    "viewid": 10702,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10702_Heathclif_4Appearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 174,
+        "incrementByLevel": 4.820000171661377
+    },
+    "defCorrection": 1,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        1,
+        1,
+        2,
+        4
+    ],
+    "maxSpeedList": [
+        4,
+        5,
+        5,
+        6
+    ],
+    "defenseSkillIDList": [
+        1070204
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            85
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 2.0
+            },
+            {
+                "type": "HIT",
+                "value": 1.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [
+            0,
+            0,
+            0
+        ],
+        "supportPassiveIdList": [
+            0
+        ]
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 10070201
+        },
+        {
+            "number": 2,
+            "skillId": 10070202
+        },
+        {
+            "number": 1,
+            "skillId": 10070203
+        }
+    ],
+    "initBuffList": [
+        {
+            "level": 1,
+            "list": [
+                {
+                    "buff": "BreathSupport",
+                    "stack": 1,
+                    "turn": 0
+                },
+                {
+                    "buff": "Breath",
+                    "stack": 4,
+                    "turn": 0
+                },
+                {
+                    "buff": "GainSinStockAdder",
+                    "stack": 0,
+                    "turn": 0
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "list": [
+                {
+                    "buff": "BreathSupport",
+                    "stack": 1,
+                    "turn": 0
+                },
+                {
+                    "buff": "Breath",
+                    "stack": 4,
+                    "turn": 0
+                },
+                {
+                    "buff": "GainSinStockAdder",
+                    "stack": 0,
+                    "turn": 0
+                }
+            ]
+        }
+    ],
+    "associationList": [
+        "SHI"
+    ],
+    "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+    ],
+    "characterId": 7,
+    "season": 0,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "SCARLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

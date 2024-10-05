@@ -1,0 +1,139 @@
+{
+    "id": 10510,
+    "unitScriptID": "",
+    "viewid": 10510,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10510_Meursault_DieciAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 82,
+        "incrementByLevel": 2.819999933242798
+    },
+    "defCorrection": 2,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        3,
+        4,
+        4,
+        4
+    ],
+    "maxSpeedList": [
+        5,
+        5,
+        6,
+        6
+    ],
+    "defenseSkillIDList": [
+        1051004
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            65,
+            35
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 2.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 1.0
+            },
+            {
+                "type": "HIT",
+                "value": 0.5
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1051001
+        },
+        {
+            "number": 2,
+            "skillId": 1051002
+        },
+        {
+            "number": 1,
+            "skillId": 1051003
+        }
+    ],
+    "initBuffList": [
+        {
+            "level": 1,
+            "list": [
+                {
+                    "buff": "KnowledgeExplored",
+                    "stack": 1,
+                    "turn": 0
+                }
+            ]
+        }
+    ],
+    "associationList": [
+        "DIECI"
+    ],
+    "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+    ],
+    "characterId": 5,
+    "season": 0,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "SHAMROCK",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

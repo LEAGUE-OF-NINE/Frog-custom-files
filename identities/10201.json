@@ -1,0 +1,129 @@
+{
+    "id": 10201,
+    "unitScriptID": "",
+    "viewid": 10201,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10201_Faust_BaseAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 84,
+        "incrementByLevel": 2.9000000953674318
+    },
+    "defCorrection": 1,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        1,
+        2,
+        2,
+        2
+    ],
+    "maxSpeedList": [
+        3,
+        3,
+        4,
+        4
+    ],
+    "defenseSkillIDList": [
+        1020104
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            60,
+            30,
+            15
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 2.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 1.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1020101
+        },
+        {
+            "number": 2,
+            "skillId": 1020102
+        },
+        {
+            "number": 1,
+            "skillId": 1020103
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "LIMBUS_COMPANY"
+    ],
+    "unitKeywordList": [
+        "BASE_APPEARANCE",
+        "SMALL"
+    ],
+    "characterId": 2,
+    "season": 0,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 1,
+    "uniqueAttribute": "INDIGO",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

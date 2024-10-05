@@ -1,0 +1,126 @@
+{
+    "id": 10605,
+    "unitScriptID": "",
+    "viewid": 10605,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10605_Honglu_KsuitAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 99,
+        "incrementByLevel": 3.4100000858306886
+    },
+    "defCorrection": 5,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        1,
+        2,
+        2,
+        2
+    ],
+    "maxSpeedList": [
+        5,
+        5,
+        6,
+        6
+    ],
+    "defenseSkillIDList": [
+        1060504
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            50
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 2.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 1.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1060501
+        },
+        {
+            "number": 2,
+            "skillId": 1060502
+        },
+        {
+            "number": 1,
+            "skillId": 1060503
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "K_CORP"
+    ],
+    "unitKeywordList": [
+        "SMALL"
+    ],
+    "characterId": 6,
+    "season": 2,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "SHAMROCK",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}
