@@ -142,13 +142,9 @@
               {
                 "desc": "[OnSucceedAttackTail] Inflict +2 Bleed Count",
                 "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
+              },
               {
-                "desc": "[OnSucceedAttackTail] Inflict +2 Bleed Count",
+                "desc": "[OnSucceedAttack] Inflict bonus Pride Damage equal to [Breath] on self",
                 "summary": ""
               }
             ]
@@ -158,17 +154,37 @@
               {
                 "desc": "[OnSucceedAttackTail] Inflict +2 Bleed Count",
                 "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict bonus Pride Damage equal to [Breath] on self",
+                "summary": ""
               }
             ]
           },
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict 3 Bleed",
+                "desc": "[OnSucceedAttackTail] Inflict +2 Bleed Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict bonus Pride Damage equal to [Breath] on self",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 Bleed",
                 "summary": ""
               },
               {
                 "desc": "[OnSucceedAttack] Inflict 5 Paralyze next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict bonus Pride Damage equal to [Breath] on self",
                 "summary": ""
               }
             ]

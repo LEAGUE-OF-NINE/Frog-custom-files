@@ -159,7 +159,7 @@
               }
             },
             {
-              "scriptName": "10508012(limit:4)",
+              "scriptName": "10508012(limit:2)",
               "buffData": {
                 "buffKeyword": "BladeResultUpTier1",
                 "target": "Custom",
@@ -673,7 +673,7 @@
           "targetNum": 1,
           "mpUsage": 0,
           "skillLevelCorrection": 5,
-          "defaultValue": 28,
+          "defaultValue": 22,
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -913,22 +913,18 @@
                     "turn": 2,
                     "activeRound": 0
                   }
-                }
-              ]
-            },
-            {
-              "operatorType": "SUB",
-              "scale": 4,
-              "abilityScriptList": [
+                },
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_INDIGO",
                   "buffData": {
-                    "buffKeyword": "Laceration",
+                    "buffKeyword": "Breath",
                     "target": "Target",
-                    "buffOwner": "",
+                    "buffOwner": "Self",
                     "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 1.0,
+                    "limit": 0
                   }
                 }
               ]
@@ -946,6 +942,49 @@
                     "stack": 0,
                     "turn": 2,
                     "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_INDIGO",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 1.0,
+                    "limit": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_INDIGO",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 1.0,
+                    "limit": 0
                   }
                 }
               ]
@@ -960,7 +999,7 @@
                     "buffKeyword": "Laceration",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 3,
+                    "stack": 5,
                     "turn": 0,
                     "activeRound": 0
                   }
@@ -974,6 +1013,19 @@
                     "stack": 5,
                     "turn": 0,
                     "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_INDIGO",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 1.0,
+                    "limit": 0
                   }
                 }
               ]
