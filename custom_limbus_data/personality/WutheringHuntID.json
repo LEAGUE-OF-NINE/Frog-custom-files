@@ -1,24 +1,25 @@
 {
   "list": [
     {
-      "id": 10558,
-      "appearance": "!custom_distorting_bl_sault",
+      "id": 10728,
+      "appearance": "10710_Heathclif_WHuntAppearance",
       "unitKeywordList": [
+        "SMALL",
         "CLAN",
-        "SMALL"
+        "WILD_HUNT_HEATH"
       ],
       "associationList": [
+        "WILD_HUNT",
+        "WUTHERING_HEIGHTS",
         "BLADE_LINEAGE"
       ],
-      "characterId": 5,
-      "panicType": 1016,
-      "season": 3,
-      "additionalAttachment": "EVENT",
-      "isPlusCoinUnit": false,
+      "characterId": 7,
+      "panicType": 9999,
+      "season": 4,
+      "unitScriptID": "10710",
       "defenseSkillIDList": [
-        10508006,
-        10508005,
-        10508004
+        10710004,
+        1071006
       ],
       "panicSkillOnErosion": 1000104,
       "slotWeightConditionList": [
@@ -26,40 +27,43 @@
       ],
       "rank": 3,
       "hp": {
-        "defaultStat": 82,
-        "incrementByLevel": 2.73
+        "defaultStat": 73,
+        "incrementByLevel": 2.51
       },
-      "defCorrection": 3,
+      "defCorrection": -2,
       "minSpeedList": [
         3,
         3,
-        4,
-        4
+        3,
+        3
       ],
       "maxSpeedList": [
         5,
         6,
-        6,
-        6
+        8,
+        8
       ],
       "passiveSet": {
         "passiveIdList": [
           {
             "level": 1,
             "passiveIdList": [
-              1050811
+              1071002,
+              1071011
             ]
           },
           {
             "level": 2,
             "passiveIdList": [
-              1050811
+              1071002,
+              1071011
             ]
           },
           {
             "level": 4,
             "passiveIdList": [
-              1050811
+              1071002,
+              1071011
             ]
           }
         ],
@@ -67,19 +71,25 @@
           {
             "level": 3,
             "passiveIdList": [
-              1050821
+              1071021
             ]
           }
         ]
       },
-      "uniqueAttribute": "INDIGO",
+      "uniqueAttribute": "VIOLET",
       "mentalConditionInfo": {
         "add": [
           {
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyMp10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAlly5"
               }
             ]
           }
@@ -89,13 +99,7 @@
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnWinDuelAsParryingCountMultiply5AndPlus20Percent"
-              },
-              {
-                "conditionID": "OnDieAllyAsLevelRatio10"
-              },
-              {
-                "conditionID": "OnDieBladeLineageAlly10"
+                "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
               }
             ]
           }
@@ -103,7 +107,8 @@
       },
       "breakSection": {
         "sectionList": [
-          80,
+          65,
+          35,
           20
         ]
       },
@@ -111,7 +116,7 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 2
+            "value": 0.5
           },
           {
             "type": "PENETRATE",
@@ -119,22 +124,26 @@
           },
           {
             "type": "HIT",
-            "value": 0.5
+            "value": 2
           }
         ]
       },
       "attributeList": [
         {
-          "skillId": 10508001,
+          "skillId": 10710001,
           "number": 3
         },
         {
-          "skillId": 10508002,
+          "skillId": 10710002,
           "number": 2
         },
         {
-          "skillId": 10508003,
+          "skillId": 10710003,
           "number": 1
+        },
+        {
+          "skillId": 1071005,
+          "number": 0
         }
       ]
     }

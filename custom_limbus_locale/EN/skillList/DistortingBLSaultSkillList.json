@@ -119,6 +119,38 @@
               {
                 "desc": "[OnSucceedAttack] Gain 2 [Breath]",
                 "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Gain +2 [Breath] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [Breath]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Gain +2 [Breath] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [Breath]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Gain +2 [Breath] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Pride Affinity damage equal to ([Breath] on self * 2)",
+                "summary": ""
               }
             ]
           }
@@ -144,7 +176,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict bonus Pride Damage equal to [Breath] on self",
+                "desc": "[OnSucceedAttack] Inflict Pride Affinity damage equal to [Breath] on self",
                 "summary": ""
               }
             ]
@@ -156,7 +188,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict bonus Pride Damage equal to [Breath] on self",
+                "desc": "[OnSucceedAttack] Inflict Pride Affinity damage equal to [Breath] on self",
                 "summary": ""
               }
             ]
@@ -168,7 +200,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict bonus Pride Damage equal to [Breath] on self",
+                "desc": "[OnSucceedAttack] Inflict Pride Affinity damage equal to [Breath] on self",
                 "summary": ""
               }
             ]
@@ -184,7 +216,30 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict bonus Pride Damage equal to [Breath] on self",
+                "desc": "[OnSucceedAttack] Inflict Pride Affinity damage equal to [Breath] on self",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10508006": {
+    "a": 0,
+    "id": "10508006",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If the target has 7+ [Laceration], Coin Power -2\n[OnSucceedEvade] After successfully evading, attack using 'Overthrow' ",
+        "name": "Blade Dance",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedEvade] Gain +2 [Breath] Count (Max 3)",
                 "summary": ""
               }
             ]
