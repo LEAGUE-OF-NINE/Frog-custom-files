@@ -4,13 +4,17 @@
       "id": 107003,
       "viewID": 10703,
       "appearance": "10703_Heathclif_RCorpAppearance",
-      "unitKeywordList": ["SMALL"],
-      "associationList": ["R_CORP"],
+      "unitKeywordList": [
+        "SMALL"
+      ],
+      "associationList": [
+        "R_CORP"
+      ],
       "characterId": 7,
       "panicType": 9999,
       "season": 0,
       "defenseSkillIDList": [
-        1070304
+        1070303
       ],
       "initBuffList": [
         {
@@ -27,7 +31,7 @@
           "list": [
             {
               "buff": "Bullet",
-              "stack": 20
+              "stack": 199
             }
           ]
         }
@@ -58,44 +62,40 @@
         "passiveIdList": [
           {
             "level": 1,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1070311,
               9101605,
               9101602,
               9101606,
               804305
-
             ]
           },
           {
             "level": 2,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1070311,
               9101605,
               9101602,
               9101606,
               804305
-
             ]
           },
           {
             "level": 4,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1070311,
               9101605,
               9101602,
               9101606,
               804305
-
             ]
           }
         ],
         "supportPassiveIdList": [
           {
             "level": 3,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1050611
-
             ]
           }
         ]

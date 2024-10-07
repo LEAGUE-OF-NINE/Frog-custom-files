@@ -866,9 +866,9 @@
             {
               "scriptName": "CoinScaleAdderSelfViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Vibration",
+                "buffKeyword": "DefenseUp",
                 "target": "",
-                "buffOwner": "Target",
+                "buffOwner": "Self",
                 "stack": 0,
                 "turn": 6,
                 "activeRound": 0,
@@ -911,16 +911,14 @@
               "scale": 5,
               "abilityScriptList": [
                 {
-                  "scriptName": "YurodivyRyoshuFirstSkillCoinAbility_DefenseUp",
+                  "scriptName": "GiveBuffOnSucceedAttackDevideByStackWithLimit8_DefenseUp2",
                   "buffData": {
                     "buffKeyword": "AttackUp",
                     "target": "LowestHpRatioAlly2",
                     "buffOwner": "Self",
-                    "stack": -1,
-                    "turn": -1,
-                    "activeRound": 1,
-                    "value": 0.5,
-                    "limit": 4
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
                   }
                 }
               ]
@@ -1091,7 +1089,7 @@
               }
             },
             {
-              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByTurnWithLimit2",
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
               "buffData": {
                 "buffKeyword": "DefenseUp",
                 "target": "",
