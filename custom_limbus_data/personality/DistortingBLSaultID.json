@@ -79,7 +79,7 @@
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
+                "conditionID": "OnLoseDuelAsParryingCountMultiply7AndPlus10Percent"
               }
             ]
           }
@@ -89,7 +89,7 @@
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnWinDuelAsParryingCountMultiply5AndPlus20Percent"
+                "conditionID": "OnWinDuelAsParryingCountMultiply7AndPlus20Percent"
               },
               {
                 "conditionID": "OnDieAllyAsLevelRatio10"

@@ -133,7 +133,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max +2)\n[EndSkillAll] Lose SP equal to ([Binding] on self * 6)\n[WhenUse] Gain 4 [Paralysis] and 4 [Binding] next turn\n[WhenUse] When below -15 SP, Final Power +3\n[WhenUse] When below -25 SP, Final Power +2\n[EnemyKill] Gain +6 Tremor Count",
+        "desc": "[StartBattle] Spend 5 Tremor Count and gain +1 Atk Weight for this Skill (Max +2)\n[EndSkillAll] Lose SP equal to ([Binding] on self * 6)\n[WhenUse] Gain 4 [Paralysis] and 4 [Binding] next turn\n[WhenUse] When below -15 SP, Final Power +3\n[WhenUse] When below -25 SP, Final Power +3\n[EnemyKill] Gain +6 Tremor Count",
         "name": "Unleashed Violence",
         "rawDesc": "",
         "abName": "",
@@ -204,7 +204,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 150% of the final Stagger Threshold Raised by Tremor Burst. (Max 200)\nReduce Tremor Count by 1",
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst,\nThen deal Wrath Damage by 200% of the final Stagger Threshold Raised by Tremor Burst. (Max 200)\nReduce Tremor Count by 1",
                 "summary": ""
               }
             ]

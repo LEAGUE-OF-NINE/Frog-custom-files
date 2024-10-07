@@ -9,11 +9,11 @@
             "gaksungLevel": 1,
             "informationID": -1,
             "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "Default",
+            "viewType": "SKILL",
+            "parryingCloseType": "NEAR",
             "canDuel": "true",
             "canChangeTarget": "true",
             "targetNum": 1,
@@ -63,7 +63,7 @@
             "skillLevelCorrection": 0,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "FRONT",
             "canTeamKill": "false",
             "coinList": [
                 {
@@ -197,11 +197,11 @@
             "gaksungLevel": 3,
             "informationID": -1,
             "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -251,7 +251,7 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [],
             "actionList": []
@@ -262,11 +262,11 @@
             "gaksungLevel": 4,
             "informationID": -1,
             "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -288,7 +288,7 @@
                 {
                     "scriptName": "2020611_gaksung",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Vibration",
                         "target": "Target",
                         "buffOwner": "",
                         "stack": 2,
@@ -316,18 +316,18 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [
                 {
-                    "operatorType": "",
+                    "operatorType": "ADD",
                     "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Vibration",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": 10,
@@ -340,7 +340,7 @@
                         {
                             "scriptName": "PileUpVibrationOSA_VibrationNesting",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "VibrationContinue",
                                 "target": "Target",
                                 "buffOwner": "Target",
                                 "stack": 0,
@@ -370,7 +370,7 @@
                     "cutsceneStart": false
                 },
                 {
-                    "operatorType": "",
+                    "operatorType": "ADD",
                     "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
@@ -394,7 +394,7 @@
                     "cutsceneStart": false
                 },
                 {
-                    "operatorType": "",
+                    "operatorType": "ADD",
                     "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
@@ -418,7 +418,7 @@
                     "cutsceneStart": false
                 },
                 {
-                    "operatorType": "",
+                    "operatorType": "ADD",
                     "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
@@ -459,5 +459,5 @@
         }
     ],
     "requireIDList": [],
-    "skillType": ""
+    "skillType": "EGO_AWAKEN"
 }

@@ -3,8 +3,13 @@
     {
       "id": 11229,
       "appearance": "11209_Gregor_LintonAppearance",
-      "unitKeywordList": ["FIXER","SMALL"],
-      "associationList": ["CINQ"],
+      "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+      ],
+      "associationList": [
+        "CINQ"
+      ],
       "characterId": 12,
       "panicType": 9999,
       "season": 4,

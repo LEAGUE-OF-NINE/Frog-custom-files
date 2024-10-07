@@ -1,0 +1,323 @@
+{
+  "11002301": {
+    "a": 0,
+    "id": "11002301",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Gain +2 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 4 [Vibration] Count on self (max 2)",
+        "name": "Zwei Knight's Greatsword Form",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [DefenseUp] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [DefenseUp] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] Gain +<style=\"highlight\">3</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every <style=\"highlight\">3</style> [Vibration] Count on self (max 2)\n<style=\"highlight\">[WhenUse] At 4+ [DefenseUp], Base Power +1</style>",
+        "name": "Zwei Knight's Greatsword Form",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [DefenseUp] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Vibration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [DefenseUp] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 3 [DefenseUp]\n[WhenUse] If the target has 6+ Tremor Count, Clash Power +2\n[WinDuel] Gain +4 Tremor Count",
+        "name": "Suppressing",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[WinDuelAttack] Inflict +2 [Vibration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [DefenseUp] next turn<style=\"highlight\"></style>",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11002302": {
+    "a": 0,
+    "id": "11002302",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WinDuel] Gain +3 [Vibration] Count",
+        "name": "Can't Let You Through.",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Vibration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 [DefenseUp] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Vibration] equal to (([Vibration] Count on self)/2) (max 2)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] At 10+ [DefenseUp], inflict 1 [Reduction]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max <style=\"highlight\">4</style>)\n<style=\"highlight\">[WhenUse] At 5+ [DefenseUp], Coin Power +1</style>\n[WinDuel] Gain +3 [Vibration] Count",
+        "name": "Can't Let You Through.",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [Vibration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 [DefenseUp] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Vibration] equal to (([Vibration] Count on self)/2) (max <style=\"highlight\">3</style>)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] At 10+ [DefenseUp], inflict 1 [Reduction]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain +<style=\"highlight\">5</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max <style=\"highlight\">5</style>)\n[WhenUse] At <style=\"highlight\">6</style>+ [DefenseUp], Coin Power +1\n[WinDuel] Gain +4 [Vibration] Count",
+        "name": "Combat Preparation",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[WinDuelAttack] On 2 other allies with the lowest HP percentages, apply 3 [DefenseUp] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] On 2 other allies with [DefenseUp], apply (([DefenseUp] on the ally)/2) [AttackUp] next turn (Max 4)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11002303": {
+    "a": 0,
+    "id": "11002303",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max 3)\n[WhenUse] If this unit is in [DefensiveStance], deal +50% more damage\n[WhenUse] Coin Power +1 for every 4 [DefenseUp] on self (max 2)\n[WhenUse] Gain +8 [Aggro] to this Skill Slot next turn\n[WinDuel] Gain +3 [Vibration] Count",
+        "name": "Ward",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Vibration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Vibration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Consume all [Vibration] Count on self, and inflict the value of the Count consumed as [Vibration] on the target. (max 10)\n- Deal +(excess [Vibration] x 1.5)% more damage (max 30%)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If this unit is in [DefensiveStance], trigger [VibrationExplosion]; then, reduce the target's [Vibration] Count by 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain 1 [DefenseUp] for every 2 [Vibration] Count on self (max <style=\"highlight\">5</style>)\n[WhenUse] Coin Power +1 for every 4 [DefenseUp] on self (max <style=\"highlight\">2</style>)",
+        "name": "Fence",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] On 1 other ally with the lowest HP percentage, apply 3 [DefenseUp] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Consume up to 6 [Vibration] on self, and inflict the same amount of [Vibration] Count on target",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Trigger [VibrationExplosion]; then, reduce target's [Vibration] Count by 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11002304": {
+    "a": 0,
+    "id": "11002304",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[CanDuelGuard]\n[StartBattle] Gain 2 [DefensiveStance]. (once per turn)\n[WhenUse] Gain +10 [Vibration] Count (once per turn)",
+        "name": "Your Shield",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[CanDuelGuard]\n[WhenUse] Gain +<style=\"highlight\">5</style> [Aggro] to this Skill Slot next turn\n[WhenUse] Gain +6 [Vibration] Count (once per turn)\n<style=\"highlight\">[WinDuel] Trigger [VibrationExplosion]</style>",
+        "name": "Zwei Knight's Greatsword Form - Guard",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -13,7 +13,7 @@
     },
     "defCorrection": 1,
     "aggro": 1,
-    "panicType": 9999,
+    "panicType": 1004,
     "minSpeedList": [
         2,
         2,
@@ -35,10 +35,10 @@
                 "level": 1,
                 "conditionIDList": [
                     {
-                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                        "conditionID": "OnWinDuelAsParryingCountMultiply5AndPlus20Percent"
                     },
                     {
-                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply5"
                     },
                     {
                         "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
@@ -76,48 +76,19 @@
     "resistInfo": {
         "atkResistList": [
             {
-                "type": "",
+                "type": "SLASH",
                 "value": 0.5
             },
             {
-                "type": "",
+                "type": "PENETRATE",
                 "value": 2.0
             },
             {
-                "type": "",
+                "type": "HIT",
                 "value": 1.0
             }
         ],
-        "attributeResistList": [
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            }
-        ]
+        "attributeResistList": []
     },
     "passiveSet": {
         "passiveIdList": [

@@ -8,12 +8,12 @@
             "iconID": "",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "AMBER",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "Default",
+            "viewType": "SKILL",
+            "parryingCloseType": "NEAR",
             "canDuel": "true",
             "canChangeTarget": "true",
             "targetNum": 3,
@@ -50,7 +50,7 @@
             "skillLevelCorrection": 0,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "RANDOM",
             "canTeamKill": "true",
             "coinList": [
                 {
@@ -137,12 +137,12 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -179,7 +179,7 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [],
             "actionList": []
@@ -189,12 +189,12 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -216,7 +216,7 @@
                 {
                     "scriptName": "2020621_gaksung4th",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Vibration",
                         "target": "Custom",
                         "buffOwner": "",
                         "stack": 1,
@@ -231,18 +231,18 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [
                 {
-                    "operatorType": "",
+                    "operatorType": "SUB",
                     "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Vibration",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": 5,
@@ -255,7 +255,7 @@
                         {
                             "scriptName": "PileUpVibrationOSA_VibrationNesting",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "VibrationContinue",
                                 "target": "Target",
                                 "buffOwner": "Target",
                                 "stack": 0,
@@ -328,5 +328,5 @@
         }
     ],
     "requireIDList": [],
-    "skillType": ""
+    "skillType": "EGO_EROSION"
 }

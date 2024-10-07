@@ -91,7 +91,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +3% more damage on Critical Hit for every Poise Potency on self (Max 75%)\n+30% Damage on Critical Hit\nDeal +0.5% more damage per 1% missing HP on self (Max 25%)",
+        "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Final Power -1 for every 5 [Breath] on self (Max 6)\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +3% more damage on Critical Hit for every Poise Potency on self (Max 75%)\n+30% Damage on Critical Hit\nDeal +0.5% more damage per 1% missing HP on self (Max 25%)",
         "name": "Yield My Flesh",
         "rawDesc": "",
         "abName": "",
@@ -164,7 +164,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "<style=\"highlight\">[BeforeAttack] For every 7 [Breath] on self, Atk Weight +1 (Max +3)</style>\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +4% more damage on Critical Hit for every Poise Potency on self (Max 100%)\n+<style=\"highlight\">30</style>% Damage on Critical Hit\nDeal +1.0% more damage for every 1% missing HP on self (Max 50%)\n<style=\"highlight\">If this Skill targets only a single enemy, deal +100% more damage (In Focused Encounters, a single Part)</style>",
+        "desc": "<style=\"highlight\">[BeforeAttack] For every 7 [Breath] on self, Atk Weight +1 (Max +3)</style>\n[WhenUse] Final Power +1 for every 5 [Breath] on self (Max 6)\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WhenUse] Deal +4% more damage on Critical Hit for every Poise Potency on self (Max 100%)\n+<style=\"highlight\">30</style>% Damage on Critical Hit\nDeal +1.0% more damage for every 1% missing HP on self (Max 50%)\n<style=\"highlight\">If this Skill targets only a single enemy, deal +100% more damage (In Focused Encounters, a single Part)</style>\n[WhenUse] Apply 2 '(Corresponding Sin Affinity) Damage Up' and '2 (Corresponding Sin Affinity) Power Up' to (4 + # of highest Reson.) allies.\n- At 4+ Corresponding Reson., apply 2 additional '(Corresponding Sin Affinity) Damage Up'\n- At 5+ Corresponding Reson., apply 2 additional '(Corresponding Sin Affinity) Power Up'\n- At 6+ Corresponding A-Reson., apply the above effects next turn as well",
         "name": "To Claim Their Bones",
         "rawDesc": "",
         "abName": "",
@@ -231,7 +231,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "If the target has 7+ [Laceration], Coin Power -2\n[OnSucceedEvade] After successfully evading, attack using 'Overthrow' ",
+        "desc": "If the target has 7+ [Laceration], Coin Power -2\n[OnSucceedEvade] After Successfully Evading, use 'Overthrow' Skill",
         "name": "Blade Dance",
         "rawDesc": "",
         "abName": "",

@@ -1,41 +1,182 @@
 {
-  "850001": {"a":0,"id":"850001","name":"New Refraction - Recollected Awry Soldier","desc":"Core"},
-  "8500101": {"a":0,"id":"8500101","name":"Body","desc":"Part"},
-  "850002": {"a":0,"id":"850002","name":"New Refraction - Recollected Wallowing Soldier","desc":"Core"},
-  "8500201": {"a":0,"id":"8500201","name":"Body","desc":"Part"},
-  "850004": {"a":0,"id":"850004","name":"New Refraction - Recollected Festered G Corp. H. Captain","desc":"Core"},
-  "850000401": {"a":0,"id":"850000401","name":"Body","desc":"Part"},
-
-  "800323": {"a":0,"id":"800323","name":"New Refraction - Peccatula Invidia","desc":"Core"},
-
-  "800324": {"a":0,"id":"800324","name":"New Refraction - Peccatula Invidia","desc":"Core"},
-
-  "800325": {"a":0,"id":"800325","name":"New Refraction - Peccatula Invidia","desc":"Core"},
-  "80029201": {"a":0,"id":"80029201","name":"Body","desc":"Part"},
-
-  "80533": {"a":0,"id":"80533","name":"New Refraction - Franz Krommer","desc":"Core"},
-  "80053301": {"a":0,"id":"80053301","name":"Body","desc":"Part"},
-
-  "800517": {"a":0,"id":"800517","name":"New Refraction - Guido the Persistent","desc":"Core"},
-  "80051701": {"a":0,"id":"80051701","name":"Chastity Cage","desc":"Part"},
-
-  "800280": {"a":0,"id":"800280","name":"New Refraction - Peccatula Invidia","desc":"Core"},
-  "80028001": {"a":0,"id":"80028001","name":"Chastity Cage","desc":"Part"},
-
-  "800316": {"a":0,"id":"800316","name":"New Refraction - Peccatula Invidia","desc":"Core"},
-  "80000303": {"a":0,"id":"80000303","name":"New Refraction - Peccatula Invidia","desc":"Core"},
-
-  "800204": {"a":0,"id":"800204","name":"New Refraction - Dead Rabbits Boss","desc":""},
-  "8200401": {"a":0,"id":"8200401","name":"Chastity Cage","desc":"Part"},
-
-  "800494": {"a":0,"id":"800494","name":"New Refraction - Peccatula Invidia","desc":"Core"},
-
-  "800306": {"a":0,"id":"800306","name":"New Refraction - Peccatula Invidia","desc":"Core"},
-
-
-  "800581": {"a":0,"id":"800581","name":"New Refraction - Lured Starbuck","desc":"Core"},
-  "800579": {"a":0,"id":"800579","name":"New Refraction - Lured Ahab","desc":"Core"},
-  "8005792": {"a":0,"id":"8005792","name":"New Refraction - Phase 2 Lured Ahab","desc":"Core"},
-  "800580": {"a":0,"id":"800580","name":"New Refraction - Lured Queequeeg","desc":"Core"}
-  
+  "850001": {
+    "a": 0,
+    "id": "850001",
+    "name": "New Refraction - Recollected Awry Soldier",
+    "desc": "Core"
+  },
+  "8500101": {
+    "a": 0,
+    "id": "8500101",
+    "name": "Body",
+    "desc": "Part"
+  },
+  "850002": {
+    "a": 0,
+    "id": "850002",
+    "name": "New Refraction - Recollected Wallowing Soldier",
+    "desc": "Core"
+  },
+  "8500201": {
+    "a": 0,
+    "id": "8500201",
+    "name": "Body",
+    "desc": "Part"
+  },
+  "850004": {
+    "a": 0,
+    "id": "850004",
+    "name": "New Refraction - Recollected Festered G Corp. H. Captain",
+    "desc": "Core"
+  },
+  "850000401": {
+    "a": 0,
+    "id": "850000401",
+    "name": "Body",
+    "desc": "Part"
+  },
+  "800323": {
+    "a": 0,
+    "id": "800323",
+    "name": "New Refraction - Peccatula Invidia",
+    "desc": "Core"
+  },
+  "800324": {
+    "a": 0,
+    "id": "800324",
+    "name": "New Refraction - Peccatula Invidia",
+    "desc": "Core"
+  },
+  "800325": {
+    "a": 0,
+    "id": "800325",
+    "name": "New Refraction - Peccatula Invidia",
+    "desc": "Core"
+  },
+  "80029201": {
+    "a": 0,
+    "id": "80029201",
+    "name": "Body",
+    "desc": "Part"
+  },
+  "80533": {
+    "a": 0,
+    "id": "80533",
+    "name": "New Refraction - Franz Krommer",
+    "desc": "Core"
+  },
+  "80053301": {
+    "a": 0,
+    "id": "80053301",
+    "name": "Body",
+    "desc": "Part"
+  },
+  "800517": {
+    "a": 0,
+    "id": "800517",
+    "name": "New Refraction - Guido the Persistent",
+    "desc": "Core"
+  },
+  "80051701": {
+    "a": 0,
+    "id": "80051701",
+    "name": "Chastity Cage",
+    "desc": "Part"
+  },
+  "800280": {
+    "a": 0,
+    "id": "800280",
+    "name": "New Refraction - Peccatula Invidia",
+    "desc": "Core"
+  },
+  "80028001": {
+    "a": 0,
+    "id": "80028001",
+    "name": "Chastity Cage",
+    "desc": "Part"
+  },
+  "800316": {
+    "a": 0,
+    "id": "800316",
+    "name": "New Refraction - Peccatula Invidia",
+    "desc": "Core"
+  },
+  "80000303": {
+    "a": 0,
+    "id": "80000303",
+    "name": "New Refraction - Peccatula Invidia",
+    "desc": "Core"
+  },
+  "800204": {
+    "a": 0,
+    "id": "800204",
+    "name": "New Refraction - Dead Rabbits Boss",
+    "desc": ""
+  },
+  "8200401": {
+    "a": 0,
+    "id": "8200401",
+    "name": "Chastity Cage",
+    "desc": "Part"
+  },
+  "800494": {
+    "a": 0,
+    "id": "800494",
+    "name": "New Refraction - Peccatula Invidia",
+    "desc": "Core"
+  },
+  "800306": {
+    "a": 0,
+    "id": "800306",
+    "name": "New Refraction - Peccatula Invidia",
+    "desc": "Core"
+  },
+  "800581": {
+    "a": 0,
+    "id": "800581",
+    "name": "New Refraction - Lured Starbuck",
+    "desc": "Core"
+  },
+  "800579": {
+    "a": 0,
+    "id": "800579",
+    "name": "New Refraction - Lured Ahab",
+    "desc": "Core"
+  },
+  "8005792": {
+    "a": 0,
+    "id": "8005792",
+    "name": "New Refraction - Phase 2 Lured Ahab",
+    "desc": "Core"
+  },
+  "800580": {
+    "a": 0,
+    "id": "800580",
+    "name": "New Refraction - Lured Queequeeg",
+    "desc": "Core"
+  },
+  "8000084": {
+    "a": 0,
+    "id": "8000084",
+    "name": "New Refraction - Crow Mauler",
+    "desc": "Core"
+  },
+  "8092001": {
+    "a": 0,
+    "id": "8092001",
+    "name": "Torso",
+    "desc": "Part"
+  },
+  "8092002": {
+    "a": 0,
+    "id": "8092002",
+    "name": "Mace",
+    "desc": "Part"
+  },
+  "8092003": {
+    "a": 0,
+    "id": "8092003",
+    "name": "Head",
+    "desc": "Part"
+  }
 }

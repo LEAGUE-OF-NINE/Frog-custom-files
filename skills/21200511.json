@@ -4,14 +4,14 @@
     "skillTier": 3,
     "skillData": [
         {
-            "actionScript": "",
+            "actionScript": "2120511",
             "iconID": "2120511",
             "gaksungLevel": 1,
             "informationID": -1,
             "attributeType": "",
             "atkType": "SLASH",
             "defType": "ATTACK",
-            "skillMotion": "S3",
+            "skillMotion": "Default",
             "viewType": "SKILL",
             "parryingCloseType": "NEAR",
             "canDuel": "true",

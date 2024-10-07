@@ -541,7 +541,7 @@
           "targetNum": 1,
           "mpUsage": 0,
           "skillLevelCorrection": 0,
-          "defaultValue": 10,
+          "defaultValue": 6,
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -564,6 +564,18 @@
                 "stack": 5,
                 "turn": 0,
                 "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStackWithLimit6",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": -1
               }
             },
             {
@@ -648,7 +660,7 @@
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 8,
+              "scale": 12,
               "cutsceneStart": true,
               "abilityScriptList": []
             }
@@ -970,6 +982,18 @@
               }
             },
             {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStackWithLimit6",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
               "scriptName": "CriticalDmgUpByRatio50"
             },
             {
@@ -977,6 +1001,28 @@
             },
             {
               "scriptName": "AttackDmgUpByRatio100IfTargetIsOne"
+            },
+            {
+              "scriptName": "GregorFifthEgoSkillAbility_4",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GregorFifthEgoSkillAbility_4",
+              "buffData": {
+                "buffKeyword": "",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
             }
           ],
           "coinList": [

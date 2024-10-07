@@ -420,7 +420,7 @@
           "targetNum": 1,
           "mpUsage": 0,
           "skillLevelCorrection": 5,
-          "defaultValue": 24,
+          "defaultValue": 25,
           "arearange": 2.5,
           "canTeamKill": false,
           "canDuel": true,
@@ -563,7 +563,7 @@
               "scriptName": "SkillPowerResultAdderOnUse3IfSelfMpLessThanMinus15"
             },
             {
-              "scriptName": "SkillPowerResultAdderOnUse2IfSelfMpLessThanMinus25"
+              "scriptName": "SkillPowerResultAdderOnUse3IfSelfMpLessThanMinus25"
             }
           ],
           "coinList": [
@@ -709,7 +709,7 @@
               "scale": 9,
               "abilityScriptList": [
                 {
-                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio150WithLimit200"
+                  "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio200WithLimit200"
                 },
                 {
                   "scriptName": "LoseBuffOnSucceedAttack",

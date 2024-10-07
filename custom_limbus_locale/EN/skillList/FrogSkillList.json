@@ -1,229 +1,1712 @@
 {
-
-  "10070201": {"a":0,"id":"10070201","levelList":[{"level":1,"desc":"At less than 25% HP, +1 Skill Power","name":"Extreme Edge","rawDesc":"","abName":"","coinlist":[{"coindescs":[]}]},{"level":2,"desc":"At less than 25% HP, +2 Skill Power","name":"Extreme Edge","rawDesc":"","abName":"","coinlist":[{"coindescs":[]}]},
-  {"level":4,"desc":"At 10+ Poise Count, Skill Power +2\nAt less than 50% HP, Skill Power +2\n[WhenUse] Gain +6 Poise Count\n[WhenUse] Gain 3 Poise",
-  "name":"Refracted Extreme Edge","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 2 Bleed\n[CriticalOnSucceedAttack] Reuse this Coin (3 times max)","summary":""}]}]}]},
-
-  "10070202": {"a":0,"id":"10070202","levelList":[{"level":1,"desc":"At less than 25% HP, +1 Skill Power","name":"Flying Sword","rawDesc":"","abName":"","coinlist":[{"coindescs":[]}]},{"level":2,"desc":"At less than 25% HP, +2 Skill Power","name":"Flying Sword","rawDesc":"","abName":"","coinlist":[{"coindescs":[]}]},
-  {"level":4,"desc":"At 10+ Poise Count, Skill Power +2\nAt less than 50% HP, Skill Power +2\n[WhenUse] Gain 6 Poise\n[WhenUse] Gain +2 Poise Count\nAt less than 50% HP, Atk Weight +1",
-  "name":"Refracted Flying Sword","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"+150% Damage on Critical Hit \n[OnSucceedAttack] Inflict 6 Bleed\n[CriticalOnSucceedAttack] Inflict +6 Bleed Count","summary":""}]}]}]},
-
-  "10070203": {"a":0,"id":"10070203","levelList":[{"level":3,"desc":"At less than 25% HP, +2 Skill Power","name":"Flashing Strike","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin","summary":""}]},{"coindescs":[{"desc":"[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin","summary":""}]}]},
-  {"level":4,"desc":"At 10+ Poise Count, Skill Power +2\nAt less than 50% HP, Skill Power +2\nAt less than 50% HP, Atk Weight +2\n[WhenUse] Gain 6 Poise",
-  "name":"Refracted Flashing Strike","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin\n[CriticalOnSucceedAttack] Inflict 5 Bleed and +5 Bleed Count","summary":""}]},
-  {"coindescs":[{"desc":"[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin\n[CriticalOnSucceedAttack] Inflict 5 Bleed and +5 Bleed Count","summary":""}]}]}]},
-  
-  "10030301": {"a":0,"id":"10030301","levelList":[{"level":1,"desc":"","name":"Catch Breath","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Gain 2 Poise next turn","summary":""}]}]},{"level":2,"desc":"","name":"Catch Breath","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain 2 Poise next turn","summary":""}]}]},
-  {"level":4,"desc":"If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[StartBattle] Gain 50 Shield\n[WhenUse] Gain 2 Haste next turn\n[WhenUse] Gain +2 Poise Count",
-  "name":"Refracted Catch Breath","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain 3 Poise next turn\n[OnSucceedAttackHead] Gain +2 Poise Count next turn\n[CriticalOnSucceedAttack] Inflict 3 Bleed and +3 Bleed Count","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Gain 3 Poise next turn\n[OnSucceedAttackHead] Gain +2 Poise Count next turn\n[CriticalOnSucceedAttack] Inflict 3 Bleed and +3 Bleed Count","summary":""}]}]}]},
-  
-  "10030302": {"a":0,"id":"10030302","levelList":[{"level":1,"desc":"","name":"Dual Strike","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Gain 1 Poise next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Gain 2 Haste next turn","summary":""}]}]},{"level":2,"desc":"[WhenUse] At less than 50% HP, gain 2 Haste next turn","name":"Dual Strike","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain 1 Poise next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Gain 2 Haste next turn","summary":""}]}]},
-  {"level":4,"desc":"If this unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[StartBattle] Gain 50 Shield\nAt less than 50% HP, +2 Skill Power\n[WhenUse] At less than 50% HP, gain 4 Haste next turn\n[WhenUse]+100% Damage on Critical Hit",
-  "name":"Refracted Dual Strike","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain 4 Poise and +4 Poise Count next turn\n[CriticalOnSucceedAttack] Inflict 4 Fragile next turn","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Gain 3 Haste next turn\n[CriticalOnSucceedAttack] Gain 4 Haste next turn\n[CriticalOnSucceedAttack] Inflict 5 Bleed and +5 Bleed Count","summary":""}]}]}]},
-  
-  "10030303": {"a":0,"id":"10030303","levelList":[{"level":3,"desc":"At 10+ Speed, Skill Power +3","name":"Overbreathe","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"Deal +8% more damage for every 1 Bleed on Target (Max 240%)\n[EndSkill] Evenly inflict 30 [Laceration] between all targets","summary":""}]}]},
-  {"level":4,"desc":"[StartBattle] Gain 50 Shield\n[WhenUse] If the Shield isn't fully depleted, Clash Power +5\nCoin Power +2 for every 5 (sum of Bleed Potency on all enemies) (Max 10)\nDeal +10% more damage for every Wrath Reson. (max 60%)\n - If at 4+ highest Wrath A-Reson., deal +20% more damage for every Wrath Reson. instead (max 120%)\n[WhenUse] At 10+ Speed, Skill Power +5\n[WhenUse] Deal +2% more damage on Critical Hit for every Poise Potency on self (Max 50%)\n[WhenUse] +30% Damage on Critical Hit\n[WhenUse] At less than 50% HP, Atk Weight +2\n[WhenUse] Deal +1% more damage for every 1% missing HP on self (Max 50%)",
-  "name":"Refracted Boundary of Death","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"Deal +8% more damage for every 1 Bleed on Target (Max 240%)\n[EndSkill] Evenly inflict 30 [Laceration] between all targets","summary":""}]}]}]},
- 
-  "1100000303": {"a":0,"id":"1100000303","levelList":[{"level":3,"desc":"[WhenUse] Give 1 Protection to the ally with the least HP next turn","name":"Strong Strike","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Trigger Tremor Burst","summary":""},{"desc":"[OnSucceedAttack] Inflict 2 Blunt Fragility","summary":""}]}]},
-  
-  {"level":4,"desc":"[StartBattle] Apply 10 Protection to all allies next turn, including this unit\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by (<style=\"highlight\">4</style> x (highest Reson.)) (max <style=\"highlight\">20</style>)\n- If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max <style=\"highlight\">20</style>)\n[StartBattle] Apply 50 Defense Level Up to all allies next turn, including this unit\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn",
-  "name":"Stronger Strike","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 20 Tremor and +20 Tremor Count\n[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Trigger ASPlitude Conversion into Tremor - Reverb\n[OnSucceedAttack] Inflict 10 Fragile","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Apply 10 Attack Power Up to all allies next turn, including this unit","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Apply 10 Attack Power Up to all allies next turn, including this unit","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Apply 10 Attack Power Up to all allies next turn, including this unit","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Apply 10 Attack Power Up to all allies next turn, including this unit","summary":""}]}]}]},
-  
-
-  "90001401": {"a":0,"id":"90001401","levelList":[{"level":1,"desc":"Clash Power +1 for every 3 Rupture on the target (Max 5)\n[WinDuel] All allies heal 10 SP","name":"Refracted Sweep","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 Bind next turn\n[OnSucceedAttackHead] Inflict 5 Rupture and +5 Rupture Count next turn","summary":""}] }]}]},
-  "90001402": {"a":0,"id":"90001402","levelList":[{"level":1,"desc":"","name":"Refracted Multi-block","rawDesc":"","abName":"","coinlist":[]}]},
-  "90001403": {"a":0,"id":"90001403","levelList":[{"level":1,"desc":"Clash Power +1 for every 3 Rupture on the target (Max 5)","name":"Refracted Multi-Sweep","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 10 Rupture and +2 Rupture Count","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict Bleed equal to Rupture on target","summary":""}] }]}]},
-
-  "90001501": {"a":0,"id":"90001501","levelList":[{"level":1,"desc":"Clash Power +1 for every 3 Bleed on the target (Max 5)\n[WinDuel] All allies heal 10 SP","name":"Refracted Stab","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 Bind next turn\n[OnSucceedAttackHead] Inflict 5 Bleed and +5 Bleed Count next turn","summary":""}] }]}]},
-  "90001502": {"a":0,"id":"90001502","levelList":[{"level":1,"desc":"Clash Power +1 for every 3 Bleed on the target (Max 5)\nCoin Power +1 for every 5 Bleed Count on the target (Max 2)","name":"Refracted Quick Jabs","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict +3 Bleed Count next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict +3 Bleed Count next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict +3 Bleed Count next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 5 Bleed next turn","summary":""}] }]}]},
-  "90001503": {"a":0,"id":"90001503","levelList":[{"level":1,"desc":"Clash Power +1 for every 3 Bleed on the target (Max 5)\nCoin Power +1 for every 5 Bleed Count on the target (Max 2)","name":"Refracted Desperation","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackTail] Inflict +3 Bleed Count next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackTail] Inflict +3 Bleed Count next turn","summary":""}] }]}]},
-  
-  "91000201": {"a":0,"id":"91000201","levelList":[{"level":1,
-    "desc":"[StartBattle] Apply 1 Haste to all allies next turn, including this unit\n[WinDuel] All allies heal 10 SP\n[WinDuel] Apply 2 Damage Up to 2 random allies next turn",
-    "name":"Refracted Crier","rawDesc":"","abName":"",
-    "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Target loses 5 SP","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttackHead] Target loses 5 SP","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttackHead] Target loses 5 SP\n[OnSucceedAttackHead] Reuse this Coin once (Max 3)","summary":""}]}]}]},
-  
-  "91000202": {"a":0,"id":"91000202","levelList":[{"level":1,
-  "desc":"[StartBattle] Apply 1 Damage Up to all allies next turn, including this unit\n[WinDuel] Apply 2 Attack Power Up to 2 random allies next turn\n[WinDuel] All allies heal 10 SP",
-  "name":"Refracted Onslaught Command","rawDesc":"","abName":"","coinlist":[{"coindescs":[
-    {"desc":"[OnSucceedAttackHead] Inflict 4 Sinking and +10 Sinking Count next turn","summary":""}]}]}]},
-
-  "91000203": {"a":0,"id":"91000203","levelList":[{"level":1,
-  "desc":"[WinDuel] Apply 2 Attack Power Up to all allies next turn, including this unit\n[WinDuel] Apply 2 Damage Up to all allies next turn, including this unit\n[DefeatDuel] Gain 3 Attack Power Down next turn",
-  "name":"Refracted Mind Blast","rawDesc":"","abName":"","coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttackHead] Target loses 15 SP\n[OnSucceedAttack] Apply 3 Attack Power Down to all allies next turn, including this unit","summary":""}]}]}]},
-  
-    "91000204": {"a":0,"id":"91000204","levelList":[{"level":1,
-  "desc":"[WhenUse] Heal 20 HP","name":"Refracted Hardening","rawDesc":"","abName":"","coinlist":[]}]},
-  
-  "91000205": {"a":0,"id":"91000205","levelList":[{"level":1,
-  "desc":"[CantChangeTarget]",
-  "name":"Refracted Raspart Command","rawDesc":"","abName":"","coinlist":[{"coindescs":[
-    {"desc":"[OnSucceedAttack] Apply 2 Protection to 2 random allies next turn\n[OnSucceedAttackTail] Inflict +10 Sinking Count next turn","summary":""}]}]}]},
-
-  "80002902": {"a":0,"id":"80002902","levelList":[{"level":1,"desc":"[WhenUse] Heal 5 SP\nCoin Power +1 for every 3 N Corp’s Nails on target\nClash Power +1 for every 5 Bleed on target (Max 3)\n[WinDuel] Apply 2 Fanatic to all allies next turn, including this unit",
-  "name":"Refracted Deep Thrust","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 6 Bleed next turn\n[OnSucceedAttackHead] Inflict +3 Bleed Count next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 6 Bleed next turn\n[OnSucceedAttackHead] Inflict +3 Bleed Count next turn","summary":""}]}]}]},
-  
-  "80002910": {"a":0,"id":"80002910","levelList":[{"level":1,"desc":"Coin Power +1 for every 3 N Corp’s Nails on target\n[OnSucceedEvade] Deal 5 SP damage\n[OnSucceedEvade] Deal 3 SP (5 times per turn)",
-  "name":"Refracted You Are Nothing","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[]}]}]},
-  
-  "80002905": {"a":0,"id":"80002905","levelList":[{"level":1,"desc":"[WhenUse] Heal 5 SP\nCoin Power +1 for every 3 N Corp’s Nails on target\nClash Power +1 for every 5 Bleed on target (Max 3)\n[WinDuel] Apply 1 Attack Power Up to all allies next turn, including this unit\n[WhenUse] At less than 50% HP, Atk Weight +1",
-  "name":"Refracted Sin-skewering Nail","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 2 N Corp’s Nails next turn","summary":""}]}]}]},
-  
-  "80002904": {"a":0,"id":"80002904","levelList":[{"level":1,"desc":"Clash Power +1 for every 3 N Corp’s Nails on target (Max 5)\nClash Power +1 for every 3 Bleed on target (Max 5)\n[WinDuel] All allies heal 10 SP\n[WhenUse] Deal 10 SP damage\n[WhenUse] At less than 50% HP, Atk Weight +1",
-  "name":"Refracted Cackle","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain 1 Attack Power Up next turn\n[OnSucceedAttackHead] Inflict 6 Bleed next turn","summary":""}]}]}]},
-  
-  "80002906": {"a":0,"id":"80002906","levelList":[{"level":1,"desc":"[WhenUse] If target’s HP is below 30%, Skill Power +2\n[WhenUse] At less than 50% HP, Atk Weight +1\nCoin Power +1 for every 3 N Corp’s Nails on target\nClash Power +1 for every 5 Bleed on target (Max 3)\n[WinDuel] Apply 2 Fanatic to all allies next turn, including this unit",
-  "name":"Refracted Purify","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 N Corp’s Nails","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 N Corp’s Nails","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 2 N Corp’s Nails","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] If target has 5+ N Corp’s Nails, Stagger them and remove the Nails","summary":""}]}]}]},
-  
-  "80002908": {"a":0,"id":"80002908","levelList":[{"level":1,"desc":"Coin Power +1 for every 2 Bleed on target (Max 10)\n[DefeatDuel] User becomes Staggered\n[WinDuel] All allies heal 10 SP",
-  "name":"Refracted I Shall Claim Your Life!","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Stagger target and inflict 10 Fragile next turn\n[OnSucceedAttackHead] Reuse this Coin once (Max 3)","summary":""}]}]}]},
-  
-  "910001601": {"a":0,"id":"910001601","levelList":[{"level":1,"desc":"Coin Power +1 for every 5 [Burst] on target (Max 2)\nCoin Power +1 for every 5 [Laceration] on target (Max 2)","name":"Refracted Bat Bash","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict +3 [Burst] Count\n[OnSucceedAttack] Inflict +3 [Laceration] Count","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [Burst] and +2 [Burst] Count\n[OnSucceedAttack] Inflict 3 [Laceration]\n[OnSucceedAttackHead] Reuse this Coin once (Max 2)","summary":""}]}]}]},
-
-  "91001602": {"a":0,"id":"91001602","levelList":[{"level":1,
-  "desc":"Clash Power +1 for every 5 [Burst] on target (Max 5)\nClash Power +1 for every 5 [Laceration] on target (Max 5)\nCoin Power +1 for every 5 [Laceration] Count on target (Max 2)\nCoin Power +1 for every 5 [Burst] Count on target (Max 2)\n[WinDuel] Gain 1 [Enhancement] and 1 Damage Up next turn","name":"Refracted Smackdown","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict +5 [Burst] Count","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 4 [Burst]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 4 [Laceration]","summary":""},
-  {"desc":"[OnSucceedAttack] Inflict [Burst] equal to [Laceration] on target","summary":""}]}]}]},
-
-  "91001603": {"a":0,"id":"91001603","levelList":[{"level":1,
-  "desc":"Clash Power +1 for every 4 [Burst] on target (Max 5)\nClash Power +1 for every 4 [Laceration] on target (Max 5)\n[WinDuel] Inflict +3 [Burst] Count",
-  "name":"Refracted Upheaval","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Next Coin has +1 Power\n[OnSucceedAttackHead] Inflict +3 [Burst] Count","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttackHead] Next Coin has +2 Power\n[OnSucceedAttackHead] Inflict +3 [Burst] Count","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [Paralysis] next turn","summary":""},
-  {"desc":"[OnSucceedAttack] Inflict bonus Pierce damage equal to ([Laceration] x [Laceration] Count)","summary":""}]}]}]},
-
-  "91001606": {"a":0,"id":"91001606","levelList":[{"level":1,
-  "desc":"[CantChangeTarget]\nClash Power +1 for every 5 [Burst] on target (Max 10)\nClash Power +1 for every 5 [Laceration] on target (Max 10)",
-  "name":"Refracted Time to Repent","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict +4 [Laceration] Count and +4 [Burst] Count","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [Laceration] and 3 [Burst]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [Laceration] and 3 [Burst]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Gain 2 [Enhancement] next turn","summary":""}]}]}]},
-
-  "91001607": {"a":0,"id":"91001607","levelList":[{"level":1,
-  "desc":"[CantChangeTarget]\nClash Power +1 for every 5 [Burst] on target (Max 10)\nClash Power +1 for every 5 [Laceration] on target (Max 10)",
-  "name":"Refracted Sorrow and Lament In The Rabbit's Wake.","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict +4 [Sinking] Count and +4 [Laceration] Count","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 4 [Sinking] and 4 [Laceration]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 4 [Sinking] and 4 [Laceration]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict +3 [Sinking] Count and +3 [Laceration] Count","summary":""}]}]}]},
-  
-  "91001604": {"a":0,"id":"91001604","levelList":[{"level":1,
-  "desc":"When attacked while this unit has Shield, gain 1 Offense Level Up next turn\n[WhenUse] Gain 1 [Enhancement] next turn",
-  "name":"Refracted Guard","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"","summary":""}]}]}]},
-
-  "91001605": {"a":0,"id":"91001605","levelList":[{"level":1,
-  "desc":"[DuelCounter]\n[WhenUse] Gain 2 [ParryingResultUp] next turn","name":"Refracted Counter","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict +3 [Burst] Count and +3 [Laceration] Count","summary":""}]}]}]},
-
-  "21200511": {"a":0,"id":"21200511","levelList":[{"level":1,"desc":"[BeforeAttack] At 3+ highest Reson., Atk Weight +1\n[WhenUse] Apply 1 '(Corresponding Sin Affinity) Damage Up' and '1 (Corresponding Sin Affinity) Power Up' to (1 + # of highest Reson.) allies.\n- At 4+ Corresponding Reson., apply 1 additional '(Corresponding Sin Affinity) Damage Up'","name":"Garden of Thorns","rawDesc":"","abName":"Sign of Roses","coinlist":[{"coindescs":[{"desc":"[EndSkill] Heal 1 ally with the lowest HP percentage for 15% HP of their max HP\n- Heal (highest # of Reson. - 2) more allies (max 3)","summary":""}]}]},{"level":3,"desc":"[BeforeAttack] Gain (# of highest Reson. - 2) Atk Weight (Max 2)\n[WhenUse] Apply 1 '(Corresponding Sin Affinity) Damage Up' and '1 (Corresponding Sin Affinity) Power Up' to (2 + # of highest Reson.) allies.\n- At 4+ Corresponding Reson., apply 1 additional '(Corresponding Sin Affinity) Damage Up'\n- At 5+ Corresponding Reson., apply 1 additional '(Corresponding Sin Affinity) Power Up'","name":"Garden of Thorns","rawDesc":"","abName":"Sign of Roses","coinlist":[{"coindescs":[{"desc":"[EndSkill] Heal 2 allies with the lowest HP percentages for 18% HP of their max HP\n- Heal (highest # of Reson. - 2) more allies (max 3)","summary":""}]}]},
-  {"level":4,"desc":"[WhenUse] For 2 turns, lose 10 SP at Turn End\n[WhenUse] Apply 2 '(Corresponding Sin Affinity) Damage Up' and '2 (Corresponding Sin Affinity) Power Up' to (4 + # of highest Reson.) allies.\n- At 4+ Corresponding Reson., apply 2 additional '(Corresponding Sin Affinity) Damage Up'\n- At 5+ Corresponding Reson., apply 2 additional '(Corresponding Sin Affinity) Power Up'\n- At 6+ Corresponding A-Reson., apply the above effects next turn as well",
-  "name":"Garden of Thorns","rawDesc":"","abName":"Sign of Roses",
-  "coinlist":[{"coindescs":[{"desc":"[EndSkill] Heal 4 allies with the lowest HP percentages for 22% HP of their max HP\n- Heal (highest # of Reson. - 2) more allies (max 3)","summary":""}]}]}]},
-  
-  "21200521": {"a":0,"id":"21200521","levelList":[{"level":1,"desc":"[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 3+ highest Reson., Atk Weight +1","name":"Garden of Thorns","rawDesc":"","abName":"Sign of Roses","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 [AttackDmgDown]. Inflict 2 [Binding] next turn.","summary":""},{"desc":"[OnSucceedAttack] Inflict 1 'Fragility' and 1 'Power Down' for the Sin Affinity with the highest Reson. count\n- At 4+ Corresponding Reson., inflict 1 additional '(Corresponding Sin Affinity) Fragility'","summary":""}]}]},{"level":3,"desc":"[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest # of Reson. - 2) Atk Weight (max 2)","name":"Garden of Thorns","rawDesc":"","abName":"Sign of Roses","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 [AttackDmgDown]. Inflict 2 [Binding] next turn","summary":""},{"desc":"[OnSucceedAttack] Inflict 1 'Fragility' and 1 'Power Down' for the Sin Affinity with the highest Resonance count\n- At 4+ Corresponding Reson., inflict 1 additional '(Corresponding Sin Affinity) Fragility'\n- At 5+ Corresponding Reson., inflict 1 additional '(Corresponding Sin Affinity) Power Down'","summary":""}]}]},
-  {"level":4,"desc":"[CantIdentify]\nTargets Randomly",
-  "name":"Garden of Thorns","rawDesc":"","abName":"Sign of Roses",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 2 [AttackDmgDown]. Inflict 2 [Binding] next turn","summary":""},
-  {"desc":"[OnSucceedAttack] Inflict 2 'Fragility' and 2 'Power Down' for the Sin Affinity with the highest Resonance count\n- At 4+ Corresponding Reson., inflict 2 additional '(Corresponding Sin Affinity) Fragility'\n- At 5+ Corresponding Reson., inflict 2 additional '(Corresponding Sin Affinity) Power Down'\n- At 6+ Corresponding A-Reson., apply the above effects next turn as well","summary":""}]}]}]},
-  
-  "10100801": {"a":0,"id":"10100801","levelList":[{"level":1,"desc":"Gain ([KnowledgeExplored] x 2% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots","name":"Expend Knowledge","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Lower user’s Stagger Threshold by [KnowledgeExplored]","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Lower user’s Stagger Threshold by [KnowledgeExplored]","summary":""}]}]},{"level":2,"desc":"Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots","name":"Expend Knowledge","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]","summary":""}]}]},
-  {"level":4,"desc":"Gain ([KnowledgeExplored] x 5% of Max HP) Shield if this Skill is Discarded\n[WinDuel] Inflict +3 Sinking Count\n[WhenUse] If Insight is 2 or higher, gain Coin Power by (Insight -1)\n[WhenUse] If target has 5+ [Sinking], Coin Power +1",
-  "name":"Refracted Expend Knowledge","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]\n[OnSucceedAttack] Lower user's Stagger Threshold by 10","summary":""}]}]}]},
-
-  "10100802": {"a":0,"id":"10100802","levelList":[{"level":1,"desc":"Gain ([KnowledgeExplored] x 4% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots","name":"Seal Shut","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]}]},{"level":2,"desc":"Gain ([KnowledgeExplored] x 5% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn","name":"Seal Shut","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]}]},
-  {"level":4,"desc":"Gain ([KnowledgeExplored] x 10% of Max HP) Shield if this Skill is Discarded\n[WinDuel] Inflict +4 Sinking Count\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
-  "name":"Refracted Seal Shut","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]}]}]},
-
-  "10100803": {"a":0,"id":"10100803","levelList":[{"level":3,"desc":"Gain ([KnowledgeExplored] x 9% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Gain +8 Aggro to this Skill Slot next turn","name":"Grace of Knowledge","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[]},{"coindescs":[]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict +2 [Sinking] Count","summary":""}]}]},
-  {"level":4,"desc":"Gain ([KnowledgeExplored] x 20% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn\n[WhenUse] When below 50% HP, Coin Power +1",
-  "name":"Refracted Grace of Knowledge","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict +4 [Sinking] Count\n[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict +3 [Sinking] Count\n[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]","summary":""}]}]}]},
-
-  "10040202": {"a":0,"id":"10040202",
-  "levelList":[{"level":4,
-  "desc":"Coin Power +1 for every 2 [DefenseDown] on target\n[WinDuel] Gain 2 Attack Power Up next turn",
-  "name":"Violet Blade","rawDesc":"","abName":"",
-  "coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 5 [DefenseDown] this turn and next turn","summary":""}]}]}]},
-  
-  "10040204": {"a":0,"id":"10040204",
-  "levelList":[{"level":4,
-  "desc":"[DuelCounter]\n[StartBattle] Gain 50 Shield",
-  "name":"Serpentine Parry","rawDesc":"","abName":"",
-  "coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 5 [DefenseDown] this turn and next turn\n[OnSucceedAttackHead] Gain 2 [SlashResultUp] next turn","summary":""}]}]}]},
-  
-  
-  "10040203": {"a":0,"id":"10040203",
-  "levelList":[{"level":4,
-  "desc":"[WinDuel] This skill inflicts 2 additional [SlashTakeDamageUp] and [DefenseDown]\n[StartBattle] Apply 1 [SlashResultUp] to self this turn",
-  "name":"Snake Slit","rawDesc":"","abName":"",
-  "coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [SlashTakeDamageUp] next turn","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [DefenseDown] next turn","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttackHead] Gain 1 [Agility] next turn","summary":""}]}]}]},
-
-  "10040205": {"a":0,"id":"10040205",
-  "levelList":[{"level":4,
-  "desc":"This skill deals 0 damage.\n[WhenUse] Apply Prey Mark next turn\n[StartBattle] Gain 50 Shield\n[StartBattle] Apply 1 [SlashResultUp] to self this turn",
-  "name":"Identify Weaklink","rawDesc":"","abName":"",
-  "coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [SlashTakeDamageUp] next turn","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [DefenseDown] next turn","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttack] Gain 2 [Agility] next turn","summary":""}]}]}]},
-
-  "10040206": {"a":0,"id":"10040206",
-  "levelList":[{"level":4,
-  "desc":"[EnemyKill] Heal all allies for 15% of their Max HP\n[WinDuel] This skill inflicts 2 additional Potency of every Status Effect\n[WhenUse] Clash Power +1 for every 3 [Burst] or [Laceration] Count on the main target (Max 10)\n[WhenUse] Clash Power +1 for every 3 [DefenseDown] on the main target (Max 10)",
-  "name":"Mirage Storm","rawDesc":"","abName":"",
-  "coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict +3 [Burst] and [Laceration] Count\n[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttack] Inflict +10 Blunt Damage","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict +3 [Burst] and [Laceration] Count\n[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttack] Inflict +10 Blunt Damage","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict +3 [Burst] and [Laceration] Count\n[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttack] Inflict +10 Blunt Damage","summary":""}]}]}]},
-
-  "10040201": {"a":0,"id":"10040201",
-  "levelList":[{"level":4,
-  "desc":"Coin Power +1 for every 2 [DefenseDown] on target (Max 2)\n[WinDuel] Gain 2 Attack Power Up next turn",
-  "name":"Serpent Sword Technique","rawDesc":"","abName":"",
-  "coinlist":[
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 2 [DefenseDown] next turn\n[OnSucceedAttackHead] Inflict 3 [DefenseDown] next turn","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 2 [DefenseDown] next turn\n[OnSucceedAttackHead] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttackHead] Gain 1 [Agility] next turn","summary":""}]}]}]}
-  
+  "10070201": {
+    "a": 0,
+    "id": "10070201",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "At less than 25% HP, +1 Skill Power",
+        "name": "Extreme Edge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "At less than 25% HP, +2 Skill Power",
+        "name": "Extreme Edge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "At 10+ Poise Count, Skill Power +2\nAt less than 50% HP, Skill Power +2\n[WhenUse] Gain +6 Poise Count\n[WhenUse] Gain 3 Poise",
+        "name": "Refracted Extreme Edge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Bleed\n[CriticalOnSucceedAttack] Reuse this Coin (3 times max)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10070202": {
+    "a": 0,
+    "id": "10070202",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "At less than 25% HP, +1 Skill Power",
+        "name": "Flying Sword",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "At less than 25% HP, +2 Skill Power",
+        "name": "Flying Sword",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "At 10+ Poise Count, Skill Power +2\nAt less than 50% HP, Skill Power +2\n[WhenUse] Gain 6 Poise\n[WhenUse] Gain +2 Poise Count\nAt less than 50% HP, Atk Weight +1",
+        "name": "Refracted Flying Sword",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "+150% Damage on Critical Hit \n[OnSucceedAttack] Inflict 6 Bleed\n[CriticalOnSucceedAttack] Inflict +6 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10070203": {
+    "a": 0,
+    "id": "10070203",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "At less than 25% HP, +2 Skill Power",
+        "name": "Flashing Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "At 10+ Poise Count, Skill Power +2\nAt less than 50% HP, Skill Power +2\nAt less than 50% HP, Atk Weight +2\n[WhenUse] Gain 6 Poise",
+        "name": "Refracted Flashing Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin\n[CriticalOnSucceedAttack] Inflict 5 Bleed and +5 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[BeforeAttack] Lose 5 HP; +50% Skill Damage for this Coin\n[CriticalOnSucceedAttack] Inflict 5 Bleed and +5 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10030301": {
+    "a": 0,
+    "id": "10030301",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Catch Breath",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Gain 2 Poise next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "",
+        "name": "Catch Breath",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 Poise next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If this unit's Speed is faster than the target's by 2 or more, Coin Power +1\n[StartBattle] Gain 50 Shield\n[WhenUse] Gain 2 Haste next turn\n[WhenUse] Gain +2 Poise Count",
+        "name": "Refracted Catch Breath",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 Poise next turn\n[OnSucceedAttackHead] Gain +2 Poise Count next turn\n[CriticalOnSucceedAttack] Inflict 3 Bleed and +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 Poise next turn\n[OnSucceedAttackHead] Gain +2 Poise Count next turn\n[CriticalOnSucceedAttack] Inflict 3 Bleed and +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10030302": {
+    "a": 0,
+    "id": "10030302",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Dual Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Gain 1 Poise next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 Haste next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] At less than 50% HP, gain 2 Haste next turn",
+        "name": "Dual Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 1 Poise next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 Haste next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If this unit's Speed is higher than the target's, Coin Power +1 for every 2 Speed difference (Max 3)\n[StartBattle] Gain 50 Shield\nAt less than 50% HP, +2 Skill Power\n[WhenUse] At less than 50% HP, gain 4 Haste next turn\n[WhenUse]+100% Damage on Critical Hit",
+        "name": "Refracted Dual Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 4 Poise and +4 Poise Count next turn\n[CriticalOnSucceedAttack] Inflict 4 Fragile next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 Haste next turn\n[CriticalOnSucceedAttack] Gain 4 Haste next turn\n[CriticalOnSucceedAttack] Inflict 5 Bleed and +5 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10030303": {
+    "a": 0,
+    "id": "10030303",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "At 10+ Speed, Skill Power +3",
+        "name": "Overbreathe",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "Deal +8% more damage for every 1 Bleed on Target (Max 240%)\n[EndSkill] Evenly inflict 30 [Laceration] between all targets",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[StartBattle] Gain 50 Shield\n[WhenUse] If the Shield isn't fully depleted, Clash Power +5\nCoin Power +2 for every 5 (sum of Bleed Potency on all enemies) (Max 10)\nDeal +10% more damage for every Wrath Reson. (max 60%)\n - If at 4+ highest Wrath A-Reson., deal +20% more damage for every Wrath Reson. instead (max 120%)\n[WhenUse] At 10+ Speed, Skill Power +5\n[WhenUse] Deal +2% more damage on Critical Hit for every Poise Potency on self (Max 50%)\n[WhenUse] +30% Damage on Critical Hit\n[WhenUse] At less than 50% HP, Atk Weight +2\n[WhenUse] Deal +1% more damage for every 1% missing HP on self (Max 50%)",
+        "name": "Refracted Boundary of Death",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "Deal +8% more damage for every 1 Bleed on Target (Max 240%)\n[EndSkill] Evenly inflict 30 [Laceration] between all targets",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1100000303": {
+    "a": 0,
+    "id": "1100000303",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "[WhenUse] Give 1 Protection to the ally with the least HP next turn",
+        "name": "Strong Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Blunt Fragility",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[StartBattle] Apply 10 Protection to all allies next turn, including this unit\n[BeforeAttack] At 3+ highest Reson., inflict [Vibration] Potency by (<style=\"highlight\">4</style> x (highest Reson.)) (max <style=\"highlight\">20</style>)\n- If the highest Reson. was a Sloth A-Reson., inflict [Vibration] Count by [Vibration] Potency inflicted (max <style=\"highlight\">20</style>)\n[StartBattle] Apply 50 Defense Level Up to all allies next turn, including this unit\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn",
+        "name": "Stronger Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 20 Tremor and +20 Tremor Count\n[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Trigger ASPlitude Conversion into Tremor - Reverb\n[OnSucceedAttack] Inflict 10 Fragile",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Apply 10 Attack Power Up to all allies next turn, including this unit",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Apply 10 Attack Power Up to all allies next turn, including this unit",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Apply 10 Attack Power Up to all allies next turn, including this unit",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst\n[OnSucceedAttack] Apply 10 Attack Power Up to all allies next turn, including this unit",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "90001401": {
+    "a": 0,
+    "id": "90001401",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 3 Rupture on the target (Max 5)\n[WinDuel] All allies heal 10 SP",
+        "name": "Refracted Sweep",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bind next turn\n[OnSucceedAttackHead] Inflict 5 Rupture and +5 Rupture Count next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "90001402": {
+    "a": 0,
+    "id": "90001402",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Refracted Multi-block",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": []
+      }
+    ]
+  },
+  "90001403": {
+    "a": 0,
+    "id": "90001403",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 3 Rupture on the target (Max 5)",
+        "name": "Refracted Multi-Sweep",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 10 Rupture and +2 Rupture Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict Bleed equal to Rupture on target",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "90001501": {
+    "a": 0,
+    "id": "90001501",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 3 Bleed on the target (Max 5)\n[WinDuel] All allies heal 10 SP",
+        "name": "Refracted Stab",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bind next turn\n[OnSucceedAttackHead] Inflict 5 Bleed and +5 Bleed Count next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "90001502": {
+    "a": 0,
+    "id": "90001502",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 3 Bleed on the target (Max 5)\nCoin Power +1 for every 5 Bleed Count on the target (Max 2)",
+        "name": "Refracted Quick Jabs",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +3 Bleed Count next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +3 Bleed Count next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +3 Bleed Count next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 5 Bleed next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "90001503": {
+    "a": 0,
+    "id": "90001503",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 3 Bleed on the target (Max 5)\nCoin Power +1 for every 5 Bleed Count on the target (Max 2)",
+        "name": "Refracted Desperation",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackTail] Inflict +3 Bleed Count next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackTail] Inflict +3 Bleed Count next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91000201": {
+    "a": 0,
+    "id": "91000201",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[StartBattle] Apply 1 Haste to all allies next turn, including this unit\n[WinDuel] All allies heal 10 SP\n[WinDuel] Apply 2 Damage Up to 2 random allies next turn",
+        "name": "Refracted Crier",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Target loses 5 SP",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Target loses 5 SP",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Target loses 5 SP\n[OnSucceedAttackHead] Reuse this Coin once (Max 3)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91000202": {
+    "a": 0,
+    "id": "91000202",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[StartBattle] Apply 1 Damage Up to all allies next turn, including this unit\n[WinDuel] Apply 2 Attack Power Up to 2 random allies next turn\n[WinDuel] All allies heal 10 SP",
+        "name": "Refracted Onslaught Command",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 4 Sinking and +10 Sinking Count next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91000203": {
+    "a": 0,
+    "id": "91000203",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WinDuel] Apply 2 Attack Power Up to all allies next turn, including this unit\n[WinDuel] Apply 2 Damage Up to all allies next turn, including this unit\n[DefeatDuel] Gain 3 Attack Power Down next turn",
+        "name": "Refracted Mind Blast",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Target loses 15 SP\n[OnSucceedAttack] Apply 3 Attack Power Down to all allies next turn, including this unit",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91000204": {
+    "a": 0,
+    "id": "91000204",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Heal 20 HP",
+        "name": "Refracted Hardening",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": []
+      }
+    ]
+  },
+  "91000205": {
+    "a": 0,
+    "id": "91000205",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[CantChangeTarget]",
+        "name": "Refracted Raspart Command",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Apply 2 Protection to 2 random allies next turn\n[OnSucceedAttackTail] Inflict +10 Sinking Count next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "80002902": {
+    "a": 0,
+    "id": "80002902",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Heal 5 SP\nCoin Power +1 for every 3 N Corp’s Nails on target\nClash Power +1 for every 5 Bleed on target (Max 3)\n[WinDuel] Apply 2 Fanatic to all allies next turn, including this unit",
+        "name": "Refracted Deep Thrust",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 6 Bleed next turn\n[OnSucceedAttackHead] Inflict +3 Bleed Count next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 6 Bleed next turn\n[OnSucceedAttackHead] Inflict +3 Bleed Count next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "80002910": {
+    "a": 0,
+    "id": "80002910",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Coin Power +1 for every 3 N Corp’s Nails on target\n[OnSucceedEvade] Deal 5 SP damage\n[OnSucceedEvade] Deal 3 SP (5 times per turn)",
+        "name": "Refracted You Are Nothing",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "80002905": {
+    "a": 0,
+    "id": "80002905",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Heal 5 SP\nCoin Power +1 for every 3 N Corp’s Nails on target\nClash Power +1 for every 5 Bleed on target (Max 3)\n[WinDuel] Apply 1 Attack Power Up to all allies next turn, including this unit\n[WhenUse] At less than 50% HP, Atk Weight +1",
+        "name": "Refracted Sin-skewering Nail",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 N Corp’s Nails next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "80002904": {
+    "a": 0,
+    "id": "80002904",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 3 N Corp’s Nails on target (Max 5)\nClash Power +1 for every 3 Bleed on target (Max 5)\n[WinDuel] All allies heal 10 SP\n[WhenUse] Deal 10 SP damage\n[WhenUse] At less than 50% HP, Atk Weight +1",
+        "name": "Refracted Cackle",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 1 Attack Power Up next turn\n[OnSucceedAttackHead] Inflict 6 Bleed next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "80002906": {
+    "a": 0,
+    "id": "80002906",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] If target’s HP is below 30%, Skill Power +2\n[WhenUse] At less than 50% HP, Atk Weight +1\nCoin Power +1 for every 3 N Corp’s Nails on target\nClash Power +1 for every 5 Bleed on target (Max 3)\n[WinDuel] Apply 2 Fanatic to all allies next turn, including this unit",
+        "name": "Refracted Purify",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 N Corp’s Nails",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 N Corp’s Nails",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] If target has 5+ N Corp’s Nails, Stagger them and remove the Nails",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "80002908": {
+    "a": 0,
+    "id": "80002908",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Coin Power +1 for every 2 Bleed on target (Max 10)\n[DefeatDuel] User becomes Staggered\n[WinDuel] All allies heal 10 SP",
+        "name": "Refracted I Shall Claim Your Life!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Stagger target and inflict 10 Fragile next turn\n[OnSucceedAttackHead] Reuse this Coin once (Max 3)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "910001601": {
+    "a": 0,
+    "id": "910001601",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Coin Power +1 for every 5 [Burst] on target (Max 2)\nCoin Power +1 for every 5 [Laceration] on target (Max 2)",
+        "name": "Refracted Bat Bash",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count\n[OnSucceedAttack] Inflict +3 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +2 [Burst] Count\n[OnSucceedAttack] Inflict 3 [Laceration]\n[OnSucceedAttackHead] Reuse this Coin once (Max 2)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001602": {
+    "a": 0,
+    "id": "91001602",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 5 [Burst] on target (Max 5)\nClash Power +1 for every 5 [Laceration] on target (Max 5)\nCoin Power +1 for every 5 [Laceration] Count on target (Max 2)\nCoin Power +1 for every 5 [Burst] Count on target (Max 2)\n[WinDuel] Gain 1 [Enhancement] and 1 Damage Up next turn",
+        "name": "Refracted Smackdown",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +5 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict [Burst] equal to [Laceration] on target",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001603": {
+    "a": 0,
+    "id": "91001603",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 4 [Burst] on target (Max 5)\nClash Power +1 for every 4 [Laceration] on target (Max 5)\n[WinDuel] Inflict +3 [Burst] Count",
+        "name": "Refracted Upheaval",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Next Coin has +1 Power\n[OnSucceedAttackHead] Inflict +3 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Next Coin has +2 Power\n[OnSucceedAttackHead] Inflict +3 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Paralysis] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict bonus Pierce damage equal to ([Laceration] x [Laceration] Count)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001606": {
+    "a": 0,
+    "id": "91001606",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[CantChangeTarget]\nClash Power +1 for every 5 [Burst] on target (Max 10)\nClash Power +1 for every 5 [Laceration] on target (Max 10)",
+        "name": "Refracted Time to Repent",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 [Laceration] Count and +4 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and 3 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and 3 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [Enhancement] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001607": {
+    "a": 0,
+    "id": "91001607",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[CantChangeTarget]\nClash Power +1 for every 5 [Burst] on target (Max 10)\nClash Power +1 for every 5 [Laceration] on target (Max 10)",
+        "name": "Refracted Sorrow and Lament In The Rabbit's Wake.",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 [Sinking] Count and +4 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Sinking] and 4 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Sinking] and 4 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count and +3 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001604": {
+    "a": 0,
+    "id": "91001604",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "When attacked while this unit has Shield, gain 1 Offense Level Up next turn\n[WhenUse] Gain 1 [Enhancement] next turn",
+        "name": "Refracted Guard",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001605": {
+    "a": 0,
+    "id": "91001605",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[DuelCounter]\n[WhenUse] Gain 2 [ParryingResultUp] next turn",
+        "name": "Refracted Counter",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count and +3 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "21200511": {
+    "a": 0,
+    "id": "21200511",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[BeforeAttack] At 3+ highest Reson., Atk Weight +1\n[WhenUse] Apply 1 '(Corresponding Sin Affinity) Damage Up' and '1 (Corresponding Sin Affinity) Power Up' to (1 + # of highest Reson.) allies.\n- At 4+ Corresponding Reson., apply 1 additional '(Corresponding Sin Affinity) Damage Up'",
+        "name": "Garden of Thorns",
+        "rawDesc": "",
+        "abName": "Sign of Roses",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[EndSkill] Heal 1 ally with the lowest HP percentage for 15% HP of their max HP\n- Heal (highest # of Reson. - 2) more allies (max 3)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "desc": "[BeforeAttack] Gain (# of highest Reson. - 2) Atk Weight (Max 2)\n[WhenUse] Apply 1 '(Corresponding Sin Affinity) Damage Up' and '1 (Corresponding Sin Affinity) Power Up' to (2 + # of highest Reson.) allies.\n- At 4+ Corresponding Reson., apply 1 additional '(Corresponding Sin Affinity) Damage Up'\n- At 5+ Corresponding Reson., apply 1 additional '(Corresponding Sin Affinity) Power Up'",
+        "name": "Garden of Thorns",
+        "rawDesc": "",
+        "abName": "Sign of Roses",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[EndSkill] Heal 2 allies with the lowest HP percentages for 18% HP of their max HP\n- Heal (highest # of Reson. - 2) more allies (max 3)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] For 2 turns, lose 10 SP at Turn End\n[WhenUse] Apply 2 '(Corresponding Sin Affinity) Damage Up' and '2 (Corresponding Sin Affinity) Power Up' to (4 + # of highest Reson.) allies.\n- At 4+ Corresponding Reson., apply 2 additional '(Corresponding Sin Affinity) Damage Up'\n- At 5+ Corresponding Reson., apply 2 additional '(Corresponding Sin Affinity) Power Up'\n- At 6+ Corresponding A-Reson., apply the above effects next turn as well",
+        "name": "Garden of Thorns",
+        "rawDesc": "",
+        "abName": "Sign of Roses",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[EndSkill] Heal 4 allies with the lowest HP percentages for 22% HP of their max HP\n- Heal (highest # of Reson. - 2) more allies (max 3)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "21200521": {
+    "a": 0,
+    "id": "21200521",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] At 3+ highest Reson., Atk Weight +1",
+        "name": "Garden of Thorns",
+        "rawDesc": "",
+        "abName": "Sign of Roses",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [AttackDmgDown]. Inflict 2 [Binding] next turn.",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 'Fragility' and 1 'Power Down' for the Sin Affinity with the highest Reson. count\n- At 4+ Corresponding Reson., inflict 1 additional '(Corresponding Sin Affinity) Fragility'",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "desc": "[CantIdentify]\nTargets Randomly\n[BeforeAttack] Gain (highest # of Reson. - 2) Atk Weight (max 2)",
+        "name": "Garden of Thorns",
+        "rawDesc": "",
+        "abName": "Sign of Roses",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [AttackDmgDown]. Inflict 2 [Binding] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 'Fragility' and 1 'Power Down' for the Sin Affinity with the highest Resonance count\n- At 4+ Corresponding Reson., inflict 1 additional '(Corresponding Sin Affinity) Fragility'\n- At 5+ Corresponding Reson., inflict 1 additional '(Corresponding Sin Affinity) Power Down'",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[CantIdentify]\nTargets Randomly",
+        "name": "Garden of Thorns",
+        "rawDesc": "",
+        "abName": "Sign of Roses",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [AttackDmgDown]. Inflict 2 [Binding] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 'Fragility' and 2 'Power Down' for the Sin Affinity with the highest Resonance count\n- At 4+ Corresponding Reson., inflict 2 additional '(Corresponding Sin Affinity) Fragility'\n- At 5+ Corresponding Reson., inflict 2 additional '(Corresponding Sin Affinity) Power Down'\n- At 6+ Corresponding A-Reson., apply the above effects next turn as well",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10100801": {
+    "a": 0,
+    "id": "10100801",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Gain ([KnowledgeExplored] x 2% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+        "name": "Expend Knowledge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Lower user’s Stagger Threshold by [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Lower user’s Stagger Threshold by [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "Gain ([KnowledgeExplored] x 3% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+        "name": "Expend Knowledge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Lower user's Stagger Threshold by [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "Gain ([KnowledgeExplored] x 5% of Max HP) Shield if this Skill is Discarded\n[WinDuel] Inflict +3 Sinking Count\n[WhenUse] If Insight is 2 or higher, gain Coin Power by (Insight -1)\n[WhenUse] If target has 5+ [Sinking], Coin Power +1",
+        "name": "Refracted Expend Knowledge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]\n[OnSucceedAttack] Lower user's Stagger Threshold by 10",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10100802": {
+    "a": 0,
+    "id": "10100802",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Gain ([KnowledgeExplored] x 4% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots",
+        "name": "Seal Shut",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "Gain ([KnowledgeExplored] x 5% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the highest rank in all of this unit's Skill Slots\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+        "name": "Seal Shut",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "Gain ([KnowledgeExplored] x 10% of Max HP) Shield if this Skill is Discarded\n[WinDuel] Inflict +4 Sinking Count\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] If target has 5+ [Sinking], Coin Power +1\n[WhenUse] Gain +3 Aggro to this Skill Slot next turn",
+        "name": "Refracted Seal Shut",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10100803": {
+    "a": 0,
+    "id": "10100803",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "Gain ([KnowledgeExplored] x 9% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Gain +8 Aggro to this Skill Slot next turn",
+        "name": "Grace of Knowledge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "Gain ([KnowledgeExplored] x 20% of Max HP) Shield if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] Gain +10 Aggro to this Skill Slot next turn\n[WhenUse] When below 50% HP, Coin Power +1",
+        "name": "Refracted Grace of Knowledge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 [Sinking] Count\n[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count\n[OnSucceedAttack] Inflict [Sinking] equal to [KnowledgeExplored]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10040202": {
+    "a": 0,
+    "id": "10040202",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "Coin Power +1 for every 2 [DefenseDown] on target\n[WinDuel] Gain 2 Attack Power Up next turn",
+        "name": "Violet Blade",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 [DefenseDown] this turn and next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10040204": {
+    "a": 0,
+    "id": "10040204",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[DuelCounter]\n[StartBattle] Gain 50 Shield",
+        "name": "Serpentine Parry",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 [DefenseDown] this turn and next turn\n[OnSucceedAttackHead] Gain 2 [SlashResultUp] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10040203": {
+    "a": 0,
+    "id": "10040203",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WinDuel] This skill inflicts 2 additional [SlashTakeDamageUp] and [DefenseDown]\n[StartBattle] Apply 1 [SlashResultUp] to self this turn",
+        "name": "Snake Slit",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [SlashTakeDamageUp] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttackHead] Gain 1 [Agility] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10040205": {
+    "a": 0,
+    "id": "10040205",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "This skill deals 0 damage.\n[WhenUse] Apply Prey Mark next turn\n[StartBattle] Gain 50 Shield\n[StartBattle] Apply 1 [SlashResultUp] to self this turn",
+        "name": "Identify Weaklink",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [SlashTakeDamageUp] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttack] Gain 2 [Agility] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10040206": {
+    "a": 0,
+    "id": "10040206",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[EnemyKill] Heal all allies for 15% of their Max HP\n[WinDuel] This skill inflicts 2 additional Potency of every Status Effect\n[WhenUse] Clash Power +1 for every 3 [Burst] or [Laceration] Count on the main target (Max 10)\n[WhenUse] Clash Power +1 for every 3 [DefenseDown] on the main target (Max 10)",
+        "name": "Mirage Storm",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] and [Laceration] Count\n[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttack] Inflict +10 Blunt Damage",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] and [Laceration] Count\n[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttack] Inflict +10 Blunt Damage",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] and [Laceration] Count\n[OnSucceedAttack] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttack] Inflict +10 Blunt Damage",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10040201": {
+    "a": 0,
+    "id": "10040201",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "Coin Power +1 for every 2 [DefenseDown] on target (Max 2)\n[WinDuel] Gain 2 Attack Power Up next turn",
+        "name": "Serpent Sword Technique",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn\n[OnSucceedAttackHead] Inflict 3 [DefenseDown] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn\n[OnSucceedAttackHead] Inflict 3 [DefenseDown] next turn\n[OnSucceedAttackHead] Gain 1 [Agility] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

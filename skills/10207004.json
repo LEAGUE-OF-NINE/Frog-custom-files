@@ -9,12 +9,12 @@
             "gaksungLevel": 1,
             "informationID": -1,
             "attributeType": "AZURE",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
-            "canDuel": "false",
+            "atkType": "HIT",
+            "defType": "COUNTER",
+            "skillMotion": "Default",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
             "canChangeTarget": "true",
             "targetNum": 1,
             "defaultValue": 20,
@@ -37,7 +37,7 @@
             "skillLevelCorrection": 5,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "FRONT",
             "canTeamKill": "false",
             "coinList": [
                 {
@@ -58,12 +58,12 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "AZURE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -72,7 +72,7 @@
                 {
                     "scriptName": "GiveBuffOnUse",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Vibration",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 0,
@@ -85,7 +85,7 @@
                 {
                     "scriptName": "GiveBuffOnUse",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Paralysis",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 3,
@@ -98,10 +98,10 @@
                 {
                     "scriptName": "GiveBuffOnUse",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Binding",
                         "target": "Self",
                         "buffOwner": "",
-                        "stack": 3,
+                        "stack": 4,
                         "turn": 0,
                         "activeRound": 1,
                         "value": 0.0,
@@ -126,16 +126,16 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [
                 {
-                    "operatorType": "",
-                    "color": "",
-                    "grade": 1,
+                    "operatorType": "SUB",
+                    "color": "GREY",
+                    "grade": 2,
                     "abilityScriptList": [
                         {
-                            "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio100WithLimit60",
+                            "scriptName": "VEOnSAGiveCrimsonDmgByBgUpRatio200WithLimit200",
                             "buffData": {
                                 "buffKeyword": "",
                                 "target": "",
@@ -150,7 +150,7 @@
                         {
                             "scriptName": "LoseBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Vibration",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": 0,
@@ -171,5 +171,5 @@
         }
     ],
     "requireIDList": [],
-    "skillType": ""
+    "skillType": "SKILL"
 }

@@ -117,6 +117,7 @@
   "10910": {"a":0,"id":"10910","name":"Rodion","desc":"Rodion's 10th Identity","title":"Devyat' Assoc.\nNorth Section 3","acquisitionMethod":"Unknown","oneLineTitle":""},
   "10810": {"a":0,"id":"10810","name":"Ishmael","desc":"Ishmael's 10th Identity","title":"Zwei Assoc.\nWest Section 3","acquisitionMethod":"Unknown","oneLineTitle":""},
   "11229": {"a":0,"id":"11229","name":"Gregor","desc":"Gregor's 11th Identity","title":"Cinq Assoc.\nSouth Section 7","acquisitionMethod":"Unknown","oneLineTitle":""},
+  "10558": {"a":0,"id":"10558","name":"Meursault","desc":"Meursault's 13th Identity","title":"Distorting Blade Lineage Mentor","acquisitionMethod":"Unknown","oneLineTitle":""},
   "1000110": {"a":0,"id":"1010008","name":"Yi Sang","desc":"Yi Sang's 11th Identity","title":"Dieci Assoc.\nSouth Section 3","acquisitionMethod":"Unknown","oneLineTitle":""},
   "1000510": {"a":0,"id":"1000510","name":"Meursault","desc":"Meursault’s 11th Identity","title":"Dieci Assoc.\nSouth Section 3 Director","acquisitionMethod":"Unknown","oneLineTitle":""},
   "100702": {"a":0,"id":"100702","name":"Heathcliff","desc":"Heathcliff’s 12th Identity","title":"Shi Assoc.\nSouth Section 3","acquisitionMethod":"Unknown","oneLineTitle":""},
@@ -129,6 +130,5 @@
   "107003": {"a":0,"id":"107003","name":"Heathcliff","desc":"Heathcliff’s 13th Identity","title":"QUICKEST SUPPRESSION","acquisitionMethod":"Unknown","oneLineTitle":""},
   "112010": {"a":0,"id":"112010","name":"Gregor","desc":"Gregor’s 10th Identity","title":"R.B.\nSous-chef","acquisitionMethod":"Unknown","oneLineTitle":""},
   "10520": {"a":0,"id":"10520","name":"Meursault","desc":"Meursault’s 11th Identity","title":"Dead Rabbits\nBoss","acquisitionMethod":"Unknown","oneLineTitle":""},
-  "10227": {"a":0,"id":"10227","name":"Faust","desc":"Faust’s 12th Identity","title":"Lobotomy E.G.O::\nRegret","acquisitionMethod":"Unknown","oneLineTitle":""},
   "10000710": {"a":0,"id":"10000710","name":"Heathcliff","desc":"Heathcliff's 11th Identity","title":"The Middle\nBig Brother","acquisitionMethod":"Unknown","oneLineTitle":""}
 }

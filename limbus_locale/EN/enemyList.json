@@ -993,5 +993,9 @@
   "800581": {"a":0,"id":"800581","name":"New Refraction - Lured Starbuck","desc":"Core"},
   "800579": {"a":0,"id":"800579","name":"New Refraction - Lured Ahab","desc":"Core"},
   "8005792": {"a":0,"id":"8005792","name":"New Refraction - Phase 2 Lured Ahab","desc":"Core"},
-  "800580": {"a":0,"id":"800580","name":"New Refraction - Lured Queequeeg","desc":"Core"}
+  "800580": {"a":0,"id":"800580","name":"New Refraction - Lured Queequeeg","desc":"Core"},
+  "8000084": {"a":0,"id":"8000084","name":"New Refraction - Crow Mauler","desc":"Core"},
+  "8092001": {"a":0,"id":"8092001","name":"Torso","desc":"Part"},
+  "8092002": {"a":0,"id":"8092002","name":"Mace","desc":"Part"},
+  "8092003": {"a":0,"id":"8092003","name":"Head","desc":"Part"}
 }
