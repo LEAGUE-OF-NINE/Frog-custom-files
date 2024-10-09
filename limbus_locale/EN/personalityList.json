@@ -124,11 +124,13 @@
   "1000803": {"a":0,"id":"1000803","name":"Ishmael","desc":"Ishmael’s 10th Identity","title":"Shi Assoc.\nSouth Section 3","acquisitionMethod":"Unknown","oneLineTitle":""},
   "100303": {"a":0,"id":"100303","name":"Don Quixote","desc":"Don Quixote’s 10th Identity","title":"Shi Assoc.\nSouth Section 3 Director","acquisitionMethod":"Unknown","oneLineTitle":""},
   "100422": {"a":0,"id":"100422","name":"Ryōshū","desc":"Ryōshū's 11th Identity","title":"The Purple Tear - Slash Stance","acquisitionMethod":"Unknown","oneLineTitle":""},
-  "110009": {"a":0,"id":"110009","name":"Sinclair","desc":"Sinclair’s 10th Identity","title":"Zwei Assoc.\nSouth Section 1","acquisitionMethod":"Unknown","oneLineTitle":""},
+  "11022": {"a":0,"id":"11022","name":"Sinclair","desc":"Sinclair’s 10th Identity","title":"Zwei Assoc.\nSouth Section 1","acquisitionMethod":"Unknown","oneLineTitle":""},
+  "11023": {"a":0,"id":"11023","name":"Sinclair","desc":"Sinclair’s 23rd Identity","title":"Zwei West.\n Section 3","acquisitionMethod":"Unknown","oneLineTitle":""},
   "10215": {"a":0,"id":"10215","name":"Faust","desc":"Faust's 11th Identity","title":"Liu Assoc.\nSouth Section 3","acquisitionMethod":"Unknown","oneLineTitle":""},
   "1000607": {"a":0,"id":"1000607","name":"Hong Lu","desc":"Hong Lu's 10th Identity","title":"MultiCrack Office\nFixer","acquisitionMethod":"Unknown","oneLineTitle":""},
   "107003": {"a":0,"id":"107003","name":"Heathcliff","desc":"Heathcliff’s 13th Identity","title":"QUICKEST SUPPRESSION","acquisitionMethod":"Unknown","oneLineTitle":""},
   "112010": {"a":0,"id":"112010","name":"Gregor","desc":"Gregor’s 10th Identity","title":"R.B.\nSous-chef","acquisitionMethod":"Unknown","oneLineTitle":""},
   "10520": {"a":0,"id":"10520","name":"Meursault","desc":"Meursault’s 11th Identity","title":"Dead Rabbits\nBoss","acquisitionMethod":"Unknown","oneLineTitle":""},
-  "10000710": {"a":0,"id":"10000710","name":"Heathcliff","desc":"Heathcliff's 11th Identity","title":"The Middle\nBig Brother","acquisitionMethod":"Unknown","oneLineTitle":""}
+  "10000710": {"a":0,"id":"10000710","name":"Heathcliff","desc":"Heathcliff's 11th Identity","title":"The Middle\nBig Brother","acquisitionMethod":"Unknown","oneLineTitle":""},
+  "10728": {"a":0,"id":"10728","name":"Heathcliff","desc":"Heathcliff's 28th Identity","title":"Blade Lineage Hunter","acquisitionMethod":"Unknown","oneLineTitle":""}
 }

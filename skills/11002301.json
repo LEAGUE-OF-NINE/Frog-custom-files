@@ -1,14 +1,14 @@
 {
-    "id": 1020801,
-    "textID": -1,
+    "id": 11002301,
+    "textID": 11002301,
     "skillTier": 1,
     "skillData": [
         {
             "actionScript": "",
-            "iconID": "",
+            "iconID": "11002301",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "AMBER",
+            "attributeType": "SCARLET",
             "atkType": "SLASH",
             "defType": "ATTACK",
             "skillMotion": "S1",
@@ -20,13 +20,26 @@
             "defaultValue": 3,
             "abilityScriptList": [
                 {
-                    "scriptName": "GiveBuffOnUse",
+                    "scriptName": "AddTauntOnUse2",
                     "buffData": {
-                        "buffKeyword": "Breath",
-                        "target": "Self",
+                        "buffKeyword": "",
+                        "target": "",
                         "buffOwner": "",
                         "stack": 0,
-                        "turn": 2,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnUsePerBuffTurn_Vibration4_Limit2",
+                    "buffData": {
+                        "buffKeyword": "DefenseUp",
+                        "target": "Self",
+                        "buffOwner": "Self",
+                        "stack": 1,
+                        "turn": 0,
                         "activeRound": 0,
                         "value": 0.0,
                         "limit": 0
@@ -34,7 +47,7 @@
                 }
             ],
             "mpUsage": 0,
-            "skillLevelCorrection": 2,
+            "skillLevelCorrection": 0,
             "range": -1.0,
             "arearange": -1.0,
             "skillTargetType": "FRONT",
@@ -44,18 +57,35 @@
                     "operatorType": "ADD",
                     "color": "GOLD",
                     "grade": 1,
-                    "abilityScriptList": [],
-                    "scale": 1,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
-                    "abilityScriptList": [],
-                    "scale": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Vibration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 1,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseUp",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 3,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -66,20 +96,33 @@
                     "grade": 1,
                     "abilityScriptList": [
                         {
-                            "scriptName": "GiveBuffOnSuccessCriticalAttack",
+                            "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "RedApricotBlossom",
+                                "buffKeyword": "Vibration",
                                 "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 1,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseUp",
+                                "target": "Self",
                                 "buffOwner": "",
                                 "stack": 1,
                                 "turn": 0,
-                                "activeRound": 0,
+                                "activeRound": 1,
                                 "value": 0.0,
                                 "limit": 0
                             }
                         }
                     ],
-                    "scale": 1,
+                    "scale": 3,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -104,15 +147,41 @@
             "defaultValue": -1,
             "abilityScriptList": [
                 {
-                    "scriptName": "GiveBuffOnUse",
+                    "scriptName": "AddTauntOnUse3",
                     "buffData": {
-                        "buffKeyword": "Breath",
-                        "target": "Self",
+                        "buffKeyword": "",
+                        "target": "",
                         "buffOwner": "",
                         "stack": 0,
-                        "turn": 2,
+                        "turn": 0,
                         "activeRound": 0,
                         "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnUsePerBuffTurn_Vibration3_Limit2",
+                    "buffData": {
+                        "buffKeyword": "DefenseUp",
+                        "target": "Self",
+                        "buffOwner": "Self",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "SkillPowerAdderOnUseViaBuffCheck",
+                    "buffData": {
+                        "buffKeyword": "DefenseUp",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 4,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
                         "limit": 0
                     }
                 }
@@ -128,56 +197,72 @@
                     "operatorType": "ADD",
                     "color": "GOLD",
                     "grade": 1,
-                    "abilityScriptList": [],
-                    "scale": 1,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
                     "abilityScriptList": [
                         {
-                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "Breath",
-                                "target": "Self",
-                                "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        }
-                    ],
-                    "scale": 1,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
-                    "abilityScriptList": [
-                        {
-                            "scriptName": "GiveBuffOnSuccessCriticalAttack",
-                            "buffData": {
-                                "buffKeyword": "RedApricotBlossom",
+                                "buffKeyword": "Vibration",
                                 "target": "Target",
                                 "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
+                                "stack": 0,
+                                "turn": 1,
                                 "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseUp",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 1,
                                 "value": 0.0,
                                 "limit": 0
                             }
                         }
                     ],
-                    "scale": 1,
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Vibration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 1,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseUp",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 3,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -200,21 +285,7 @@
             "canChangeTarget": "",
             "targetNum": -1,
             "defaultValue": -1,
-            "abilityScriptList": [
-                {
-                    "scriptName": "GiveBuffOnUse",
-                    "buffData": {
-                        "buffKeyword": "Breath",
-                        "target": "Self",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 2,
-                        "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                }
-            ],
+            "abilityScriptList": [],
             "mpUsage": -1,
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
@@ -226,56 +297,46 @@
                     "operatorType": "ADD",
                     "color": "GOLD",
                     "grade": 1,
-                    "abilityScriptList": [],
-                    "scale": 2,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
                     "abilityScriptList": [
                         {
-                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "scriptName": "GiveBuffOnSucceedAttackAfterWinDuel",
                             "buffData": {
-                                "buffKeyword": "Breath",
-                                "target": "Self",
-                                "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        }
-                    ],
-                    "scale": 2,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
-                    "abilityScriptList": [
-                        {
-                            "scriptName": "GiveBuffOnSuccessCriticalAttack",
-                            "buffData": {
-                                "buffKeyword": "RedApricotBlossom",
+                                "buffKeyword": "Vibration",
                                 "target": "Target",
                                 "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
+                                "stack": 0,
+                                "turn": 2,
                                 "activeRound": 0,
                                 "value": 0.0,
                                 "limit": 0
                             }
                         }
                     ],
-                    "scale": 2,
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "DefenseUp",
+                                "target": "Self",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -300,26 +361,52 @@
             "defaultValue": -1,
             "abilityScriptList": [
                 {
-                    "scriptName": "CoinScaleAdderViaBuffCheck",
+                    "scriptName": "AddTauntOnUse3",
                     "buffData": {
-                        "buffKeyword": "Breath",
+                        "buffKeyword": "",
                         "target": "",
-                        "buffOwner": "Self",
-                        "stack": 5,
+                        "buffOwner": "",
+                        "stack": 0,
                         "turn": 0,
                         "activeRound": 0,
-                        "value": 1.0,
+                        "value": 0.0,
                         "limit": 0
                     }
                 },
                 {
                     "scriptName": "GiveBuffOnUse",
                     "buffData": {
-                        "buffKeyword": "Breath",
+                        "buffKeyword": "DefenseUp",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 3,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+                    "buffData": {
+                        "buffKeyword": "Vibration",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 0,
+                        "turn": 6,
+                        "activeRound": 0,
+                        "value": 2.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnWinDuel",
+                    "buffData": {
+                        "buffKeyword": "Vibration",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 0,
-                        "turn": 2,
+                        "turn": 4,
                         "activeRound": 0,
                         "value": 0.0,
                         "limit": 0
@@ -332,66 +419,7 @@
             "arearange": -1.0,
             "skillTargetType": "NONE",
             "canTeamKill": "",
-            "coinList": [
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
-                    "abilityScriptList": [],
-                    "scale": 2,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
-                    "abilityScriptList": [
-                        {
-                            "scriptName": "GiveBuffOnSucceedAttackHead",
-                            "buffData": {
-                                "buffKeyword": "Breath",
-                                "target": "Self",
-                                "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        }
-                    ],
-                    "scale": 2,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
-                    "abilityScriptList": [
-                        {
-                            "scriptName": "GiveBuffOnSuccessCriticalAttack",
-                            "buffData": {
-                                "buffKeyword": "RedApricotBlossom",
-                                "target": "Target",
-                                "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        }
-                    ],
-                    "scale": 2,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                }
-            ],
+            "coinList": [],
             "actionList": []
         }
     ],

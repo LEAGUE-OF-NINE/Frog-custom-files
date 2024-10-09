@@ -91,7 +91,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Final Power -1 for every 5 [Breath] on self (Max 6)\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +3% more damage on Critical Hit for every Poise Potency on self (Max 75%)\n+30% Damage on Critical Hit\nDeal +0.5% more damage per 1% missing HP on self (Max 25%)",
+        "desc": "[WhenUse] Gain +3 Aggro to this Skill Slot next turn\n[WhenUse] Clash Power -1 for every 5 [Breath] on self (Max 6)\n[WhenUse] Until this Skill ends, this unit cannot be Staggered from taking damage\n[WinDuel] Gain 5 [Breath]\n[DefeatDuel] After getting hit, use 'To Claim Their Bones' Skill\n[CriticalActivated] Deal +4% more damage on Critical Hit for every Poise Potency on self (Max 100%)\n+50% Damage on Critical Hit\nDeal +0.5% more damage per 1% missing HP on self (Max 25%)",
         "name": "Yield My Flesh",
         "rawDesc": "",
         "abName": "",

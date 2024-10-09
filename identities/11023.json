@@ -1,33 +1,33 @@
 {
-    "id": 107003,
+    "id": 11023,
     "unitScriptID": "",
-    "viewid": 107003,
+    "viewid": 11023,
     "deadsceneid": -1,
     "sdPortrait": "",
-    "appearance": "10703_Heathclif_RCorpAppearance",
-    "panicSkillOnErosion": 1070303,
+    "appearance": "11003_Sinclair_ZweiAppearance",
+    "panicSkillOnErosion": 1000104,
     "mp": 45,
     "hp": {
-        "defaultStat": 66,
-        "incrementByLevel": 2.2799999713897707
+        "defaultStat": 88,
+        "incrementByLevel": 3.049999952316284
     },
-    "defCorrection": -4,
+    "defCorrection": 3,
     "aggro": 1,
     "panicType": 9999,
     "minSpeedList": [
-        3,
-        3,
-        3,
-        8
+        1,
+        2,
+        2,
+        4
     ],
     "maxSpeedList": [
-        5,
-        6,
-        7,
-        8
+        3,
+        3,
+        4,
+        6
     ],
     "defenseSkillIDList": [
-        1070303
+        11002304
     ],
     "mentalConditionInfo": {
         "add": [
@@ -66,79 +66,60 @@
     ],
     "breakSection": {
         "sectionList": [
-            70,
-            40,
-            20
+            60,
+            30
         ]
     },
     "resistInfo": {
         "atkResistList": [
             {
                 "type": "SLASH",
-                "value": 1.0
+                "value": 2.0
             },
             {
                 "type": "PENETRATE",
-                "value": 0.5
+                "value": 1.0
             },
             {
                 "type": "HIT",
-                "value": 2.0
+                "value": 0.5
             }
         ],
         "attributeResistList": []
     },
     "passiveSet": {
-        "passiveIdList": [
-            0,
-            0,
-            0
-        ],
-        "supportPassiveIdList": [
-            0
-        ]
+        "passiveIdList": [],
+        "supportPassiveIdList": []
     },
     "attributeList": [
         {
-            "number": 6,
-            "skillId": 1070303
-        }
-    ],
-    "initBuffList": [
-        {
-            "level": 1,
-            "list": [
-                {
-                    "buff": "Bullet",
-                    "stack": 13,
-                    "turn": 0
-                }
-            ]
+            "number": 3,
+            "skillId": 11002301
         },
         {
-            "level": 4,
-            "list": [
-                {
-                    "buff": "Bullet",
-                    "stack": 199,
-                    "turn": 0
-                }
-            ]
+            "number": 2,
+            "skillId": 11002302
+        },
+        {
+            "number": 1,
+            "skillId": 11002303
         }
     ],
+    "initBuffList": [],
     "associationList": [
-        "R_CORP"
+        "ZWEI"
     ],
     "unitKeywordList": [
+        "FIXER",
         "SMALL"
     ],
-    "characterId": 7,
+    "characterId": 10,
     "season": 0,
     "isPlusCoinUnit": true,
     "additionalAttachment": "",
     "promotionId": 0,
-    "rank": 3,
-    "uniqueAttribute": "CRIMSON",
+    "rank": 2,
+    "uniqueAttribute": "INDIGO",
     "supporterPassiveSet": {
         "passiveIdList": [],
         "supportPassiveIdList": []

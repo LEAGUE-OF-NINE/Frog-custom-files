@@ -1,6 +1,6 @@
 {
-    "id": 1020804,
-    "textID": -1,
+    "id": 11002304,
+    "textID": 11002304,
     "skillTier": 1,
     "skillData": [
         {
@@ -14,38 +14,51 @@
             "skillMotion": "Default",
             "viewType": "BATTLE",
             "parryingCloseType": "NEAR",
-            "canDuel": "false",
+            "canDuel": "true",
             "canChangeTarget": "true",
             "targetNum": 1,
-            "defaultValue": 10,
+            "defaultValue": 3,
             "abilityScriptList": [
                 {
-                    "scriptName": "SkillPowerResultAdderViaOnUseBuffCheckDevideByStackWithLimit3",
+                    "scriptName": "GiveBuffOnBattleStart(limit:1)",
                     "buffData": {
-                        "buffKeyword": "Breath",
-                        "target": "",
-                        "buffOwner": "Self",
-                        "stack": 4,
+                        "buffKeyword": "DefensiveStance",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 2,
                         "turn": 0,
                         "activeRound": 0,
-                        "value": 1.0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnUse(limit:1)",
+                    "buffData": {
+                        "buffKeyword": "Vibration",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 10,
+                        "activeRound": 0,
+                        "value": 0.0,
                         "limit": 0
                     }
                 }
             ],
             "mpUsage": 0,
-            "skillLevelCorrection": 0,
-            "range": -1.0,
+            "skillLevelCorrection": 5,
+            "range": 999.0,
             "arearange": -1.0,
             "skillTargetType": "FRONT",
             "canTeamKill": "false",
             "coinList": [
                 {
                     "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
+                    "color": "GREY",
+                    "grade": 2,
                     "abilityScriptList": [],
-                    "scale": 4,
+                    "scale": 8,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -55,10 +68,10 @@
         },
         {
             "actionScript": "",
-            "iconID": "1020804_4",
+            "iconID": "1081004_4",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "AZURE",
+            "attributeType": "AMBER",
             "atkType": "ERROR",
             "defType": "NONE",
             "skillMotion": "Empty",
@@ -67,18 +80,44 @@
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
-            "defaultValue": -1,
+            "defaultValue": 3,
             "abilityScriptList": [
                 {
-                    "scriptName": "SkillPowerResultAdderViaOnUseBuffCheckDevideByStackWithLimit5",
+                    "scriptName": "AddTauntOnUse5",
                     "buffData": {
-                        "buffKeyword": "Breath",
+                        "buffKeyword": "",
                         "target": "",
-                        "buffOwner": "Self",
-                        "stack": 4,
+                        "buffOwner": "",
+                        "stack": 0,
                         "turn": 0,
                         "activeRound": 0,
-                        "value": 1.0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnUse(limit:1)",
+                    "buffData": {
+                        "buffKeyword": "Vibration",
+                        "target": "Self",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 6,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "VibrationExplosionOnWinDuel",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
                         "limit": 0
                     }
                 }
@@ -92,10 +131,10 @@
             "coinList": [
                 {
                     "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
+                    "color": "GREY",
+                    "grade": 2,
                     "abilityScriptList": [],
-                    "scale": 4,
+                    "scale": 12,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false

@@ -548,61 +548,7 @@
           "skillMotion": "S3",
           "viewType": "ENCOUNTER",
           "parryingCloseType": "NEAR",
-          "abilityScriptList": [
-            {
-              "scriptName": "AddTauntOnUse3"
-            },
-            {
-              "scriptName": "GetIgnoreNaturalBreakOnUse"
-            },
-            {
-              "scriptName": "GiveBuffOnWinDuel",
-              "buffData": {
-                "buffKeyword": "Breath",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 5,
-                "turn": 0,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStackWithLimit6",
-              "buffData": {
-                "buffKeyword": "Breath",
-                "target": "Self",
-                "buffOwner": "Self",
-                "stack": 5,
-                "turn": 0,
-                "activeRound": 0,
-                "value": -1
-              }
-            },
-            {
-              "scriptName": "UseNewCounterFirst_1050805"
-            },
-            {
-              "scriptName": "DistoryIgnoreNaturalBreak"
-            },
-            {
-              "scriptName": "CriticalDmgUpByRatioOnCriticalActivatedViaBuffCheckDevideByStackWithLimit50",
-              "buffData": {
-                "buffKeyword": "Breath",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.02
-              }
-            },
-            {
-              "scriptName": "CriticalDmgUpByRatio15"
-            },
-            {
-              "scriptName": "atkmulMeur50And25"
-            }
-          ],
+          "abilityScriptList": [],
           "coinList": [
             {
               "operatorType": "SUB",
@@ -622,6 +568,19 @@
               "scriptName": "GetIgnoreNaturalBreakOnUse"
             },
             {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "",
+                "buffOwner": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": -1.0,
+                "limit": 6
+              }
+            },
+            {
               "scriptName": "GiveBuffOnWinDuel",
               "buffData": {
                 "buffKeyword": "Breath",
@@ -639,7 +598,7 @@
               "scriptName": "DistoryIgnoreNaturalBreak"
             },
             {
-              "scriptName": "CriticalDmgUpByRatioOnCriticalActivatedViaBuffCheckDevideByStackWithLimit75",
+              "scriptName": "CriticalDmgUpByRatioOnCriticalActivatedViaBuffCheckDevideByStackWithLimit100",
               "buffData": {
                 "buffKeyword": "Breath",
                 "target": "",
@@ -647,11 +606,11 @@
                 "stack": 1,
                 "turn": 0,
                 "activeRound": 0,
-                "value": 0.03
+                "value": 0.04
               }
             },
             {
-              "scriptName": "CriticalDmgUpByRatio30"
+              "scriptName": "CriticalDmgUpByRatio50"
             },
             {
               "scriptName": "atkmulMeur50And25"

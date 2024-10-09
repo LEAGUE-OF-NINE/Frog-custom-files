@@ -1,15 +1,15 @@
 {
-    "id": 1040803,
-    "textID": -1,
+    "id": 11002303,
+    "textID": 11002303,
     "skillTier": 3,
     "skillData": [
         {
             "actionScript": "",
-            "iconID": "",
+            "iconID": "11002303",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "CRIMSON",
-            "atkType": "SLASH",
+            "attributeType": "AMBER",
+            "atkType": "HIT",
             "defType": "ATTACK",
             "skillMotion": "S3",
             "viewType": "ENCOUNTER",
@@ -20,12 +20,38 @@
             "defaultValue": 4,
             "abilityScriptList": [
                 {
-                    "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+                    "scriptName": "GiveBuffOnUsePerBuffTurn_Vibration2_Limit3",
                     "buffData": {
-                        "buffKeyword": "MarkOfButler",
-                        "target": "",
-                        "buffOwner": "Target",
+                        "buffKeyword": "DefenseUp",
+                        "target": "Self",
+                        "buffOwner": "Self",
                         "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheck",
+                    "buffData": {
+                        "buffKeyword": "DefensiveStance",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.5,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
+                    "buffData": {
+                        "buffKeyword": "DefenseUp",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 4,
                         "turn": 0,
                         "activeRound": 0,
                         "value": 1.0,
@@ -33,13 +59,26 @@
                     }
                 },
                 {
-                    "scriptName": "GiveBuffOnUse",
+                    "scriptName": "AddTauntOnUse8",
                     "buffData": {
-                        "buffKeyword": "Breath",
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnWinDuel",
+                    "buffData": {
+                        "buffKeyword": "Vibration",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 0,
-                        "turn": 7,
+                        "turn": 3,
                         "activeRound": 0,
                         "value": 0.0,
                         "limit": 0
@@ -47,8 +86,8 @@
                 }
             ],
             "mpUsage": 0,
-            "skillLevelCorrection": 5,
-            "range": 8.0,
+            "skillLevelCorrection": 2,
+            "range": -1.0,
             "arearange": -1.0,
             "skillTargetType": "FRONT",
             "canTeamKill": "false",
@@ -61,70 +100,7 @@
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "Breath",
-                                "target": "Self",
-                                "buffOwner": "",
-                                "stack": 5,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        },
-                        {
-                            "scriptName": "GiveBuffOnSucceedAttack",
-                            "buffData": {
-                                "buffKeyword": "Binding",
-                                "target": "Target",
-                                "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
-                                "activeRound": 1,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        },
-                        {
-                            "scriptName": "DamageFirstBreakSectionOnSuccessAttackByDamageRatio2",
-                            "buffData": {
-                                "buffKeyword": "",
-                                "target": "",
-                                "buffOwner": "",
-                                "stack": 0,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        }
-                    ],
-                    "scale": 7,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
-                    "abilityScriptList": [
-                        {
-                            "scriptName": "CriticalDmgUpByRatioIfTargetBreak20",
-                            "buffData": {
-                                "buffKeyword": "",
-                                "target": "",
-                                "buffOwner": "",
-                                "stack": 0,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        },
-                        {
-                            "scriptName": "GiveBuffOnSucceedAttack",
-                            "buffData": {
-                                "buffKeyword": "MarkOfButler",
+                                "buffKeyword": "Vibration",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": 2,
@@ -135,7 +111,81 @@
                             }
                         }
                     ],
-                    "scale": 7,
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Vibration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "1081003",
+                            "buffData": {
+                                "buffKeyword": "Vibration",
+                                "target": "Target",
+                                "buffOwner": "Self",
+                                "stack": 10,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.014999999664723874,
+                                "limit": 30
+                            }
+                        },
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        },
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttackViaBuffCheckAndLoseTargetVibrationTurn1",
+                            "buffData": {
+                                "buffKeyword": "DefensiveStance",
+                                "target": "",
+                                "buffOwner": "Self",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            }
+                        }
+                    ],
+                    "scale": 4,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": true
@@ -157,44 +207,31 @@
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
-            "defaultValue": -1,
+            "defaultValue": 4,
             "abilityScriptList": [
                 {
-                    "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+                    "scriptName": "GiveBuffOnUsePerBuffTurn_Vibration2_Limit10",
                     "buffData": {
-                        "buffKeyword": "MarkOfButler",
-                        "target": "",
-                        "buffOwner": "Target",
+                        "buffKeyword": "DefenseUp",
+                        "target": "Self",
+                        "buffOwner": "Self",
                         "stack": 1,
                         "turn": 0,
                         "activeRound": 0,
-                        "value": 1.0,
+                        "value": 0.0,
                         "limit": 0
                     }
                 },
                 {
-                    "scriptName": "CoinScaleAdder1IfFasterThanMTPerSpeedDiff2WithMax2",
+                    "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit2",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "DefenseUp",
                         "target": "",
-                        "buffOwner": "",
-                        "stack": 0,
+                        "buffOwner": "Self",
+                        "stack": 4,
                         "turn": 0,
                         "activeRound": 0,
-                        "value": 0.0,
-                        "limit": 0
-                    }
-                },
-                {
-                    "scriptName": "GiveBuffOnUse",
-                    "buffData": {
-                        "buffKeyword": "Breath",
-                        "target": "Self",
-                        "buffOwner": "",
-                        "stack": 0,
-                        "turn": 7,
-                        "activeRound": 0,
-                        "value": 0.0,
+                        "value": 1.0,
                         "limit": 0
                     }
                 }
@@ -214,57 +251,28 @@
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "Breath",
-                                "target": "Self",
+                                "buffKeyword": "DefenseUp",
+                                "target": "LowestHpRatioAlly",
                                 "buffOwner": "",
-                                "stack": 5,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        },
-                        {
-                            "scriptName": "GiveBuffOnSucceedAttack",
-                            "buffData": {
-                                "buffKeyword": "Binding",
-                                "target": "Target",
-                                "buffOwner": "",
-                                "stack": 1,
+                                "stack": 3,
                                 "turn": 0,
                                 "activeRound": 1,
                                 "value": 0.0,
                                 "limit": 0
                             }
-                        },
-                        {
-                            "scriptName": "DamageFirstBreakSectionOnSuccessAttackByDamageRatio3",
-                            "buffData": {
-                                "buffKeyword": "",
-                                "target": "",
-                                "buffOwner": "",
-                                "stack": 0,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        },
-                        {
-                            "scriptName": "GiveBuffOnSuccessCriticalAttack",
-                            "buffData": {
-                                "buffKeyword": "MarkOfButler",
-                                "target": "Target",
-                                "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
                         }
                     ],
-                    "scale": 7,
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [],
+                    "scale": 3,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -275,7 +283,20 @@
                     "grade": 1,
                     "abilityScriptList": [
                         {
-                            "scriptName": "CriticalDmgUpByRatioIfTargetBreak40",
+                            "scriptName": "1030901_1_1",
+                            "buffData": {
+                                "buffKeyword": "Vibration",
+                                "target": "Target",
+                                "buffOwner": "Self",
+                                "stack": 0,
+                                "turn": -1,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 6
+                            }
+                        },
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttackAndLoseTargetVibrationTurn1",
                             "buffData": {
                                 "buffKeyword": "",
                                 "target": "",
@@ -286,38 +307,12 @@
                                 "value": 0.0,
                                 "limit": 0
                             }
-                        },
-                        {
-                            "scriptName": "GiveBuffOnSucceedAttack",
-                            "buffData": {
-                                "buffKeyword": "MarkOfButler",
-                                "target": "Target",
-                                "buffOwner": "",
-                                "stack": 2,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
-                        },
-                        {
-                            "scriptName": "1040803_1",
-                            "buffData": {
-                                "buffKeyword": "MarkOfButler",
-                                "target": "",
-                                "buffOwner": "",
-                                "stack": 0,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            }
                         }
                     ],
-                    "scale": 7,
+                    "scale": 3,
                     "prob": 0.5,
                     "actionIndex": -1,
-                    "cutsceneStart": true
+                    "cutsceneStart": false
                 }
             ],
             "actionList": []

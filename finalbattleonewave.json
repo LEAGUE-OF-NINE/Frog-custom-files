@@ -5,8 +5,8 @@
   "isBatonPassOn": false,
   "includeBoss": 1,
   "participantInfo": {
-    "min": 8,
-    "max": 8
+    "min": 7,
+    "max": 7
   },
   "waveList": [
     {
@@ -50,7 +50,9 @@
           "unitCount": 1,
           "unitSyncLevel": 4,
           "unitLevel": 45
-        },
+        }
+      ],
+      "supportUnitList": [
         {
           "unitID": 80381,
           "unitCount": 1,
@@ -62,9 +64,7 @@
           "unitCount": 1,
           "unitSyncLevel": 4,
           "unitLevel": 45
-        }
-      ],
-      "supportUnitList": [
+        },
         {
           "unitID": 80981,
           "unitCount": 1,
@@ -492,6 +492,12 @@
           "unitSyncLevel": 4
         },
         {
+          "unitID": 801089,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
           "unitID": 8282,
           "unitCount": 1,
           "unitLevel": 45,
@@ -535,6 +541,12 @@
         },
         {
           "unitID": 801187,
+          "unitCount": 1,
+          "unitLevel": 45,
+          "unitSyncLevel": 4
+        },
+        {
+          "unitID": 80118,
           "unitCount": 1,
           "unitLevel": 45,
           "unitSyncLevel": 4
@@ -704,10 +716,8 @@
   "rewardList": [],
   "dangerLevel": 0,
   "stageScriptList": [
-    "8608"
+    "Refill_Abnormality"
   ],
-  "eventScriptName": [
-  ],
-  "abnormalityEventList": [
-  ]
+  "eventScriptName": [],
+  "abnormalityEventList": []
 }
