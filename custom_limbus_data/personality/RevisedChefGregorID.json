@@ -1,10 +1,16 @@
 {
   "list": [
     {
-      "id": 112010,
+      "id": 11222,
       "appearance": "11204_Gregor_JackAppearance",
-      "unitKeywordList": ["CLAN","BACK_STREET","SMALL"],
-      "associationList": ["BACKSTREET_COOK"],
+      "unitKeywordList": [
+        "CLAN",
+        "BACK_STREET",
+        "SMALL"
+      ],
+      "associationList": [
+        "BACKSTREET_COOK"
+      ],
       "characterId": 12,
       "panicType": 9999,
       "season": 1,
@@ -38,35 +44,31 @@
         "passiveIdList": [
           {
             "level": 1,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1120401,
               9015201
-
             ]
           },
           {
             "level": 2,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1120401,
               9015201
-
             ]
           },
           {
             "level": 4,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1120401,
               9015201
-
             ]
           }
         ],
         "supportPassiveIdList": [
           {
             "level": 3,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1120421
-
             ]
           }
         ]

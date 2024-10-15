@@ -83,7 +83,6 @@
         ]
       }
     },
-
     {
       "id": 8500201,
       "slotWeightConditionList": [
@@ -166,7 +165,6 @@
         ]
       }
     },
-    
     {
       "id": 8500401,
       "slotWeightConditionList": [
@@ -253,7 +251,6 @@
         ]
       }
     },
-
     {
       "id": 80029201,
       "defCorrection": 3,
@@ -265,7 +262,6 @@
       "partType": "BODY",
       "nameID": 999999
     },
-
     {
       "id": 80051701,
       "slotWeightConditionList": [
@@ -350,7 +346,6 @@
         ]
       }
     },
-
     {
       "id": 80053301,
       "viewid": 802901,
@@ -436,7 +431,6 @@
         ]
       }
     },
-
     {
       "id": 80028001,
       "defCorrection": -3,
@@ -448,7 +442,6 @@
       "partType": "BODY",
       "nameID": 999999
     },
-
     {
       "id": 80057901,
       "viewid": 810501,
@@ -539,94 +532,6 @@
         "passiveIdList": []
       }
     },
-
-    {
-      "id": 8200401,
-      "nameID": 999999,
-      "slotWeightConditionList": [
-        "Default1"
-      ],
-      "hp": {
-        "defaultStat": 769,
-        "incrementByLevel": 15.72
-      },
-      "defCorrection": 3,
-      "minSpeedList": [
-        3
-      ],
-      "maxSpeedList": [
-        5
-      ],
-      "breakSection": {
-        "sectionList": [
-          60,
-          0,
-          -10
-        ]
-      },
-      "canUseSkillOnDestroyed": "false",
-      "isDestroyable": "false",
-      "skillCancelable": "false",
-      "canVanish": "false",
-      "canChangeSpriteOnDestoryed": "false",
-      "spreadMpEffectToAbnormality": "true",
-      "partType": "BODY",
-      "resistInfo": {
-        "atkResistList": [
-          {
-            "type": "SLASH",
-            "value": 0.8
-          },
-          {
-            "type": "PENETRATE",
-            "value": 0.8
-          },
-          {
-            "type": "HIT",
-            "value": 0.8
-          }
-        ],
-        "attributeResistList": [
-          {
-            "type": "CRIMSON",
-            "value": 1.2
-          },
-          {
-            "type": "SCARLET",
-            "value": 1.2
-          },
-          {
-            "type": "AMBER",
-            "value": 0.8
-          },
-          {
-            "type": "SHAMROCK",
-            "value": 0.5
-          },
-          {
-            "type": "AZURE",
-            "value": 1.5
-          },
-          {
-            "type": "INDIGO",
-            "value": 1
-          },
-          {
-            "type": "VIOLET",
-            "value": 1.5
-          },
-          {
-            "type": "WHITE",
-            "value": 2
-          },
-          {
-            "type": "BLACK",
-            "value": 2
-          }
-        ]
-      }
-    },
-
     {
       "id": 800533301,
       "viewid": 802901,
@@ -713,7 +618,6 @@
         ]
       }
     },
-
     {
       "id": 8500221,
       "slotWeightConditionList": [
@@ -798,14 +702,6 @@
         ]
       }
     },
-
-
-
-
-
-
-
-
     {
       "id": 850501,
       "slotWeightConditionList": [
@@ -1245,8 +1141,7 @@
       "canChangeSpriteOnDestoryed": "false",
       "partType": "BODY",
       "breakSection": {
-        "sectionList": [
-        ]
+        "sectionList": []
       },
       "resistInfo": {
         "atkResistList": [

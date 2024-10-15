@@ -8,12 +8,12 @@
             "iconID": "1071001",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "SCARLET",
-            "atkType": "SLASH",
-            "defType": "ATTACK",
-            "skillMotion": "S1",
-            "viewType": "BATTLE",
-            "parryingCloseType": "NEAR",
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
             "canDuel": "true",
             "canChangeTarget": "true",
             "targetNum": 1,
@@ -30,6 +30,32 @@
                         "activeRound": 0,
                         "value": 1.0,
                         "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
                     }
                 }
             ],
@@ -37,7 +63,7 @@
             "skillLevelCorrection": 2,
             "range": 6.0,
             "arearange": 4.0,
-            "skillTargetType": "FRONT",
+            "skillTargetType": "",
             "canTeamKill": "false",
             "coinList": [
                 {
@@ -66,6 +92,32 @@
                                 "activeRound": 0,
                                 "value": 0.0,
                                 "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
                             }
                         }
                     ],
@@ -82,12 +134,12 @@
             "iconID": "",
             "gaksungLevel": 2,
             "informationID": -1,
-            "attributeType": "NONE",
-            "atkType": "ERROR",
-            "defType": "NONE",
-            "skillMotion": "Empty",
-            "viewType": "NONE",
-            "parryingCloseType": "NONE",
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -104,6 +156,32 @@
                         "activeRound": 0,
                         "value": 1.0,
                         "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
                     }
                 },
                 {
@@ -117,6 +195,32 @@
                         "activeRound": 0,
                         "value": 1.0,
                         "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
                     }
                 }
             ],
@@ -124,7 +228,7 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "NONE",
+            "skillTargetType": "",
             "canTeamKill": "",
             "coinList": [
                 {
@@ -153,6 +257,32 @@
                                 "activeRound": 0,
                                 "value": 0.0,
                                 "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
                             }
                         }
                     ],
@@ -169,12 +299,12 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "NONE",
-            "atkType": "ERROR",
-            "defType": "NONE",
-            "skillMotion": "Empty",
-            "viewType": "NONE",
-            "parryingCloseType": "NONE",
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -184,7 +314,7 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "NONE",
+            "skillTargetType": "",
             "canTeamKill": "",
             "coinList": [
                 {
@@ -213,6 +343,32 @@
                                 "activeRound": 0,
                                 "value": 0.0,
                                 "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
                             }
                         }
                     ],
@@ -229,12 +385,12 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "NONE",
-            "atkType": "ERROR",
-            "defType": "NONE",
-            "skillMotion": "Empty",
-            "viewType": "NONE",
-            "parryingCloseType": "NONE",
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -243,7 +399,7 @@
                 {
                     "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
                     "buffData": {
-                        "buffKeyword": "Sinking",
+                        "buffKeyword": "",
                         "target": "",
                         "buffOwner": "Target",
                         "stack": 6,
@@ -251,12 +407,38 @@
                         "activeRound": 0,
                         "value": 1.0,
                         "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
                     }
                 },
                 {
                     "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByTurnWithLimit2",
                     "buffData": {
-                        "buffKeyword": "Breath",
+                        "buffKeyword": "",
                         "target": "",
                         "buffOwner": "Self",
                         "stack": 0,
@@ -264,12 +446,38 @@
                         "activeRound": 0,
                         "value": 1.0,
                         "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
                     }
                 },
                 {
                     "scriptName": "GiveBuffOnUse",
                     "buffData": {
-                        "buffKeyword": "Breath",
+                        "buffKeyword": "",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 0,
@@ -277,6 +485,32 @@
                         "activeRound": 0,
                         "value": 0.0,
                         "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
                     }
                 }
             ],
@@ -284,12 +518,12 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "NONE",
+            "skillTargetType": "",
             "canTeamKill": "",
             "coinList": [
                 {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
+                    "operatorType": "",
+                    "color": "",
                     "grade": 1,
                     "abilityScriptList": [],
                     "scale": 4,
@@ -298,14 +532,14 @@
                     "cutsceneStart": false
                 },
                 {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
+                    "operatorType": "",
+                    "color": "",
                     "grade": 1,
                     "abilityScriptList": [
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "Sinking",
+                                "buffKeyword": "",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": 3,
@@ -313,6 +547,32 @@
                                 "activeRound": 0,
                                 "value": 0.0,
                                 "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
                             }
                         }
                     ],
@@ -326,5 +586,5 @@
         }
     ],
     "requireIDList": [],
-    "skillType": "SKILL"
+    "skillType": ""
 }

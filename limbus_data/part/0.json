@@ -1671,6 +1671,175 @@
           "nextMainchapterid": 91,
           "nextSubchapterid": 9109,
           "lastnodeid": 10648
+        },
+        {
+          "id": 107,
+          "illustSprName": "107",
+          "region": "p",
+          "sprName": "chapter7",
+          "subChapterNumber": "7",
+          "mapSizeRow": 5,
+          "mapSizeColoumn": 6,
+          "unlockCondition": {
+            "unlockCode": 9110
+          },
+          "stageNodeList": [
+            {
+              "nodeId": 10701,
+              "stageId": 10701,
+              "posx": 1383,
+              "posy": 7401,
+              "upper": 0,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10702,
+              "stageId": 10702,
+              "posx": 2142,
+              "posy": 7331,
+              "upper": 0,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10703,
+              "stageId": 10703,
+              "posx": 3175,
+              "posy": 6850,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10704,
+              "stageId": 10704,
+              "posx": 3755,
+              "posy": 6664,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10705,
+              "stageId": 10705,
+              "posx": 4543,
+              "posy": 6499,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10706,
+              "stageId": 10706,
+              "posx": 5464,
+              "posy": 6580,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10707,
+              "stageId": 10707,
+              "posx": 6083,
+              "posy": 6646,
+              "upper": 0,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10708,
+              "stageId": 10708,
+              "posx": 6864,
+              "posy": 6541,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10709,
+              "stageId": 10709,
+              "posx": 8576,
+              "posy": 6517,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10710,
+              "stageId": 10710,
+              "posx": 9284,
+              "posy": 6585,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10711,
+              "stageId": 10711,
+              "posx": 10838,
+              "posy": 6568,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10712,
+              "stageId": 10712,
+              "posx": 11265,
+              "posy": 6021,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10713,
+              "stageId": 10713,
+              "posx": 11105,
+              "posy": 4883,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10714,
+              "stageId": 10714,
+              "posx": 10405,
+              "posy": 5093,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10715,
+              "stageId": 10715,
+              "posx": 10111,
+              "posy": 4469,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10716,
+              "stageId": 10716,
+              "posx": 10701,
+              "posy": 3788,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10717,
+              "stageId": 10717,
+              "posx": 10269,
+              "posy": 2018,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10718,
+              "stageId": 10718,
+              "posx": 11269,
+              "posy": 1071,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10719,
+              "stageId": 10719,
+              "posx": 11059,
+              "posy": 3306,
+              "upper": 0,
+              "stageNodeType": "STORY"
+            }
+          ],
+          "nextMainchapterid": -1,
+          "nextSubchapterid": -1,
+          "lastnodeid": 10719
         }
       ],
       "subchapterUIList": [
@@ -1799,18 +1968,14 @@
           "uiConfig": {
             "illustId": "story-id_E061X",
             "customChapterText": 1,
-            "mapAreaId": 9109,
-            "timeLine": "984-11"
+            "mapAreaId": 9109
           }
         },
         {
           "chapterId": 91,
           "subchapterId": 9109,
           "type": "SUB",
-          "relatedEventId": "TKT",
-          "uiConfig": {
-            "timeLine": "984-12"
-          }
+          "relatedEventId": "TKT"
         },
         {
           "subchapterId": 9017,
@@ -1821,24 +1986,20 @@
           "uiConfig": {
             "illustId": "story-id_E063X",
             "customChapterText": "2",
-            "mapAreaId": 9109,
-            "timeLine": "984-12"
+            "mapAreaId": 9109
           }
         },
         {
           "chapterId": 91,
           "subchapterId": 9110,
           "type": "SUB",
-          "relatedEventId": "MOWE",
-          "uiConfig": {
-            "timeLine": "984-12"
-          }
+          "relatedEventId": "MOWE"
         },
         {
-          "isUnlockByUnlockCode": true,
-          "unlockCode": 9110,
           "type": "EVENT",
           "relatedEventId": "Walpu4",
+          "isUnlockByUnlockCode": true,
+          "unlockCode": 9110,
           "relatedData": {
             "chapterId": 91,
             "subchapterId": 9111,
@@ -1849,9 +2010,13 @@
             "customChapterText": 3,
             "region": "p",
             "mapAreaId": 9111,
-            "chapterTagIconType": "BATTLE",
-            "timeLine": "984-12"
+            "chapterTagIconType": "BATTLE"
           }
+        },
+        {
+          "chapterId": 1,
+          "subchapterId": 107,
+          "type": "MAIN"
         }
       ]
     },
@@ -2611,8 +2776,8 @@
               "stageNodeType": "STORY"
             }
           ],
-          "nextMainchapterid": -1,
-          "nextSubchapterid": -1,
+          "nextMainchapterid": 1,
+          "nextSubchapterid": 107,
           "lastnodeid": 911015,
           "relatedMainEventId": "MOWE"
         },

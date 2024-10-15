@@ -2,6 +2,7 @@
   "list": [
     {
       "id": 1,
+      "groupid": 1,
       "requiredItem": {
         "id": 11,
         "num": 2,
@@ -40,6 +41,7 @@
     },
     {
       "id": 2,
+      "groupid": 2,
       "requiredItem": {
         "id": 11,
         "num": 2,
@@ -78,6 +80,7 @@
     },
     {
       "id": 3,
+      "groupid": 3,
       "requiredItem": {
         "id": 11,
         "num": 2,

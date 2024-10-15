@@ -1,19 +1,15 @@
 {
   "list": [
     {
-      "id": 401,
-      "contentsOpenType": "PACKAGE_BOXED",
-      "contents": [
+      "id": 225,
+      "itemUseFuncs": [
         {
-          "type": "ITEM",
-          "id": 201,
-          "minNum": 1,
-          "maxNum": 3
+          "itemUseFuncType": "PERSONALITY_LEVEL_TO",
+          "itemUseFuncValue": 50
         }
       ],
-      "category": "CONSUMABLE",
-      "itemUseType": "PACKAGE_BOXED",
-      "spriteStr": "twine_package"
+      "category": "NORMAL",
+      "spriteStr": "level_ticket_5"
     }
   ]
 }

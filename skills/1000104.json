@@ -8,12 +8,12 @@
             "iconID": "",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "NEUTRAL",
-            "atkType": "NONE",
-            "defType": "NON_ACTION",
-            "skillMotion": "Default",
-            "viewType": "BATTLE",
-            "parryingCloseType": "NEAR",
+            "attributeType": "",
+            "atkType": "",
+            "defType": "",
+            "skillMotion": "",
+            "viewType": "",
+            "parryingCloseType": "",
             "canDuel": "false",
             "canChangeTarget": "false",
             "targetNum": 0,
@@ -30,6 +30,32 @@
                         "activeRound": 0,
                         "value": 0.0,
                         "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
                     }
                 }
             ],
@@ -37,12 +63,12 @@
             "skillLevelCorrection": 0,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "FRONT",
+            "skillTargetType": "",
             "canTeamKill": "false",
             "coinList": [],
             "actionList": []
         }
     ],
     "requireIDList": [],
-    "skillType": "SKILL"
+    "skillType": ""
 }

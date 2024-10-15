@@ -1,0 +1,9 @@
+{
+  "RealPaperBear": {
+    "a": 0,
+    "id": "RealPaperBear",
+    "name": "Twitch Subs",
+    "desc": "A resource that is consumed by certain skills\n- Clash Win: Gain 400 Twitch Subs\n- Clash Lose: Gain 800 Twitch Subs\n- On Kill: Gain 1500 Twitch Subs",
+    "summary": ""
+  }
+}

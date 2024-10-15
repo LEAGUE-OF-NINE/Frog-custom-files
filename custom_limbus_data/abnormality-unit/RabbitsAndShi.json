@@ -4,9 +4,14 @@
       "id": 800204,
       "viewid": 91016,
       "sdPortrait": 91016,
-      "appearance": "91016_DeadRabbits_BossAppearance",
-      "unitKeywordList": ["CLAN","SMALL"],
-      "associationList": ["DEAD_RABBITS"],
+      "appearance": "8164_MaouHeathclif_DeadRabbitsAppearance",
+      "unitKeywordList": [
+        "CLAN",
+        "SMALL"
+      ],
+      "associationList": [
+        "DEAD_RABBITS"
+      ],
       "level": 2,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -43,8 +48,7 @@
         "min": [
           {
             "level": 1,
-            "conditionIDList": [
-            ]
+            "conditionIDList": []
           }
         ]
       },
@@ -126,7 +130,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -144,7 +147,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -158,7 +160,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -172,7 +173,6 @@
                 }
               ]
             },
-            
             {
               "skillParentList": [
                 {
@@ -188,7 +188,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -230,7 +229,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -244,7 +242,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -262,7 +259,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -278,7 +274,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -320,7 +315,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -334,7 +328,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -348,7 +341,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -364,7 +356,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -406,7 +397,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -420,7 +410,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -438,7 +427,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -456,7 +444,6 @@
         }
       ]
     },
-
     {
       "id": 8305,
       "nameID": 8292,
@@ -503,7 +490,6 @@
         }
       ]
     },
-
     {
       "id": 800316,
       "nameID": 800316,
@@ -552,7 +538,6 @@
         }
       ]
     },
-
     {
       "id": 80000303,
       "nameID": 80000303,

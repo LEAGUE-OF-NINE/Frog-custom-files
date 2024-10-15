@@ -452,7 +452,12 @@
       6722,
       7413,
       8156,
-      8953
+      8953,
+      7413,
+      7413,
+      7413,
+      7413,
+      7413
     ],
     "gacksungPieceTable": {
       "rank1": [
@@ -614,6 +619,10 @@
     {
       "unlockcode": 105,
       "maxlevel": 45
+    },
+    {
+      "unlockcode": 106,
+      "maxlevel": 50
     }
   ],
   "newUserDefinition": {

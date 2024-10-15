@@ -1,0 +1,207 @@
+{
+  "10109001": {
+    "a": 0,
+    "id": "10109001",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If this unit has 7000+ [RealPaperBear], Coin Power +2",
+        "name": "Read Chat",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 200 [RealPaperBear]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 300 [RealPaperBear]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 200 [RealPaperBear]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10109002": {
+    "a": 0,
+    "id": "10109002",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "",
+        "name": "Onion Ring!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Absorb up to 1000 [RealPaperBear] from self and heal ([RealPaperBear] absorbed x 0.02)% HP (this effect does not lower own [RealPaperBear] under 1",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 800 [RealPaperBear]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10109003": {
+    "a": 0,
+    "id": "10109003",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "At 8000 [RealPaperBear], Coin Power +2\n[BeforeAttack] If this unit has 3000+ [RealPaperBear], Spend 3000 [RealPaperBear] to deal +50% more damage",
+        "name": "Hematic Coloring",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count. If the target has 4+ types of negative effects, inflict +2 additional [Laceration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]. If the target has 4+ types of negative effects, inflict 2 additional [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Potency for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Deal +15% more damage for every type of negative effect on target (max 75%)",
+                "summary": ""
+              },
+              {
+                "desc": "[EndSkill] If the target is Staggered or Defeated, inflict 2 Potency for 1 of the following effects on 1 enemy with the least types of negative effects: [Combustion], [Laceration], [Vibration], [Burst], [Sinking]. Effect selected at random.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "At 8000 [RealPaperBear], Coin Power +2",
+        "name": "Okay, if I... if I chop you up in a meat grinder, and the only thing that comes out, that's left of you, is your eyeball, you'r- you're PROBABLY DEAD!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Consume up to 1000 [RealPaperBear] to deal 50% more damage",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Consume up to 1000 [RealPaperBear] to deal 50% more damage",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Consume up to 1000 [RealPaperBear] to deal 50% more damage",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Consume up to 1000 [RealPaperBear] to deal 50% more damage",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10109004": {
+    "a": 0,
+    "id": "10109004",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "If target has 6+ [Laceration], Base Power +5",
+        "name": "Beat the Brush",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[CanDuelGuard]\nBase Power +1 for every 1000 [RealPaperBear] on self (Max 10)",
+        "name": "Ballfolder",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -866,6 +866,21 @@
           "ability": "CanChangeMainTargetEvenIfSlower"
         }
       ]
+    },
+    {
+      "id": "ConcentratedAttackMeursault",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "canBeDespelled": false,
+      "maxStack": 3,
+      "list": [
+        {
+          "ability": "ConcentratedAttack"
+        },
+        {
+          "ability": "LoseAllStackOnDie"
+        }
+      ]
     }
   ]
 }

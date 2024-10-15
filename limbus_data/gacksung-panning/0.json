@@ -1871,6 +1871,42 @@
         "rootX": 0.0179154388606548,
         "rootY": 0.186654090881348
       }
+    },
+    {
+      "id": 11010,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.294999629259109,
+        "rootY": -0.0511111095547676
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.208333075046539,
+        "rootY": -0.262222230434418
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.197083085775375,
+        "rootY": 0.0577777773141861
+      }
+    },
+    {
+      "id": 10511,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.258333027362823,
+        "rootY": -0.162222221493721
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.254583030939102,
+        "rootY": -0.202222228050232
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0604165941476822,
+        "rootY": 0.182222217321396
+      }
     }
   ],
   "standardScreen": [
@@ -3744,6 +3780,42 @@
         "panningDirection": "LEFT",
         "rootX": 0.00600000005215406,
         "rootY": 0.21748174726963
+      }
+    },
+    {
+      "id": 11010,
+      "root1Data": {
+        "panningDirection": "DOWN",
+        "rootX": -0.294999629259109,
+        "rootY": -0.0331852249801159
+      },
+      "root2Data": {
+        "panningDirection": "RIGHT",
+        "rootX": 0.246333330869675,
+        "rootY": -0.262222230434418
+      },
+      "root3Data": {
+        "panningDirection": "UP",
+        "rootX": 0.196333333849907,
+        "rootY": 0.0965927094221115
+      }
+    },
+    {
+      "id": 10511,
+      "root1Data": {
+        "panningDirection": "LEFT",
+        "rootX": 0.221666663885117,
+        "rootY": -0.190222457051277
+      },
+      "root2Data": {
+        "panningDirection": "UP",
+        "rootX": -0.243666663765907,
+        "rootY": -0.178963184356689
+      },
+      "root3Data": {
+        "panningDirection": "RIGHT",
+        "rootX": -0.0556666664779186,
+        "rootY": 0.206222474575043
       }
     }
   ]

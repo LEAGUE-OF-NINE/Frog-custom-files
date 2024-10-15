@@ -1,81 +1,18 @@
 {
   "list": [
     {
-      "id": 501,
-      "contentsOpenType": "PACKAGE_OPTIONAL",
+      "id": 301,
+      "contentsOpenType": "PACKAGE_BOXED",
       "contents": [
         {
-          "type": "PERSONALITY",
-          "id": 10203,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 10204,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 10304,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 10404,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 10504,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 10603,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 10704,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 10804,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 10904,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 11004,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 11005,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 11203,
-          "num": 1
-        },
-        {
-          "type": "PERSONALITY",
-          "id": 11204,
-          "num": 1
+          "type": "STAMINA",
+          "id": 0,
+          "num": 60
         }
       ],
       "category": "CONSUMABLE",
-      "itemUseType": "ACQUIRE_PERSONALITY",
-      "spriteStr": "acquire_personality_season_1",
-      "uiConfig": {
-        "tags": ["Season1"]
-      }
+      "itemUseType": "ENKEPHALINE",
+      "spriteStr": "enkephalinbox"
     }
   ]
 }

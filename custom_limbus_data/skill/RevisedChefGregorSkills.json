@@ -131,14 +131,14 @@
             {
               "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByTurn",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 0,
-                  "turn": 1,
-                  "activeRound": 0,
-                  "value": 0.1,
-                  "limit": 0
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0,
+                "value": 0.1,
+                "limit": 0
               }
             },
             {
@@ -249,14 +249,14 @@
             {
               "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByTurn",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 0,
-                  "turn": 1,
-                  "activeRound": 0,
-                  "value": 0.1,
-                  "limit": 0
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0,
+                "value": 0.1,
+                "limit": 0
               }
             }
           ]
@@ -419,19 +419,19 @@
               "scriptName": "EmptyBody"
             },
             {
-            "scriptName": "HealHpOnUseAttackSelf20"
+              "scriptName": "HealHpOnUseAttackSelf20"
             },
             {
               "scriptName": "SkillPowerAdderViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Laceration",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 1,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 20
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 20
               }
             }
           ],

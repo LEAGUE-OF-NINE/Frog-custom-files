@@ -1,28 +1,277 @@
 {
-  "10305001": {"a":0,"id":"10305001","levelList":[{"level":1,"desc":"[WhenUse] Gain +2 [Breath] Count","name":"Acupuncture","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain +1 [Breath] Count","summary":""}]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]","summary":""}]}]},{"level":2,"desc":"[WhenUse] Gain +2 [Breath] Count","name":"Acupuncture","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain +2 [Breath] Count","summary":""},{"desc":"+30% Damage on Critical Hit","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 Bind next turn","summary":""},{"desc":"[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\"></style>","summary":""}]}]},
-  {"level":4,"desc":"Gain skill power equal to (haste)","name":"Limit test","rawDesc":"","abName":"",
-    "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain 2 [Agility]","summary":""}]},
-
-    {"coindescs":[{"desc":"[OnSucceedAttack] Gain 2 [Breath] count","summary":""}]}]}]},
-  
-
-  "10305002": {"a":0,"id":"10305002","levelList":[{"level":1,"desc":"[WhenUse] Gain +2 [Breath] Count","name":"Moonlit Blade Dance","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]","summary":""}]}]},{"level":2,"desc":"[WhenUse] Gain +2 [Breath] Count","name":"Moonlit Blade Dance","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Gain 1 [Breath]","summary":""}]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]","summary":""}]}]},
-  {"level":4,"desc":"Gain skill power equal to (haste)",
-  "name":"Not worth my time","rawDesc":"","abName":"",
-  "coinlist":
-  [{"coindescs":[{"desc":"[OnSucceedAttack] Gain 3 [Agility]\n[OnSucceedAttack] Inflict [DuelDeclaration]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Gain 3 [Breath] coun t","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 4 [Binding]","summary":""}]}]}]},
-  
-  "10305003": {"a":0,"id":"10305003","levelList":[{"level":3,"desc":"Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)","name":"Red Plum Blossoms Scatter","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]","summary":""}]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]","summary":""}]}]},
-  {"level":4,"desc":"If at 5+ gain 7 base power\nGain skill power equal to (haste)\n[WhenUse] Gain 2 [Breath] count",
-  "name":"So many weak spots","rawDesc":"","abName":"",
-    "coinlist":[
-    {"coindescs":[{"desc":"[CriticalOnSucceedAttack] If target is above 1% HP, reuse Coin (Max 3)\n[OnSucceedAttack] If taget is above 1% HP, increase crit dmage by 250%\n[OnSucceedAttack] if target isn't killed by this skilll gain 10 [Binding] for the next 2 turn","summary":""}]}]}]},
-  
-    "10305004": {"a":0,"id":"10305004","levelList":[{"level":3,"desc":"Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)","name":"Red Plum Blossoms Scatter","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]","summary":""}]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]","summary":""}]}]},
-  {"level":4,"desc":"At 5+ haeste   become dodge+counter",
-  "name":"So many weak spots","rawDesc":"","abName":"",
-    "coinlist":[
-    {"coindescs":[{"desc":"[CriticalOnSucceedAttack] If at 5+[Agility] reuse coin (up to 2 times)","summary":""}]}]}]}
+  "10305001": {
+    "a": 0,
+    "id": "10305001",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Gain +2 [Breath] Count",
+        "name": "Acupuncture",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain +1 [Breath] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] Gain +2 [Breath] Count",
+        "name": "Acupuncture",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain +2 [Breath] Count",
+                "summary": ""
+              },
+              {
+                "desc": "+30% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bind next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\"></style>",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "Gain skill power equal to (haste)",
+        "name": "Limit test",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [Agility]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [Breath] count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10305002": {
+    "a": 0,
+    "id": "10305002",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Gain +2 [Breath] Count",
+        "name": "Moonlit Blade Dance",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] Gain +2 [Breath] Count",
+        "name": "Moonlit Blade Dance",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Gain 1 [Breath]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "Gain skill power equal to (haste)",
+        "name": "Not worth my time",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 [Agility]\n[OnSucceedAttack] Inflict [DuelDeclaration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 [Breath] coun t",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Binding]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10305003": {
+    "a": 0,
+    "id": "10305003",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)",
+        "name": "Red Plum Blossoms Scatter",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If at 5+ gain 7 base power\nGain skill power equal to (haste)\n[WhenUse] Gain 2 [Breath] count",
+        "name": "So many weak spots",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] If target is above 1% HP, reuse Coin (Max 3)\n[OnSucceedAttack] If taget is above 1% HP, increase crit dmage by 250%\n[OnSucceedAttack] if target isn't killed by this skilll gain 10 [Binding] for the next 2 turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10305004": {
+    "a": 0,
+    "id": "10305004",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)",
+        "name": "Red Plum Blossoms Scatter",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "At 5+ haeste   become dodge+counter",
+        "name": "So many weak spots",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] If at 5+[Agility] reuse coin (up to 2 times)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

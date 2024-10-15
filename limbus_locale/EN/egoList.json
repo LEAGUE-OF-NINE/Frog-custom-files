@@ -76,5 +76,11 @@
   "21107": {"a":0,"id":"21107","name":"Dimension Shredder","desc":"Outis’s E.G.O Gear"},
   "21207": {"a":0,"id":"21207","name":"Solemn Lament","desc":"Gregor’s E.G.O Gear"},
   "20807": {"a":0,"id":"20807","name":"Bygone Days","desc":"Ishmael’s E.G.O Gear"},
+  "20207": {"a":0,"id":"20207","name":"Snare","desc":"Faust’s E.G.O Gear"},
+  "20607": {"a":0,"id":"20607","name":"Snare","desc":"Hong Lu’s E.G.O Gear"},
+  "21007": {"a":0,"id":"21007","name":"Hex Nail","desc":"Sinclair’s E.G.O Gear"},
+  "20907": {"a":0,"id":"20907","name":"Hex Nail","desc":"Rodion’s E.G.O Gear"},
+  "20507": {"a":0,"id":"20507","name":"Yearning-Mircalla","desc":"Meursault’s E.G.O Gear"},
+  "20307": {"a":0,"id":"20307","name":"Yearning-Mircalla","desc":"Don Quixote’s E.G.O Gear"},
   "21279": {"a":0,"id":"21279","name":"Refracted Garden of Thorns","desc":"Gregor’s E.G.O Gear"}
 }

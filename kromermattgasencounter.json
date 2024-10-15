@@ -1,0 +1,58 @@
+{
+  "id": 1000447,
+  "stageLevel": 50,
+  "stageType": "Abnormality",
+  "participantInfo": {
+    "min": 8,
+    "max": 8
+  },
+  "waveList": [
+    {
+      "battleMapInfo": {
+        "mapName": "Cp5_TheDepthsOfHeart_Awaken"
+      },
+      "unitList": [
+        {
+          "unitID": 800204,
+          "unitCount": 1,
+          "unitLevel": 55
+        },
+        {
+          "unitID": 8533,
+          "unitCount": 1,
+          "unitLevel": 45
+        },
+        {
+          "unitID": 8191,
+          "unitCount": 1,
+          "unitLevel": 45
+        }
+      ],
+      "subUnitList": [],
+      "bgmList": [
+        "Battle_AhabBossBattle_Mirror"
+      ],
+      "enemyPositionID": 22
+    }
+  ],
+  "staminaCost": 20,
+  "recommendedLevel": 50,
+  "turnLimit": 99,
+  "questlist": [
+    {
+      "args": [
+        "10"
+      ],
+      "localizeId": 1
+    }
+  ],
+  "rewardList": [],
+  "story": {
+    "enter": [
+      "S447B"
+    ]
+  },
+  "stageScriptList": [
+    "8191"
+  ]
+}

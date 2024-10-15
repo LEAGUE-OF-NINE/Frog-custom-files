@@ -26,6 +26,7 @@
       "category": "PACKAGE",
       "returnpolicytype": "GROWTH_A",
       "productId": "growth_package_monthly_1",
+      "isDisabled": true,
       "priceTier": 31,
       "chanceId": 1102,
       "defaultElements": [
@@ -129,6 +130,32 @@
           "num": 300
         }
       ]
+    },
+    {
+      "id": 106,
+      "category": "PACKAGE",
+      "returnpolicytype": "GROWTH_A",
+      "productId": "growth_package_monthly_1_renewal",
+      "priceTier": 31,
+      "chanceId": 1106,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 1,
+          "num": 1690
+        },
+        {
+          "type": "ITEM",
+          "id": 102,
+          "num": 2
+        },
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 30
+        }
+      ],
+      "priorityForUI": 99
     },
     {
       "id": 111,
@@ -278,6 +305,7 @@
       "category": "PACKAGE",
       "returnpolicytype": "PACKAGE_B",
       "productId": "start_package_season_4th",
+      "isDisabled": true,
       "priceTier": 11,
       "chanceId": 1124,
       "defaultElements": [
@@ -294,6 +322,7 @@
       "category": "PACKAGE",
       "returnpolicytype": "PACKAGE_B",
       "productId": "settlement_package_season_4th",
+      "isDisabled": true,
       "priceTier": 54,
       "chanceId": 1125,
       "defaultElements": [
@@ -718,6 +747,58 @@
         }
       ],
       "priorityForUI": 100
+    },
+    {
+      "id": 601,
+      "category": "PACKAGE",
+      "returnpolicytype": "PACKAGE_B",
+      "productId": "start_package_season_5th",
+      "priceTier": 11,
+      "chanceId": 1601,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 1,
+          "num": 1300
+        }
+      ],
+      "priorityForUI": 998
+    },
+    {
+      "id": 602,
+      "category": "PACKAGE",
+      "returnpolicytype": "PACKAGE_B",
+      "productId": "settlement_package_season_5th",
+      "priceTier": 54,
+      "chanceId": 1602,
+      "defaultElements": [
+        {
+          "type": "ITEM",
+          "id": 1,
+          "num": 5040
+        },
+        {
+          "type": "ITEM",
+          "id": 102,
+          "num": 3
+        },
+        {
+          "type": "ITEM",
+          "id": 214,
+          "num": 60
+        },
+        {
+          "type": "ITEM",
+          "id": 201,
+          "num": 80
+        },
+        {
+          "type": "ITEM",
+          "id": 1205,
+          "num": 40
+        }
+      ],
+      "priorityForUI": 997
     }
   ]
 }

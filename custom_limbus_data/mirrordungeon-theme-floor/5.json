@@ -31,8 +31,7 @@
           4444403,
           4444404
         ],
-        "battlePool": [
-        ],
+        "battlePool": [],
         "abBattlePool": [
           44445001,
           44445002,
@@ -194,21 +193,12 @@
         9749,
         9750
       ],
-      "specificEgoGiftPool": [
-        9744,
-        9745,
-        9746,
-        9747,
-        9748,
-        9749,
-        9750
-      ],
-      "specificEgoGiftForUpegsProbs": [0,0,0,0],
+      "specificEgoGiftPool": [],
       "mapGenSequence": [
         {
           "type": "CREATE_EMPTY_MD4_FLOOR",
           "numberList": [
-            5,
+            4,
             3,
             1
           ]
@@ -220,18 +210,18 @@
       ],
       "uiConfigs": {
         "showBossIds": [
-          71001
+          8171
         ],
-        "packSpriteId": "Canto_I",
-        "textColor": "af241c",
+        "packSpriteId": "Canto_VI_hard",
+        "textColor": "7e57a8",
         "mapOptions": [
           {
             "key": "SetColor_Basic",
-            "value": "af241c"
+            "value": "7e57a8"
           },
           {
             "key": "SetColor_Cleared",
-            "value": "423231"
+            "value": "4e3076"
           },
           {
             "key": "MirrorDungeon4_Base"

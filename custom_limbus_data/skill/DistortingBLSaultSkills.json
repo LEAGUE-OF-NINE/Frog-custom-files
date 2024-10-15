@@ -541,7 +541,7 @@
           "targetNum": 1,
           "mpUsage": 0,
           "skillLevelCorrection": 0,
-          "defaultValue": 6,
+          "defaultValue": 8,
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,

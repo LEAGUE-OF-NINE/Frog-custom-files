@@ -2,6 +2,7 @@
   "list": [
     {
       "id": 4,
+      "groupid": 4,
       "requiredItem": {
         "id": 11,
         "num": 3,
@@ -25,13 +26,13 @@
         "acquireTotalExpForPersonality": 0,
         "rewards": [
           {
-            "id": 213,
-            "num": 3,
+            "id": 214,
+            "num": 2,
             "type": "ITEM"
           },
           {
-            "id": 214,
-            "num": 2,
+            "id": 213,
+            "num": 4,
             "type": "ITEM"
           }
         ]
@@ -40,6 +41,7 @@
     },
     {
       "id": 5,
+      "groupid": 4,
       "requiredItem": {
         "id": 11,
         "num": 3,
@@ -63,18 +65,18 @@
         "acquireTotalExpForPersonality": 0,
         "rewards": [
           {
-            "id": 213,
-            "num": 4,
-            "type": "ITEM"
-          },
-          {
             "id": 214,
             "num": 2,
             "type": "ITEM"
           },
           {
+            "id": 213,
+            "num": 6,
+            "type": "ITEM"
+          },
+          {
             "id": 212,
-            "num": 4,
+            "num": 1,
             "type": "ITEM"
           }
         ]

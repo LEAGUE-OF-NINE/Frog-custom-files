@@ -1,19 +1,6 @@
 {
   "list": [
     {
-      "category": "SPECIAL",
-      "productList": [
-        {
-          "tab": "LIMITED",
-          "productIdList": [
-            202,
-            203,
-            204
-          ]
-        }
-      ]
-    },
-    {
       "category": "PACKAGE",
       "productList": [
         {
@@ -21,8 +8,8 @@
           "productIdList": [
             401,
             201,
-            124,
-            125,
+            601,
+            602,
             111
           ]
         },
@@ -57,7 +44,7 @@
         {
           "tab": "MONTHLY",
           "productIdList": [
-            102,
+            106,
             103,
             151,
             152,

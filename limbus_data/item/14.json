@@ -1,8 +1,8 @@
 {
   "list": [
     {
-      "id": 10104,
-      "season": 4,
+      "id": 10103,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 1
@@ -11,8 +11,8 @@
       "spriteStr": "piece_1"
     },
     {
-      "id": 10204,
-      "season": 4,
+      "id": 10203,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 2
@@ -21,8 +21,8 @@
       "spriteStr": "piece_2"
     },
     {
-      "id": 10304,
-      "season": 4,
+      "id": 10303,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 3
@@ -31,8 +31,8 @@
       "spriteStr": "piece_3"
     },
     {
-      "id": 10404,
-      "season": 4,
+      "id": 10403,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 4
@@ -41,8 +41,8 @@
       "spriteStr": "piece_4"
     },
     {
-      "id": 10504,
-      "season": 4,
+      "id": 10503,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 5
@@ -51,8 +51,8 @@
       "spriteStr": "piece_5"
     },
     {
-      "id": 10604,
-      "season": 4,
+      "id": 10603,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 6
@@ -61,8 +61,8 @@
       "spriteStr": "piece_6"
     },
     {
-      "id": 10704,
-      "season": 4,
+      "id": 10703,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 7
@@ -71,8 +71,8 @@
       "spriteStr": "piece_7"
     },
     {
-      "id": 10804,
-      "season": 4,
+      "id": 10803,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 8
@@ -81,8 +81,8 @@
       "spriteStr": "piece_8"
     },
     {
-      "id": 10904,
-      "season": 4,
+      "id": 10903,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 9
@@ -91,8 +91,8 @@
       "spriteStr": "piece_9"
     },
     {
-      "id": 11004,
-      "season": 4,
+      "id": 11003,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 10
@@ -101,8 +101,8 @@
       "spriteStr": "piece_10"
     },
     {
-      "id": 11104,
-      "season": 4,
+      "id": 11103,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 11
@@ -111,8 +111,8 @@
       "spriteStr": "piece_11"
     },
     {
-      "id": 11204,
-      "season": 4,
+      "id": 11203,
+      "season": 3,
       "seasonalTargetElement": {
         "type": "SEASONAL_PIECE",
         "id": 12

@@ -1,4 +1,11 @@
 {
-  "112010": {"a":0,"id":"112010","name":"Gregor","desc":"Gregor’s 10th Identity","title":"R.B.\nSous-chef","acquisitionMethod":"Unknown","oneLineTitle":""}
-  
+  "11220": {
+    "a": 0,
+    "id": "11220",
+    "name": "Gregor",
+    "desc": "Gregor’s 20th Identity",
+    "title": "R.B.\nSous-chef",
+    "acquisitionMethod": "Unknown",
+    "oneLineTitle": ""
+  }
 }

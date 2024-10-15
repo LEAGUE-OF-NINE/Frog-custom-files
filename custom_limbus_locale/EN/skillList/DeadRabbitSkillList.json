@@ -1,0 +1,259 @@
+{
+  "910001601": {
+    "a": 0,
+    "id": "910001601",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Coin Power +1 for every 5 [Burst] on target (Max 2)\nCoin Power +1 for every 5 [Laceration] on target (Max 2)",
+        "name": "Refracted Bat Bash",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count\n[OnSucceedAttack] Inflict +3 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Burst] and +2 [Burst] Count\n[OnSucceedAttack] Inflict 3 [Laceration]\n[OnSucceedAttackHead] Reuse this Coin once (Max 2)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001602": {
+    "a": 0,
+    "id": "91001602",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 5 [Burst] on target (Max 5)\nClash Power +1 for every 5 [Laceration] on target (Max 5)\nCoin Power +1 for every 5 [Laceration] Count on target (Max 2)\nCoin Power +1 for every 5 [Burst] Count on target (Max 2)\n[WinDuel] Gain 1 [Enhancement] and 1 Damage Up next turn",
+        "name": "Refracted Smackdown",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +5 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict [Burst] equal to [Laceration] on target",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001603": {
+    "a": 0,
+    "id": "91001603",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Clash Power +1 for every 4 [Burst] on target (Max 5)\nClash Power +1 for every 4 [Laceration] on target (Max 5)\n[WinDuel] Inflict +3 [Burst] Count",
+        "name": "Refracted Upheaval",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Next Coin has +1 Power\n[OnSucceedAttackHead] Inflict +3 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Next Coin has +2 Power\n[OnSucceedAttackHead] Inflict +3 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Paralysis] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict bonus Pierce damage equal to ([Laceration] x [Laceration] Count)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001606": {
+    "a": 0,
+    "id": "91001606",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[CantChangeTarget]\nClash Power +1 for every 5 [Burst] on target (Max 10)\nClash Power +1 for every 5 [Laceration] on target (Max 10)",
+        "name": "Refracted Time to Repent",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 [Laceration] Count and +4 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and 3 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and 3 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [Enhancement] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001607": {
+    "a": 0,
+    "id": "91001607",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[CantChangeTarget]\nClash Power +1 for every 5 [Burst] on target (Max 10)\nClash Power +1 for every 5 [Laceration] on target (Max 10)",
+        "name": "Refracted Sorrow and Lament In The Rabbit's Wake.",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 [Sinking] Count and +4 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Sinking] and 4 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Sinking] and 4 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Sinking] Count and +3 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001604": {
+    "a": 0,
+    "id": "91001604",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "When attacked while this unit has Shield, gain 1 Offense Level Up next turn\n[WhenUse] Gain 1 [Enhancement] next turn",
+        "name": "Refracted Guard",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91001605": {
+    "a": 0,
+    "id": "91001605",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[DuelCounter]\n[WhenUse] Gain 2 [ParryingResultUp] next turn",
+        "name": "Refracted Counter",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count and +3 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

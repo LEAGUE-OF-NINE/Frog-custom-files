@@ -1,0 +1,167 @@
+{
+  "list": [
+    {
+      "id": 10718,
+      "stageLevel": 460,
+      "isBatonPassOn": true,
+      "stageType": "Normal",
+      "participantInfo": {
+        "min": 6,
+        "max": 6
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp7_TheaterCave"
+          },
+          "unitList": [
+            {
+              "unitID": 90161,
+              "unitCount": 1,
+              "unitLevel": 460
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp7_Enemy_7"
+          ],
+          "enemyPositionID": 13
+        }
+      ],
+      "staminaCost": 20,
+      "recommendedLevel": 460,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "stageScriptList": [
+        "Chapter7SetAllyDefaultMp"
+      ],
+      "story": {
+        "enter": [
+          "S718B"
+        ],
+        "exit": [
+          "S718A"
+        ]
+      }
+    },
+    {
+      "id": 10532,
+      "stageLevel": 40,
+      "stageType": "Abnormality",
+      "battleCameraInfo": {
+        "defaultPosX": 0,
+        "defaultPosY": 0,
+        "defaultPosZ": 25
+      },
+      "participantInfo": {
+        "min": 6,
+        "max": 6
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp5_DrillingVessel_Outside",
+            "mapSize": 28
+          },
+          "unitList": [
+            {
+              "unitID": 8097,
+              "unitCount": 2,
+              "unitLevel": 50
+            },
+            {
+              "unitID": 8098,
+              "unitCount": 3,
+              "unitLevel": 50
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_MiddleBossBattle"
+          ],
+          "allyPositionID": 48,
+          "enemyPositionID": 49
+        },
+        {
+          "unitList": [
+            {
+              "unitID": 8097,
+              "unitCount": 3,
+              "unitLevel": 50
+            },
+            {
+              "unitID": 8098,
+              "unitCount": 2,
+              "unitLevel": 50
+            }
+          ],
+          "allyPositionID": 48,
+          "enemyPositionID": 49
+        },
+        {
+          "unitList": [
+            {
+              "unitID": 8099,
+              "unitCount": 1,
+              "unitLevel": 90
+            },
+            {
+              "unitID": 8097,
+              "unitCount": 1,
+              "unitLevel": 50
+            },
+            {
+              "unitID": 8098,
+              "unitCount": 1,
+              "unitLevel": 50
+            }
+          ],
+          "subUnitList": [
+            {
+              "unitID": 8097,
+              "unitCount": 1,
+              "unitLevel": 50
+            },
+            {
+              "unitID": 8098,
+              "unitCount": 1,
+              "unitLevel": 50
+            }
+          ],
+          "allyPositionID": 48,
+          "enemyPositionID": 47
+        }
+      ],
+      "staminaCost": 20,
+      "recommendedLevel": 40,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "story": {
+        "enter": [
+          "S532B"
+        ],
+        "exit": [
+          "S532A"
+        ]
+      },
+      "stageScriptList": [
+        "a1c5p2_4_2"
+      ],
+      "includeBoss": 1
+    }
+  ]
+}

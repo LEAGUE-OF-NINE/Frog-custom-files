@@ -75,19 +75,48 @@
     "resistInfo": {
         "atkResistList": [
             {
-                "type": "SLASH",
+                "type": "",
                 "value": 0.5
             },
             {
-                "type": "PENETRATE",
+                "type": "",
                 "value": 1.0
             },
             {
-                "type": "HIT",
+                "type": "",
                 "value": 2.0
             }
         ],
-        "attributeResistList": []
+        "attributeResistList": [
+            {
+                "type": "",
+                "value": 1.0
+            },
+            {
+                "type": "",
+                "value": 1.0
+            },
+            {
+                "type": "",
+                "value": 1.0
+            },
+            {
+                "type": "",
+                "value": 1.0
+            },
+            {
+                "type": "",
+                "value": 1.0
+            },
+            {
+                "type": "",
+                "value": 1.0
+            },
+            {
+                "type": "",
+                "value": 1.0
+            }
+        ]
     },
     "passiveSet": {
         "passiveIdList": [
