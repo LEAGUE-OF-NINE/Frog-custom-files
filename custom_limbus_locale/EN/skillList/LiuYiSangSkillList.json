@@ -1,0 +1,174 @@
+{
+  "10108001": {
+    "a": 0,
+    "id": "10108001",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If this skill is Discarded, gain +6 [Breath] Count\n[WhenUse] If target has 6+ [Combustion], Coin Power +2",
+        "name": "Rush Down",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Combustion]",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Combustion]",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10108002": {
+    "a": 0,
+    "id": "10108002",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[StartBattle] Consume 6 [Breath] Count on self to gain +2 Atk Weight for this Skill\nGain ([Breath] Potency x 0.5% of Max HP) Shield if this Skill is Discarded\nGain 6 [Breath] Potency and +3 [Breath] Count if this Skill is Discarded\n[WhenUse] Coin Power +1 for every 6 Burn on the main target (Max 2)\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
+        "name": "Burning Lunge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 [Breath]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Gain +2 [Breath] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 3 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 3 [Combustion] to 2 random enemies",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Lust Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10108003": {
+    "a": 0,
+    "id": "10108003",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "Gain ([Breath] Potency x 0.5% of Max HP) Shield if this Skill is Discarded\nGain +10 [Breath] Count if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] If the target has 6+ [Combustion], Coin Power +1\n[WhenUse] If the target has 15 or more [Combustion] Potency and 5 or more [Combustion] Count, deal +50% more Damage",
+        "name": "Flow of the Sword",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +1 [Combustion] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +1 [Combustion] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 3 random enemies",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Gloom Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 3 random enemies",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Sloth Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10108004": {
+    "a": 0,
+    "id": "10108004",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\nIf the target has 6+ [Combustion], Coin Power +2",
+        "name": "Fixated Evade",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

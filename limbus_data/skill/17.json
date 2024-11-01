@@ -1,37 +1,168 @@
 {
   "list": [
     {
-      "id": 2100111,
+      "id": 2090111,
       "skillType": "EGO_AWAKEN",
       "skillTier": 3,
       "requireIDList": [],
       "skillData": [
         {
           "gaksungLevel": 1,
-          "attributeType": "SHAMROCK",
+          "attributeType": "INDIGO",
           "atkType": "SLASH",
           "defType": "ATTACK",
           "skillTargetType": "FRONT",
           "targetNum": 1,
           "mpUsage": 10,
-          "skillLevelCorrection": 3,
+          "skillLevelCorrection": 0,
           "defaultValue": 10,
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
-          "actionScript": "2100121",
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgUpByRatio10IfHpRatioNotLessThan50"
+            }
+          ],
+          "actionScript": "2090121",
           "skillMotion": "Default",
           "viewType": "SKILL",
           "parryingCloseType": "NEAR",
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 15,
+              "scale": 13,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Burst",
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 15,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgUpByRatio30IfHpRatioNotLessThan50"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 13,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgUpByRatio30IfHpRatioNotLessThan50"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 13,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "2090111_1_gaksung4th"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090211,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "CRIMSON",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 20,
+          "skillLevelCorrection": 3,
+          "defaultValue": 33,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "actionScript": "2090221",
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 18,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 38,
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 18,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
                     "target": "Target",
                     "buffOwner": "",
                     "stack": 6,
@@ -40,83 +171,12 @@
                   }
                 },
                 {
-                  "scriptName": "GiveMpDmgOnSucceedAttackSelf10"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 3,
-          "defaultValue": 14,
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 15,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Burst",
+                    "buffKeyword": "CrimsonTakeDamageUp",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 12,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveMpDmgOnSucceedAttackHeadSelf10"
-                },
-                {
-                  "scriptName": "HealMpOnSucceedAttackTailSelf10"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 4,
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 15,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Burst",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 12,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveMpDmgOnSucceedAttackHeadSelf10"
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Enhancement",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "HealMpOnSucceedAttackTailSelf10"
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackTail",
-                  "buffData": {
-                    "buffKeyword": "Protection",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 1,
+                    "stack": 3,
                     "turn": 0,
                     "activeRound": 1
                   }
@@ -124,107 +184,15 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": 2100211,
-      "skillType": "EGO_AWAKEN",
-      "skillTier": 3,
-      "requireIDList": [],
-      "skillData": [
-        {
-          "gaksungLevel": 1,
-          "attributeType": "CRIMSON",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillTargetType": "FRONT",
-          "targetNum": 1,
-          "mpUsage": 20,
-          "skillLevelCorrection": 1,
-          "defaultValue": 24,
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackDmgUpByRatio10IfHpRatioLessThan25"
-            },
-            {
-              "scriptName": "HealHpOnKillTargetEveryAllyAbnoNPartByRatio10"
-            }
-          ],
-          "skillMotion": "Default",
-          "viewType": "SKILL",
-          "parryingCloseType": "NEAR",
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 8
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 3,
-          "defaultValue": 28,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackDmgUpByRatio20IfHpRatioLessThan25"
-            },
-            {
-              "scriptName": "HealHpOnKillTargetEveryAllyAbnoNPartByRatio15"
-            },
-            {
-              "scriptName": "GiveBuffOnKillTarget",
-              "buffData": {
-                "buffKeyword": "Enhancement",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 1
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 8
-            }
-          ]
         },
         {
           "gaksungLevel": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackDmgUpByRatio40IfHpRatioLessThan25"
-            },
-            {
-              "scriptName": "HealHpOnKillTargetEveryAllyAbnoNPartByRatio15"
-            },
-            {
-              "scriptName": "GiveBuffOnKillTarget",
-              "buffData": {
-                "buffKeyword": "Enhancement",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 1
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 8
-            }
-          ]
+          "targetNum": 3
         }
       ]
     },
     {
-      "id": 2100221,
+      "id": 2090221,
       "skillType": "EGO_EROSION",
       "skillTier": 3,
       "requireIDList": [],
@@ -232,385 +200,257 @@
         {
           "gaksungLevel": 1,
           "attributeType": "CRIMSON",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillTargetType": "RANDOM",
-          "targetNum": 1,
-          "mpUsage": 20,
-          "skillLevelCorrection": 1,
-          "defaultValue": 24,
-          "canTeamKill": true,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackDmgUpByRatio15IfHpRatioLessThan25"
-            },
-            {
-              "scriptName": "GiveBuffOnFailKillTarget",
-              "buffData": {
-                "buffKeyword": "Laceration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 10,
-                "turn": 0,
-                "activeRound": 1
-              }
-            }
-          ],
-          "skillMotion": "Default",
-          "viewType": "SKILL",
-          "parryingCloseType": "NEAR",
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 8
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 3,
-          "defaultValue": 28,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackDmgUpByRatio25IfHpRatioLessThan25"
-            },
-            {
-              "scriptName": "GiveBuffOnFailKillTarget",
-              "buffData": {
-                "buffKeyword": "Laceration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 10,
-                "turn": 0,
-                "activeRound": 1
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnFailKillTarget",
-              "buffData": {
-                "buffKeyword": "Enhancement",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 3,
-                "turn": 0,
-                "activeRound": 1
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 8
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackDmgUpByRatio50IfHpRatioLessThan25"
-            },
-            {
-              "scriptName": "GiveBuffOnFailKillTarget",
-              "buffData": {
-                "buffKeyword": "Laceration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 10,
-                "turn": 0,
-                "activeRound": 1
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnFailKillTarget",
-              "buffData": {
-                "buffKeyword": "Enhancement",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 3,
-                "turn": 0,
-                "activeRound": 1
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 8
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2100311,
-      "skillType": "EGO_AWAKEN",
-      "skillTier": 3,
-      "requireIDList": [],
-      "skillData": [
-        {
-          "gaksungLevel": 1,
-          "attributeType": "SCARLET",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillTargetType": "FRONT",
-          "targetNum": 3,
-          "mpUsage": 15,
-          "skillLevelCorrection": -2,
-          "defaultValue": 16,
-          "canTeamKill": true,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackLowestHpAbnormalityTarget"
-            },
-            {
-              "scriptName": "IgnoreDefenseSkillOnAttackAlly"
-            },
-            {
-              "scriptName": "ChangeAttackDamageToZeroOnAttackAlly"
-            }
-          ],
-          "skillMotion": "Default",
-          "viewType": "SKILL",
-          "parryingCloseType": "NEAR",
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 8,
-              "abilityScriptList": [
-                {
-                  "scriptName": "HealTargetOnSuccessAttackHeadBySelfMaxHpRatioIfAlly5"
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackTail",
-                  "buffData": {
-                    "buffKeyword": "Combustion",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 7,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackTailIfAlly",
-                  "buffData": {
-                    "buffKeyword": "Agility",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 3,
-          "defaultValue": 18,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackLowestHpAbnormalityTarget"
-            },
-            {
-              "scriptName": "IgnoreDefenseSkillOnAttackAlly"
-            },
-            {
-              "scriptName": "ChangeAttackDamageToZeroOnAttackAlly"
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 8,
-              "abilityScriptList": [
-                {
-                  "scriptName": "HealTargetOnSuccessAttackHeadBySelfMaxHpRatioIfAlly10"
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackTail",
-                  "buffData": {
-                    "buffKeyword": "Combustion",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 7,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackTailIfAlly",
-                  "buffData": {
-                    "buffKeyword": "GainSinStockAdder",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackTailIfAlly",
-                  "buffData": {
-                    "buffKeyword": "Agility",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 4,
-          "targetNum": 7
-        }
-      ]
-    },
-    {
-      "id": 2100321,
-      "skillType": "EGO_EROSION",
-      "skillTier": 3,
-      "requireIDList": [],
-      "skillData": [
-        {
-          "gaksungLevel": 1,
-          "attributeType": "SCARLET",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillTargetType": "RANDOM",
-          "targetNum": 3,
-          "mpUsage": 20,
-          "skillLevelCorrection": 1,
-          "defaultValue": 20,
-          "canTeamKill": true,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackLowestHpTarget"
-            },
-            {
-              "scriptName": "AttackDmgUpByRatio10BeforeAttackByUseRandomSinStock3"
-            }
-          ],
-          "skillMotion": "Default",
-          "viewType": "SKILL",
-          "parryingCloseType": "NEAR",
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 12,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Combustion",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 3,
-          "defaultValue": 24,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackLowestHpTarget"
-            },
-            {
-              "scriptName": "AttackDmgUpByRatio20BeforeAttackByUseRandomSinStock3"
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 12,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Combustion",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackLowestHpTarget"
-            },
-            {
-              "scriptName": "AttackDmgUpByRatio30BeforeAttackByUseRandomSinStock3"
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "SUB",
-              "scale": 12,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Combustion",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2100411,
-      "skillType": "EGO_AWAKEN",
-      "skillTier": 3,
-      "requireIDList": [],
-      "skillData": [
-        {
-          "gaksungLevel": 1,
-          "attributeType": "SHAMROCK",
           "atkType": "SLASH",
           "defType": "ATTACK",
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "targetNum": 3,
-          "mpUsage": 25,
-          "skillLevelCorrection": -2,
-          "defaultValue": 18,
-          "canTeamKill": false,
+          "mpUsage": 20,
+          "skillLevelCorrection": 3,
+          "defaultValue": 28,
+          "canTeamKill": true,
           "canDuel": true,
           "canChangeTarget": true,
+          "actionScript": "2090222",
           "skillMotion": "Default",
           "viewType": "SKILL",
           "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 18,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 33,
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 18,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 6,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "CrimsonTakeDamageUp",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "targetNum": 5
+        }
+      ]
+    },
+    {
+      "id": 2090311,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "AZURE",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 3,
+          "mpUsage": 20,
+          "skillLevelCorrection": 1,
+          "defaultValue": 13,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
           "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgUpByRatio10IfHpRatioNotLessThan50"
+            }
+          ],
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackHead"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 15,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgUpByRatio30IfHpRatioNotLessThan50"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 15,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgUpByRatio30IfHpRatioNotLessThan50"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 15,
+              "abilityScriptList": [
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 5,
+                    "turn": 5,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090321,
+      "skillType": "EGO_EROSION",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "AZURE",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "RANDOM",
+          "targetNum": 1,
+          "mpUsage": 20,
+          "skillLevelCorrection": 1,
+          "defaultValue": 17,
+          "canTeamKill": true,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackHighestHpTarget"
+            },
+            {
+              "scriptName": "AttackDmgUpByRatio10IfHpRatioNotLessThan50"
+            }
+          ],
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackHead"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 4,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "defaultValue": 21,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackHighestHpTarget"
+            },
+            {
+              "scriptName": "AttackDmgUpByRatio30IfHpRatioNotLessThan50"
+            }
           ],
           "coinList": [
             {
@@ -618,18 +458,196 @@
               "scale": 6,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Burst",
+                    "buffKeyword": "Sinking",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 3,
-                    "turn": 0,
+                    "stack": 0,
+                    "turn": 6,
                     "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "targetNum": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackHighestHpTarget"
+            },
+            {
+              "scriptName": "AttackDmgUpByRatio30IfHpRatioNotLessThan50"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 10,
+                    "turn": 8,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090511,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "AMBER",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 25,
+          "skillLevelCorrection": -1,
+          "defaultValue": 26,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "AmberTakeDamageUp",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
                   }
                 },
                 {
-                  "scriptName": "HealLeastHpRatioAlly2OnSuccessAttackByHpRatio10"
+                  "scriptName": "RodionFifthEgoCoinFirstAbility15And2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "targetNum": 2,
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "AmberTakeDamageUp",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "RodionFifthEgoCoinFirstAbility25And2"
+                },
+                {
+                  "scriptName": "RodionFifthEgoCoinSecondAbilityHead10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "targetNum": 3,
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "AmberTakeDamageUp",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "RodionFifthEgoCoinFirstAbility30And2"
+                },
+                {
+                  "scriptName": "RodionFifthEgoCoinSecondAbility15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090521,
+      "skillType": "EGO_EROSION",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "AMBER",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "RANDOM",
+          "targetNum": 3,
+          "mpUsage": 25,
+          "skillLevelCorrection": -1,
+          "defaultValue": 34,
+          "canTeamKill": true,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
+                },
+                {
+                  "scriptName": "GiveMpDmgOnSucceedAttackTarget15"
                 }
               ]
             }
@@ -644,22 +662,17 @@
           ],
           "coinList": [
             {
-              "operatorType": "ADD",
-              "scale": 6,
+              "operatorType": "SUB",
+              "scale": 12,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Burst",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
                 },
                 {
-                  "scriptName": "HealLeastHpRatioAlly2OnSuccessAttackByHpRatio12"
+                  "scriptName": "GiveMpDmgOnSucceedAttackTarget20"
+                },
+                {
+                  "scriptName": "HealMpSelfOnBreakOrKillTargetTail5"
                 }
               ]
             }
@@ -674,22 +687,17 @@
           ],
           "coinList": [
             {
-              "operatorType": "ADD",
-              "scale": 6,
+              "operatorType": "SUB",
+              "scale": 12,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Burst",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
+                  "scriptName": "VibrationExplosionOnSucceedAttack"
                 },
                 {
-                  "scriptName": "HealLeastHpRatioAlly2OnSuccessAttackByHpRatio15"
+                  "scriptName": "GiveMpDmgOnSucceedAttackTarget20"
+                },
+                {
+                  "scriptName": "HealMpSelfOnBreakOrKillTarget7"
                 }
               ]
             }
@@ -698,20 +706,153 @@
       ]
     },
     {
-      "id": 2100421,
+      "id": 2090611,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "SCARLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 15,
+          "skillLevelCorrection": 0,
+          "defaultValue": 21,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit6",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "RodionSixthEgoSkillFirstAbility"
+            },
+            {
+              "scriptName": "RodionSixthEgoSkillSecondAbility10"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "RodionSixthEgoCoinFirstAbility"
+                },
+                {
+                  "scriptName": "RodionSixthEgoCoinSecondAbility"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit9",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "RodionSixthEgoSkillFirstAbility"
+            },
+            {
+              "scriptName": "RodionSixthEgoSkillSecondAbility10"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "RodionSixthEgoCoinFirstAbility_gaksung"
+                },
+                {
+                  "scriptName": "RodionSixthEgoCoinSecondAbility"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit13",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "RodionSixthEgoSkillFirstAbility"
+            },
+            {
+              "scriptName": "RodionSixthEgoSkillSecondAbility10"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 12,
+              "abilityScriptList": [
+                {
+                  "scriptName": "RodionSixthEgoCoinFirstAbility_gaksung4th"
+                },
+                {
+                  "scriptName": "RodionSixthEgoCoinSecondAbility"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2090621,
       "skillType": "EGO_EROSION",
       "skillTier": 3,
       "requireIDList": [],
       "skillData": [
         {
           "gaksungLevel": 1,
-          "attributeType": "SHAMROCK",
+          "attributeType": "SCARLET",
           "atkType": "SLASH",
           "defType": "ATTACK",
           "skillTargetType": "RANDOM",
-          "targetNum": 3,
+          "targetNum": 5,
           "mpUsage": 30,
-          "skillLevelCorrection": 1,
+          "skillLevelCorrection": 0,
           "defaultValue": 30,
           "canTeamKill": true,
           "canDuel": true,
@@ -721,27 +862,25 @@
           "parryingCloseType": "NEAR",
           "abilityScriptList": [
             {
-              "scriptName": "AttackHighestHpAbnormalityTarget"
+              "scriptName": "TargetNumAdderBBViaMaxRCWithMinCount3Upto2"
             }
           ],
           "coinList": [
             {
               "operatorType": "SUB",
-              "scale": 12,
+              "scale": 11,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "scriptName": "RodionSixthErodedEgoCoinAbility",
                   "buffData": {
-                    "buffKeyword": "Burst",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "limit": 4
                   }
-                },
-                {
-                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio30"
                 }
               ]
             }
@@ -749,43 +888,33 @@
         },
         {
           "gaksungLevel": 3,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackHighestHpAbnormalityTarget"
-            },
-            {
-              "scriptName": "TagetNumAdderBeforeBehaviour1IfSelfHpRatioLessThan50"
-            }
-          ],
           "coinList": [
             {
               "operatorType": "SUB",
-              "scale": 12,
+              "scale": 11,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "scriptName": "RodionSixthErodedEgoCoinAbility",
                   "buffData": {
-                    "buffKeyword": "Burst",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 0,
-                    "turn": 3,
-                    "activeRound": 0
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "limit": 5
                   }
                 },
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "DefenseDown",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 3,
-                    "turn": 0,
+                    "stack": 0,
+                    "turn": 2,
                     "activeRound": 0
                   }
-                },
-                {
-                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio50"
                 }
               ]
             }
@@ -793,43 +922,33 @@
         },
         {
           "gaksungLevel": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "AttackHighestHpAbnormalityTarget"
-            },
-            {
-              "scriptName": "TagetNumAdderBeforeBehaviour2IfSelfHpRatioLessThan50"
-            }
-          ],
           "coinList": [
             {
               "operatorType": "SUB",
-              "scale": 12,
+              "scale": 11,
               "abilityScriptList": [
+                {
+                  "scriptName": "RodionSixthErodedEgoCoinAbility",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "limit": 6
+                  }
+                },
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Burst",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
                     "buffOwner": "",
                     "stack": 0,
                     "turn": 3,
                     "activeRound": 0
                   }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "DefenseDown",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 5,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio50"
                 }
               ]
             }
@@ -838,21 +957,21 @@
       ]
     },
     {
-      "id": 2100611,
+      "id": 2090711,
       "skillType": "EGO_AWAKEN",
       "skillTier": 3,
       "requireIDList": [],
       "skillData": [
         {
           "gaksungLevel": 1,
-          "attributeType": "AZURE",
-          "atkType": "HIT",
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
           "defType": "ATTACK",
           "skillTargetType": "FRONT",
-          "targetNum": 1,
-          "mpUsage": 15,
-          "skillLevelCorrection": -2,
-          "defaultValue": 16,
+          "targetNum": 3,
+          "mpUsage": 25,
+          "skillLevelCorrection": -3,
+          "defaultValue": 6,
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
@@ -861,7 +980,7 @@
           "parryingCloseType": "NEAR",
           "abilityScriptList": [
             {
-              "scriptName": "TargetNumAdderBBViaMaxRCWithMinCount4Upto1"
+              "scriptName": "RodionAwakenCurseNail1"
             }
           ],
           "coinList": [
@@ -870,9 +989,42 @@
               "scale": 8,
               "abilityScriptList": [
                 {
-                  "scriptName": "2100611_1",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "ShieldManagerCryingToad"
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Curse",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "NailPersonality",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -883,7 +1035,7 @@
           "gaksungLevel": 3,
           "abilityScriptList": [
             {
-              "scriptName": "TargetNumAdderBBViaMaxRCWithMinCount3Upto2"
+              "scriptName": "RodionAwakenCurseNail3"
             }
           ],
           "coinList": [
@@ -892,9 +1044,42 @@
               "scale": 8,
               "abilityScriptList": [
                 {
-                  "scriptName": "2100611_1_gaksung",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "ShieldManagerCryingToad"
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Curse",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "NailPersonality",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -903,15 +1088,54 @@
         },
         {
           "gaksungLevel": 4,
+          "defaultValue": 8,
+          "abilityScriptList": [
+            {
+              "scriptName": "RodionAwakenCurseNail4"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "ADD",
               "scale": 8,
               "abilityScriptList": [
                 {
-                  "scriptName": "2100611_1_gaksung4th",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "ShieldManagerCryingToad"
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 4,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Curse",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "NailPersonality",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -921,19 +1145,19 @@
       ]
     },
     {
-      "id": 2100621,
+      "id": 2090721,
       "skillType": "EGO_EROSION",
       "skillTier": 3,
       "requireIDList": [],
       "skillData": [
         {
           "gaksungLevel": 1,
-          "attributeType": "AZURE",
-          "atkType": "HIT",
+          "attributeType": "VIOLET",
+          "atkType": "SLASH",
           "defType": "ATTACK",
           "skillTargetType": "RANDOM",
-          "targetNum": 1,
-          "mpUsage": 15,
+          "targetNum": 3,
+          "mpUsage": 30,
           "skillLevelCorrection": 0,
           "defaultValue": 24,
           "canTeamKill": true,
@@ -944,21 +1168,18 @@
           "parryingCloseType": "NEAR",
           "abilityScriptList": [
             {
-              "scriptName": "TargetNumAdderBBViaMaxRCWithMinCount4Upto1"
-            },
-            {
-              "scriptName": "AddTauntBB5"
+              "scriptName": "RodionCorrisionCurseNail1"
             }
           ],
           "coinList": [
             {
               "operatorType": "SUB",
-              "scale": 8,
+              "scale": 6,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Sinking",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
                     "buffOwner": "",
                     "stack": 2,
@@ -967,9 +1188,42 @@
                   }
                 },
                 {
-                  "scriptName": "2100621_1",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "ShieldManagerCryingToad"
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Curse",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "NailPersonality",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -980,21 +1234,46 @@
           "gaksungLevel": 3,
           "abilityScriptList": [
             {
-              "scriptName": "TargetNumAdderBBViaMaxRCWithMinCount3Upto2"
-            },
-            {
-              "scriptName": "AddTauntBB10"
+              "scriptName": "RodionCorrisionCurseNail3"
             }
           ],
           "coinList": [
             {
               "operatorType": "SUB",
-              "scale": 8,
+              "scale": 6,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Sinking",
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Curse",
                     "target": "Target",
                     "buffOwner": "",
                     "stack": 2,
@@ -1003,9 +1282,14 @@
                   }
                 },
                 {
-                  "scriptName": "2100621_1_gaksung",
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
                   "buffData": {
-                    "buffKeyword": "ShieldManagerCryingToad"
+                    "buffKeyword": "NailPersonality",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -1014,26 +1298,65 @@
         },
         {
           "gaksungLevel": 4,
+          "defaultValue": 28,
+          "abilityScriptList": [
+            {
+              "scriptName": "RodionCorrisionCurseNail4"
+            }
+          ],
           "coinList": [
             {
               "operatorType": "SUB",
-              "scale": 8,
+              "scale": 6,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Sinking",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 2,
-                    "turn": 3,
+                    "stack": 4,
+                    "turn": 0,
                     "activeRound": 0
                   }
                 },
                 {
-                  "scriptName": "2100621_1_gaksung4th",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "ShieldManagerCryingToad"
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Curse",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackTail",
+                  "buffData": {
+                    "buffKeyword": "NailPersonality",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
                   }
                 }
               ]

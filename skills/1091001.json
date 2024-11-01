@@ -707,5 +707,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

@@ -3,8 +3,13 @@
     {
       "id": 10520,
       "appearance": "10509_Meursault_DeadrabbitsAppearance",
-      "unitKeywordList": ["CLAN","SMALL"],
-      "associationList": ["DEAD_RABBITS"],
+      "unitKeywordList": [
+        "CLAN",
+        "SMALL"
+      ],
+      "associationList": [
+        "DEAD_RABBITS"
+      ],
       "characterId": 5,
       "panicType": 9999,
       "season": 4,
@@ -37,35 +42,31 @@
         "passiveIdList": [
           {
             "level": 1,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1050911,
               9101602
-
             ]
           },
           {
             "level": 2,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1050911,
               9101602
-
             ]
           },
           {
             "level": 4,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1050911,
               9101602
-
             ]
           }
         ],
         "supportPassiveIdList": [
           {
             "level": 3,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1050931
-
             ]
           }
         ]

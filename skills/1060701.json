@@ -445,5 +445,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

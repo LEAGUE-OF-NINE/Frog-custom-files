@@ -19,6 +19,7 @@
       "restMPHeal": 0,
       "isResetMPAtRestNode": true,
       "isResetAfterLose": false,
+      "disableDanteAbilityIds": [80101],
       "nodeIdCollection_ForLog": [
         {
           "collectionId": 1,

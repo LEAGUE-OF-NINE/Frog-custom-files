@@ -8,7 +8,7 @@
       "requireIDList": [],
       "skillData": [
         {
-          "iconID": 1020802,   
+          "iconID": 1020802,
           "gaksungLevel": 1,
           "attributeType": "AMBER",
           "atkType": "PENETRATE",
@@ -322,16 +322,27 @@
                 {
                   "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttackWithLimit30_CRIMSON",
                   "buffData": {
-                      "buffKeyword": "Combustion",
-                      "target": "Target",
-                      "buffOwner": "Target",
-                      "stack": 0,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 1.0,
-                      "limit": 0
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 1.0,
+                    "limit": 0
                   }
-              }
+                },
+                {
+                  "scriptName": "LoseBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
               ]
             }
           ]
@@ -346,7 +357,7 @@
       "requireIDList": [],
       "skillData": [
         {
-          "iconID": 1020801,        
+          "iconID": 1020801,
           "gaksungLevel": 1,
           "attributeType": "SHAMROCK",
           "atkType": "SLASH",
@@ -533,14 +544,14 @@
             {
               "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
               "buffData": {
-                  "buffKeyword": "Combustion",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 6,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 0
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
               }
             },
             {
@@ -563,18 +574,18 @@
                 {
                   "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Combustion6",
                   "buffData": {
-                      "buffKeyword": "Combustion",
-                      "target": "RandomEnemy3",
-                      "buffOwner": "Target",
-                      "stack": 3,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 0.0,
-                      "limit": 0
+                    "buffKeyword": "Combustion",
+                    "target": "RandomEnemy2",
+                    "buffOwner": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
                   }
                 },
                 {
-                  "scriptName": "GiveBuffOnSucceedCriticalAttack",
+                  "scriptName": "GiveBuffOnSuccessCriticalAttack",
                   "buffData": {
                     "buffKeyword": "Combustion",
                     "target": "Target",
@@ -593,18 +604,18 @@
                 {
                   "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Combustion6",
                   "buffData": {
-                      "buffKeyword": "Combustion",
-                      "target": "RandomEnemy3",
-                      "buffOwner": "Target",
-                      "stack": 3,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 0.0,
-                      "limit": 0
+                    "buffKeyword": "Combustion",
+                    "target": "RandomEnemy2",
+                    "buffOwner": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.0,
+                    "limit": 0
                   }
                 },
                 {
-                  "scriptName": "GiveBuffOnSucceedCriticalAttack",
+                  "scriptName": "GiveBuffOnSuccessCriticalAttack",
                   "buffData": {
                     "buffKeyword": "Combustion",
                     "target": "Target",
@@ -621,7 +632,7 @@
               "scale": 4,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
                   "buffData": {
                     "buffKeyword": "Combustion",
                     "target": "Target",
@@ -634,14 +645,23 @@
                 {
                   "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_CRIMSON",
                   "buffData": {
-                      "buffKeyword": "Combustion",
-                      "target": "Target",
-                      "buffOwner": "Target",
-                      "stack": 0,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 1.0,
-                      "limit": 0
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 0,
+                    "turn": 0,
+                    "value": 1
+                  }
+                },
+                {
+                  "scriptName": "LoseBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -660,7 +680,7 @@
       ],
       "skillData": [
         {
-          "iconID": 1020803,   
+          "iconID": 1020803,
           "gaksungLevel": 3,
           "attributeType": "CRIMSON",
           "atkType": "SLASH",
@@ -767,14 +787,14 @@
             {
               "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
               "buffData": {
-                  "buffKeyword": "Combustion",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 6,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 0
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 0
               }
             },
             {
@@ -811,14 +831,25 @@
                 {
                   "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_CRIMSON",
                   "buffData": {
-                      "buffKeyword": "Combustion",
-                      "target": "Target",
-                      "buffOwner": "Target",
-                      "stack": 0,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 1.0,
-                      "limit": 0
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 1.0,
+                    "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "LoseBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -834,14 +865,25 @@
                 {
                   "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_CRIMSON",
                   "buffData": {
-                      "buffKeyword": "Combustion",
-                      "target": "Target",
-                      "buffOwner": "Target",
-                      "stack": 0,
-                      "turn": 0,
-                      "activeRound": 0,
-                      "value": 1.0,
-                      "limit": 0
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 0,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 1.0,
+                    "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "LoseBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -914,14 +956,14 @@
             {
               "scriptName": "SkillPowerAdderViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Combustion",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 1,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 20
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 20
               }
             }
           ],

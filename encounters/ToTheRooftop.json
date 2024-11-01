@@ -116,8 +116,8 @@
             "supportUnitList": [],
             "isBatonPassOn": false,
             "bgmList": [],
-            "allyPositionID": 73,
-            "enemyPositionID": 72
+            "allyPositionID": 1,
+            "enemyPositionID": 2
         }
     ],
     "turnLimit": 99,

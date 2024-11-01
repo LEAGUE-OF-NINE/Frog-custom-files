@@ -35,7 +35,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "a1c6p1_Buff_EnemyRun_Normal_Filter"
+        "a1c6p1_Buff_EnemyRun_Normal_Filter",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -72,33 +74,39 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp6_Ally_2",
-                "Battle_Cp6_Enemy_2"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 2
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90123,
                     "unitLevel": 43,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90123,
+                    "unitLevel": 43,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 90124,
                     "unitLevel": 43,
-                    "unitCount": 3,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90124,
+                    "unitLevel": 43,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90124,
+                    "unitLevel": 43,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
@@ -108,21 +116,7 @@
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
-                }
-            ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [],
-            "allyPositionID": 1,
-            "enemyPositionID": 2
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+                },
                 {
                     "unitID": 90120,
                     "unitLevel": 43,
@@ -166,10 +160,12 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp6_Ally_2",
+                "Battle_Cp6_Enemy_2"
+            ],
             "allyPositionID": 1,
             "enemyPositionID": 2
         }

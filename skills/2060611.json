@@ -8,7 +8,7 @@
             "iconID": "",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "AMBER",
+            "attributeType": "",
             "atkType": "HIT",
             "defType": "ATTACK",
             "skillMotion": "Default",
@@ -163,7 +163,7 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "NONE",
+            "attributeType": "",
             "atkType": "ERROR",
             "defType": "NONE",
             "skillMotion": "Empty",
@@ -357,7 +357,7 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "NONE",
+            "attributeType": "",
             "atkType": "ERROR",
             "defType": "NONE",
             "skillMotion": "Empty",
@@ -548,5 +548,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "EGO_AWAKEN"
 }

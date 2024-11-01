@@ -8,8 +8,8 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "SHAMROCK",
-            "atkType": "SLASH",
+            "attributeType": "",
+            "atkType": "",
             "defType": "ATTACK",
             "skillMotion": "S3",
             "viewType": "ENCOUNTER",
@@ -163,8 +163,8 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "NONE",
-            "atkType": "ERROR",
+            "attributeType": "",
+            "atkType": "",
             "defType": "NONE",
             "skillMotion": "Empty",
             "viewType": "NONE",
@@ -316,5 +316,6 @@
     "requireIDList": [
         "CheckAwakenLevel3"
     ],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

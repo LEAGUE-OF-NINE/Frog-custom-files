@@ -1,0 +1,243 @@
+{
+    "id": 838003,
+    "textID": -1,
+    "skillTier": 1,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "CRIMSON",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NONE",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 5,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "HealMpTargetOnUseIfBuffUse",
+                    "buffData": {
+                        "buffKeyword": "BloodArmor",
+                        "target": "Self",
+                        "buffOwner": "Self",
+                        "stack": 4,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 10.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffAndRecoverMpOnUseWithBloodDinnerAndGiveBuffWhenFailed_Laceration3[10:10:10]",
+                    "buffData": {
+                        "buffKeyword": "BloodArmor",
+                        "target": "Self",
+                        "buffOwner": "Self",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 10.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2,
+            "range": 6.0,
+            "arearange": 4.0,
+            "skillTargetType": "RANDOM",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "DmgUpByBuffStackWithLimit100",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "",
+                                "buffOwner": "Target",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 10.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Laceration",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 3,
+                                "turn": 2,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 9,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillTagList": [],
+    "skillType": "SKILL"
+}

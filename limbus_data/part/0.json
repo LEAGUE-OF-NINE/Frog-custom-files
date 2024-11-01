@@ -48,7 +48,8 @@
           ],
           "nextMainchapterid": 1,
           "nextSubchapterid": 101,
-          "lastnodeid": 10004
+          "lastnodeid": 10004,
+          "voiceBank": "Ch0"
         },
         {
           "id": 101,
@@ -153,7 +154,8 @@
           ],
           "nextMainchapterid": 1,
           "nextSubchapterid": 102,
-          "lastnodeid": 10111
+          "lastnodeid": 10111,
+          "voiceBank": "Ch1"
         },
         {
           "id": 102,
@@ -322,7 +324,8 @@
           ],
           "nextMainchapterid": 1,
           "nextSubchapterid": 103,
-          "lastnodeid": 10219
+          "lastnodeid": 10219,
+          "voiceBank": "Ch2"
         },
         {
           "id": 103,
@@ -515,7 +518,8 @@
           ],
           "nextMainchapterid": 91,
           "nextSubchapterid": 9103,
-          "lastnodeid": 10322
+          "lastnodeid": 10322,
+          "voiceBank": "Ch3"
         },
         {
           "id": 104,
@@ -964,7 +968,8 @@
           ],
           "nextMainchapterid": 91,
           "nextSubchapterid": 9104,
-          "lastnodeid": 10454
+          "lastnodeid": 10454,
+          "voiceBank": "Ch4"
         },
         {
           "id": 105,
@@ -1269,7 +1274,8 @@
           ],
           "nextMainchapterid": 91,
           "nextSubchapterid": 9105,
-          "lastnodeid": 10539
+          "lastnodeid": 10539,
+          "voiceBank": "Ch5"
         },
         {
           "id": 106,
@@ -1670,7 +1676,8 @@
           ],
           "nextMainchapterid": 91,
           "nextSubchapterid": 9109,
-          "lastnodeid": 10648
+          "lastnodeid": 10648,
+          "voiceBank": "Ch6"
         },
         {
           "id": 107,
@@ -1679,7 +1686,7 @@
           "sprName": "chapter7",
           "subChapterNumber": "7",
           "mapSizeRow": 5,
-          "mapSizeColoumn": 6,
+          "mapSizeColoumn": 10,
           "unlockCondition": {
             "unlockCode": 9110
           },
@@ -1835,11 +1842,148 @@
               "posy": 3306,
               "upper": 0,
               "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10720,
+              "stageId": 10720,
+              "posx": 11830,
+              "posy": 2512,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10721,
+              "stageId": 10721,
+              "posx": 14584,
+              "posy": 2477,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10722,
+              "stageId": 10722,
+              "posx": 15538,
+              "posy": 2764,
+              "upper": 10,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10723,
+              "stageId": 10723,
+              "posx": 15784,
+              "posy": 3439,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10724,
+              "stageId": 10724,
+              "posx": 16384,
+              "posy": 3976,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10725,
+              "stageId": 10725,
+              "posx": 16877,
+              "posy": 4340,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10726,
+              "stageId": 10726,
+              "posx": 17830,
+              "posy": 2412,
+              "upper": 0,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10727,
+              "stageId": 10728,
+              "posx": 18081,
+              "posy": 4468,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10728,
+              "stageId": 10729,
+              "posx": 16888,
+              "posy": 5196,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10729,
+              "stageId": 10730,
+              "posx": 17356,
+              "posy": 6092,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10730,
+              "stageId": 10731,
+              "posx": 16706,
+              "posy": 6562,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10731,
+              "stageId": 10732,
+              "posx": 16442,
+              "posy": 7246,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10732,
+              "stageId": 10733,
+              "posx": 15386,
+              "posy": 7785,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10733,
+              "stageId": 10734,
+              "posx": 14572,
+              "posy": 7885,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10734,
+              "stageId": 10735,
+              "posx": 15313,
+              "posy": 7300,
+              "upper": 1,
+              "stageNodeType": "NORMAL"
+            },
+            {
+              "nodeId": 10735,
+              "stageId": 10736,
+              "posx": 15713,
+              "posy": 6003,
+              "upper": 1,
+              "stageNodeType": "STORY"
+            },
+            {
+              "nodeId": 10736,
+              "stageId": 10701,
+              "posx": 14158,
+              "posy": 4900,
+              "upper": 0,
+              "stageNodeType": "DUNGEON"
             }
           ],
           "nextMainchapterid": -1,
           "nextSubchapterid": -1,
-          "lastnodeid": 10719
+          "lastnodeid": 10736,
+          "voiceBank": "Ch7"
         }
       ],
       "subchapterUIList": [
@@ -1975,7 +2119,10 @@
           "chapterId": 91,
           "subchapterId": 9109,
           "type": "SUB",
-          "relatedEventId": "TKT"
+          "relatedEventId": "TKT",
+          "uiConfig": {
+            "timeLine": "984-12"
+          }
         },
         {
           "subchapterId": 9017,
@@ -1986,14 +2133,18 @@
           "uiConfig": {
             "illustId": "story-id_E063X",
             "customChapterText": "2",
-            "mapAreaId": 9109
+            "mapAreaId": 9109,
+            "timeLine": "984-12"
           }
         },
         {
           "chapterId": 91,
           "subchapterId": 9110,
           "type": "SUB",
-          "relatedEventId": "MOWE"
+          "relatedEventId": "MOWE",
+          "uiConfig": {
+            "timeLine": "984-12"
+          }
         },
         {
           "type": "EVENT",
@@ -2010,7 +2161,8 @@
             "customChapterText": 3,
             "region": "p",
             "mapAreaId": 9111,
-            "chapterTagIconType": "BATTLE"
+            "chapterTagIconType": "BATTLE",
+            "timeLine": "984-12"
           }
         },
         {
@@ -2119,7 +2271,8 @@
           ],
           "nextMainchapterid": 1,
           "nextSubchapterid": 104,
-          "lastnodeid": 910309
+          "lastnodeid": 910309,
+          "voiceBank": "Event3"
         },
         {
           "id": 9104,
@@ -2224,7 +2377,8 @@
           ],
           "nextMainchapterid": 1,
           "nextSubchapterid": 105,
-          "lastnodeid": 910411
+          "lastnodeid": 910411,
+          "voiceBank": "Event4"
         },
         {
           "id": 9105,

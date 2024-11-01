@@ -4,7 +4,7 @@
     "viewid": 10558,
     "deadsceneid": -1,
     "sdPortrait": "",
-    "appearance": "!custom_distorting_bl_sault",
+    "appearance": "!custom_10508_Meursault_KimSatGatAppearance",
     "panicSkillOnErosion": 1000104,
     "mp": 45,
     "hp": {
@@ -127,7 +127,7 @@
     "additionalAttachment": "EVENT",
     "promotionId": 0,
     "rank": 3,
-    "uniqueAttribute": "",
+    "uniqueAttribute": "INDIGO",
     "supporterPassiveSet": {
         "passiveIdList": [],
         "supportPassiveIdList": []

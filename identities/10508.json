@@ -123,7 +123,7 @@
     "additionalAttachment": "EVENT",
     "promotionId": 0,
     "rank": 3,
-    "uniqueAttribute": "",
+    "uniqueAttribute": "INDIGO",
     "supporterPassiveSet": {
         "passiveIdList": [],
         "supportPassiveIdList": []

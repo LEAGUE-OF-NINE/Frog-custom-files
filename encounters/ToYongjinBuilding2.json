@@ -35,7 +35,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "FilterBase"
+        "FilterBase",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -72,32 +74,32 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp5_5_YCGD_Enemy"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 2
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90110,
                     "unitLevel": 40,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 90111,
                     "unitLevel": 40,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90110,
+                    "unitLevel": 40,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90111,
+                    "unitLevel": 40,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
@@ -116,10 +118,11 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp5_5_YCGD_Enemy"
+            ],
             "allyPositionID": 1,
             "enemyPositionID": 2
         }

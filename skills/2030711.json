@@ -1,0 +1,1356 @@
+{
+    "id": 2030711,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "SCARLET",
+            "atkType": "PENETRATE",
+            "defType": "ATTACK",
+            "skillMotion": "Default",
+            "viewType": "SKILL",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 5,
+            "defaultValue": 3,
+            "abilityScriptList": [
+                {
+                    "scriptName": "SeventhDonquixoteEgoImmortalSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+                    "buffData": {
+                        "buffKeyword": "BloodDinner_Accumulation",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 100,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 2
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "SeventhDonquixoteEgoGiveBuffOSAIfCommonUsedBDUnder50",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "Target",
+                        "buffOwner": "",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "AfterEndAttackTakeMpDmgOnRoundEnd10For3Round",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "mpUsage": 15,
+            "skillLevelCorrection": 3,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility0And1And10And1000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility100And1And10And1000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility200And1And10And2000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility300And1And10And3000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "SeventhDonquixoteEgoGiveBuffOSAAfterWinDuelByMaxPR",
+                            "buffData": {
+                                "buffKeyword": "ThirstyRose",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": -1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 3
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": 4,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 3,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": -1,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "SeventhDonquixoteEgoImmortalSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "CoinScaleAdderViaBuffCheck",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 10,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+                    "buffData": {
+                        "buffKeyword": "BloodDinner_Accumulation",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 100,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 3
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "SeventhDonquixoteEgoGiveBuffOSAIfCommonUsedBDUnder75",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "Target",
+                        "buffOwner": "",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "AfterEndAttackTakeMpDmgOnRoundEnd10For3Round",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility0And1And10And1000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility100And1And10And1500",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility200And1And10And2500",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility300And1And10And4000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "SeventhDonquixoteEgoGiveBuffOSAAfterWinDuelByMaxPR",
+                            "buffData": {
+                                "buffKeyword": "ThirstyRose",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": -1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 3
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": 4,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        },
+        {
+            "actionScript": "",
+            "iconID": "",
+            "gaksungLevel": 4,
+            "informationID": -1,
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
+            "canDuel": "",
+            "canChangeTarget": "",
+            "targetNum": 7,
+            "defaultValue": -1,
+            "abilityScriptList": [
+                {
+                    "scriptName": "SeventhDonquixoteEgoImmortalSkillAbility",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "",
+                        "buffOwner": "Target",
+                        "stack": 10,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+                    "buffData": {
+                        "buffKeyword": "BloodDinner_Accumulation",
+                        "target": "",
+                        "buffOwner": "Self",
+                        "stack": 100,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 1.0,
+                        "limit": 5
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "SeventhDonquixoteEgoGiveBuffOSAIfCommonUsedBDUnder100",
+                    "buffData": {
+                        "buffKeyword": "Laceration",
+                        "target": "Target",
+                        "buffOwner": "",
+                        "stack": 1,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "AfterEndAttackTakeMpDmgOnRoundEnd10For3Round",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 2147483647,
+            "range": -1.0,
+            "arearange": -1.0,
+            "skillTargetType": "NONE",
+            "canTeamKill": "",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility0And1And10And1000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility100And1And10And2000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility200And1And10And3000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GREY",
+                    "grade": 2,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "SeventhDonquixoteEgoDmgUpCoinAbility300And1And10And5000",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "SeventhDonquixoteEgoGiveBuffOSAAfterWinDuelByMaxPR",
+                            "buffData": {
+                                "buffKeyword": "ThirstyRose",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": -1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 4
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": 4,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillTagList": [
+        "BloodDinner"
+    ],
+    "skillType": "EGO_AWAKEN"
+}

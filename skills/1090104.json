@@ -8,9 +8,9 @@
             "iconID": "",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "",
+            "attributeType": "CRIMSON",
             "atkType": "SLASH",
-            "defType": "",
+            "defType": "COUNTER",
             "skillMotion": "Default",
             "viewType": "BATTLE",
             "parryingCloseType": "NEAR",
@@ -41,5 +41,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

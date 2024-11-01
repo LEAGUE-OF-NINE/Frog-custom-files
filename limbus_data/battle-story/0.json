@@ -33,6 +33,10 @@
           "enemyPositionID": 16
         },
         {
+          "battleMapInfo": {
+            "mapName": "DAreaStreet_B",
+            "mapSize": 28
+          },
           "unitList": [
             {
               "unitID": 90005,
@@ -101,6 +105,10 @@
           "enemyPositionID": 16
         },
         {
+          "battleMapInfo": {
+            "mapName": "DAreaStreet_B",
+            "mapSize": 28
+          },
           "unitList": [
             {
               "unitID": 90006,
@@ -168,6 +176,10 @@
           "enemyPositionID": 16
         },
         {
+          "battleMapInfo": {
+            "mapName": "DAreaStreet_B",
+            "mapSize": 28
+          },
           "unitList": [
             {
               "unitID": 90006,
@@ -240,6 +252,10 @@
           "enemyPositionID": 17
         },
         {
+          "battleMapInfo": {
+            "mapName": "DAreaStreet_A",
+            "mapSize": 28
+          },
           "unitList": [
             {
               "unitID": 90004,
@@ -322,6 +338,10 @@
           "enemyPositionID": 16
         },
         {
+          "battleMapInfo": {
+            "mapName": "DAreaStreet_A",
+            "mapSize": 28
+          },
           "unitList": [
             {
               "unitID": 90007,
@@ -394,6 +414,10 @@
           "enemyPositionID": 16
         },
         {
+          "battleMapInfo": {
+            "mapName": "DAreaStreet_A",
+            "mapSize": 28
+          },
           "unitList": [
             {
               "unitID": 90007,
@@ -466,22 +490,29 @@
             "Battle_Cp1_Ally_2",
             "Battle_Cp1_Enemy_2"
           ],
-          "enemyPositionID": 16
-        },
-        {
-          "unitList": [
+          "enemyPositionID": 17,
+          "subUnitList": [
             {
               "unitID": 90008,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 4
+            },
+            {
+              "unitID": 90008,
+              "unitCount": 1,
               "unitLevel": 4
             },
             {
               "unitID": 90010,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 4
+            },
+            {
+              "unitID": 90010,
+              "unitCount": 1,
               "unitLevel": 4
             }
-          ],
-          "enemyPositionID": 17
+          ]
         }
       ],
       "staminaCost": 12,
@@ -495,6 +526,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ],
       "story": {
@@ -533,22 +565,29 @@
             "Battle_Cp1_Ally_2",
             "Battle_Cp1_Enemy_2"
           ],
-          "enemyPositionID": 17
-        },
-        {
-          "unitList": [
+          "enemyPositionID": 17,
+          "subUnitList": [
             {
               "unitID": 90009,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 4
+            },
+            {
+              "unitID": 90009,
+              "unitCount": 1,
               "unitLevel": 4
             },
             {
               "unitID": 90011,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 4
+            },
+            {
+              "unitID": 90011,
+              "unitCount": 1,
               "unitLevel": 4
             }
-          ],
-          "enemyPositionID": 17
+          ]
         }
       ],
       "staminaCost": 12,
@@ -562,6 +601,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ],
       "story": {
@@ -610,13 +650,16 @@
             "Battle_Cp1_Ally_2",
             "Battle_Cp1_Enemy_2"
           ],
-          "enemyPositionID": 17
-        },
-        {
-          "unitList": [
+          "enemyPositionID": 18,
+          "subUnitList": [
             {
               "unitID": 90011,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 5
+            },
+            {
+              "unitID": 90011,
+              "unitCount": 1,
               "unitLevel": 5
             },
             {
@@ -634,8 +677,7 @@
               "unitCount": 1,
               "unitLevel": 5
             }
-          ],
-          "enemyPositionID": 18
+          ]
         }
       ],
       "staminaCost": 12,
@@ -649,6 +691,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ],
       "story": {

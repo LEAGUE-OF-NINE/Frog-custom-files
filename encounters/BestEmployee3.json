@@ -122,7 +122,14 @@
                 {
                     "unitID": 91007,
                     "unitLevel": 32,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 91007,
+                    "unitLevel": 32,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 }

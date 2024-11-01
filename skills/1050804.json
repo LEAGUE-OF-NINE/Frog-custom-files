@@ -8,9 +8,9 @@
             "iconID": "",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "VIOLET",
+            "attributeType": "",
             "atkType": "SLASH",
-            "defType": "COUNTER",
+            "defType": "",
             "skillMotion": "S1",
             "viewType": "BATTLE",
             "parryingCloseType": "NEAR",
@@ -124,9 +124,9 @@
             "iconID": "1050804_4",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "NONE",
+            "attributeType": "",
             "atkType": "ERROR",
-            "defType": "NONE",
+            "defType": "",
             "skillMotion": "Empty",
             "viewType": "NONE",
             "parryingCloseType": "NONE",
@@ -276,5 +276,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

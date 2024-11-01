@@ -1414,6 +1414,93 @@
           ]
         }
       ]
+    },
+    {
+      "id": 8760,
+      "viewid": 8519,
+      "nameID": 8519,
+      "sdPortrait": 8519,
+      "storyID": 8519,
+      "appearance": "8504_kqe1j23Appearance",
+      "unitKeywordList": [
+        "MACHINE_BOUND_ORGANISM",
+        "LARGE"
+      ],
+      "level": 30,
+      "classType": "HE",
+      "attributeType": "VIOLET",
+      "hp": {
+        "defaultStat": 304,
+        "incrementByLevel": 18.49
+      },
+      "patternID": "8749",
+      "startActionSlotNum": 1,
+      "maxActionSlotNum": 1,
+      "abnormalityPartList": [
+        876001
+      ],
+      "attributeList": [
+        {
+          "skillId": 874901,
+          "number": 2
+        },
+        {
+          "skillId": 874902,
+          "number": 2
+        },
+        {
+          "skillId": 874903,
+          "number": 2
+        },
+        {
+          "skillId": 874904,
+          "number": 2
+        },
+        {
+          "skillId": 874905,
+          "number": 2
+        },
+        {
+          "skillId": 874906,
+          "number": 2
+        },
+        {
+          "skillId": 874907,
+          "number": 2
+        },
+        {
+          "skillId": 874908,
+          "number": 2
+        },
+        {
+          "skillId": 874909,
+          "number": 2
+        }
+      ],
+      "patternList": [
+        {
+          "slotList": [
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 874901,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          851901
+        ]
+      }
     }
   ]
 }

@@ -84,8 +84,8 @@
         },
         {
             "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
+                "mapName": "DAreaStreet_A",
+                "mapSize": 28.0
             },
             "unitList": [
                 {

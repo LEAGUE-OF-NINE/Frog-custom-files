@@ -33,7 +33,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "a1c5p1_4"
+        "a1c5p1_4",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -63,26 +65,32 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp4_Ally_5",
-                "Battle_Cp4_Enemy_5"
-            ],
-            "allyPositionID": 48,
-            "enemyPositionID": 49
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90084,
                     "unitLevel": 36,
-                    "unitCount": 4,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90084,
+                    "unitLevel": 36,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90084,
+                    "unitLevel": 36,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90084,
+                    "unitLevel": 36,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
@@ -101,10 +109,12 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp4_Ally_5",
+                "Battle_Cp4_Enemy_5"
+            ],
             "allyPositionID": 48,
             "enemyPositionID": 49
         }

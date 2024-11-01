@@ -1,0 +1,298 @@
+{
+  "11105001": {
+    "a": 0,
+    "id": "11105001",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "If this Skill is Discarded, gain +3 Tremor Count",
+        "name": "Wait Up!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Lower user's Stagger Threshold for every Tremor Count on self (Max 10) ",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "If this Skill is Discarded, gain +4 Tremor Count\n[WhenUse] Gain +2 Tremor Count\nAt 6+ Tremor Count, gain Final Power +1",
+        "name": "Wait Up!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Lower user's Stagger Threshold for every Tremor Count on self (Max 10) ",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If this Skill is Discarded, gain +6 Tremor Count\n[WhenUse] Gain +4 Tremor Count\nAt 6+ Tremor Count, gain Final Power +2",
+        "name": "Wait Up!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Lower user's Stagger Threshold for every Tremor Count on self (Max 25) ",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse Coin once (Max 2 times per Skill)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Trigger Tremor Burst; after Tremor Burst, reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11105002": {
+    "a": 0,
+    "id": "11105002",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots",
+        "name": "Slice",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] At 6+ Tremor Count, trigger Tremor Burst. Reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "If this Skill is Discarded, gain 1 [AttackUp]\n[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots",
+        "name": "Slice",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] At 6+ Tremor Count, trigger Tremor Burst. Reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If this Skill is Discarded, gain 2 [AttackDmgUp]\n[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots",
+        "name": "Slice",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] At 6+ Tremor Count, trigger Tremor Burst. Reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11105003": {
+    "a": 0,
+    "id": "11105003",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "[WhenUse] Discard this unit's Skills in descending order of ranks from all of its Skill Slots\nSpend 10 Tremor Count to gain Coin Power +1",
+        "name": "Daring Decision",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 Tremor",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, inflict +5 Tremor Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Trigger Tremor Burst; after Tremor Burst, reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Trigger Tremor Burst; after Tremor Burst, reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Trigger Tremor Burst; after Tremor Burst, reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] Discard the 2 Skills of the lowest rank in all of this unit's Skill Slots\nSpend 10 Tremor Count to gain Coin Power +2",
+        "name": "Daring Decision",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 Tremor",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, inflict +5 Tremor Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst; after Tremor Burst, reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst; after Tremor Burst, reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst; after Tremor Burst, reduce target's Tremor Count by 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11105004": {
+    "a": 0,
+    "id": "1110504",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots",
+        "name": "Hangover Cure",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots\nBase Power +1 for every 1 [Vibration] on target (Max 20)",
+        "name": "Hangover Cure",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  }
+}

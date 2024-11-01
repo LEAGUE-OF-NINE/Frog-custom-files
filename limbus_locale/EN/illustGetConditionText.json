@@ -239,5 +239,9 @@
   "10511_getCondition_normal": {"a":0,"id":"10511_getCondition_normal","content":"Acquire Cinq West Section 3 Meursault"},
   "10511_getCondition_gacksung": {"a":0,"id":"10511_getCondition_gacksung","content":"Uptie Cinq West Section 3 Meursault to Tier 3"},
   "11010_getCondition_normal": {"a":0,"id":"11010_getCondition_normal","content":"Acquire Zwei West Section 3 Sinclair"},
-  "11010_getCondition_gacksung": {"a":0,"id":"11010_getCondition_gacksung","content":"Uptie Zwei West Section 3 Sinclair to Tier 3"}
+  "11010_getCondition_gacksung": {"a":0,"id":"11010_getCondition_gacksung","content":"Uptie Zwei West Section 3 Sinclair to Tier 3"},
+  "11111_getCondition_normal": {"a":0,"id":"11111_getCondition_normal","content":"Acquire The Barber of La Manchaland Outis"},
+  "11111_getCondition_gacksung": {"a":0,"id":"11111_getCondition_gacksung","content":"Uptie The Barber of La Manchaland Outis to Tier 3"},
+  "10610_getCondition_normal": {"a":0,"id":"10610_getCondition_normal","content":"Acquire Fanghunt Office Fixer Hong Lu"},
+  "10610_getCondition_gacksung": {"a":0,"id":"10610_getCondition_gacksung","content":"Uptie Fanghunt Office Fixer Hong Lu to Tier 3"}
 }

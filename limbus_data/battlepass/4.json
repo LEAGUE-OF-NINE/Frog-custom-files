@@ -3,8 +3,8 @@
     {
       "id": 5,
       "isCurrentForUI": true,
-      "currentPartitionForUI": 0,
-      "isExRewardAcquirable": false,
+      "currentPartitionForUI": 2,
+      "isExRewardAcquirable": true,
       "limbusExRewardAcquireType": "COLLECT_FROM_MAX_LEVEL",
       "exRewardStartDate": "2024-10-24T03:00:00.000Z",
       "passSeasonInfo": {

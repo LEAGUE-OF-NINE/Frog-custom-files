@@ -1,291 +1,39 @@
 {
   "list": [
     {
-      "id": 9014001,
+      "id": 826301,
       "skillTier": 1,
-      "skillType": "SKILL",
       "skillData": [
         {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "AMBER",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillMotion": "S1",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 5,
-          "skillLevelCorrection": -3,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateTurn_Vibration",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "Target",
-                    "stack": 0,
-                    "turn": -1,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014002,
-      "skillTier": 1,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "CRIMSON",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S2",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": -3,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 2,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 2,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 2,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 2,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014003,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "AMBER",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillMotion": "S3",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 5,
-          "skillLevelCorrection": -3,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 5,
-                "value": 1,
-                "limit": 2
-              }
-            },
-            {
-              "scriptName": "SwitchVibrationOnUse",
-              "buffData": {
-                "buffKeyword": "VibrationDistribution",
-                "buffOwner": "Self"
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 5,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateTurn_Vibration",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "Self",
-                    "stack": 0,
-                    "turn": -1,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 5,
-              "abilityScriptList": [
-                {
-                  "scriptName": "VibrationExplosionOnSucceedAttackThenLoseTargetVibrationTurn1"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014004,
-      "skillTier": 1,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": false,
           "canChangeTarget": true,
-          "attributeType": "NEUTRAL",
+          "attributeType": "SHAMROCK",
           "atkType": "NONE",
           "defType": "GUARD",
-          "skillMotion": "S1",
+          "skillMotion": "Default",
           "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
           "targetNum": 1,
-          "defaultValue": 5,
-          "skillLevelCorrection": 0,
+          "defaultValue": 10,
+          "skillLevelCorrection": -2,
           "abilityScriptList": [
             {
               "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "AddShieldOnBattleStartViaBuffTurnCheck",
+              "scriptName": "EmptyLeftArm"
+            },
+            {
+              "scriptName": "EmptyRightArm"
+            },
+            {
+              "scriptName": "826301",
               "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 1,
-                "activeRound": 0,
-                "value": 2,
-                "limit": 20
+                "buffKeyword": "PreparedMeat",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
               }
             }
           ],
@@ -299,37 +47,31 @@
       ]
     },
     {
-      "id": 9014101,
+      "id": 826302,
       "skillTier": 1,
-      "skillType": "SKILL",
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
-          "attributeType": "AMBER",
-          "atkType": "HIT",
+          "attributeType": "SHAMROCK",
+          "atkType": "SLASH",
           "defType": "ATTACK",
-          "skillMotion": "S1",
+          "skillMotion": "S2",
           "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
           "targetNum": 1,
-          "defaultValue": 4,
+          "defaultValue": 3,
           "skillLevelCorrection": 0,
           "abilityScriptList": [
             {
               "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
+              "scriptName": "EmptyLeftArm"
+            },
+            {
+              "scriptName": "EmptyRightArm"
             }
           ],
           "coinList": [
@@ -338,29 +80,26 @@
               "scale": 5,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_Vibration",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "Target",
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 2,
                     "activeRound": 0
                   }
-                },
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Vibration",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
-                    "stack": 6,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
                     "stack": 0,
                     "turn": 2,
                     "activeRound": 0
@@ -373,21 +112,19 @@
       ]
     },
     {
-      "id": 9014102,
+      "id": 826303,
       "skillTier": 1,
-      "skillType": "SKILL",
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
-          "attributeType": "CRIMSON",
-          "atkType": "PENETRATE",
+          "attributeType": "SCARLET",
+          "atkType": "SLASH",
           "defType": "ATTACK",
-          "skillMotion": "S2",
+          "skillMotion": "S3",
           "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
           "targetNum": 1,
           "defaultValue": 6,
           "skillLevelCorrection": 0,
@@ -396,78 +133,30 @@
               "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "GiveBuffOnUse",
+              "scriptName": "EmptyLeftArm"
+            },
+            {
+              "scriptName": "EmptyRightArm"
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
+                "buffKeyword": "Laceration",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
               }
             }
           ],
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 1,
+              "scale": 10,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 1,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 1,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 1,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
+                  "scriptName": "HealAbnormalityFirstSelfOnSuccessAttackByHpRatio3"
                 }
               ]
             }
@@ -476,58 +165,64 @@
       ]
     },
     {
-      "id": 9014103,
-      "skillTier": 2,
-      "skillType": "SKILL",
+      "id": 826304,
+      "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
-          "attributeType": "AMBER",
-          "atkType": "HIT",
+          "attributeType": "SCARLET",
+          "atkType": "SLASH",
           "defType": "ATTACK",
-          "skillMotion": "S3",
+          "skillMotion": "S4",
           "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
           "targetNum": 1,
           "defaultValue": 4,
-          "skillLevelCorrection": -3,
+          "skillLevelCorrection": 0,
           "abilityScriptList": [
             {
-              "scriptName": "EmptyBody"
+              "scriptName": "EmptyLeftArm"
             },
             {
-              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "scriptName": "EmptyRightArm"
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Vibration",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 5,
-                "value": 1,
-                "limit": 2
+                "buffKeyword": "Hunger",
+                "buffOwner": "AbnormalitySelf",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
               }
             },
             {
-              "scriptName": "SwitchVibrationOnUse",
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
               "buffData": {
-                "buffKeyword": "VibrationDistribution",
-                "buffOwner": "Self"
+                "buffKeyword": "Laceration",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
               }
             }
           ],
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 5,
+              "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_Vibration",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Vibration",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
-                    "buffOwner": "Self",
+                    "stack": 3,
+                    "turn": 0,
                     "activeRound": 0
                   }
                 }
@@ -535,10 +230,33 @@
             },
             {
               "operatorType": "ADD",
-              "scale": 5,
+              "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "VibrationExplosionOnSucceedAttackThenLoseTargetVibrationTurn1"
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
                 }
               ]
             }
@@ -547,21 +265,19 @@
       ]
     },
     {
-      "id": 9014104,
+      "id": 826305,
       "skillTier": 1,
-      "skillType": "SKILL",
       "skillData": [
         {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": false,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": true,
+          "canDuel": true,
           "canChangeTarget": true,
-          "attributeType": "NEUTRAL",
-          "atkType": "NONE",
-          "defType": "GUARD",
-          "skillMotion": "S1",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
+          "attributeType": "CRIMSON",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S5",
+          "viewType": "ENCOUNTER",
           "targetNum": 1,
           "defaultValue": 5,
           "skillLevelCorrection": 0,
@@ -570,17 +286,80 @@
               "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "AddShieldOnBattleStartViaBuffTurnCheck",
+              "scriptName": "EmptyLeftArm"
+            },
+            {
+              "scriptName": "EmptyRightArm"
+            },
+            {
+              "scriptName": "AttackHighestStackTarget_PreparedMeat"
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 1,
+                "buffKeyword": "Laceration",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
                 "activeRound": 0,
-                "value": 2,
-                "limit": 20
+                "value": 1
               }
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "PreparedMeat",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 10
+              }
+            },
+            {
+              "scriptName": "8263051"
+            },
+            {
+              "scriptName": "8263052"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 10,
+              "abilityScriptList": [
+                {
+                  "scriptName": "RerollOnSAHUpto3"
+                },
+                {
+                  "scriptName": "HealHpOnSucceedAttackAbnormalityFirstSelf10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826306,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "AZURE",
+          "atkType": "NONE",
+          "defType": "EVADE",
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "targetNum": 1,
+          "defaultValue": 5,
+          "skillLevelCorrection": -2,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
             }
           ],
           "coinList": [
@@ -593,434 +372,39 @@
       ]
     },
     {
-      "id": 9101701,
+      "id": 826307,
       "skillTier": 1,
-      "skillType": "SKILL",
       "skillData": [
         {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "AZURE",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillMotion": "S1",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 3,
-          "skillLevelCorrection": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 1,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9101702,
-      "skillTier": 1,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "SHAMROCK",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillMotion": "S1",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 1,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9101703,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "INDIGO",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S2",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 1,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 5,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "VibrationExplosionOnSucceedAttackViaBuffCheckThenLoseTargetVibrationTurn1",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "",
-                    "buffOwner": "Self",
-                    "stack": 0,
-                    "turn": 10,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "VibrationExplosionOnSucceedAttackViaBuffCheckThenLoseTargetVibrationTurn1",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "",
-                    "buffOwner": "Target",
-                    "stack": 0,
-                    "turn": 15,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9101704,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "AMBER",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S2",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 5,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 5,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "SwitchVibrationOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "VibrationCollapse",
-                    "target": "",
-                    "buffOwner": "Target"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9101705,
-      "skillTier": 3,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "INDIGO",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S3",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 5,
-          "skillLevelCorrection": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "AttackHighestStackTarget_VibrationCollapse"
-            },
-            {
-              "scriptName": "GiveBuffOnUseByDuplicateTurn_Vibration",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "EveryAllyExceptSelf",
-                "buffOwner": "Self",
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "SwitchAllyVibrationOnUse",
-              "buffData": {
-                "buffKeyword": "VibrationDistribution"
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 10,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "PileUpVibrationOSA_VibrationNesting",
-                  "buffData": {
-                    "buffKeyword": "VibrationEcho",
-                    "target": "Target",
-                    "buffOwner": "Target"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9101706,
-      "skillTier": 1,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": false,
           "canChangeTarget": true,
-          "attributeType": "NEUTRAL",
+          "attributeType": "AMBER",
           "atkType": "NONE",
           "defType": "GUARD",
-          "skillMotion": "S1",
+          "skillMotion": "Default",
           "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
           "targetNum": 1,
-          "defaultValue": 10,
-          "skillLevelCorrection": 4,
+          "defaultValue": 5,
+          "skillLevelCorrection": -2,
           "abilityScriptList": [
             {
               "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "AddShieldOnBattleStartViaBuffTurnCheck",
+              "scriptName": "EmptyLeftArm"
+            },
+            {
+              "scriptName": "EmptyRightArm"
+            },
+            {
+              "scriptName": "826307",
               "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 1,
-                "activeRound": 0,
-                "value": 3,
-                "limit": 30
+                "buffKeyword": "PreparedMeat",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
               }
             }
           ],
@@ -1034,496 +418,98 @@
       ]
     },
     {
-      "id": 9101707,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": false,
-          "canChangeTarget": true,
-          "attributeType": "CRIMSON",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S4",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 10,
-          "skillLevelCorrection": 4,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "910170701"
-            },
-            {
-              "scriptName": "910170702"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "stack": 0,
-                "turn": 9,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 5,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 10,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveAdditionalBuffTurnAmberDmgOSA",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
-                    "value": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 5,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 4,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveAdditionalBuffTurnAmberDmgOSA",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 1,
-                    "value": 0.1
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 5,
-              "abilityScriptList": [
-                {
-                  "scriptName": "VibrationExplosionOSAViaBuffCheckThenLoseTargetVibrationTurn1AndUseSelfVibrationTurn3",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "stack": 0,
-                    "turn": 3
-                  }
-                },
-                {
-                  "scriptName": "VibrationExplosionOSAViaBuffCheckThenLoseTargetVibrationTurn1AndUseSelfVibrationTurn3",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "stack": 0,
-                    "turn": 3
-                  }
-                },
-                {
-                  "scriptName": "VibrationExplosionOSAViaBuffCheckThenLoseTargetVibrationTurn1AndUseSelfVibrationTurn3",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "stack": 0,
-                    "turn": 3
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014201,
+      "id": 826401,
       "skillTier": 1,
-      "skillType": "SKILL",
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
-          "attributeType": "CRIMSON",
-          "atkType": "HIT",
+          "attributeType": "SHAMROCK",
+          "atkType": "SLASH",
           "defType": "ATTACK",
           "skillMotion": "S1",
           "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 1,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTurn_Vibration4",
-                  "buffData": {
-                    "buffKeyword": "InterlockingTime_Re",
-                    "buffOwner": "Target",
-                    "target": "Target",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTurn_Vibration4",
-                  "buffData": {
-                    "buffKeyword": "InterlockingTime_Re",
-                    "buffOwner": "Target",
-                    "target": "Target",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014202,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "SCARLET",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillMotion": "S2",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 4,
-                "activeRound": 0,
-                "value": 1
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Paralysis",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTurn_Vibration4",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 8,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Binding",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTurn_Vibration4",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 8,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014203,
-      "skillTier": 3,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "AMBER",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillMotion": "S3",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
           "targetNum": 1,
           "defaultValue": 3,
           "skillLevelCorrection": 0,
           "abilityScriptList": [
             {
               "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealHpOnSucceedAttackAbnormalityFirstSelf3"
+                }
+              ]
             },
             {
-              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheckDevideByTurn",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 5,
-                "activeRound": 0,
-                "value": 1,
-                "limit": 2
-              }
+              "operatorType": "ADD",
+              "scale": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealHpOnSucceedAttackAbnormalityFirstSelf3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 826402,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "SHAMROCK",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "targetNum": 1,
+          "defaultValue": 4,
+          "skillLevelCorrection": 0,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "AttackDmgUpByRatioViaBuffCheckOver",
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 4,
-                "activeRound": 0,
-                "value": 0.1,
-                "limit": 100
-              }
-            },
-            {
-              "scriptName": "UseBuffAllTurnOnEndSkill",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
+                "buffKeyword": "Laceration",
+                "buffOwner": "Target",
+                "stack": 5,
                 "turn": 0,
-                "activeRound": 0
+                "activeRound": 0,
+                "value": 1
               }
             }
           ],
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 4,
+              "scale": 10,
               "abilityScriptList": [
+                {
+                  "scriptName": "HealHpOnSucceedAttackAbnormalityFirstSelf10"
+                },
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
                     "stack": 0,
                     "turn": 2,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Vibration8",
-                  "buffData": {
-                    "buffKeyword": "InterlockingTime_Re",
-                    "buffOwner": "Target",
-                    "target": "Target",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTrun_Vibration4",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 8,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTurn_Vibration4",
-                  "buffData": {
-                    "buffKeyword": "InterlockingTime_Re",
-                    "buffOwner": "Target",
-                    "target": "Target",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTurn_Vibration7",
-                  "buffData": {
-                    "buffKeyword": "InterlockingTime_Re",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "VibrationExplosionOnSucceedAttack"
-                },
-                {
-                  "scriptName": "SwitchVibrationToChainOnSucceedAttackHeadViaBuffCheck",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 4,
                     "activeRound": 0
                   }
                 }
@@ -1534,133 +520,19 @@
       ]
     },
     {
-      "id": 9014204,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": false,
-          "canChangeTarget": true,
-          "attributeType": "NEUTRAL",
-          "atkType": "NONE",
-          "defType": "GUARD",
-          "skillMotion": "Default",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 8,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnBattleStartIfUsingBuffTurn_Vibration5",
-              "buffData": {
-                "buffKeyword": "TimeRentalTwo",
-                "target": "AbnormalitySelf",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 3,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 10
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014301,
+      "id": 826403,
       "skillTier": 1,
-      "skillType": "SKILL",
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
           "canDuel": true,
           "canChangeTarget": true,
           "attributeType": "CRIMSON",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S1",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 6,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTurn_Vibration3",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "",
-                    "target": "Self",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014302,
-      "skillTier": 1,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "SCARLET",
           "atkType": "SLASH",
           "defType": "ATTACK",
-          "skillMotion": "S2",
+          "skillMotion": "S3",
           "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
           "targetNum": 1,
           "defaultValue": 3,
           "skillLevelCorrection": 0,
@@ -1669,253 +541,14 @@
               "scriptName": "EmptyBody"
             },
             {
-              "scriptName": "GiveBuffOnUse",
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vulnerable",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vulnerable",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014303,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "AMBER",
-          "atkType": "SLASH",
-          "defType": "ATTACK",
-          "skillMotion": "S3",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 5,
-                "activeRound": 0,
-                "value": 1
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnWinDuelIfUsingBuffTurn_Vibration3",
-              "buffData": {
-                "buffKeyword": "TimeRentalTwo",
-                "target": "AbnormalitySelf",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 1,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vulnerable",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Reduction",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                },
-                {
-                  "scriptName": "SwitchVibrationToChainOnSucceedAttackViaBuffCheck",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 5,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014304,
-      "skillTier": 3,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "CRIMSON",
-          "atkType": "SLASH",
-          "defType": "ATTACK",
-          "skillMotion": "S4",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 3,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByTurnWithLimit3",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "",
+                "buffKeyword": "Laceration",
                 "buffOwner": "Target",
-                "stack": 0,
-                "turn": 4,
+                "stack": 5,
+                "turn": 0,
                 "activeRound": 0,
                 "value": 1
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnWinDuelIfUsingBuffTurn_Vibration5",
-              "buffData": {
-                "buffKeyword": "TimeRentalTwo",
-                "target": "AbnormalitySelf",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 3,
-                "activeRound": 0,
-                "value": 0
               }
             }
           ],
@@ -1925,11 +558,10 @@
               "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration1",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Vulnerable",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
-                    "buffOwner": "Self",
                     "stack": 1,
                     "turn": 0,
                     "activeRound": 0
@@ -1942,29 +574,11 @@
               "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration1",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
-                    "stack": 0,
-                    "turn": 3,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration1",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 8,
+                    "stack": 1,
                     "turn": 0,
                     "activeRound": 0
                   }
@@ -1976,24 +590,11 @@
               "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "VibrationExplosionAndRerollOnSucceedAttackIfUsingBuffTurn",
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
+                    "buffKeyword": "Laceration",
                     "target": "Target",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0,
-                    "limit": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration5",
-                  "buffData": {
-                    "buffKeyword": "TimeAccumulation",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 2,
+                    "stack": 1,
                     "turn": 0,
                     "activeRound": 0
                   }
@@ -2005,488 +606,31 @@
       ]
     },
     {
-      "id": 9014305,
-      "skillTier": 2,
-      "skillType": "SKILL",
+      "id": 826404,
+      "skillTier": 1,
       "skillData": [
         {
-          "skillTargetType": "FRONT",
+          "skillTargetType": "RANDOM",
           "canTeamKill": false,
-          "canDuel": false,
+          "canDuel": true,
           "canChangeTarget": true,
-          "attributeType": "NEUTRAL",
+          "attributeType": "AZURE",
           "atkType": "NONE",
-          "defType": "GUARD",
+          "defType": "EVADE",
           "skillMotion": "Default",
           "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
           "targetNum": 1,
-          "defaultValue": 8,
-          "skillLevelCorrection": 0,
+          "defaultValue": 5,
+          "skillLevelCorrection": -2,
           "abilityScriptList": [
             {
               "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnBattleStartIfUsingBuffTurn_Vibration4",
-              "buffData": {
-                "buffKeyword": "TimeRentalTwo",
-                "target": "AbnormalitySelf",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 3,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnBattleStart",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
             }
           ],
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 10
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014401,
-      "skillTier": 1,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "CRIMSON",
-          "atkType": "HIT",
-          "defType": "ATTACK",
-          "skillMotion": "S1",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 6,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasTurn_Vibration3",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "",
-                    "target": "Self",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014402,
-      "skillTier": 1,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "SCARLET",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S1",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 3,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveParalysisAndVibrationOnSucceedAttackIfUsedVibration"
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveParalysisAndVibrationOnSucceedAttackIfUsedVibration"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014403,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "AMBER",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S2",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffCheck",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 5,
-                "activeRound": 0,
-                "value": 1
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnWinDuelIfUsingBuffTurn_Vibration3",
-              "buffData": {
-                "buffKeyword": "TimeRentalTwo",
-                "target": "AbnormalitySelf",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 1,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration2",
-                  "buffData": {
-                    "buffKeyword": "Binding",
-                    "target": "Target",
-                    "buffOwner": "Self",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration2",
-                  "buffData": {
-                    "buffKeyword": "ParryingResultDown",
-                    "target": "Target",
-                    "buffOwner": "Self",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014404,
-      "skillTier": 3,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": true,
-          "canChangeTarget": true,
-          "attributeType": "CRIMSON",
-          "atkType": "PENETRATE",
-          "defType": "ATTACK",
-          "skillMotion": "S3",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 4,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 3,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "SkillPowerAdderOnUseViaBuffCheckDevideByTurnWithLimit3",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "",
-                "buffOwner": "Target",
-                "stack": 0,
-                "turn": 4,
-                "activeRound": 0,
-                "value": 1
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnWinDuelIfUsingBuffTurn_Vibration5",
-              "buffData": {
-                "buffKeyword": "TimeRentalTwo",
-                "target": "AbnormalitySelf",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 3,
-                "activeRound": 0,
-                "value": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration1",
-                  "buffData": {
-                    "buffKeyword": "Vulnerable",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration1",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 3,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration1",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 8,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "VibrationExplosionAndRerollOnSucceedAttackIfUsingBuffTurn",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0,
-                    "limit": 1
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration5",
-                  "buffData": {
-                    "buffKeyword": "TimeAccumulation",
-                    "buffOwner": "Self",
-                    "target": "Target",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9014405,
-      "skillTier": 2,
-      "skillType": "SKILL",
-      "skillData": [
-        {
-          "skillTargetType": "FRONT",
-          "canTeamKill": false,
-          "canDuel": false,
-          "canChangeTarget": true,
-          "attributeType": "NEUTRAL",
-          "atkType": "NONE",
-          "defType": "GUARD",
-          "skillMotion": "Default",
-          "viewType": "BATTLE",
-          "parryingCloseType": "NEAR",
-          "targetNum": 1,
-          "defaultValue": 8,
-          "skillLevelCorrection": 0,
-          "abilityScriptList": [
-            {
-              "scriptName": "EmptyBody"
-            },
-            {
-              "scriptName": "GiveBuffOnBattleStartIfUsingBuffTurn_Vibration4",
-              "buffData": {
-                "buffKeyword": "TimeRentalTwo",
-                "target": "AbnormalitySelf",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 3,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnBattleStart",
-              "buffData": {
-                "buffKeyword": "Vibration",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 10
+              "scale": 1
             }
           ]
         }

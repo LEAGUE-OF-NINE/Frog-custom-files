@@ -8,8 +8,8 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "VIOLET",
-            "atkType": "HIT",
+            "attributeType": "",
+            "atkType": "",
             "defType": "ATTACK",
             "skillMotion": "S3",
             "viewType": "ENCOUNTER",
@@ -301,5 +301,6 @@
     "requireIDList": [
         "CheckAwakenLevel3"
     ],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

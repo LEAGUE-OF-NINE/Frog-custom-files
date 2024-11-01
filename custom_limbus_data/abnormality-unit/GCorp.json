@@ -4,7 +4,9 @@
       "id": 850001,
       "sdPortrait": 90014,
       "appearance": "90014_GCorp_Infested_BaldAppearance",
-      "associationList": ["G_CORP"],
+      "associationList": [
+        "G_CORP"
+      ],
       "level": 40,
       "classType": "ZAYIN",
       "attributeType": "AMBER",
@@ -72,12 +74,13 @@
         ]
       }
     },
-
     {
       "id": 850002,
       "sdPortrait": 90015,
       "appearance": "90015_GCorp_Infested_BobAppearance",
-      "associationList": ["G_CORP"],
+      "associationList": [
+        "G_CORP"
+      ],
       "level": 40,
       "classType": "ZAYIN",
       "attributeType": "AMBER",
@@ -145,12 +148,13 @@
         ]
       }
     },
-
     {
-      "id": 850004,
+      "id": 8500004,
       "sdPortrait": 91001,
       "appearance": "91001_GCorp_Enhanced_BossAppearance",
-      "unitKeywordList": ["BACK_STREET"],
+      "unitKeywordList": [
+        "BACK_STREET"
+      ],
       "level": 45,
       "classType": "TETH",
       "attributeType": "AMBER",
@@ -195,7 +199,7 @@
       "startActionSlotNum": 4,
       "maxActionSlotNum": 4,
       "abnormalityPartList": [
-        8500401
+        850000401
       ],
       "attributeList": [
         {
@@ -285,7 +289,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -342,7 +345,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -412,7 +414,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -469,7 +470,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -526,7 +526,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -596,7 +595,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -653,7 +651,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {

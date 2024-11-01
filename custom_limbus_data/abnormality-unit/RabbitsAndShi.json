@@ -2,8 +2,8 @@
   "list": [
     {
       "id": 800204,
-      "viewid": 91016,
-      "sdPortrait": 91016,
+      "viewid": 8164,
+      "sdPortrait": 8164,
       "appearance": "8164_MaouHeathclif_DeadRabbitsAppearance",
       "unitKeywordList": [
         "CLAN",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "id": 8305,
+      "id": 83005,
       "nameID": 8292,
       "storyID": 8292,
       "unitScriptID": "ShadowAbnormality_Jealousy",
@@ -461,7 +461,7 @@
       "startActionSlotNum": 1,
       "maxActionSlotNum": 1,
       "abnormalityPartList": [
-        830501
+        829201
       ],
       "passiveSet": {
         "passiveIdList": [
@@ -507,7 +507,7 @@
       "startActionSlotNum": 1,
       "maxActionSlotNum": 1,
       "abnormalityPartList": [
-        831601
+        829201
       ],
       "passiveSet": {
         "passiveIdList": [
@@ -555,7 +555,7 @@
       "startActionSlotNum": 1,
       "maxActionSlotNum": 1,
       "abnormalityPartList": [
-        831601
+        829201
       ],
       "passiveSet": {
         "passiveIdList": [

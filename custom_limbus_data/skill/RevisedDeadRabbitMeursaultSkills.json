@@ -24,8 +24,7 @@
           "skillMotion": "S1",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
-          "abilityScriptList": [
-          ],
+          "abilityScriptList": [],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -116,14 +115,12 @@
             {
               "scriptName": "10910baseBlockOnlyLose",
               "buffData": {
-                  "buffKeyword": "",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 10,
-                  "turn": 2,
-                  "activeRound": 0,
-                  "value": 0.0,
-                  "limit": 0
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 10,
+                "turn": 2,
+                "activeRound": 0
               }
             }
           ],
@@ -184,8 +181,7 @@
           "skillMotion": "S2",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
-          "abilityScriptList": [
-          ],
+          "abilityScriptList": [],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -293,27 +289,25 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 3
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 3
               }
             },
             {
               "scriptName": "10910baseBlockOnlyLose",
               "buffData": {
-                  "buffKeyword": "",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 10,
-                  "turn": 2,
-                  "activeRound": 0,
-                  "value": 0.0,
-                  "limit": 0
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 10,
+                "turn": 2,
+                "activeRound": 0
               }
             },
             {
@@ -323,15 +317,9 @@
                 "target": "Target",
                 "buffOwner": "",
                 "stack": 0,
-                "turn": 2,
+                "turn": 4,
                 "activeRound": 0
               }
-            },
-            {
-              "scriptName": "AttackDmgMultiplierByTargetLostHpRatio50Max50"
-            },
-            {
-            "scriptName": "AttackDmgMultiplierByTargetLostHpRatio50Max50"
             }
           ],
           "coinList": [
@@ -457,34 +445,6 @@
                     "buffKeyword": "Burst",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Burst4",
-                  "buffData": {
-                    "buffKeyword": "AttackDown",
-                    "target": "Target",
-                    "buffOwner": "Target",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Burst",
-                    "target": "Target",
-                    "buffOwner": "",
                     "stack": 0,
                     "turn": 4,
                     "activeRound": 0
@@ -508,7 +468,35 @@
               "scale": 3,
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Burst4",
+                  "buffData": {
+                    "buffKeyword": "AttackDown",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
                   "buffData": {
                     "buffKeyword": "Burst",
                     "target": "Target",
@@ -524,7 +512,7 @@
                     "buffKeyword": "AttackDown",
                     "target": "Target",
                     "buffOwner": "Target",
-                    "stack": 2,
+                    "stack": 3,
                     "turn": 0,
                     "activeRound": 1
                   }
@@ -543,7 +531,7 @@
                     "target": "Target",
                     "buffOwner": "",
                     "stack": 0,
-                    "turn": 1,
+                    "turn": 2,
                     "activeRound": 0
                   }
                 },
@@ -568,14 +556,14 @@
             {
               "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
-                  "buffKeyword": "Burst",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 5,
-                  "turn": 0,
-                  "activeRound": 0,
-                  "value": 1.0,
-                  "limit": 3
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1.0,
+                "limit": 3
               }
             },
             {
@@ -593,14 +581,12 @@
             {
               "scriptName": "10910baseBlockOnlyLose",
               "buffData": {
-                  "buffKeyword": "",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 10,
-                  "turn": 2,
-                  "activeRound": 0,
-                  "value": 0.0,
-                  "limit": 0
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 10,
+                "turn": 2,
+                "activeRound": 0
               }
             },
             {
@@ -613,6 +599,9 @@
                 "turn": 0,
                 "activeRound": 1
               }
+            },
+            {
+              "scriptName": "AttackDmgMultiplierByTargetLostHpRatio100Max150"
             }
           ]
         }
@@ -646,14 +635,12 @@
             {
               "scriptName": "10910baseBlockOnlyLose",
               "buffData": {
-                  "buffKeyword": "",
-                  "target": "",
-                  "buffOwner": "Target",
-                  "stack": 10,
-                  "turn": 2,
-                  "activeRound": 0,
-                  "value": 0.0,
-                  "limit": 0
+                "buffKeyword": "Burst",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 10,
+                "turn": 2,
+                "activeRound": 0
               }
             },
             {
@@ -670,7 +657,7 @@
               "scriptName": "AttackDmgMultiplierByTargetLostHpRatio50Max50"
             },
             {
-            "scriptName": "AttackDmgMultiplierByTargetLostHpRatio50Max50"
+              "scriptName": "AttackDmgMultiplierByTargetLostHpRatio50Max50"
             }
           ],
           "coinList": [

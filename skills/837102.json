@@ -189,7 +189,7 @@
                             }
                         }
                     ],
-                    "scale": 5,
+                    "scale": 6,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -278,7 +278,7 @@
                             }
                         }
                     ],
-                    "scale": 5,
+                    "scale": 6,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -288,5 +288,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

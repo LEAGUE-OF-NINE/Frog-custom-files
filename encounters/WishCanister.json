@@ -35,7 +35,8 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Normal"
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -72,22 +73,7 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp2_Ally_1",
-                "Battle_Cp2_Enemy_1"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 17
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90017,
                     "unitLevel": 11,
@@ -105,24 +91,17 @@
                 {
                     "unitID": 90019,
                     "unitLevel": 11,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
-                }
-            ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [],
-            "allyPositionID": 1,
-            "enemyPositionID": 17
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+                },
+                {
+                    "unitID": 90019,
+                    "unitLevel": 11,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
                 {
                     "unitID": 90018,
                     "unitLevel": 11,
@@ -140,7 +119,14 @@
                 {
                     "unitID": 90017,
                     "unitLevel": 11,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90017,
+                    "unitLevel": 11,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
@@ -152,10 +138,12 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp2_Ally_1",
+                "Battle_Cp2_Enemy_1"
+            ],
             "allyPositionID": 1,
             "enemyPositionID": 18
         }

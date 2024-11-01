@@ -33,7 +33,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "a1c6p2_Buff_Normal_Filter"
+        "a1c6p2_Buff_Normal_Filter",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -63,26 +65,25 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp6_Ally_1",
-                "Battle_Cp6_Enemy_1"
-            ],
-            "allyPositionID": 65,
-            "enemyPositionID": 66
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90118,
                     "unitLevel": 40,
-                    "unitCount": 3,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90118,
+                    "unitLevel": 40,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90118,
+                    "unitLevel": 40,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
@@ -94,10 +95,12 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp6_Ally_1",
+                "Battle_Cp6_Enemy_1"
+            ],
             "allyPositionID": 65,
             "enemyPositionID": 66
         }

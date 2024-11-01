@@ -33,7 +33,8 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Normal"
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -56,34 +57,35 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
+            "subUnitList": [
+                {
+                    "unitID": 90032,
+                    "unitLevel": 22,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90032,
+                    "unitLevel": 22,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90032,
+                    "unitLevel": 22,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
             "supportUnitList": [],
             "isBatonPassOn": false,
             "bgmList": [
                 "Battle_Cp3_Ally_1",
                 "Battle_Cp3_Enemy_1"
             ],
-            "allyPositionID": 1,
-            "enemyPositionID": 16
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
-                {
-                    "unitID": 90032,
-                    "unitLevel": 22,
-                    "unitCount": 3,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                }
-            ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [],
             "allyPositionID": 1,
             "enemyPositionID": 16
         }

@@ -1,864 +1,256 @@
 {
   "list": [
     {
-      "id": 1020211,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1100211,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 2
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1010311,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1050311,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1020411,
-      "attributeResonanceCondition": [
-        {
-          "type": "SCARLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1070411,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 2
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1020431,
-      "attributeResonanceCondition": [
-        {
-          "type": "SCARLET",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1020711,
-      "attributeStockCondition": [
-        {
-          "type": "CRIMSON",
-          "value": 6
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1100511,
-      "attributeStockCondition": [
-        {
-          "type": "CRIMSON",
-          "value": 2
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1080511,
-      "attributeStockCondition": [
-        {
-          "type": "AZURE",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1080211,
-      "attributeResonanceCondition": [
-        {
-          "type": "AZURE",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1080811,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1080831,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1100911,
-      "attributeStockCondition": [
-        {
-          "type": "CRIMSON",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1070311,
-      "attributeResonanceCondition": [
-        {
-          "type": "CRIMSON",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1050611,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1050711,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1050811,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1020511,
-      "attributeStockCondition": [
-        {
-          "type": "AZURE",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1040511,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1040531,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1040611,
-      "attributeStockCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 2
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1040631,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1060611,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1020631,
-      "attributeStockCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1070611,
-      "attributeStockCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1070631,
-      "attributeStockCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1010611,
-      "attributeStockCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1030611,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1030711,
-      "attributeStockCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1030731,
-      "attributeStockCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1030811,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 2
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1030831,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1070711,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1070731,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel3"
-      ]
-    },
-    {
-      "id": 1110611,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1110631,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1100811,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1110711,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel2"
-      ]
-    },
-    {
-      "id": 1110731,
-      "attributeResonanceCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1010811,
-      "attributeStockCondition": [
-        {
-          "type": "AMBER",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1010831,
-      "attributeStockCondition": [
-        {
-          "type": "AMBER",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1060811,
-      "attributeResonanceCondition": [
-        {
-          "type": "AZURE",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1020811,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1120831,
-      "attributeStockCondition": [
-        {
-          "type": "SCARLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1120911,
-      "attributeResonanceCondition": [
-        {
-          "type": "AZURE",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1120931,
-      "attributeStockCondition": [
-        {
-          "type": "AZURE",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1090811,
-      "attributeResonanceCondition": [
-        {
-          "type": "CRIMSON",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1040711,
-      "attributeStockCondition": [
-        {
-          "type": "CRIMSON",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1040731,
-      "attributeStockCondition": [
-        {
-          "type": "CRIMSON",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1070811,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1050911,
-      "attributeResonanceCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1050931,
-      "attributeResonanceCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1110811,
-      "attributeResonanceCondition": [
-        {
-          "type": "AZURE",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1020911,
-      "attributeStockCondition": [
-        {
-          "type": "AZURE",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1020931,
-      "attributeStockCondition": [
-        {
-          "type": "AZURE",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1040811,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1040831,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1080931,
-      "attributeStockCondition": [
-        {
-          "type": "AZURE",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1010911,
-      "attributeStockCondition": [
-        {
-          "type": "SCARLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1010931,
-      "attributeStockCondition": [
-        {
-          "type": "SCARLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1110911,
-      "attributeStockCondition": [
-        {
-          "type": "SCARLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1110931,
-      "attributeStockCondition": [
-        {
-          "type": "SCARLET",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1021011,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1021031,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1070911,
-      "attributeStockCondition": [
-        {
-          "type": "VIOLET",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1011011,
-      "attributeResonanceCondition": [
-        {
-          "type": "AZURE",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1041011,
-      "attributeStockCondition": [
-        {
-          "type": "SCARLET",
-          "value": 3
-        },
-        {
-          "type": "AZURE",
-          "value": 3
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1091011,
-      "attributeStockCondition": [
-        {
-          "type": "SHAMROCK",
-          "value": 4
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1081011,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 5
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
-    },
-    {
-      "id": 1051111,
-      "attributeStockCondition": [
-        {
-          "type": "INDIGO",
-          "value": 2
-        },
-        {
-          "type": "SHAMROCK",
-          "value": 2
-        }
-      ],
-      "requireIDList": [
-        "CheckAwakenLevel4"
-      ]
+      "id": 853901
+    },
+    {
+      "id": 853902
+    },
+    {
+      "id": 853903
+    },
+    {
+      "id": 853904
+    },
+    {
+      "id": 853905
+    },
+    {
+      "id": 853906
+    },
+    {
+      "id": 854001
+    },
+    {
+      "id": 854101
+    },
+    {
+      "id": 854102
+    },
+    {
+      "id": 854103
+    },
+    {
+      "id": 854104
+    },
+    {
+      "id": 854401
+    },
+    {
+      "id": 854402
+    },
+    {
+      "id": 854801
+    },
+    {
+      "id": 855101
+    },
+    {
+      "id": 855102
+    },
+    {
+      "id": 855103
+    },
+    {
+      "id": 855104
+    },
+    {
+      "id": 855105
+    },
+    {
+      "id": 854105
+    },
+    {
+      "id": 854201
+    },
+    {
+      "id": 854202
+    },
+    {
+      "id": 854203
+    },
+    {
+      "id": 854204
+    },
+    {
+      "id": 854301
+    },
+    {
+      "id": 854501
+    },
+    {
+      "id": 854502
+    },
+    {
+      "id": 854503
+    },
+    {
+      "id": 854504
+    },
+    {
+      "id": 854601
+    },
+    {
+      "id": 854701
+    },
+    {
+      "id": 854702
+    },
+    {
+      "id": 854703
+    },
+    {
+      "id": 854704
+    },
+    {
+      "id": 855001
+    },
+    {
+      "id": 855002
+    },
+    {
+      "id": 855003
+    },
+    {
+      "id": 855004
+    },
+    {
+      "id": 855005
+    },
+    {
+      "id": 856001
+    },
+    {
+      "id": 856101
+    },
+    {
+      "id": 856201
+    },
+    {
+      "id": 856301
+    },
+    {
+      "id": 854901
+    },
+    {
+      "id": 854902
+    },
+    {
+      "id": 854903
+    },
+    {
+      "id": 854904
+    },
+    {
+      "id": 854905
+    },
+    {
+      "id": 854906
+    },
+    {
+      "id": 854907
+    },
+    {
+      "id": 855601
+    },
+    {
+      "id": 8556011
+    },
+    {
+      "id": 855602
+    },
+    {
+      "id": 855603
+    },
+    {
+      "id": 855604
+    },
+    {
+      "id": 855605
+    },
+    {
+      "id": 855606
+    },
+    {
+      "id": 855607
+    },
+    {
+      "id": 856401
+    },
+    {
+      "id": 856402
+    },
+    {
+      "id": 856404
+    },
+    {
+      "id": 8564041
+    },
+    {
+      "id": 856501
+    },
+    {
+      "id": 856503
+    },
+    {
+      "id": 8565031
+    },
+    {
+      "id": 856601
+    },
+    {
+      "id": 856603
+    },
+    {
+      "id": 8566031
+    },
+    {
+      "id": 856701
+    },
+    {
+      "id": 856703
+    },
+    {
+      "id": 8567031
+    },
+    {
+      "id": 856801
+    },
+    {
+      "id": 856802
+    },
+    {
+      "id": 856804
+    },
+    {
+      "id": 8568041
+    },
+    {
+      "id": 856901
+    },
+    {
+      "id": 856902
+    },
+    {
+      "id": 856904
+    },
+    {
+      "id": 8569041
+    },
+    {
+      "id": 857001
+    },
+    {
+      "id": 857002
+    },
+    {
+      "id": 857004
+    },
+    {
+      "id": 8570041
+    },
+    {
+      "id": 854403
     }
   ]
 }

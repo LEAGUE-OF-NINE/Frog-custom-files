@@ -1,0 +1,128 @@
+{
+    "id": 11111,
+    "unitScriptID": "11111",
+    "viewid": 11111,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "11111_Outis_BarberAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 73,
+        "incrementByLevel": 2.2300000190734865
+    },
+    "defCorrection": 0,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        2,
+        3,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        1111104
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyMp10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAlly5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            65,
+            35,
+            15
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 0.5
+            },
+            {
+                "type": "PENETRATE",
+                "value": 1.0
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1111101
+        },
+        {
+            "number": 2,
+            "skillId": 1111102
+        },
+        {
+            "number": 1,
+            "skillId": 1111103
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [],
+    "unitKeywordList": [
+        "SMALL",
+        "BLOODFIEND",
+        "THIRD_DEPENDENT"
+    ],
+    "characterId": 11,
+    "season": 5,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "SHAMROCK",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

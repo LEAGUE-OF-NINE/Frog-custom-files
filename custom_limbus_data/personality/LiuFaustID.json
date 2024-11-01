@@ -2,9 +2,14 @@
   "list": [
     {
       "id": 10215,
-      "appearance": "!custom_liu_faust",
-      "unitKeywordList": ["FIXER","SMALL"],
-      "associationList": ["LIU"],
+      "appearance": "10208_Faust_SwordGroupAppearance",
+      "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+      ],
+      "associationList": [
+        "LIU"
+      ],
       "characterId": 2,
       "panicType": 9999,
       "season": 0,
@@ -37,35 +42,31 @@
         "passiveIdList": [
           {
             "level": 1,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1020401,
               1090811
-
             ]
           },
           {
             "level": 2,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1020401,
               1090811
-
             ]
           },
           {
             "level": 4,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1020401,
               1090811
-
             ]
           }
         ],
         "supportPassiveIdList": [
           {
             "level": 3,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1020421
-
             ]
           }
         ]

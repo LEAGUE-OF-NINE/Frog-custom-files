@@ -73,48 +73,19 @@
     "resistInfo": {
         "atkResistList": [
             {
-                "type": "",
+                "type": "SLASH",
                 "value": 1.0
             },
             {
-                "type": "",
+                "type": "PENETRATE",
                 "value": 0.5
             },
             {
-                "type": "",
+                "type": "HIT",
                 "value": 2.0
             }
         ],
-        "attributeResistList": [
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            },
-            {
-                "type": "",
-                "value": 1.0
-            }
-        ]
+        "attributeResistList": []
     },
     "passiveSet": {
         "passiveIdList": [],
@@ -148,7 +119,7 @@
     "additionalAttachment": "",
     "promotionId": 0,
     "rank": 3,
-    "uniqueAttribute": "",
+    "uniqueAttribute": "INDIGO",
     "supporterPassiveSet": {
         "passiveIdList": [],
         "supportPassiveIdList": []

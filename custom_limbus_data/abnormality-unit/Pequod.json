@@ -6,7 +6,9 @@
       "sdPortrait": 8104,
       "viewid": 8104,
       "appearance": "8104_StarbuckAppearance",
-      "associationList": ["PEQUOD_CREW"],
+      "associationList": [
+        "PEQUOD_CREW"
+      ],
       "patternID": "8104",
       "slotWeightConditionList": [
         "Default1"
@@ -407,14 +409,15 @@
         }
       ]
     },
-
     {
       "id": 800580,
       "originID": 8112,
       "sdPortrait": 8103,
       "viewid": 8112,
       "appearance": "8103_QueequegAppearance",
-      "associationList": ["PEQUOD_CREW"],
+      "associationList": [
+        "PEQUOD_CREW"
+      ],
       "level": 2,
       "patternID": "8112",
       "slotWeightConditionList": [
@@ -424,8 +427,8 @@
         858001
       ],
       "hp": {
-        "defaultStat": 180,
-        "incrementByLevel": 15.8
+        "defaultStat": 150,
+        "incrementByLevel": 10.8
       },
       "mp": 0,
       "hasMp": true,
@@ -714,7 +717,6 @@
         }
       ]
     },
-
     {
       "id": 800579,
       "originID": 8105,
@@ -722,8 +724,12 @@
       "viewid": 8105,
       "storyID": 8105,
       "appearance": "8105_AhabAppearance",
-      "unitKeywordList": ["PEQUOD_CAPTAIN"],
-      "associationList": ["PEQUOD_CREW"],
+      "unitKeywordList": [
+        "PEQUOD_CAPTAIN"
+      ],
+      "associationList": [
+        "PEQUOD_CREW"
+      ],
       "attributeType": "WHITE",
       "patternID": "8105",
       "phaseIDList": [
@@ -734,7 +740,7 @@
         80057901
       ],
       "hp": {
-        "defaultStat": 200,
+        "defaultStat": 150,
         "incrementByLevel": 9
       },
       "mp": 0,
@@ -1072,7 +1078,6 @@
         }
       ]
     },
-
     {
       "id": 8005792,
       "originID": 8105,
@@ -1080,13 +1085,17 @@
       "viewid": 8105,
       "storyID": 8105,
       "appearance": "8105_AhabAppearancece",
-      "unitKeywordList": ["PEQUOD_CAPTAIN"],
-      "associationList": ["PEQUOD_CREW"],
+      "unitKeywordList": [
+        "PEQUOD_CAPTAIN"
+      ],
+      "associationList": [
+        "PEQUOD_CREW"
+      ],
       "abnormalityPartList": [
         80057901
       ],
       "hp": {
-        "defaultStat": 221,
+        "defaultStat": 180,
         "incrementByLevel": 9.36
       },
       "mp": 0,

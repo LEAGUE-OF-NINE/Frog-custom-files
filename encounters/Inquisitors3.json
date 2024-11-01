@@ -31,7 +31,8 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Normal"
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -61,33 +62,18 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp3_Ally_1",
-                "Battle_Cp3_Enemy_1"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 17
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90032,
                     "unitLevel": 21,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 90033,
                     "unitLevel": 21,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
@@ -97,14 +83,30 @@
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
+                },
+                {
+                    "unitID": 90032,
+                    "unitLevel": 21,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90033,
+                    "unitLevel": 21,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp3_Ally_1",
+                "Battle_Cp3_Enemy_1"
+            ],
             "allyPositionID": 1,
-            "enemyPositionID": 18
+            "enemyPositionID": 17
         }
     ],
     "turnLimit": 99,

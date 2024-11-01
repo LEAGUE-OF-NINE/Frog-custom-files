@@ -91,8 +91,8 @@
         },
         {
             "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
+                "mapName": "Cp4.5_HeapScrap",
+                "mapSize": 40.0
             },
             "unitList": [
                 {
@@ -133,8 +133,8 @@
         },
         {
             "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
+                "mapName": "Cp4.5_Foreshore",
+                "mapSize": 40.0
             },
             "unitList": [
                 {

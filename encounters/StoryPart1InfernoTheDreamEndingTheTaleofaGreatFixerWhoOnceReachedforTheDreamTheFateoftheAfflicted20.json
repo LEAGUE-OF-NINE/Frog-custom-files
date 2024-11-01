@@ -1,0 +1,104 @@
+{
+    "id": 10708,
+    "stageLevel": 50,
+    "stageType": "Abnormality",
+    "isBatonPassOn": true,
+    "stageEnemyType": "",
+    "battleCameraInfo": {
+        "defaultPosX": 0.0,
+        "defaultPosY": 0.0,
+        "defaultPosZ": 50.0
+    },
+    "includeBoss": 0,
+    "staminaType": "",
+    "staminaCost": 0,
+    "recommendedLevel": 50,
+    "story": {
+        "enter": [
+            "7D110B"
+        ],
+        "exit": [],
+        "others": []
+    },
+    "questlist": [
+        {
+            "args": [
+                "10"
+            ],
+            "localizeId": 1
+        }
+    ],
+    "dangerLevel": 0,
+    "attributeType": "NONE",
+    "attackType": "",
+    "abnormalityEventList": [],
+    "stageScriptList": [
+        "8378",
+        "Chapter7SetAllyDefaultMp"
+    ],
+    "eventScriptName": "",
+    "participantInfo": {
+        "min": 6,
+        "max": 6,
+        "mustIncludeIdList": []
+    },
+    "waveList": [
+        {
+            "battleMapInfo": {
+                "mapName": "Cp7_MiddleBosses",
+                "mapSize": 34.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8378,
+                    "unitLevel": 70,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8395,
+                    "unitLevel": 70,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8396,
+                    "unitLevel": 85,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp7_Boss_5"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 100
+        }
+    ],
+    "turnLimit": 99,
+    "rewardList": [
+        {
+            "type": "EGO_GIFT",
+            "rewardId": 2056,
+            "num": 1,
+            "prob": 1.0
+        }
+    ],
+    "blockEnemyInfo": false,
+    "forceAllyFormation": false,
+    "hasGoldenBough": false,
+    "hasGoldenBoughGray": false,
+    "unlockDanteAbility": false,
+    "abstainSupporterCharacterIds": [
+        3
+    ],
+    "lobotomyStageType": 0,
+    "libraryOfRuinaStageType": 0,
+    "sprName": ""
+}

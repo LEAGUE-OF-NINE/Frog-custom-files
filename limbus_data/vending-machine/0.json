@@ -364,6 +364,11 @@
               "type": "ANNOUNCER",
               "id": 15,
               "paidLunacyPrice": 1300
+            },
+            {
+              "type": "ANNOUNCER",
+              "id": 22,
+              "paidLunacyPrice": 1300
             }
           ]
         }

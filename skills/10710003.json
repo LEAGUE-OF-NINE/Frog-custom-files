@@ -8,12 +8,12 @@
             "iconID": "1071003",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "AZURE",
+            "atkType": "HIT",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NEAR",
             "canDuel": "true",
             "canChangeTarget": "true",
             "targetNum": 1,
@@ -258,7 +258,7 @@
             "skillLevelCorrection": 5,
             "range": 6.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "FRONT",
             "canTeamKill": "false",
             "coinList": [
                 {
@@ -447,12 +447,12 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -539,7 +539,7 @@
                 {
                     "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStack",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Sinking",
                         "target": "",
                         "buffOwner": "Target",
                         "stack": 3,
@@ -578,7 +578,7 @@
                 {
                     "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByStackWithLimit4",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Breath",
                         "target": "",
                         "buffOwner": "Self",
                         "stack": 5,
@@ -617,7 +617,7 @@
                 {
                     "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStack",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Coffin",
                         "target": "Self",
                         "buffOwner": "Self",
                         "stack": 1,
@@ -656,7 +656,7 @@
                 {
                     "scriptName": "GiveBuffOnUse",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Coffin",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 1,
@@ -695,7 +695,7 @@
                 {
                     "scriptName": "GiveBuffOnKillTarget",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Coffin",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 2,
@@ -736,18 +736,18 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [
                 {
-                    "operatorType": "",
-                    "color": "",
+                    "operatorType": "ADD",
+                    "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Sinking",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": 0,
@@ -786,7 +786,7 @@
                         {
                             "scriptName": "GiveBuffOnSucceedAttackIfHasStack_WanderingFootsteps1",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Sinking",
                                 "target": "Target",
                                 "buffOwner": "AbnormalityTarget",
                                 "stack": 0,
@@ -829,14 +829,14 @@
                     "cutsceneStart": false
                 },
                 {
-                    "operatorType": "",
-                    "color": "",
+                    "operatorType": "ADD",
+                    "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Sinking",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": 3,
@@ -875,7 +875,7 @@
                         {
                             "scriptName": "1071003",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Sinking",
                                 "target": "RandomEnemy2",
                                 "buffOwner": "",
                                 "stack": -1,
@@ -924,5 +924,6 @@
     "requireIDList": [
         "CheckAwakenLevel3"
     ],
-    "skillType": ""
+    "skillTagList": [],
+    "skillType": "SKILL"
 }

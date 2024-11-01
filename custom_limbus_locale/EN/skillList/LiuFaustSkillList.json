@@ -1,31 +1,137 @@
 {
-  "1020001501": {"a":0,"id":"1020001501","levelList":[{"level":1,"desc":"[WhenUse] Gain +2 [Breath] Count","name":"Acupuncture","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain +1 [Breath] Count","summary":""}]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]","summary":""}]}]},{"level":2,"desc":"[WhenUse] Gain +2 [Breath] Count","name":"Acupuncture","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain +2 [Breath] Count","summary":""},{"desc":"+30% Damage on Critical Hit","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 Bind next turn","summary":""},{"desc":"[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\"></style>","summary":""}]}]},
-  {"level":4,"desc":"At 7+ [Breath], Coin Power +1\nIf target has 7+ [Combustion], Coin Power +1\n[WhenUse] Gain +5 [Breath] Count","name":"Frontal Assault","rawDesc":"","abName":"",
-
-    "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Gain 2 [Breath]","summary":""},
-    {"desc":"[OnSucceedAttack] Inflict 1 [Combustion]","summary":""}]},
-
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 [Combustion]","summary":""},
-    {"desc":"[CriticalOnSucceedAttack] Inflict 2 [Combustion]\n[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (Max 30)","summary":""}]}]}]},
-  
-
-  "1020001502": {"a":0,"id":"1020001502","levelList":[{"level":1,"desc":"[WhenUse] Gain +2 [Breath] Count","name":"Moonlit Blade Dance","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]","summary":""}]}]},{"level":2,"desc":"[WhenUse] Gain +2 [Breath] Count","name":"Moonlit Blade Dance","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Gain 1 [Breath]","summary":""}]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]","summary":""}]}]},
-  {"level":4,"desc":"At 7+ [Breath], Coin Power +1\nCoin Power +1 for every 6 [Combustion] on target (Max 2)\n[WhenUse] Gain +5 [Breath] Count",
-  "name":"Fervid Emotions","rawDesc":"","abName":"",
-  "coinlist":
-  [{"coindescs":[{"desc":"[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] to 3 random enemies\n[CriticalOnSucceedAttack] Inflict 2 [Combustion]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] to 3 random enemies\n[CriticalOnSucceedAttack] Inflict 2 [Combustion]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] Inflict +2 [Combustion] Count\n[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target","summary":""}]}]}]},
-  
-  "1020001503": {"a":0,"id":"1020001503","levelList":[{"level":3,"desc":"Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)","name":"Red Plum Blossoms Scatter","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]","summary":""}]},{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]","summary":""}]}]},
-  {"level":4,"desc":"Deal +3% more damage for every [Combustion] on target\nCoin Power +1 for every 6 [Combustion] on target (Max 2)\nCoin Power +1 for every 7 [Breath] on self (Max 3)\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)",
-  "name":"Unleashing Burning Tapestry","rawDesc":"","abName":"",
-    "coinlist":[{"coindescs":[{"desc":"[CriticalOnSucceedAttack] Inflict 5 [Combustion]","summary":""},
-    {"desc":"[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] +100% Damage on Critical Hit","summary":""},
-    {"desc":"[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target","summary":""}]}]}]},
-  
-  "1020001504": {"a":0,"id":"1020001504","levelList":[{"level":1,"desc":"[WhenUse] For every 4 [Breath] on self, gain Final Power +1 (Max 3)","name":"Redirect","rawDesc":"","abName":"","coinlist":[{"coindescs":[]}]},
-  {"level":4,"desc":"Base Power +1 for every 1 [Combustion] on target (Max 20)\n[WhenUse] For every 3 [Breath] on self, gain Final Power +1","name":"Redirection","rawDesc":"","abName":"","coinlist":[{"coindescs":[]}]}]}
-  
+  "1020001501": {
+    "a": 0,
+    "id": "1020001501",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "At 7+ [Breath], Coin Power +1\nIf target has 7+ [Combustion], Coin Power +1\n[WhenUse] Gain +5 [Breath] Count",
+        "name": "Frontal Assault",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [Breath]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Combustion]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Combustion]",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion]\n[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (Max 30). Then, reduce target's Burn Count by 1.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1020001502": {
+    "a": 0,
+    "id": "1020001502",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "At 7+ [Breath], Coin Power +1\nCoin Power +1 for every 6 [Combustion] on target (Max 2)\n[WhenUse] Gain +5 [Breath] Count",
+        "name": "Fervid Emotions",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] to 2 random enemies\n[CriticalOnSucceedAttack] Inflict 2 [Combustion]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] to 2 random enemies\n[CriticalOnSucceedAttack] Inflict 2 [Combustion]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +2 [Combustion] Count\n[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1020001503": {
+    "a": 0,
+    "id": "1020001503",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "Deal +3% more damage for every [Combustion] on target\nCoin Power +1 for every 6 [Combustion] on target (Max 2)\nCoin Power +1 for every 7 [Breath] on self (Max 3)\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)",
+        "name": "Unleashing Burning Tapestry",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 5 [Combustion]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] +100% Damage on Critical Hit",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1020001504": {
+    "a": 0,
+    "id": "1020001504",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[CanDuelGuard]\nBase Power +1 for every 1 [Combustion] on target (Max 20)\n[WhenUse] For every 3 [Breath] on self, gain Final Power +1",
+        "name": "Redirection",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  }
 }

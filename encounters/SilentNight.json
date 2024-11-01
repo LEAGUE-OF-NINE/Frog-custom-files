@@ -35,7 +35,8 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Normal"
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -65,22 +66,7 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp3_Ally_2",
-                "Battle_Cp3_Enemy_2"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 17
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "SinclairVillage",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90032,
                     "unitLevel": 22,
@@ -108,24 +94,7 @@
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
-                }
-            ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp3_Ally_2",
-                "Battle_Cp3_Enemy_2"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 17
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "SinclairVillage",
-                "mapSize": -1.0
-            },
-            "unitList": [
+                },
                 {
                     "unitID": 90038,
                     "unitLevel": 22,
@@ -148,15 +117,14 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
             "bgmList": [
-                "Battle_Cp3_Ally_3",
-                "Battle_Cp3_Enemy_3"
+                "Battle_Cp3_Ally_2",
+                "Battle_Cp3_Enemy_2"
             ],
             "allyPositionID": 1,
-            "enemyPositionID": 16
+            "enemyPositionID": 17
         }
     ],
     "turnLimit": 99,

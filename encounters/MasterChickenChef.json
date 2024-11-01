@@ -31,7 +31,7 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Normal"
+        "Refill_Abnormality"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -75,22 +75,7 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp2_Ally_2",
-                "Battle_Cp3_5_Enemy_1"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 18
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 8034,
                     "unitLevel": 25,
@@ -115,17 +100,26 @@
                 {
                     "unitID": 8037,
                     "unitLevel": 25,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8037,
+                    "unitLevel": 25,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp2_Ally_2",
+                "Battle_Cp3_5_Enemy_1"
+            ],
             "allyPositionID": 1,
-            "enemyPositionID": 2
+            "enemyPositionID": 18
         }
     ],
     "turnLimit": 99,

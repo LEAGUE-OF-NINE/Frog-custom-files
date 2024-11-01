@@ -10,7 +10,7 @@
             "informationID": -1,
             "attributeType": "AZURE",
             "atkType": "HIT",
-            "defType": "COUNTER",
+            "defType": "",
             "skillMotion": "Default",
             "viewType": "BATTLE",
             "parryingCloseType": "NEAR",
@@ -84,9 +84,9 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "AZURE",
+            "attributeType": "",
             "atkType": "ERROR",
-            "defType": "NONE",
+            "defType": "",
             "skillMotion": "Empty",
             "viewType": "NONE",
             "parryingCloseType": "NONE",
@@ -353,5 +353,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

@@ -1,6 +1,6 @@
 {
     "id": 10718,
-    "stageLevel": 46,
+    "stageLevel": 460,
     "stageType": "Normal",
     "isBatonPassOn": true,
     "stageEnemyType": "",
@@ -12,7 +12,7 @@
     "includeBoss": 0,
     "staminaType": "",
     "staminaCost": 20,
-    "recommendedLevel": 46,
+    "recommendedLevel": 460,
     "story": {
         "enter": [
             "S718B"
@@ -52,7 +52,7 @@
             "unitList": [
                 {
                     "unitID": 90161,
-                    "unitLevel": 46,
+                    "unitLevel": 460,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false

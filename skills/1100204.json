@@ -8,9 +8,9 @@
             "iconID": "",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "",
+            "attributeType": "CRIMSON",
             "atkType": "PENETRATE",
-            "defType": "",
+            "defType": "COUNTER",
             "skillMotion": "S4",
             "viewType": "BATTLE",
             "parryingCloseType": "NEAR",
@@ -124,9 +124,9 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "",
+            "attributeType": "NONE",
             "atkType": "ERROR",
-            "defType": "",
+            "defType": "NONE",
             "skillMotion": "Empty",
             "viewType": "NONE",
             "parryingCloseType": "NONE",
@@ -225,5 +225,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

@@ -1,0 +1,415 @@
+{
+  "8106011": {
+    "a": 0,
+    "id": "8106011",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Strike Me Down!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106021": {
+    "a": 0,
+    "id": "8106021",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Targets the unit with the least Max HP",
+        "name": "Stab to Kill",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 6 Offense Level Down",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106031": {
+    "a": 0,
+    "id": "8106031",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Re-use Evade upon Evade failure (Up to 2 times)\n[OnDefeatEvade] Lose 2 Pip's Ego\n[OnSucceedEvade] Use Insidious Pallidification",
+        "name": "Undying Soul",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "8106041": {
+    "a": 0,
+    "id": "8106041",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[DefeatDuel] Gain 2 Defense Power Down. Lose 10 SP on self",
+        "name": "Murky Innocence",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Paralyze",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bind next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106051": {
+    "a": 0,
+    "id": "8106051",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Targets 3 units with the least Max HP\n[StartBattle] Gain Base Power +2 and Atk Weight +1 for every 5 Pip's Ego\n[WhenUse] Lose 3 Pip's Ego",
+        "name": "Weight of Guilt",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Raise Stagger Threshold by 30 ",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Target loses 10 SP",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106061": {
+    "a": 0,
+    "id": "8106061",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "사용하지않는스킬(번역x)",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "8106071": {
+    "a": 0,
+    "id": "8106071",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Inflict 1 Prey Mark next turn",
+        "name": "Swathed Fear",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bleed and +4 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106081": {
+    "a": 0,
+    "id": "8106081",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Inflict 1 Prey Mark next turn",
+        "name": "Punctured Weakness",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Offense Level Down next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106091": {
+    "a": 0,
+    "id": "8106091",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Deal +5% damage for every 1 Bleed on target\nIf target does not have Prey Mark, Coin Power +1\n[DefeatDuel] Lose 5 SP",
+        "name": "Echoing Cry",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Reuse the final Coin once for every 10 Starbuck's Ego",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106101": {
+    "a": 0,
+    "id": "8106101",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Inflict 1 Prey Mark next turn",
+        "name": "Clouded Path",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Damage Down",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 Bleed",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106111": {
+    "a": 0,
+    "id": "8106111",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Lose 5 Queequeg's Ego\n[WinDuel] Gain 6 Defense Level Up\n[DefeatDuel] Lose 5 SP",
+        "name": "Bleached Atonement",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Stagger target",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106121": {
+    "a": 0,
+    "id": "8106121",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[StartBattle] Gain 10% of Max HP as Shield. For every Queequeg's Ego, gain additional 0.5% of Max HP as additional Shield.\nWhen attacked while Shielded, attacker loses 5 SP\nWhen attacked, use this Skill once for every 10 Queequeg's Ego",
+        "name": "Insidious Pallidification",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

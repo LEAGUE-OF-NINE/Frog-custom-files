@@ -37,6 +37,9 @@
           "enemyPositionID": "17"
         },
         {
+          "battleMapInfo": {
+            "mapName": "DAreaStreet_B"
+          },
           "unitList": [
             {
               "unitID": 90004,
@@ -113,22 +116,29 @@
             "Battle_Cp1_Ally_1",
             "Battle_Cp1_Enemy_1"
           ],
-          "enemyPositionID": "17"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "17",
+          "subUnitList": [
             {
               "unitID": 90028,
-              "unitCount": 2,
+              "unitCount": 1,
               "unitLevel": 20
             },
             {
               "unitID": 90029,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 20
+            },
+            {
+              "unitID": 90028,
+              "unitCount": 1,
+              "unitLevel": 20
+            },
+            {
+              "unitID": 90029,
+              "unitCount": 1,
               "unitLevel": 20
             }
-          ],
-          "enemyPositionID": "17"
+          ]
         }
       ],
       "staminaCost": 18,
@@ -152,7 +162,7 @@
           "S304A"
         ]
       },
-      "stageScriptList": ["KCorpEntrance"]
+      "stageScriptList": ["KCorpEntrance","Refill","SubUnitDefaultSlotAdder"]
     },
     {
       "id": 10305,
@@ -183,10 +193,8 @@
             "Battle_Cp1_Ally_2",
             "Battle_Cp1_Enemy_2"
           ],
-          "enemyPositionID": "17"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "17",
+          "subUnitList": [
             {
               "unitID": 90028,
               "unitCount": 1,
@@ -207,8 +215,7 @@
               "unitCount": 1,
               "unitLevel": 18
             }
-          ],
-          "enemyPositionID": "17"
+          ]
         }
       ],
       "staminaCost": 18,
@@ -224,7 +231,7 @@
       ],
       "rewardList": [
       ],
-      "stageScriptList": ["KCorpEntrance"]
+      "stageScriptList": ["KCorpEntrance","Refill","SubUnitDefaultSlotAdder"]
     },
     {
       "id": 10306,
@@ -265,10 +272,8 @@
             "Battle_Cp1_Ally_3",
             "Battle_Cp1_Enemy_3"
           ],
-          "enemyPositionID": "18"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "18",
+          "subUnitList": [
             {
               "unitID": 90028,
               "unitCount": 1,
@@ -276,7 +281,12 @@
             },
             {
               "unitID": 90029,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 19
+            },
+            {
+              "unitID": 90029,
+              "unitCount": 1,
               "unitLevel": 19
             },
             {
@@ -289,8 +299,7 @@
               "unitCount": 1,
               "unitLevel": 19
             }
-          ],
-          "enemyPositionID": "18"
+          ]
         }
       ],
       "staminaCost": 18,
@@ -311,7 +320,7 @@
           "S306A"
         ]
       },
-      "stageScriptList": ["KCorpEntrance"]
+      "stageScriptList": ["KCorpEntrance","Refill","SubUnitDefaultSlotAdder"]
     },
     {
       "id": 10310,
@@ -337,17 +346,24 @@
             "Battle_Cp3_Ally_1",
             "Battle_Cp3_Enemy_1"
           ],
-          "enemyPositionID": "16"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "16",
+          "subUnitList": [
             {
               "unitID": 90032,
-              "unitCount": 3,
+              "unitCount": 1,
+              "unitLevel": 22
+            },
+            {
+              "unitID": 90032,
+              "unitCount": 1,
+              "unitLevel": 22
+            },
+            {
+              "unitID": 90032,
+              "unitCount": 1,
               "unitLevel": 22
             }
-          ],
-          "enemyPositionID": "16"
+          ]
         }
       ],
       "staminaCost": 18,
@@ -361,6 +377,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ],
       "story": {
@@ -462,27 +479,34 @@
             "Battle_Cp3_Ally_1",
             "Battle_Cp3_Enemy_1"
           ],
-          "enemyPositionID": "17"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "17",
+          "subUnitList": [
             {
               "unitID": 90032,
-              "unitCount": 2,
+              "unitCount": 1,
               "unitLevel": 21
             },
             {
               "unitID": 90033,
-              "unitCount": 2,
+              "unitCount": 1,
               "unitLevel": 21
             },
             {
               "unitID": 90034,
               "unitCount": 1,
               "unitLevel": 21
+            },
+            {
+              "unitID": 90032,
+              "unitCount": 1,
+              "unitLevel": 21
+            },
+            {
+              "unitID": 90033,
+              "unitCount": 1,
+              "unitLevel": 21
             }
-          ],
-          "enemyPositionID": "18"
+          ]
         }
       ],
       "staminaCost": 18,
@@ -496,6 +520,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ]
     },
@@ -528,13 +553,8 @@
             "Battle_Cp3_Ally_2",
             "Battle_Cp3_Enemy_2"
           ],
-          "enemyPositionID": 17
-        },
-        {
-          "battleMapInfo": {
-            "mapName": "SinclairVillage"
-          },
-          "unitList": [
+          "enemyPositionID": 17,
+          "subUnitList": [
             {
               "unitID": 90032,
               "unitCount": 1,
@@ -554,19 +574,7 @@
               "unitID": 90036,
               "unitCount": 1,
               "unitLevel": 22
-            }
-          ],
-          "bgmList": [
-            "Battle_Cp3_Ally_2",
-            "Battle_Cp3_Enemy_2"
-          ],
-          "enemyPositionID": 17
-        },
-        {
-          "battleMapInfo": {
-            "mapName": "SinclairVillage"
-          },
-          "unitList": [
+            },
             {
               "unitID": 90038,
               "unitCount": 1,
@@ -582,12 +590,7 @@
               "unitCount": 1,
               "unitLevel": 22
             }
-          ],
-          "bgmList": [
-            "Battle_Cp3_Ally_3",
-            "Battle_Cp3_Enemy_3"
-          ],
-          "enemyPositionID": "16"
+          ]
         }
       ],
       "staminaCost": 18,
@@ -601,6 +604,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ],
       "story": {
@@ -641,10 +645,8 @@
             "Battle_Cp3_Ally_1",
             "Battle_Cp3_Enemy_1"
           ],
-          "enemyPositionID": "17"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "17",
+          "subUnitList": [
             {
               "unitID": 90032,
               "unitCount": 1,
@@ -665,8 +667,7 @@
               "unitCount": 1,
               "unitLevel": 25
             }
-          ],
-          "enemyPositionID": "17"
+          ]
         }
       ],
       "staminaCost": 20,
@@ -680,6 +681,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ]
     },
@@ -768,10 +770,8 @@
             "Battle_Cp3_Ally_1",
             "Battle_Cp3_Enemy_1"
           ],
-          "enemyPositionID": "17"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "18",
+          "subUnitList": [
             {
               "unitID": 90035,
               "unitCount": 1,
@@ -797,8 +797,7 @@
               "unitCount": 1,
               "unitLevel": 24
             }
-          ],
-          "enemyPositionID": "18"
+          ]
         }
       ],
       "staminaCost": 20,
@@ -812,6 +811,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ],
       "story": {
@@ -854,10 +854,8 @@
             "Battle_Cp3_Ally_2",
             "Battle_Cp3_Enemy_2"
           ],
-          "enemyPositionID": "17"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "18",
+          "subUnitList": [
             {
               "unitID": 90034,
               "unitCount": 1,
@@ -882,12 +880,7 @@
               "unitID": 90039,
               "unitCount": 1,
               "unitLevel": 25
-            }
-          ],
-          "enemyPositionID": "18"
-        },
-        {
-          "unitList": [
+            },
             {
               "unitID": 90037,
               "unitCount": 2,
@@ -908,8 +901,7 @@
               "unitCount": 1,
               "unitLevel": 25
             }
-          ],
-          "enemyPositionID": "18"
+          ]
         }
       ],
       "staminaCost": 20,
@@ -930,7 +922,7 @@
           "S317B"
         ]
       },
-      "stageScriptList": ["Whistle_3"]
+      "stageScriptList": ["Whistle_3","Refill","SubUnitDefaultSlotAdder"]
     },
     {
       "id": 10318,
@@ -971,10 +963,8 @@
             "Battle_Cp3_Ally_3",
             "Battle_Cp3_Enemy_3"
           ],
-          "enemyPositionID": "18"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "18",
+          "subUnitList": [
             {
               "unitID": 90037,
               "unitCount": 1,
@@ -994,12 +984,7 @@
               "unitID": 90036,
               "unitCount": 1,
               "unitLevel": 27
-            }
-          ],
-          "enemyPositionID": "18"
-        },
-        {
-          "unitList": [
+            },
             {
               "unitID": 90038,
               "unitCount": 1,
@@ -1015,8 +1000,7 @@
               "unitCount": 1,
               "unitLevel": 27
             }
-          ],
-          "enemyPositionID": "18"
+          ]
         }
       ],
       "staminaCost": 20,
@@ -1040,7 +1024,7 @@
           "S318A"
         ]
       },
-      "stageScriptList": ["Whistle_3"]
+      "stageScriptList": ["Whistle_3","Refill","SubUnitDefaultSlotAdder"]
     },
     {
       "id": 10319,
@@ -1066,17 +1050,24 @@
             "Battle_Cp3_Ally_2",
             "Battle_Cp3_Enemy_2"
           ],
-          "enemyPositionID": "16"
-        },
-        {
-          "unitList": [
+          "enemyPositionID": "16",
+          "subUnitList": [
             {
               "unitID": 90037,
-              "unitCount": 3,
+              "unitCount": 1,
+              "unitLevel": 25
+            },
+            {
+              "unitID": 90037,
+              "unitCount": 1,
+              "unitLevel": 25
+            },
+            {
+              "unitID": 90037,
+              "unitCount": 1,
               "unitLevel": 25
             }
-          ],
-          "enemyPositionID": "16"
+          ]
         }
       ],
       "staminaCost": 20,
@@ -1091,7 +1082,8 @@
         }
       ],
       "rewardList": [
-      ]
+      ],
+      "stageScriptList": ["Refill"]
     },
     {
       "id": 10320,

@@ -46,7 +46,7 @@
     "waveList": [
         {
             "battleMapInfo": {
-                "mapName": "Casino2F",
+                "mapName": "Casino2F_v1",
                 "mapSize": -1.0
             },
             "unitList": [
@@ -77,7 +77,7 @@
         },
         {
             "battleMapInfo": {
-                "mapName": "",
+                "mapName": "Casino2F",
                 "mapSize": -1.0
             },
             "unitList": [

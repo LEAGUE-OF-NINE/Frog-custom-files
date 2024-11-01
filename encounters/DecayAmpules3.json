@@ -73,8 +73,8 @@
         },
         {
             "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
+                "mapName": "Cp4_KCropLab_2F_Corridor_v1",
+                "mapSize": 33.279998779296878
             },
             "unitList": [
                 {
@@ -101,8 +101,8 @@
         },
         {
             "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
+                "mapName": "Cp4_KCropLab_2F_Corridor",
+                "mapSize": 33.279998779296878
             },
             "unitList": [
                 {

@@ -33,7 +33,8 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Normal"
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -63,41 +64,42 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp1_Ally_2",
-                "Battle_Cp1_Enemy_2"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 16
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90008,
                     "unitLevel": 4,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90008,
+                    "unitLevel": 4,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 90010,
                     "unitLevel": 4,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90010,
+                    "unitLevel": 4,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp1_Ally_2",
+                "Battle_Cp1_Enemy_2"
+            ],
             "allyPositionID": 1,
             "enemyPositionID": 17
         }

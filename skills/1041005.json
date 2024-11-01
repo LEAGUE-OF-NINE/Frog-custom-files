@@ -8,7 +8,7 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "SCARLET",
+            "attributeType": "",
             "atkType": "HIT",
             "defType": "ATTACK",
             "skillMotion": "S4",
@@ -535,7 +535,7 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "NONE",
+            "attributeType": "",
             "atkType": "ERROR",
             "defType": "NONE",
             "skillMotion": "Empty",
@@ -826,5 +826,6 @@
     "requireIDList": [
         "CheckAwakenLevel3"
     ],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

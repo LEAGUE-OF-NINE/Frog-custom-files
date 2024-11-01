@@ -1,0 +1,156 @@
+{
+    "id": 10329,
+    "unitScriptID": "",
+    "viewid": 10329,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "!custom_10109_Yisang_RingFingerAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 70,
+        "incrementByLevel": 2.4000000953674318
+    },
+    "defCorrection": -2,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        2,
+        3,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        6,
+        6,
+        7,
+        7
+    ],
+    "defenseSkillIDList": [
+        10109004
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            65,
+            35,
+            15
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 2.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 1.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [
+            0,
+            0,
+            0
+        ],
+        "supportPassiveIdList": [
+            0
+        ]
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 10109001
+        },
+        {
+            "number": 2,
+            "skillId": 10109002
+        },
+        {
+            "number": 1,
+            "skillId": 10109003
+        }
+    ],
+    "initBuffList": [
+        {
+            "level": 1,
+            "list": [
+                {
+                    "buff": "RealPaperBear",
+                    "stack": 13,
+                    "turn": 0
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "list": [
+                {
+                    "buff": "RealPaperBear",
+                    "stack": 1000,
+                    "turn": 0
+                }
+            ]
+        }
+    ],
+    "associationList": [
+        "RING_FINGER"
+    ],
+    "unitKeywordList": [
+        "CLAN",
+        "SMALL"
+    ],
+    "characterId": 3,
+    "season": 0,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 3,
+    "uniqueAttribute": "SCARLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

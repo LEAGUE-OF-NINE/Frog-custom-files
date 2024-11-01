@@ -33,7 +33,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Casino_Eyed"
+        "Casino_Eyed",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -63,50 +65,35 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp2_Ally_2",
-                "Battle_Cp2_Enemy_2"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 17
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90024,
                     "unitLevel": 13,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 90025,
                     "unitLevel": 13,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
-                }
-            ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [],
-            "allyPositionID": 1,
-            "enemyPositionID": 18
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+                },
+                {
+                    "unitID": 90024,
+                    "unitLevel": 13,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90025,
+                    "unitLevel": 13,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
                 {
                     "unitID": 90024,
                     "unitLevel": 13,
@@ -129,10 +116,12 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp2_Ally_2",
+                "Battle_Cp2_Enemy_2"
+            ],
             "allyPositionID": 1,
             "enemyPositionID": 18
         }

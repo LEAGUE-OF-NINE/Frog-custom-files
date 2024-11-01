@@ -1,0 +1,121 @@
+{
+    "id": 10361,
+    "unitScriptID": "",
+    "viewid": 10361,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "8628_SheepGeneratorAppearance",
+    "panicSkillOnErosion": 10501004,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 220,
+        "incrementByLevel": 0.0
+    },
+    "defCorrection": -1,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "maxSpeedList": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "defenseSkillIDList": [
+        10501004
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": []
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 2.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 2.0
+            },
+            {
+                "type": "HIT",
+                "value": 2.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [
+            0,
+            0,
+            0
+        ],
+        "supportPassiveIdList": [
+            0
+        ]
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 862801
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [],
+    "unitKeywordList": [
+        "MACHINE",
+        "REGULAR"
+    ],
+    "characterId": 3,
+    "season": 0,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "VIOLET",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

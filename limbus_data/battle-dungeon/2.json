@@ -744,30 +744,28 @@
           "bgmList": [
             "Battle_Cp3_Ally_3",
             "Battle_Cp3_Enemy_3"
-          ]
-        },
-        {
-          "battleMapInfo": {
-            "mapName": "Cp3_B2_LCorpS_v1"
-          },
-          "unitList": [
+          ],
+          "subUnitList": [
             {
               "unitID": 90037,
-              "unitCount": 2,
+              "unitCount": 1,
               "unitLevel": 27
             },
             {
               "unitID": 90034,
-              "unitCount": 2,
+              "unitCount": 1,
               "unitLevel": 27
-            }
-          ]
-        },
-        {
-          "battleMapInfo": {
-            "mapName": "Cp3_B2_LCorpS_v1"
-          },
-          "unitList": [
+            },
+            {
+              "unitID": 90037,
+              "unitCount": 1,
+              "unitLevel": 27
+            },
+            {
+              "unitID": 90034,
+              "unitCount": 1,
+              "unitLevel": 27
+            },
             {
               "unitID": 90038,
               "unitCount": 1,
@@ -780,7 +778,12 @@
             },
             {
               "unitID": 90037,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 27
+            },
+            {
+              "unitID": 90037,
+              "unitCount": 1,
               "unitLevel": 27
             }
           ]
@@ -797,6 +800,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ]
     },
@@ -1019,13 +1023,8 @@
           "bgmList": [
             "Battle_Cp3_Ally_3",
             "Battle_Cp3_Enemy_3"
-          ]
-        },
-        {
-          "battleMapInfo": {
-            "mapName": "Cp3_B2_LCorpS"
-          },
-          "unitList": [
+          ],
+          "subUnitList": [
             {
               "unitID": 90037,
               "unitCount": 1,
@@ -1033,16 +1032,14 @@
             },
             {
               "unitID": 90034,
-              "unitCount": 2,
+              "unitCount": 1,
               "unitLevel": 27
-            }
-          ]
-        },
-        {
-          "battleMapInfo": {
-            "mapName": "Cp3_B2_LCorpS"
-          },
-          "unitList": [
+            },
+            {
+              "unitID": 90034,
+              "unitCount": 1,
+              "unitLevel": 27
+            },
             {
               "unitID": 90038,
               "unitCount": 1,
@@ -1068,6 +1065,9 @@
         }
       ],
       "rewardList": [
+      ],
+      "stageScriptList": [
+        "Refill"
       ]
     },
     {
@@ -1248,21 +1248,26 @@
           "bgmList": [
             "Battle_Cp3_Ally_3",
             "Battle_Cp3_Enemy_3"
-          ]
-        },
-        {
-          "battleMapInfo": {
-            "mapName": "Cp3_B3_CorpesHill"
-          },
-          "unitList": [
+          ],
+          "subUnitList": [
             {
               "unitID": 90038,
-              "unitCount": 2,
+              "unitCount": 1,
               "unitLevel": 28
             },
             {
               "unitID": 90039,
-              "unitCount": 2,
+              "unitCount": 1,
+              "unitLevel": 28
+            },
+            {
+              "unitID": 90038,
+              "unitCount": 1,
+              "unitLevel": 28
+            },
+            {
+              "unitID": 90039,
+              "unitCount": 1,
               "unitLevel": 28
             }
           ]
@@ -1279,6 +1284,7 @@
           "localizeId": 1
         }
       ],
+      "stageScriptList": ["Refill","SubUnitDefaultSlotAdder"],
       "rewardList": [
       ],
       "story": {

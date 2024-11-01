@@ -103,6 +103,134 @@
           "number": 1
         }
       ]
+    },
+    {
+      "id": 10361,
+      "appearance": "8628_SheepGeneratorAppearance",
+      "unitKeywordList": [
+        "MACHINE",
+        "REGULAR"
+      ],
+      "associationList": [],
+      "characterId": 3,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        10501004
+      ],
+      "panicSkillOnErosion": 10501004,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 220,
+        "incrementByLevel": 0
+      },
+      "defCorrection": -1,
+      "minSpeedList": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "maxSpeedList": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 1,
+            "passiveIdList": [
+              862801,
+              862802,
+              862803,
+              860506
+            ]
+          },
+          {
+            "level": 2,
+            "passiveIdList": [
+              862801,
+              862802,
+              862803,
+              860506
+            ]
+          },
+          {
+            "level": 4,
+            "passiveIdList": [
+              862801,
+              862802,
+              862803,
+              860506
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": []
+          }
+        ]
+      },
+      "uniqueAttribute": "VIOLET",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": []
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 862801,
+          "number": 3
+        }
+      ]
     }
   ]
 }

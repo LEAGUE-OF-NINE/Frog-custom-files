@@ -2,9 +2,17 @@
   "list": [
     {
       "id": 1000607,
-      "appearance": "!custom_multicrack_hong_lu",
-      "unitKeywordList": ["FIXER","BACK_STREET","MACHINE_BOUND_ORGANISM","SMALL"],
-      "associationList": ["HOOK_OFFICE", "MULTI_CRACK"],
+      "appearance": "!custom_10607_Honglu_TaeinAppearance",
+      "unitKeywordList": [
+        "FIXER",
+        "BACK_STREET",
+        "MACHINE_BOUND_ORGANISM",
+        "SMALL"
+      ],
+      "associationList": [
+        "HOOK_OFFICE",
+        "MULTI_CRACK"
+      ],
       "characterId": 6,
       "panicType": 9999,
       "season": 9101,
@@ -38,38 +46,34 @@
         "passiveIdList": [
           {
             "level": 1,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1060701,
               1060601,
               1070911
-
             ]
           },
           {
             "level": 2,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1060701,
               1060601,
               1070911
-
             ]
           },
           {
             "level": 4,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1060701,
               1060601,
               1070911
-
             ]
           }
         ],
         "supportPassiveIdList": [
           {
             "level": 3,
-            "passiveIdList": [ 
+            "passiveIdList": [
               1060721
-
             ]
           }
         ]

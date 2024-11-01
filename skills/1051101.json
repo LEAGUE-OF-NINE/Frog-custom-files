@@ -8,12 +8,12 @@
             "iconID": "",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "INDIGO",
+            "atkType": "PENETRATE",
+            "defType": "ATTACK",
+            "skillMotion": "S1",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
             "canDuel": "true",
             "canChangeTarget": "true",
             "targetNum": 1,
@@ -63,7 +63,7 @@
             "skillLevelCorrection": 2,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "FRONT",
             "canTeamKill": "false",
             "coinList": [
                 {
@@ -134,12 +134,12 @@
             "iconID": "",
             "gaksungLevel": 2,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -267,7 +267,7 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [
                 {
@@ -378,12 +378,12 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -393,7 +393,7 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [],
             "actionList": []
@@ -403,12 +403,12 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -456,7 +456,7 @@
                 {
                     "scriptName": "10511baseNoUseTurnNoGiveBuff",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Burst",
                         "target": "",
                         "buffOwner": "Target",
                         "stack": 15,
@@ -495,7 +495,7 @@
                 {
                     "scriptName": "GiveBuffOnUse",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Breath",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 0,
@@ -536,18 +536,18 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [
                 {
-                    "operatorType": "",
-                    "color": "",
+                    "operatorType": "ADD",
+                    "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Breath",
                                 "target": "Self",
                                 "buffOwner": "",
                                 "stack": 0,
@@ -590,14 +590,14 @@
                     "cutsceneStart": false
                 },
                 {
-                    "operatorType": "",
-                    "color": "",
+                    "operatorType": "ADD",
+                    "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
                             "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Burst",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": 1,
@@ -636,7 +636,7 @@
                         {
                             "scriptName": "GiveBuffOnSucceedAttackSetStackBySpeedDiffIfFasterThanTarget",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Burst",
                                 "target": "Target",
                                 "buffOwner": "",
                                 "stack": -1,
@@ -683,5 +683,6 @@
         }
     ],
     "requireIDList": [],
-    "skillType": ""
+    "skillTagList": [],
+    "skillType": "SKILL"
 }

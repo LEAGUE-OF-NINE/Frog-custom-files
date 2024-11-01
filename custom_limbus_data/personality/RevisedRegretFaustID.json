@@ -11,9 +11,10 @@
         "L_CORP"
       ],
       "characterId": 2,
-      "panicType": 1004,
+      "panicType": 1027,
       "season": 9101,
       "walpurgisType": "LC",
+      "isPlusCoinUnit": false,
       "defenseSkillIDList": [
         10207004
       ],

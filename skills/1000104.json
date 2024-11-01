@@ -8,12 +8,12 @@
             "iconID": "",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "NEUTRAL",
+            "atkType": "NONE",
+            "defType": "NON_ACTION",
+            "skillMotion": "Default",
+            "viewType": "BATTLE",
+            "parryingCloseType": "NEAR",
             "canDuel": "false",
             "canChangeTarget": "false",
             "targetNum": 0,
@@ -63,12 +63,13 @@
             "skillLevelCorrection": 0,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "FRONT",
             "canTeamKill": "false",
             "coinList": [],
             "actionList": []
         }
     ],
     "requireIDList": [],
-    "skillType": ""
+    "skillTagList": [],
+    "skillType": "SKILL"
 }

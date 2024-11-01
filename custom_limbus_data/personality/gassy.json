@@ -1,0 +1,209 @@
+{
+  "list": [
+    {
+      "id": 810666,
+      "unitScriptID": "",
+      "viewid": 810666,
+      "deadsceneid": -1,
+      "sdPortrait": "",
+      "appearance": "8106_Ahab_AwakenAppearance",
+      "panicSkillOnErosion": 1000104,
+      "mp": 45,
+      "hp": {
+        "defaultStat": 280,
+        "incrementByLevel": 9.5
+      },
+      "defCorrection": 2,
+      "aggro": 1,
+      "panicType": 1033,
+      "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "defenseSkillIDList": [
+        8106121
+      ],
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "showUnitLevel": true,
+      "showAtkLevel": true,
+      "showDefLevel": true,
+      "showHp": true,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "breakSection": {
+        "sectionList": []
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1.5
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ],
+        "attributeResistList": []
+      },
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 1,
+            "passiveIDList": [
+              810607,
+              810601,
+              810604,
+              810606,
+              9999998
+            ]
+          },
+          {
+            "level": 2,
+            "passiveIDList": [
+              810607,
+              810601,
+              810604,
+              810606,
+              9999998
+            ]
+          },
+          {
+            "level": 4,
+            "passiveIDList": [
+              810607,
+              810601,
+              810604,
+              810606,
+              9999998
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": []
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 8106011,
+          "number": 3
+        },
+        {
+          "skillId": 8106021,
+          "number": 3
+        },
+        {
+          "skillId": 8106041,
+          "number": 1
+        },
+        {
+          "skillId": 8106051,
+          "number": 2
+        },
+        {
+          "skillId": 8106061,
+          "number": 2
+        },
+        {
+          "skillId": 8106071,
+          "number": 1
+        },
+        {
+          "skillId": 8106081,
+          "number": 2
+        },
+        {
+          "skillId": 8106091,
+          "number": 2
+        },
+        {
+          "skillId": 8106101,
+          "number": 1
+        },
+        {
+          "skillId": 8106111,
+          "number": 1
+        }
+      ],
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "AaCePcBo",
+              "stack": 20
+            },
+            {
+              "buff": "AaCePcBp",
+              "stack": 20
+            },
+            {
+              "buff": "AaCePcBq",
+              "stack": 30
+            }
+          ]
+        }
+      ],
+      "associationList": [
+        "PEQUOD_CREW"
+      ],
+      "unitKeywordList": [
+        "PEQUOD_CAPTAIN"
+      ],
+      "characterId": 3,
+      "season": 0,
+      "additionalAttachment": "",
+      "promotionId": 0,
+      "rank": 3,
+      "uniqueAttribute": "WHITE",
+      "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+      },
+      "walpurgisType": ""
+    }
+  ]
+}

@@ -33,7 +33,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "a1c5p1_4"
+        "a1c5p1_4",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -63,50 +65,42 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp5_Ally_2",
-                "Battle_Cp5_Enemy_3"
-            ],
-            "allyPositionID": 48,
-            "enemyPositionID": 49
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90093,
                     "unitLevel": 37,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 90095,
                     "unitLevel": 37,
-                    "unitCount": 3,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
-                }
-            ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [],
-            "allyPositionID": 48,
-            "enemyPositionID": 49
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+                },
+                {
+                    "unitID": 90093,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90095,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90095,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
                 {
                     "unitID": 90092,
                     "unitLevel": 37,
@@ -131,7 +125,56 @@
                 {
                     "unitID": 90089,
                     "unitLevel": 37,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90089,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90091,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90095,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90089,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90091,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90095,
+                    "unitLevel": 37,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90089,
+                    "unitLevel": 37,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
@@ -143,45 +186,12 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
-            "allyPositionID": 48,
-            "enemyPositionID": 49
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
-                {
-                    "unitID": 90095,
-                    "unitLevel": 37,
-                    "unitCount": 2,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 90089,
-                    "unitLevel": 37,
-                    "unitCount": 2,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 90091,
-                    "unitLevel": 37,
-                    "unitCount": 2,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                }
+            "bgmList": [
+                "Battle_Cp5_Ally_2",
+                "Battle_Cp5_Enemy_3"
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [],
             "allyPositionID": 48,
             "enemyPositionID": 49
         }

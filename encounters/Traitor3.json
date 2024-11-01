@@ -31,7 +31,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Troubleshooter"
+        "Troubleshooter",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -61,22 +63,7 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp4_Ally_1",
-                "Battle_Cp4_Enemy_1"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 2
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90051,
                     "unitLevel": 31,
@@ -87,22 +74,38 @@
                 {
                     "unitID": 90052,
                     "unitLevel": 31,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 90053,
                     "unitLevel": 31,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90052,
+                    "unitLevel": 31,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90053,
+                    "unitLevel": 31,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp4_Ally_1",
+                "Battle_Cp4_Enemy_1"
+            ],
             "allyPositionID": 1,
             "enemyPositionID": 2
         }

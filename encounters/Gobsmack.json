@@ -35,7 +35,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Casino"
+        "Casino",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -65,41 +67,49 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp2_Ally_2",
-                "Battle_Cp2_Enemy_2"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 18
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90026,
                     "unitLevel": 12,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 90027,
                     "unitLevel": 12,
-                    "unitCount": 3,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90026,
+                    "unitLevel": 12,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90027,
+                    "unitLevel": 12,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90027,
+                    "unitLevel": 12,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp2_Ally_2",
+                "Battle_Cp2_Enemy_2"
+            ],
             "allyPositionID": 1,
             "enemyPositionID": 18
         }

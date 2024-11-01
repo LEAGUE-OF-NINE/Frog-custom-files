@@ -499,5 +499,6 @@
     "requireIDList": [
         "CheckAwakenLevel3"
     ],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

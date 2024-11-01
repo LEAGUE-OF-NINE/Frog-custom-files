@@ -72,7 +72,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -127,7 +126,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -169,7 +167,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -196,7 +193,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -225,7 +221,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -267,7 +262,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -294,7 +288,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -323,7 +316,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -352,7 +344,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -366,7 +357,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -393,7 +383,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -422,7 +411,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -451,7 +439,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -491,7 +478,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -507,7 +493,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -536,7 +521,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -550,7 +534,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -577,7 +560,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -608,10 +590,9 @@
         }
       ]
     },
-
     {
       "id": 800306,
-      "appearance": "8029_CromerAppearance",
+      "appearance": "!custom_10402_Ryoshu_SevenAssoAppearance",
       "level": 48,
       "classType": "HE",
       "attributeType": "INDIGO",
@@ -647,7 +628,7 @@
         "min": [
           {
             "level": 1,
-            "conditionIDList": [ ]
+            "conditionIDList": []
           }
         ]
       },
@@ -683,7 +664,6 @@
           "number": 0
         }
       ],
-
       "patternList": [
         {
           "slotList": [
@@ -713,7 +693,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -768,7 +747,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -810,7 +788,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -837,7 +814,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -866,7 +842,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -908,7 +883,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -935,7 +909,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -964,7 +937,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -993,7 +965,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1007,7 +978,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1034,7 +1004,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1063,7 +1032,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -1092,7 +1060,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1132,7 +1099,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1148,7 +1114,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -1177,7 +1142,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1191,7 +1155,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1218,7 +1181,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1260,11 +1222,13 @@
         ]
       }
     },
-
     {
       "id": 800000306,
       "appearance": "8105_AhabAppearance",
-      "associationList": ["N_CORP","N_CORP_FNATIC"],
+      "associationList": [
+        "N_CORP",
+        "N_CORP_FNATIC"
+      ],
       "level": 48,
       "classType": "HE",
       "attributeType": "AMBER",
@@ -1300,7 +1264,7 @@
         "min": [
           {
             "level": 1,
-            "conditionIDList": [ ]
+            "conditionIDList": []
           }
         ]
       },
@@ -1372,7 +1336,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1427,7 +1390,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -1469,7 +1431,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1496,7 +1457,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1525,7 +1485,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -1567,7 +1526,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1594,7 +1552,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1623,7 +1580,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -1652,7 +1608,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1666,7 +1621,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1693,7 +1647,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1722,7 +1675,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -1751,7 +1703,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1791,7 +1742,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1807,7 +1757,6 @@
             }
           ]
         },
-
         {
           "slotList": [
             {
@@ -1836,7 +1785,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1850,7 +1798,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {
@@ -1877,7 +1824,6 @@
                 }
               ]
             },
-
             {
               "skillParentList": [
                 {

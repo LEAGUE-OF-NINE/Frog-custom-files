@@ -10,7 +10,7 @@
             "informationID": -1,
             "attributeType": "NEUTRAL",
             "atkType": "NONE",
-            "defType": "GUARD",
+            "defType": "",
             "skillMotion": "Default",
             "viewType": "BATTLE",
             "parryingCloseType": "NEAR",
@@ -84,9 +84,9 @@
             "iconID": "1010904_4",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "SCARLET",
+            "attributeType": "",
             "atkType": "ERROR",
-            "defType": "NONE",
+            "defType": "",
             "skillMotion": "Empty",
             "viewType": "NONE",
             "parryingCloseType": "NONE",
@@ -146,5 +146,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

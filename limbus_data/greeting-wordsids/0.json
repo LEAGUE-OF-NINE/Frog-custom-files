@@ -709,6 +709,51 @@
       "id": 158,
       "condition": "GetPersonality",
       "conditionRefId": 11010
+    },
+    {
+      "id": 159,
+      "condition": "GetPersonality",
+      "conditionRefId": 11111
+    },
+    {
+      "id": 160,
+      "condition": "GetPersonality",
+      "conditionRefId": 10610
+    },
+    {
+      "id": 161,
+      "condition": "GetEGO",
+      "conditionRefId": 20207
+    },
+    {
+      "id": 162,
+      "condition": "GetEGO",
+      "conditionRefId": 20607
+    },
+    {
+      "id": 163,
+      "condition": "GetEGO",
+      "conditionRefId": 20307
+    },
+    {
+      "id": 164,
+      "condition": "GetEGO",
+      "conditionRefId": 20507
+    },
+    {
+      "id": 165,
+      "condition": "GetEGO",
+      "conditionRefId": 20907
+    },
+    {
+      "id": 166,
+      "condition": "GetEGO",
+      "conditionRefId": 21007
+    },
+    {
+      "id": 167,
+      "condition": "GetPersonality",
+      "conditionRefId": 11210
     }
   ]
 }

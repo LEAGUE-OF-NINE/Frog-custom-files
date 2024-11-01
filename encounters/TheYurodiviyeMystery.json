@@ -88,12 +88,19 @@
                 {
                     "unitID": 8344,
                     "unitLevel": 44,
-                    "unitCount": 2,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 8345,
+                    "unitLevel": 44,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8344,
                     "unitLevel": 44,
                     "unitCount": 1,
                     "unitSyncLevel": 1,

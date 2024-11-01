@@ -1,0 +1,143 @@
+{
+  "list": [
+    {
+      "id": 11135,
+      "appearance": "11105_Outis_OlgaAppearance",
+      "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+      ],
+      "associationList": [
+        "MOLAR"
+      ],
+      "characterId": 11,
+      "panicType": 9999,
+      "season": 2,
+      "additionalAttachment": "EVENT",
+      "defenseSkillIDList": [
+        11105004
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 68,
+        "incrementByLevel": 2.39
+      },
+      "defCorrection": -3,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 1,
+            "passiveIdList": [
+              1110501,
+              1100701
+            ]
+          },
+          {
+            "level": 2,
+            "passiveIdList": [
+              1110501,
+              1100701
+            ]
+          },
+          {
+            "level": 4,
+            "passiveIdList": [
+              1110501,
+              1100701
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": [
+              1110521
+            ]
+          }
+        ]
+      },
+      "uniqueAttribute": "AMBER",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35,
+          15
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 11105001,
+          "number": 3
+        },
+        {
+          "skillId": 11105002,
+          "number": 2
+        },
+        {
+          "skillId": 11105003,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}

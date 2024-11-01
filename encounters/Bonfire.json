@@ -33,7 +33,9 @@
     "attackType": "",
     "abnormalityEventList": [],
     "stageScriptList": [
-        "Whistle_3"
+        "Whistle_3",
+        "Refill",
+        "SubUnitDefaultSlotAdder"
     ],
     "eventScriptName": "",
     "participantInfo": {
@@ -70,22 +72,7 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp3_Ally_2",
-                "Battle_Cp3_Enemy_2"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 17
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+            "subUnitList": [
                 {
                     "unitID": 90034,
                     "unitLevel": 25,
@@ -120,21 +107,7 @@
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
-                }
-            ],
-            "subUnitList": [],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [],
-            "allyPositionID": 1,
-            "enemyPositionID": 18
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "",
-                "mapSize": -1.0
-            },
-            "unitList": [
+                },
                 {
                     "unitID": 90037,
                     "unitLevel": 25,
@@ -164,10 +137,12 @@
                     "isHide": false
                 }
             ],
-            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
-            "bgmList": [],
+            "bgmList": [
+                "Battle_Cp3_Ally_2",
+                "Battle_Cp3_Enemy_2"
+            ],
             "allyPositionID": 1,
             "enemyPositionID": 18
         }

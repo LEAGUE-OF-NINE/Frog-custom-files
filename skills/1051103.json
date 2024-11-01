@@ -8,12 +8,12 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "AZURE",
+            "atkType": "PENETRATE",
+            "defType": "ATTACK",
+            "skillMotion": "S3",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NEAR",
             "canDuel": "true",
             "canChangeTarget": "true",
             "targetNum": 1,
@@ -141,7 +141,7 @@
             "skillLevelCorrection": 3,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "FRONT",
             "canTeamKill": "false",
             "coinList": [
                 {
@@ -341,12 +341,12 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
-            "defType": "",
-            "skillMotion": "",
-            "viewType": "",
-            "parryingCloseType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
+            "defType": "NONE",
+            "skillMotion": "Empty",
+            "viewType": "NONE",
+            "parryingCloseType": "NONE",
             "canDuel": "",
             "canChangeTarget": "",
             "targetNum": -1,
@@ -394,7 +394,7 @@
                 {
                     "scriptName": "10511baseNoUseTurn",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Burst",
                         "target": "",
                         "buffOwner": "Target",
                         "stack": 15,
@@ -433,7 +433,7 @@
                 {
                     "scriptName": "1051103OnWinDuel",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Breath",
                         "target": "Self",
                         "buffOwner": "",
                         "stack": 5,
@@ -474,12 +474,12 @@
             "skillLevelCorrection": 2147483647,
             "range": -1.0,
             "arearange": -1.0,
-            "skillTargetType": "",
+            "skillTargetType": "NONE",
             "canTeamKill": "",
             "coinList": [
                 {
-                    "operatorType": "",
-                    "color": "",
+                    "operatorType": "ADD",
+                    "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
@@ -528,8 +528,8 @@
                     "cutsceneStart": false
                 },
                 {
-                    "operatorType": "",
-                    "color": "",
+                    "operatorType": "ADD",
+                    "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
@@ -578,8 +578,8 @@
                     "cutsceneStart": false
                 },
                 {
-                    "operatorType": "",
-                    "color": "",
+                    "operatorType": "ADD",
+                    "color": "GOLD",
                     "grade": 1,
                     "abilityScriptList": [
                         {
@@ -663,7 +663,7 @@
                         {
                             "scriptName": "CriticalDmgUpByRatioViaBuffCheckDevideByStack",
                             "buffData": {
-                                "buffKeyword": "",
+                                "buffKeyword": "Burst",
                                 "target": "",
                                 "buffOwner": "Target",
                                 "stack": 1,
@@ -751,5 +751,6 @@
     "requireIDList": [
         "CheckAwakenLevel3"
     ],
-    "skillType": ""
+    "skillTagList": [],
+    "skillType": "SKILL"
 }

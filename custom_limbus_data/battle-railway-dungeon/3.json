@@ -1,0 +1,498 @@
+{
+  "list": [
+    {
+      "id": 4001,
+      "stageLevel": 45,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 6,
+        "max": 6
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Cp5_LimbusBoat_Storm",
+            "mapSize": 28
+          },
+          "unitList": [
+            {
+              "unitID": 8586,
+              "unitCount": 6,
+              "unitLevel": 45
+            }
+          ],
+          "enemyPositionID": 50,
+          "allyPositionID": 51,
+          "bgmList": [
+            "Battle_TGS_Ally_1"
+          ]
+        },
+        {
+          "unitList": [
+            {
+              "unitID": 8586,
+              "unitCount": 2,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8587,
+              "unitCount": 2,
+              "unitLevel": 45
+            }
+          ],
+          "enemyPositionID": 50,
+          "allyPositionID": 51
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Ab_Grampus",
+            "mapSize": 33.3
+          },
+          "unitList": [
+            {
+              "unitID": 8575,
+              "unitCount": 1,
+              "unitLevel": 45
+            }
+          ],
+          "subUnitList": [
+            {
+              "unitID": 8576,
+              "unitCount": 1,
+              "unitLevel": 40
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_Ally_1",
+            "Battle_Cp5_Enemy_2"
+          ],
+          "enemyPositionID": 55,
+          "allyPositionID": 48
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Ab_BloodyGossypium",
+            "mapSize": 33.3
+          },
+          "unitList": [
+            {
+              "unitID": 8578,
+              "unitCount": 1,
+              "unitLevel": 47
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_Ally_2",
+            "Battle_Cp5_Enemy_3"
+          ],
+          "enemyPositionID": 13
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "LimbusBoat_Default",
+        "8575",
+        "AbnormalityEvent"
+      ],
+      "eventScriptName": [
+        "8102",
+        "8578"
+      ],
+      "abnormalityEventList": [
+        810201,
+        857801
+      ]
+    },
+    {
+      "id": 4003,
+      "stageLevel": 48,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 6,
+        "max": 6
+      },
+      "waveList": [
+        {
+          "battleMapInfo": {
+            "mapName": "Ab_WalkingPearl"
+          },
+          "unitList": [
+            {
+              "unitID": 8573,
+              "unitCount": 1,
+              "unitLevel": 48
+            }
+          ],
+          "subUnitList": [
+            {
+              "unitID": 8241,
+              "unitCount": 1,
+              "unitLevel": 40
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_Ally_4",
+            "Battle_Cp5_Enemy_5"
+          ],
+          "enemyPositionID": 52
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Ab_SkinProphet",
+            "mapSize": 33.3
+          },
+          "unitList": [
+            {
+              "unitID": 8571,
+              "unitCount": 1,
+              "unitLevel": 49
+            },
+            {
+              "unitID": 8572,
+              "unitCount": 5,
+              "unitLevel": 49
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_Ally_3",
+            "Battle_Cp5_Enemy_4"
+          ],
+          "enemyPositionID": 53
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Ab_FireMoth",
+            "mapSize": 33.3
+          },
+          "unitList": [
+            {
+              "unitID": 8577,
+              "unitCount": 1,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_Ally_4",
+            "Battle_Cp5_Enemy_5"
+          ],
+          "allyPositionID": 48,
+          "enemyPositionID": 13
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "8137"
+      ],
+      "eventScriptName": "8101",
+      "abnormalityEventList": [
+        810101
+      ]
+    },
+    {
+      "id": 4005,
+      "stageLevel": 50,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 6,
+        "max": 6
+      },
+      "battleCameraInfo": {
+        "defaultPosX": 0,
+        "defaultPosY": 0,
+        "defaultPosZ": 10
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "LCorpCenter"
+          },
+          "unitList": [
+            {
+              "unitID": 8311,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8304,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8306,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8310,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8312,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8309,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            }
+          ],
+          "supportUnitList": [
+            {
+              "unitID": 8314,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8308,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8305,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8307,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8315,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8313,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp1_Ally_3",
+            "Battle_Cp1_Enemy_3"
+          ]
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Ab_ElectricSheep"
+          },
+          "unitList": [
+            {
+              "unitID": 8608,
+              "unitCount": 1,
+              "unitLevel": 50
+            }
+          ],
+          "subUnitList": [
+            {
+              "unitID": 8628,
+              "unitCount": 1,
+              "unitLevel": 50,
+              "isHide": true
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp6_Enemy_6"
+          ],
+          "enemyPositionID": 86
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "8608"
+      ],
+      "eventScriptName": "8608",
+      "abnormalityEventList": [
+        860801
+      ]
+    },
+    {
+      "id": 4007,
+      "stageLevel": 50,
+      "stageType": "Abnormality",
+      "isBatonPassOn": true,
+      "participantInfo": {
+        "min": 6,
+        "max": 6
+      },
+      "waveList": [
+        {
+          "isBatonPassOn": true,
+          "battleMapInfo": {
+            "mapName": "Ab_TiedKing"
+          },
+          "unitList": [
+            {
+              "unitID": 8316,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8317,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8318,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8319,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8320,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8321,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            }
+          ],
+          "allyPositionID": 89,
+          "enemyPositionID": 90,
+          "supportUnitList": [
+            {
+              "unitID": 8322,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8323,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8324,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8325,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8326,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            },
+            {
+              "unitID": 8327,
+              "unitCount": 1,
+              "unitSyncLevel": 4,
+              "unitLevel": 45
+            }
+          ],
+          "bgmList": [
+            "Battle_Audite_pauper",
+            "Battle_Vovete_miserias"
+          ]
+        },
+        {
+          "unitList": [
+            {
+              "unitID": 8629,
+              "unitCount": 1,
+              "unitLevel": 50
+            }
+          ],
+          "allyPositionID": 89,
+          "enemyPositionID": 91
+        }
+      ],
+      "staminaCost": 0,
+      "recommendedLevel": 45,
+      "turnLimit": 99,
+      "questlist": [
+        {
+          "args": [
+            "10"
+          ],
+          "localizeId": 1
+        }
+      ],
+      "rewardList": [],
+      "dangerLevel": 0,
+      "stageScriptList": [
+        "8629"
+      ],
+      "eventScriptName": "8629",
+      "abnormalityEventList": [
+        862901,
+        862902,
+        862903
+      ]
+    }
+  ]
+}

@@ -52,14 +52,14 @@
             "unitList": [
                 {
                     "unitID": 8097,
-                    "unitLevel": 40,
+                    "unitLevel": 50,
                     "unitCount": 2,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 8098,
-                    "unitLevel": 40,
+                    "unitLevel": 50,
                     "unitCount": 3,
                     "unitSyncLevel": 1,
                     "isHide": false
@@ -82,14 +82,14 @@
             "unitList": [
                 {
                     "unitID": 8097,
-                    "unitLevel": 40,
+                    "unitLevel": 50,
                     "unitCount": 3,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 8098,
-                    "unitLevel": 40,
+                    "unitLevel": 50,
                     "unitCount": 2,
                     "unitSyncLevel": 1,
                     "isHide": false
@@ -110,21 +110,21 @@
             "unitList": [
                 {
                     "unitID": 8099,
-                    "unitLevel": 60,
+                    "unitLevel": 90,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 8097,
-                    "unitLevel": 40,
+                    "unitLevel": 50,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 8098,
-                    "unitLevel": 40,
+                    "unitLevel": 50,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
@@ -133,14 +133,14 @@
             "subUnitList": [
                 {
                     "unitID": 8097,
-                    "unitLevel": 40,
+                    "unitLevel": 50,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
                     "unitID": 8098,
-                    "unitLevel": 40,
+                    "unitLevel": 50,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false

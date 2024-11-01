@@ -1,0 +1,129 @@
+{
+    "id": 10610,
+    "unitScriptID": "",
+    "viewid": 10610,
+    "deadsceneid": -1,
+    "sdPortrait": "",
+    "appearance": "10610_Honglu_BloodfiendHunterAppearance",
+    "panicSkillOnErosion": 1000104,
+    "mp": 45,
+    "hp": {
+        "defaultStat": 73,
+        "incrementByLevel": 2.509999990463257
+    },
+    "defCorrection": 0,
+    "aggro": 1,
+    "panicType": 9999,
+    "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+    ],
+    "maxSpeedList": [
+        5,
+        6,
+        6,
+        6
+    ],
+    "defenseSkillIDList": [
+        1061004
+    ],
+    "mentalConditionInfo": {
+        "add": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+                    },
+                    {
+                        "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+                    }
+                ]
+            }
+        ],
+        "min": [
+            {
+                "level": 1,
+                "conditionIDList": [
+                    {
+                        "conditionID": "OnDieAllyAsLevelRatio10"
+                    }
+                ]
+            }
+        ]
+    },
+    "showUnitLevel": true,
+    "showAtkLevel": true,
+    "showDefLevel": true,
+    "showHp": true,
+    "slotWeightConditionList": [
+        "Default1"
+    ],
+    "breakSection": {
+        "sectionList": [
+            70,
+            40,
+            20
+        ]
+    },
+    "resistInfo": {
+        "atkResistList": [
+            {
+                "type": "SLASH",
+                "value": 2.0
+            },
+            {
+                "type": "PENETRATE",
+                "value": 0.5
+            },
+            {
+                "type": "HIT",
+                "value": 1.0
+            }
+        ],
+        "attributeResistList": []
+    },
+    "passiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "attributeList": [
+        {
+            "number": 3,
+            "skillId": 1061001
+        },
+        {
+            "number": 2,
+            "skillId": 1061002
+        },
+        {
+            "number": 1,
+            "skillId": 1061003
+        }
+    ],
+    "initBuffList": [],
+    "associationList": [
+        "FANG_HUNT"
+    ],
+    "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+    ],
+    "characterId": 6,
+    "season": 5,
+    "isPlusCoinUnit": true,
+    "additionalAttachment": "",
+    "promotionId": 0,
+    "rank": 2,
+    "uniqueAttribute": "SHAMROCK",
+    "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+    },
+    "walpurgisType": ""
+}

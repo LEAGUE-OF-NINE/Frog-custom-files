@@ -14,7 +14,7 @@
             "skillMotion": "S2",
             "viewType": "BATTLE",
             "parryingCloseType": "NEAR",
-            "canDuel": "true",
+            "canDuel": "false",
             "canChangeTarget": "true",
             "targetNum": 1,
             "defaultValue": 4,
@@ -120,5 +120,6 @@
         }
     ],
     "requireIDList": [],
+    "skillTagList": [],
     "skillType": "SKILL"
 }

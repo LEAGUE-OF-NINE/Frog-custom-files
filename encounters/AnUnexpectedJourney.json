@@ -34,9 +34,7 @@
     "attributeType": "NONE",
     "attackType": "",
     "abnormalityEventList": [],
-    "stageScriptList": [
-        "Normal"
-    ],
+    "stageScriptList": [],
     "eventScriptName": "",
     "participantInfo": {
         "min": 2,
@@ -83,7 +81,14 @@
                 {
                     "unitID": 90101,
                     "unitLevel": 40,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90101,
+                    "unitLevel": 40,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },
@@ -111,7 +116,14 @@
                 {
                     "unitID": 90101,
                     "unitLevel": 40,
-                    "unitCount": 2,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 90101,
+                    "unitLevel": 40,
+                    "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 },

@@ -53,5 +53,7 @@
   "WhenUseEvade": {"a":0,"id":"WhenUseEvade","name":"[On Evade Use]"},
   "EndCoin": {"a":0,"id":"EndCoin","name":"[After Current Coin Attack]"},
   "CriticalEnemyTargetKillFail": {"a":0,"id":"CriticalEnemyTargetKillFail","name":"[On Crit Kill Fail Against Enemy]"},
-  "CriticalEnemyTargetKill": {"a":0,"id":"CriticalEnemyTargetKill","name":"[On Crit Kill Against Enemy]"}
+  "CriticalEnemyTargetKill": {"a":0,"id":"CriticalEnemyTargetKill","name":"[On Crit Kill Against Enemy]"},
+  "DefeatDuelAttack": {"a":0,"id":"DefeatDuelAttack","name":"[Hit after Clash Lose]"},
+  "TargetKillFail": {"a":0,"id":"TargetKillFail","name":"[On Target Kill Fail]"}
 }
