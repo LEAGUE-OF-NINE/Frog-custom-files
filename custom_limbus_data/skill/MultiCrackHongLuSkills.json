@@ -2,13 +2,13 @@
   "list": [
     {
       "id": 10060701,
-      "textID": 10060701,	 
+      "textID": 10060701,
       "skillType": "SKILL",
       "skillTier": 1,
       "requireIDList": [],
       "skillData": [
         {
-          "iconID": 1060701,			
+          "iconID": 1060701,
           "gaksungLevel": 1,
           "attributeType": "SHAMROCK",
           "atkType": "PENETRATE",
@@ -24,8 +24,7 @@
           "skillMotion": "S1",
           "viewType": "BATTLE",
           "parryingCloseType": "NEAR",
-          "abilityScriptList": [
-          ],
+          "abilityScriptList": [],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -63,8 +62,7 @@
         },
         {
           "gaksungLevel": 2,
-          "abilityScriptList": [
-          ],
+          "abilityScriptList": [],
           "coinList": [
             {
               "operatorType": "ADD",
@@ -192,10 +190,9 @@
         }
       ]
     },
-
     {
       "id": 10060702,
-      "textID": 10060702,	 
+      "textID": 10060702,
       "skillType": "SKILL",
       "skillTier": 2,
       "requireIDList": [],
@@ -471,7 +468,7 @@
                     "stack": 0,
                     "turn": -1,
                     "activeRound": 0,
-                    "value": 4
+                    "value": 6
                   }
                 },
                 {
@@ -492,10 +489,9 @@
         }
       ]
     },
-
     {
       "id": 10060703,
-      "textID": 10060703,	 
+      "textID": 10060703,
       "skillType": "SKILL",
       "skillTier": 3,
       "requireIDList": [
@@ -518,74 +514,7 @@
           "canChangeTarget": true,
           "skillMotion": "S3",
           "viewType": "ENCOUNTER",
-          "parryingCloseType": "NEAR",
-          "abilityScriptList": [
-            {
-              "scriptName": "CoinScaleAdder1IfSpeedNotLessThan8"
-            },
-            {
-              "scriptName": "AttackDmgMultiplierByTargetLostHpRatio30Max30"
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 2,
-              "abilityScriptList": [
-                {
-                  "scriptName": "HealMpOnSucceedAttackHeadSelfViaBuffCheckDevideByStackWithLimit5",
-                  "buffData": {
-                    "buffKeyword": "Laceration",
-                    "target": "",
-                    "buffOwner": "Target",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0,
-                    "value": 1
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 2
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 2,
-              "cutsceneStart": true,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Laceration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 2,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackHead",
-                  "buffData": {
-                    "buffKeyword": "Laceration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
+          "parryingCloseType": "NEAR"
         },
         {
           "gaksungLevel": 4,
@@ -713,6 +642,19 @@
                     "value": 0.33,
                     "limit": 3
                   }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackMultipliedByValue_Charge",
+                  "buffData": {
+                    "buffKeyword": "VioletTakeDamageUp",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 0.5,
+                    "limit": 4
+                  }
                 }
               ]
             }
@@ -720,7 +662,6 @@
         }
       ]
     },
-    
     {
       "id": 10060704,
       "skillType": "SKILL",

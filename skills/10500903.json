@@ -116,95 +116,6 @@
                                 "buffKeyword": "Burst",
                                 "target": "Target",
                                 "buffOwner": "",
-                                "stack": 1,
-                                "turn": 0,
-                                "activeRound": 0,
-                                "value": 0.0,
-                                "limit": 0
-                            },
-                            "conditionalData": {
-                                "category": "",
-                                "value": "",
-                                "conditionBuffData": {
-                                    "buffKeyword": "",
-                                    "target": "",
-                                    "buffOwner": "",
-                                    "stack": 0,
-                                    "turn": 0,
-                                    "activeRound": 0,
-                                    "value": 0.0,
-                                    "limit": 0
-                                },
-                                "type": "",
-                                "resultValue": "",
-                                "resultBuffData": {
-                                    "buffKeyword": "",
-                                    "target": "",
-                                    "buffOwner": "",
-                                    "stack": 0,
-                                    "turn": 0,
-                                    "activeRound": 0,
-                                    "value": 0.0,
-                                    "limit": 0
-                                }
-                            }
-                        },
-                        {
-                            "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Burst4",
-                            "buffData": {
-                                "buffKeyword": "AttackDown",
-                                "target": "Target",
-                                "buffOwner": "Target",
-                                "stack": 2,
-                                "turn": 0,
-                                "activeRound": 1,
-                                "value": 0.0,
-                                "limit": 0
-                            },
-                            "conditionalData": {
-                                "category": "",
-                                "value": "",
-                                "conditionBuffData": {
-                                    "buffKeyword": "",
-                                    "target": "",
-                                    "buffOwner": "",
-                                    "stack": 0,
-                                    "turn": 0,
-                                    "activeRound": 0,
-                                    "value": 0.0,
-                                    "limit": 0
-                                },
-                                "type": "",
-                                "resultValue": "",
-                                "resultBuffData": {
-                                    "buffKeyword": "",
-                                    "target": "",
-                                    "buffOwner": "",
-                                    "stack": 0,
-                                    "turn": 0,
-                                    "activeRound": 0,
-                                    "value": 0.0,
-                                    "limit": 0
-                                }
-                            }
-                        }
-                    ],
-                    "scale": 3,
-                    "prob": 0.5,
-                    "actionIndex": -1,
-                    "cutsceneStart": false
-                },
-                {
-                    "operatorType": "ADD",
-                    "color": "GOLD",
-                    "grade": 1,
-                    "abilityScriptList": [
-                        {
-                            "scriptName": "GiveBuffOnSucceedAttackHead",
-                            "buffData": {
-                                "buffKeyword": "Burst",
-                                "target": "Target",
-                                "buffOwner": "",
                                 "stack": 0,
                                 "turn": 4,
                                 "activeRound": 0,
@@ -289,7 +200,7 @@
                     "grade": 1,
                     "abilityScriptList": [
                         {
-                            "scriptName": "GiveBuffOnSucceedAttackHead",
+                            "scriptName": "GiveBuffOnSucceedAttack",
                             "buffData": {
                                 "buffKeyword": "Burst",
                                 "target": "Target",
@@ -328,7 +239,7 @@
                             }
                         },
                         {
-                            "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Burst6",
+                            "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Burst4",
                             "buffData": {
                                 "buffKeyword": "AttackDown",
                                 "target": "Target",
@@ -383,8 +294,97 @@
                                 "buffKeyword": "Burst",
                                 "target": "Target",
                                 "buffOwner": "",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Burst6",
+                            "buffData": {
+                                "buffKeyword": "AttackDown",
+                                "target": "Target",
+                                "buffOwner": "Target",
+                                "stack": 3,
+                                "turn": 0,
+                                "activeRound": 1,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 3,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                },
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "Burst",
+                                "target": "Target",
+                                "buffOwner": "",
                                 "stack": 0,
-                                "turn": 1,
+                                "turn": 2,
                                 "activeRound": 0,
                                 "value": 0.0,
                                 "limit": 0
@@ -561,7 +561,7 @@
                 {
                     "scriptName": "10910baseBlockOnlyLose",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Burst",
                         "target": "",
                         "buffOwner": "Target",
                         "stack": 10,
@@ -606,6 +606,45 @@
                         "stack": 3,
                         "turn": 0,
                         "activeRound": 1,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "AttackDmgMultiplierByTargetLostHpRatio100Max150",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
                         "value": 0.0,
                         "limit": 0
                     },

@@ -258,7 +258,7 @@
             "skillLevelCorrection": 5,
             "range": -1.0,
             "arearange": 1.0,
-            "skillTargetType": "RANDOM",
+            "skillTargetType": "FRONT",
             "canTeamKill": "false",
             "coinList": [
                 {

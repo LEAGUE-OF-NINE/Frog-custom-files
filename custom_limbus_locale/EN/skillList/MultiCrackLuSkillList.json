@@ -1,16 +1,241 @@
 {
-  "10060703": {"a":0,"id":"10060703","levelList":[{"level":1,"desc":"[WhenUse] Gain 1 Haste next turn","name":"Photoelectric Rampage","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 2)","summary":""}]}]},{"level":2,"desc":"[WhenUse] Gain 2 Haste next turn","name":"Goin' First","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 3)","summary":""}]}]},{"level":4,"desc":"At 6+ Speed, Coin Power +1\nCoin Power +1 for every 3 Charge on self (max 2)\nDeal more damage based on target's missing HP (+0.5% damage per 1% missing HP)","name":"Photoelectric RaSPage","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed\n[OnSucceedAttack] Gain +7 [Charge] Count","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed\n[OnSucceedAttack] Gain +([Charge] x 3) [Charge] Count (max 9)","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 2 Bleed\n[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp] for every 3 [Charge] (max 3)","summary":""}]}]}]},
-  "10060702": {"a":0,"id":"10060702","levelList":[{"level":1,"desc":"[WhenUse] Gain 1 Haste next turn","name":"Chargin' First","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 2)","summary":""}]}]},{"level":2,"desc":"[WhenUse] Gain 2 Haste next turn","name":"Goin' First","rawDesc":"","abName":"","coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""}]},{"coindescs":[{"desc":"[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 3)","summary":""}]}]},
-  {"level":4,"desc":"At 6+ Speed, Coin Power +1\n[WhenUse] Gain 2 Haste next turn\n[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power <style=\"highlight\">+2</style>",
-  "name":"Chargin' First","rawDesc":"","abName":"",
-  "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed\n[OnSucceedAttack] If this unit consumed [Charge] Count, inflict 2 [Laceration]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed\n[OnSucceedAttack] If this unit consumed [Charge] Count, inflict 2 [Laceration]","summary":""}]},
-  {"coindescs":[{"desc":"[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 4)\n[OnSucceedAttack] Inflict [Laceration] equal to [Charge] (max 3)<style=\"highlight\"></style>","summary":""}]}]}]},
-  
-  "10060701": {"a":0,"id":"10060701","levelList":[{"level":1,"desc":"","name":"Electric Track","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[{"desc":"[OnSucceedAttackHead] Inflict 1 Bleed","summary":""},{"desc":"[OnSucceedAttackHead] Inflict +1 Bleed Count","summary":""}]}]},{"level":2,"desc":"","name":"Track","rawDesc":"","abName":"","coinlist":[{"coindescs":[]},{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 Bleed","summary":""},{"desc":"[OnSucceedAttackHead] Inflict +1 Bleed Count","summary":""}]}]},
-  {"level":4,"desc":"At 2+ Haste, Final Power +1\n[WhenUse] Consume 5 Charge Count to gain  Coin Power +2","name":"Electric Track","rawDesc":"","abName":"",
-    "coinlist":[{"coindescs":[{"desc":"[OnSucceedAttack] Inflict 2 Bleed","summary":""}]},
-    {"coindescs":[{"desc":"[OnSucceedAttack] Inflict 1 Bleed","summary":""},
-    {"desc":"[OnSucceedAttackHead] Inflict +1 Bleed Count","summary":""},
-    {"desc":"[OnSucceedAttack] Gain +4 Charge Count","summary":""}]}]}]}
+  "10060703": {
+    "a": 0,
+    "id": "10060703",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Gain 1 Haste next turn",
+        "name": "Photoelectric Rampage",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 2)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] Gain 2 Haste next turn",
+        "name": "Goin' First",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 3)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "At 6+ Speed, Coin Power +1\nCoin Power +1 for every 3 Charge on self (max 2)\nDeal more damage based on target's missing HP (+0.5% damage per 1% missing HP)",
+        "name": "Photoelectric Rampage",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed\n[OnSucceedAttack] Gain +7 [Charge] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed\n[OnSucceedAttack] Gain +([Charge] x 3) [Charge] Count (max 9)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Bleed\n[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp] for every 2 [Charge] (max 4)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10060702": {
+    "a": 0,
+    "id": "10060702",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "At 6+ Speed, Coin Power +1\n[WhenUse] Gain 2 Haste next turn\n[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power <style=\"highlight\">+2</style>",
+        "name": "Chargin' First",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed\n[OnSucceedAttack] If this unit consumed [Charge] Count, inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed\n[OnSucceedAttack] If this unit consumed [Charge] Count, inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 6)\n[OnSucceedAttack] Inflict [Laceration] equal to [Charge] (max 3)<style=\"highlight\"></style>",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10060701": {
+    "a": 0,
+    "id": "10060701",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Electric Track",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "",
+        "name": "Track",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "At 2+ Haste, Final Power +1\n[WhenUse] Consume 5 Charge Count to gain  Coin Power +2",
+        "name": "Electric Track",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +1 Bleed Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain +4 Charge Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

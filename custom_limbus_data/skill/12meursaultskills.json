@@ -781,6 +781,17 @@
                     "turn": 0,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "DamageFirstBreakSectionOnSuccessAttackViaBuffStack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "buffOwner": "Target",
+                    "target": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "value": 10
+                  }
                 }
               ]
             }
@@ -831,7 +842,7 @@
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 48,
+              "scale": 4,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -839,16 +850,19 @@
                     "buffKeyword": "Vibration",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 12,
+                    "stack": 1,
                     "turn": 0,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "RerollOnSAHUpto9"
                 }
               ]
             },
             {
               "operatorType": "ADD",
-              "scale": 48,
+              "scale": 4,
               "abilityScriptList": [
                 {
                   "scriptName": "GiveBuffOnSucceedAttack",
@@ -856,9 +870,22 @@
                     "buffKeyword": "Vibration",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 12,
+                    "stack": 1,
                     "turn": 0,
                     "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "RerollOnSAHUpto9"
+                },
+                {
+                  "scriptName": "DamageFirstBreakSectionOnSuccessAttackViaBuffStack",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "buffOwner": "Target",
+                    "target": "",
+                    "stack": 0.2,
+                    "turn": 0
                   }
                 }
               ]

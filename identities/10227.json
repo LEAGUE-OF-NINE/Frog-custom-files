@@ -13,7 +13,7 @@
     },
     "defCorrection": 1,
     "aggro": 1,
-    "panicType": 1004,
+    "panicType": 1027,
     "minSpeedList": [
         2,
         2,
@@ -124,7 +124,7 @@
     ],
     "characterId": 2,
     "season": 9101,
-    "isPlusCoinUnit": true,
+    "isPlusCoinUnit": false,
     "additionalAttachment": "",
     "promotionId": 0,
     "rank": 3,

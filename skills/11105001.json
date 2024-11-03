@@ -8,8 +8,8 @@
             "iconID": "1110501",
             "gaksungLevel": 1,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
+            "attributeType": "AZURE",
+            "atkType": "SLASH",
             "defType": "ATTACK",
             "skillMotion": "S1",
             "viewType": "BATTLE",
@@ -60,7 +60,7 @@
                 }
             ],
             "mpUsage": 0,
-            "skillLevelCorrection": 1,
+            "skillLevelCorrection": 4,
             "range": -1.0,
             "arearange": -1.0,
             "skillTargetType": "FRONT",
@@ -124,8 +124,8 @@
             "iconID": "",
             "gaksungLevel": 2,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
             "defType": "NONE",
             "skillMotion": "Empty",
             "viewType": "NONE",
@@ -318,8 +318,8 @@
             "iconID": "",
             "gaksungLevel": 3,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
             "defType": "NONE",
             "skillMotion": "Empty",
             "viewType": "NONE",
@@ -512,8 +512,8 @@
             "iconID": "",
             "gaksungLevel": 4,
             "informationID": -1,
-            "attributeType": "",
-            "atkType": "",
+            "attributeType": "NONE",
+            "atkType": "ERROR",
             "defType": "NONE",
             "skillMotion": "Empty",
             "viewType": "NONE",
@@ -732,7 +732,46 @@
                             }
                         },
                         {
-                            "scriptName": "RerollOnSAHUpto1",
+                            "scriptName": "RerollOnSAHUpto2",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "VibrationExplosionOnSucceedAttackHeadThenLoseTargetVibrationTurn1",
                             "buffData": {
                                 "buffKeyword": "",
                                 "target": "",

@@ -13198,7 +13198,7 @@
     "levelList": [
       {
         "level": 1,
-        "desc": "[WhenUse] At 15+ shield, gain +2 Poise Count",
+        "desc": "[WhenUse] At 15+ Shield, gain +2 Poise Count",
         "name": "Focused Defense",
         "rawDesc": "",
         "abName": "",
@@ -13210,7 +13210,7 @@
       },
       {
         "level": 2,
-        "desc": "[WhenUse] At 15+ shield, gain +2 Poise Count",
+        "desc": "[WhenUse] At 15+ Shield, gain +2 Poise Count",
         "name": "Focused Defense",
         "rawDesc": "",
         "abName": "",
@@ -13230,7 +13230,7 @@
       },
       {
         "level": 4,
-        "desc": "[WhenUse] At 15+ shield, gain +2 Poise Count\n[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[WhenUse] Gain +2 Poise Count",
+        "desc": "[WhenUse] At 15+ Shield, gain +2 Poise Count\n[WhenUse] Gain +4 Aggro to this Skill Slot next turn\n[WhenUse] Gain +2 Poise Count",
         "name": "Focused Defense",
         "rawDesc": "",
         "abName": "",
@@ -31079,6 +31079,320 @@
         "coinlist": [
           {
             "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "1121001": {
+    "a": 0,
+    "id": "1121001",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 10 [Laceration]\n- At 50%+ HP, gain +15 additional [Laceration]",
+        "name": "Sacrifice for the Family",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [BloodyHandGregFirst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] If the target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain 10 [Laceration]\n- At 50%+ HP, gain 15 additional [Laceration]",
+        "name": "Sacrifice for the Family",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]<style=\"highlight\"></style>",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [BloodyHandGregFirst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on the target (max 2)</style>\n[WhenUse] Gain 10 [Laceration]\n- At 50%+ HP, gain 15 additional [Laceration]",
+        "name": "Sacrifice for the Family",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain <style=\"highlight\">3</style> [BloodyHandGregFirst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1121002": {
+    "a": 0,
+    "id": "1121002",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 10 [Laceration]\n[WhenUse] At 5+ [WornHeartGreg], consume up to 60 [BloodDinner]; then, gain 1 [BloodyHandGregFirst] for every 6 [BloodDinner] consumed\n- At less than 5 [WornHeartGreg], gain 10 [Laceration] and 2 [BloodyHandGregFirst]",
+        "name": "Suffocating Guilt",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [BloodyHandGregFirst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] If the target has 6+ [Laceration], Coin Power +1</style>\n[WhenUse] Gain 10 [Laceration]\n[WhenUse] At 5+ [WornHeartGreg], consume up to 60 [BloodDinner]; then, gain 1 [BloodyHandGregFirst] for every 6 [BloodDinner] consumed\n- At less than 5 [WornHeartGreg], gain 10 [Laceration] and 2 [BloodyHandGregFirst]",
+        "name": "Suffocating Guilt",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain <style=\"highlight\">2</style> [BloodyHandGregFirst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 [Laceration] on the target (max 2)</style>\n[WhenUse] Gain 10 [Laceration]\n[WhenUse] At 5+ [WornHeartGreg], consume up to 60 [BloodDinner]; then, gain 1 [BloodyHandGregFirst] for every 6 [BloodDinner] consumed\n- At less than 5 [WornHeartGreg], gain 10 [Laceration] and 3 [BloodyHandGregFirst]",
+        "name": "Suffocating Guilt",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count<style=\"highlight\"></style>",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]<style=\"highlight\"></style>",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain <style=\"highlight\">3</style> [BloodyHandGregFirst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1121003": {
+    "a": 0,
+    "id": "1121003",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 100 per Skill)\n[WhenUse] Deal +1% more damage for every 1% missing HP on self (max 60%)\n[WhenUse] If the target has 6+ [Laceration], Coin Power +1\n[WhenUse] Consume every excess Stack of [BloodyHandGregFirst] past 10 Stack to gain the following effects:\n- Heal (Stacks consumed x 3) HP on self\n- If this unit consumed 10+ Stack, Coin Power +1\n[WhenUse] Gain 10 [Laceration]\n[EndSkill] Heal 10% HP on self",
+        "name": "The Unforgivable Sin",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [BloodyHandGregFirst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 100 per Skill)\n[WhenUse] Deal <style=\"highlight\">+1.5%</style> more damage for every 1% missing HP on self <style=\"highlight\">(max 90%)</style>\n[WhenUse] If the target has 6+ [Laceration], Coin Power +1\n[WhenUse] Consume every excess Stack of [BloodyHandGregFirst] past 10 Stack to gain the following effects:\n- Heal (Stacks consumed x 3) HP on self\n- If this unit consumed 10+ Stack, Coin Power +1\n<style=\"highlight\">- If this unit consumed 20+ Stack, Reuse the final Coin</style>\n[WhenUse] Gain 10 [Laceration]\n[EndSkill] Heal 10% HP on self",
+        "name": "The Unforgivable Sin",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain <style=\"highlight\">3</style> [BloodyHandGregFirst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Laceration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">+2</style> [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1121004": {
+    "a": 0,
+    "id": "1121004",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[StartBattle] Gain 3 [WornHeartGreg] (once per turn)",
+        "name": "Faded Patience",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "<style=\"highlight\">[StartBattle] At 40%+ HP, gain 5 [Laceration] and activate [Laceration] up to 3 times on self (once per turn; lose [Laceration] Count equal to the number of times it was activated)\n[StartBattle] At less than 40% HP, consume up to 20 [BloodDinner] and heal the same value as HP (once per turn)</style>\n[StartBattle] Gain 3 [WornHeartGreg] (once per turn)",
+        "name": "Faded Patience",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
           }
         ]
       }
@@ -85722,7 +86036,7 @@
     "levelList": [
       {
         "level": 1,
-        "desc": "Can Clash with this Skill regardless of Speed\n[StartBattle] If there are enemies with [Laceration], activate [Laceration] on all enemies. All enemies lose 2 [Laceration] Count\n[WhenUse] If this effect did not activate at Combat Start, gain 30 [Laceration].\n[WinDuel] Consume up to 40 [BloodDinner]: for every 10 [BloodDinner] consumed, gain 1 [BloodArmor] and deal +25% more damage (max 100%)\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration], and activate [Laceration] immediately. Lose 2 [Laceration] Count\n[EndSkill] End Combat Phase",
+        "desc": "Can Clash with this Skill regardless of Speed\n[StartBattle] If there are enemies with [Laceration], activate [Laceration] on all enemies. All enemies lose 2 [Laceration] Count\n[WhenUse] If this effect did not activate at Combat Start, gain 30 [Laceration].\n[WinDuel] Consume up to 40 [BloodDinner]: for every 10 [BloodDinner] consumed, gain 1 [BloodArmor] and deal +25% more damage (max 100%)\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration], and activate [Laceration] immediately. Lose 2 [Laceration] Count\n[EndSkill] Ends this turn",
         "name": "Ecstasy of Blood",
         "rawDesc": "",
         "abName": "",
@@ -85839,7 +86153,7 @@
     "levelList": [
       {
         "level": 1,
-        "desc": "Can Clash with this Skill regardless of Speed\n[StartBattle] Consume 200 [BloodDinner], gain 500 Shield HP, 5 [BloodArmor], and 1 [SwirlingBlood]\n- If this unit doesn't have enough [BloodDinner], gain 50 [Laceration], and activate [Laceration] immediately. Lose 2 [Laceration] Count. Gain 500 Shield HP and 1 [SwirlingBlood] (this damage does not reduce this unit's HP to 1)\n[WinDuel] Gain 200 Shield HP\n[DefeatDuel] Gain 3 [Vulnerable] as long as the Shield gained due to this Skill is active\n[DefeatDuel] Deal -50% less damage, and the damage from this Skill does not Stagger the target\n[EndSkill] End Combat Phase",
+        "desc": "Can Clash with this Skill regardless of Speed\n[StartBattle] Consume 200 [BloodDinner], gain 500 Shield HP, 5 [BloodArmor], and 1 [SwirlingBlood]\n- If this unit doesn't have enough [BloodDinner], gain 50 [Laceration], and activate [Laceration] immediately. Lose 2 [Laceration] Count. Gain 500 Shield HP and 1 [SwirlingBlood] (this damage does not reduce this unit's HP to 1)\n[WinDuel] Gain 200 Shield HP\n[DefeatDuel] Gain 3 [Vulnerable] as long as the Shield gained due to this Skill is active\n[DefeatDuel] Deal -50% less damage, and the damage from this Skill does not Stagger the target\n[EndSkill] Ends this turn",
         "name": "Don Quixote Hardblood Arts 2 - Armadura de Sangre",
         "rawDesc": "",
         "abName": "",
@@ -85960,7 +86274,7 @@
     "levelList": [
       {
         "level": 1,
-        "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse] Consume 50 [BloodDinner] to inflict 1 [Paralysis] against the target and self\n[WhenUse] Consume 100 [BloodDinner] to gain Clash Power +5\n- If there isn't enough [BloodDinner], consume 100 HP from this unit to gain Clash Power +5\n[EndSkill] End Combat Phase",
+        "desc": "Can Clash with this Skill regardless of Speed\n[WhenUse] Consume 50 [BloodDinner] to inflict 1 [Paralysis] against the target and self\n[WhenUse] Consume 100 [BloodDinner] to gain Clash Power +5\n- If there isn't enough [BloodDinner], consume 100 HP from this unit to gain Clash Power +5\n[EndSkill] Ends this turn",
         "name": "Variant Don Quixote Style: Sancho Arts 2 - La Sangre",
         "rawDesc": "",
         "abName": "",
@@ -89802,6 +90116,419 @@
       }
     ]
   },
+  "8106011": {
+    "a": 0,
+    "id": "8106011",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Strike Me Down!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106021": {
+    "a": 0,
+    "id": "8106021",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Targets the unit with the least Max HP",
+        "name": "Stab to Kill",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 6 Offense Level Down",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106031": {
+    "a": 0,
+    "id": "8106031",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Re-use Evade upon Evade failure (Up to 2 times)\n[OnDefeatEvade] Lose 2 Pip's Ego\n[OnSucceedEvade] Use Insidious Pallidification",
+        "name": "Undying Soul",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "8106041": {
+    "a": 0,
+    "id": "8106041",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[DefeatDuel] Gain 2 Defense Power Down. Lose 10 SP on self",
+        "name": "Murky Innocence",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Paralyze",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bind next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106051": {
+    "a": 0,
+    "id": "8106051",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Targets 3 units with the least Max HP\n[StartBattle] Gain Base Power +2 and Atk Weight +1 for every 5 Pip's Ego\n[WhenUse] Lose 3 Pip's Ego",
+        "name": "Weight of Guilt",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Raise Stagger Threshold by 30 ",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Target loses 10 SP",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106061": {
+    "a": 0,
+    "id": "8106061",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "사용하지않는스킬(번역x)",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "8106071": {
+    "a": 0,
+    "id": "8106071",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Inflict 1 Prey Mark next turn",
+        "name": "Swathed Fear",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bleed and +4 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106081": {
+    "a": 0,
+    "id": "8106081",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Inflict 1 Prey Mark next turn",
+        "name": "Punctured Weakness",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Offense Level Down next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106091": {
+    "a": 0,
+    "id": "8106091",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Deal +5% damage for every 1 Bleed on target\nIf target does not have Prey Mark, Coin Power +1\n[DefeatDuel] Lose 5 SP",
+        "name": "Echoing Cry",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 SP damage on 3 random enemies",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Reuse the final Coin once for every 10 Starbuck's Ego",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106101": {
+    "a": 0,
+    "id": "8106101",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Inflict 1 Prey Mark next turn",
+        "name": "Clouded Path",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Damage Down",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 Bleed",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106111": {
+    "a": 0,
+    "id": "8106111",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Lose 5 Queequeg's Ego\n[WinDuel] Gain 6 Defense Level Up\n[DefeatDuel] Lose 5 SP",
+        "name": "Bleached Atonement",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Pallid Noise",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Stagger target",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8106121": {
+    "a": 0,
+    "id": "8106121",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[StartBattle] Gain 10% of Max HP as Shield. For every Queequeg's Ego, gain additional 0.5% of Max HP as additional Shield.\nWhen attacked while Shielded, attacker loses 5 SP\nWhen attacked, use this Skill once for every 10 Queequeg's Ego",
+        "name": "Insidious Pallidification",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "90001401": {
     "a": 0,
     "id": "90001401",
@@ -90303,64 +91030,6 @@
     "id": "1020001501",
     "levelList": [
       {
-        "level": 1,
-        "desc": "[WhenUse] Gain +2 [Breath] Count",
-        "name": "Acupuncture",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Gain +1 [Breath] Count",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "desc": "[WhenUse] Gain +2 [Breath] Count",
-        "name": "Acupuncture",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Gain +2 [Breath] Count",
-                "summary": ""
-              },
-              {
-                "desc": "+30% Damage on Critical Hit",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Inflict 1 Bind next turn",
-                "summary": ""
-              },
-              {
-                "desc": "[CriticalOnSucceedAttack] Inflict 2 [RedApricotBlossom]<style=\"highlight\"></style>",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
         "level": 4,
         "desc": "At 7+ [Breath], Coin Power +1\nIf target has 7+ [Combustion], Coin Power +1\n[WhenUse] Gain +5 [Breath] Count",
         "name": "Frontal Assault",
@@ -90386,7 +91055,7 @@
                 "summary": ""
               },
               {
-                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion]\n[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (Max 30)",
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion]\n[OnSucceedAttack] Inflict Wrath Affinity damage equal to [Combustion] Potency on target. (Max 30). Then, reduce target's Burn Count by 1.",
                 "summary": ""
               }
             ]
@@ -90400,57 +91069,6 @@
     "id": "1020001502",
     "levelList": [
       {
-        "level": 1,
-        "desc": "[WhenUse] Gain +2 [Breath] Count",
-        "name": "Moonlit Blade Dance",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": []
-          },
-          {
-            "coindescs": []
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "desc": "[WhenUse] Gain +2 [Breath] Count",
-        "name": "Moonlit Blade Dance",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": []
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Gain 1 [Breath]",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[CriticalOnSucceedAttack] Inflict 1 [RedApricotBlossom]",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
         "level": 4,
         "desc": "At 7+ [Breath], Coin Power +1\nCoin Power +1 for every 6 [Combustion] on target (Max 2)\n[WhenUse] Gain +5 [Breath] Count",
         "name": "Fervid Emotions",
@@ -90460,7 +91078,7 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] to 3 random enemies\n[CriticalOnSucceedAttack] Inflict 2 [Combustion]",
+                "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] to 2 random enemies\n[CriticalOnSucceedAttack] Inflict 2 [Combustion]",
                 "summary": ""
               }
             ]
@@ -90468,7 +91086,7 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] to 3 random enemies\n[CriticalOnSucceedAttack] Inflict 2 [Combustion]",
+                "desc": "[OnSucceedAttack] If target has 6+ [Combustion], inflict 3 [Combustion] to 2 random enemies\n[CriticalOnSucceedAttack] Inflict 2 [Combustion]",
                 "summary": ""
               }
             ]
@@ -90476,7 +91094,7 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict +2 [Combustion] Count\n[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target",
+                "desc": "[OnSucceedAttackHead] Inflict +2 [Combustion] Count\n[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
                 "summary": ""
               }
             ]
@@ -90489,31 +91107,6 @@
     "a": 0,
     "id": "1020001503",
     "levelList": [
-      {
-        "level": 3,
-        "desc": "Deal +3% damage for every [RedApricotBlossom] on target\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)",
-        "name": "Red Plum Blossoms Scatter",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[CriticalOnSucceedAttack] Inflict 5 [RedApricotBlossom]",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
       {
         "level": 4,
         "desc": "Deal +3% more damage for every [Combustion] on target\nCoin Power +1 for every 6 [Combustion] on target (Max 2)\nCoin Power +1 for every 7 [Breath] on self (Max 3)\n[WinDuel] Consume half the [Breath] Count on self, then gain [Breath] equal to the [Breath] Count consumed. (Max 10)",
@@ -90528,7 +91121,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target",
+                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
                 "summary": ""
               }
             ]
@@ -90540,7 +91133,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target",
+                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
                 "summary": ""
               }
             ]
@@ -90554,9 +91147,9 @@
     "id": "1020001504",
     "levelList": [
       {
-        "level": 1,
-        "desc": "[WhenUse] For every 4 [Breath] on self, gain Final Power +1 (Max 3)",
-        "name": "Redirect",
+        "level": 4,
+        "desc": "[CanDuelGuard]\nBase Power +1 for every 1 [Combustion] on target (Max 20)\n[WhenUse] For every 3 [Breath] on self, gain Final Power +1",
+        "name": "Redirection",
         "rawDesc": "",
         "abName": "",
         "coinlist": [
@@ -90564,16 +91157,176 @@
             "coindescs": []
           }
         ]
-      },
+      }
+    ]
+  },
+  "10108001": {
+    "a": 0,
+    "id": "10108001",
+    "levelList": [
       {
         "level": 4,
-        "desc": "Base Power +1 for every 1 [Combustion] on target (Max 20)\n[WhenUse] For every 3 [Breath] on self, gain Final Power +1",
-        "name": "Redirection",
+        "desc": "If this skill is Discarded, gain +6 [Breath] Count\n[WhenUse] If target has 6+ [Combustion], Coin Power +2",
+        "name": "Rush Down",
         "rawDesc": "",
         "abName": "",
         "coinlist": [
           {
-            "coindescs": []
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Combustion]",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Combustion]",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10108002": {
+    "a": 0,
+    "id": "10108002",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[StartBattle] Consume 6 [Breath] Count on self to gain +2 Atk Weight for this Skill\nGain ([Breath] Potency x 0.5% of Max HP) Shield if this Skill is Discarded\nGain 6 [Breath] Potency and +3 [Breath] Count if this Skill is Discarded\n[WhenUse] Coin Power +1 for every 6 Burn on the main target (Max 2)\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots",
+        "name": "Burning Lunge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 3 [Breath]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Gain +2 [Breath] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 3 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 3 [Combustion] to 2 random enemies",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Lust Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10108003": {
+    "a": 0,
+    "id": "10108003",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "Gain ([Breath] Potency x 0.5% of Max HP) Shield if this Skill is Discarded\nGain +10 [Breath] Count if this Skill is Discarded\n[WhenUse] Discard 1 Skill of the lowest rank in all of this unit's Skill Slots\n[WhenUse] If the target has 6+ [Combustion], Coin Power +1\n[WhenUse] If the target has 15 or more [Combustion] Potency and 5 or more [Combustion] Count, deal +50% more Damage",
+        "name": "Flow of the Sword",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +1 [Combustion] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +1 [Combustion] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 2 random enemies",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 3 random enemies",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Gloom Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 [Combustion] to 3 random enemies",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict Sloth Affinity damage equal to the amount of [Combustion] on target. Then, reduce target's Burn Count by 2.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10108004": {
+    "a": 0,
+    "id": "10108004",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Randomly Discard 2 of this unit's Skills in ascending order of ranks from all of its Skill Slots\nIf the target has 6+ [Combustion], Coin Power +2",
+        "name": "Fixated Evade",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "",
+                "summary": ""
+              }
+            ]
           }
         ]
       }
@@ -90652,7 +91405,7 @@
       {
         "level": 4,
         "desc": "At 6+ Speed, Coin Power +1\nCoin Power +1 for every 3 Charge on self (max 2)\nDeal more damage based on target's missing HP (+0.5% damage per 1% missing HP)",
-        "name": "Photoelectric RaSPage",
+        "name": "Photoelectric Rampage",
         "rawDesc": "",
         "abName": "",
         "coinlist": [
@@ -90683,7 +91436,7 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict 2 Bleed\n[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp] for every 3 [Charge] (max 3)",
+                "desc": "[OnSucceedAttack] Inflict 2 Bleed\n[OnSucceedAttack] Inflict 1 [VioletTakeDamageUp] for every 2 [Charge] (max 4)",
                 "summary": ""
               }
             ]
@@ -90696,72 +91449,6 @@
     "a": 0,
     "id": "10060702",
     "levelList": [
-      {
-        "level": 1,
-        "desc": "[WhenUse] Gain 1 Haste next turn",
-        "name": "Chargin' First",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 2)",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "desc": "[WhenUse] Gain 2 Haste next turn",
-        "name": "Goin' First",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 3)",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
       {
         "level": 4,
         "desc": "At 6+ Speed, Coin Power +1\n[WhenUse] Gain 2 Haste next turn\n[WhenUse] At 5~9 [Charge] Count, consume 2(10 - current [Charge] Count)% HP to raise [Charge] Count to 10\n[WhenUse] Consume 10 [Charge] Count to gain Coin Power <style=\"highlight\">+2</style>",
@@ -90788,7 +91475,7 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 4)\n[OnSucceedAttack] Inflict [Laceration] equal to [Charge] (max 3)<style=\"highlight\"></style>",
+                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict Bleed Count equal to their Speed difference (Max 6)\n[OnSucceedAttack] Inflict [Laceration] equal to [Charge] (max 3)<style=\"highlight\"></style>",
                 "summary": ""
               }
             ]
@@ -91133,56 +91820,6 @@
     "id": "10501001",
     "levelList": [
       {
-        "level": 1,
-        "desc": "",
-        "name": "Un, Deux",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Inflict 1 Tremor",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Inflict 1 Tremor",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "desc": "",
-        "name": "Un, Deux",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
         "level": 4,
         "desc": "",
         "name": "Un, Deux, Trois, Quatre, Cinq, Six, Sept, Huit, Neuf, Dix, Onze, Douze, Treize, Quatorze, Quinze, Seize, Dix-sept, Dix-huit, Dix-neuf, Vingt, Vingt et un, Vingt-Deux, Vingt-Trois, Vingt-Quatre",
@@ -91192,7 +91829,11 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict 12 Tremor",
+                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse this coin (Max 9 times)",
                 "summary": ""
               }
             ]
@@ -91200,7 +91841,11 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict 12 Tremor",
+                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse this coin (Max 9 times)",
                 "summary": ""
               }
             ]
@@ -91458,56 +92103,8 @@
     "id": "10500902",
     "levelList": [
       {
-        "level": 1,
-        "desc": "",
-        "name": "Smackdown",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": []
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Inflict 2 [Burst]",
-                "summary": ""
-              },
-              {
-                "desc": "[OnSucceedAttack] If the target has 6+ [Burst], inflict 2 [AttackDown]",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "desc": "[WinDuel] Inflict +2 [Burst] Count",
-        "name": "Smackdown",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": []
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Inflict 2 [Burst]",
-                "summary": ""
-              },
-              {
-                "desc": "[OnSucceedAttack] If the target has 6+ [Burst], inflict 2 [AttackDown]",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
         "level": 4,
-        "desc": "[WhenUse] If the target has 3+ [Burst], Coin Power +1\n[WhenUse] For every 5 [Burst] on target, Clash Power +1 (Max 3)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WinDuel] Inflict +2 [Burst] Count",
+        "desc": "[WhenUse] If the target has 3+ [Burst], Coin Power +1\n[WhenUse] For every 5 [Burst] on target, Clash Power +1 (Max 3)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WinDuel] Inflict +4 [Burst] Count",
         "name": "Smackdown",
         "rawDesc": "",
         "abName": "",
@@ -91592,7 +92189,7 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]\n[OnSucceedAttack] If the target has 4+ [Burst], inflict 2 [AttackDown] next turn",
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]\n[OnSucceedAttack] If the target has 4+ [Burst], inflict 2 [AttackDown] next turn",
                 "summary": ""
               }
             ]
@@ -91600,7 +92197,7 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]\n[OnSucceedAttack] If the target has 6+ [Burst], inflict 2 [AttackDown] next turn",
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]\n[OnSucceedAttack] If the target has 6+ [Burst], inflict 2 [AttackDown] next turn",
                 "summary": ""
               }
             ]
@@ -91608,7 +92205,7 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict +1 [Burst] Count",
+                "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count",
                 "summary": ""
               },
               {
@@ -91713,7 +92310,11 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttackHead] Reuse Coin once (1 times per Skill)",
+                "desc": "[OnSucceedAttackHead] Reuse Coin once (Max 2 times per Skill)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Trigger Tremor Burst; after Tremor Burst, reduce target's Tremor Count by 1",
                 "summary": ""
               }
             ]
@@ -91845,7 +92446,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, inflict +3 Tremor Count",
+                "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, inflict +5 Tremor Count",
                 "summary": ""
               }
             ]
@@ -91890,7 +92491,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, inflict +3 Tremor Count",
+                "desc": "[OnSucceedAttack] If the Skill spent Tremor Count, inflict +5 Tremor Count",
                 "summary": ""
               }
             ]
@@ -91941,7 +92542,7 @@
       },
       {
         "level": 4,
-        "desc": "[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots",
+        "desc": "[WhenUse] Discard the Skill of lowest rank in all of this unit's Skill Slots\nBase Power +1 for every 1 [Vibration] on target (Max 20)",
         "name": "Hangover Cure",
         "rawDesc": "",
         "abName": "",
@@ -93044,6 +93645,162 @@
             "coindescs": [
               {
                 "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11111001": {
+    "a": 0,
+    "id": "11111001",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +4 [Laceration] Count\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 6 [Laceration] on the target (max 2)</style>",
+        "name": "Sewing",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has [LineCuttingPersonality], inflict +1 [Laceration] Count<style=\"highlight\"></style>",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has [LineCuttingPersonality], inflict +1 [Laceration] Count<style=\"highlight\"></style>",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11111002": {
+    "a": 0,
+    "id": "11111002",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 20)\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodScissorPersonalityFirst] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 5 [Laceration]\n[WhenUse] If the target has 6+ [Laceration], Coin Power +1<style=\"highlight\"></style>",
+        "name": "Scission",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has [LineCuttingPersonality], inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has [LineCuttingPersonality], inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [LineCuttingPersonality] on target next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11111003": {
+    "a": 0,
+    "id": "11111003",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "On Hit with this Skill: heal 30% of the HP damage dealt (max 20)\n[BeforeAttack] At 10+ [BloodScissorPersonalityFirst], Atk Weight +1\n<style=\"highlight\">- At 20+ [BloodScissorPersonalityFirst], replace the above effect with Atk Weight +2 instead</style>\n[WhenUse] If the target has 5+ [Laceration], Coin Power +1\n[WhenUse] Clash Power +1 for every 6 [Laceration] on the target (max 2)\n[EndSkill] Consume <style=\"highlight\">10</style> [BloodScissorPersonalityFirst] for every Atk Weight gained\n[EndSkill] If the target is killed, increase [BloodDinner] by <style=\"highlight\">20</style>. Regain half of [BloodScissorPersonalityFirst] consumed by this Skill (once per turn)\n<style=\"highlight\">- If the target is [LineCuttingPersonality], additionally increase [BloodDinner] by 20 more, and gain 5 [BloodScissorPersonalityFirst] (once per turn)</style>",
+        "name": "I'll Make You a New Dress!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict <style=\"highlight\">2</style> [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] At 10+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x <style=\"highlight\">3</style>)% more damage (max <style=\"highlight\">57</style>%)\n- At 20+ [BloodScissorPersonalityFirst], deal +([BloodScissorPersonalityFirst] x <style=\"highlight\">4</style>)% more damage instead (max <style=\"highlight\">120</style>%)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11111004": {
+    "a": 0,
+    "id": "11111004",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] At 10+ [BloodScissorPersonalityFirst], Base Power +1<style=\"highlight\">\n- At 20+ [BloodScissorPersonalityFirst], gain Base Power +2 instead</style>\n[WhenUse] <style=\"highlight\">Coin Power +1 for every 5 [Laceration] on self (max 3)</style>",
+        "name": "Quite Discourteous!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count",
                 "summary": ""
               }
             ]

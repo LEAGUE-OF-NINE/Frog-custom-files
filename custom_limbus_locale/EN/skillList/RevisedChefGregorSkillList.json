@@ -248,56 +248,6 @@
     "id": "10501001",
     "levelList": [
       {
-        "level": 1,
-        "desc": "",
-        "name": "Un, Deux",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Inflict 1 Tremor",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttackHead] Inflict 1 Tremor",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "desc": "",
-        "name": "Un, Deux",
-        "rawDesc": "",
-        "abName": "",
-        "coinlist": [
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
-                "summary": ""
-              }
-            ]
-          },
-          {
-            "coindescs": [
-              {
-                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
-                "summary": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
         "level": 4,
         "desc": "",
         "name": "Un, Deux, Trois, Quatre, Cinq, Six, Sept, Huit, Neuf, Dix, Onze, Douze, Treize, Quatorze, Quinze, Seize, Dix-sept, Dix-huit, Dix-neuf, Vingt, Vingt et un, Vingt-Deux, Vingt-Trois, Vingt-Quatre",
@@ -307,7 +257,11 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict 12 Tremor",
+                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse this coin (Max 9 times)",
                 "summary": ""
               }
             ]
@@ -315,7 +269,11 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict 12 Tremor",
+                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse this coin (Max 9 times)",
                 "summary": ""
               }
             ]

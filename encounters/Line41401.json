@@ -30,12 +30,15 @@
     "attributeType": "NONE",
     "attackType": "",
     "abnormalityEventList": [
-        860501
+        810201,
+        857801
     ],
     "stageScriptList": [
-        "R41"
+        "LimbusBoat_Default",
+        "8575",
+        "AbnormalityEvent"
     ],
-    "eventScriptName": "8605",
+    "eventScriptName": "",
     "participantInfo": {
         "min": 6,
         "max": 6,
@@ -44,12 +47,63 @@
     "waveList": [
         {
             "battleMapInfo": {
-                "mapName": "Ab_BygoneDays",
+                "mapName": "Cp5_LimbusBoat_Storm",
+                "mapSize": 28.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8586,
+                    "unitLevel": 45,
+                    "unitCount": 6,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_TGS_Ally_1"
+            ],
+            "allyPositionID": 51,
+            "enemyPositionID": 50
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "",
                 "mapSize": -1.0
             },
             "unitList": [
                 {
-                    "unitID": 8605,
+                    "unitID": 8586,
+                    "unitLevel": 45,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8587,
+                    "unitLevel": 45,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 51,
+            "enemyPositionID": 50
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "Ab_Grampus",
+                "mapSize": 33.29999923706055
+            },
+            "unitList": [
+                {
+                    "unitID": 8575,
                     "unitLevel": 45,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
@@ -58,103 +112,8 @@
             ],
             "subUnitList": [
                 {
-                    "unitID": 8606,
-                    "unitLevel": 45,
-                    "unitCount": 4,
-                    "unitSyncLevel": 1,
-                    "isHide": true
-                },
-                {
-                    "unitID": 8607,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": true
-                }
-            ],
-            "supportUnitList": [],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp6_Ally_2",
-                "Battle_Cp6_Enemy_4"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 87
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "Cp6_Mansion_CatherineRoom",
-                "mapSize": 28.0
-            },
-            "unitList": [
-                {
-                    "unitID": 8611,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8612,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8613,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8614,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8615,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8616,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                }
-            ],
-            "subUnitList": [
-                {
-                    "unitID": 8609,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8610,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8617,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8618,
-                    "unitLevel": 45,
+                    "unitID": 8576,
+                    "unitLevel": 40,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
@@ -163,21 +122,21 @@
             "supportUnitList": [],
             "isBatonPassOn": false,
             "bgmList": [
-                "Battle_Cp6_Ally_4",
-                "Battle_Cp6_Enemy_5"
+                "Battle_Cp5_Ally_1",
+                "Battle_Cp5_Enemy_2"
             ],
-            "allyPositionID": 1,
-            "enemyPositionID": 92
+            "allyPositionID": 48,
+            "enemyPositionID": 55
         },
         {
             "battleMapInfo": {
-                "mapName": "Cp6_Mansion_Hall_v1",
-                "mapSize": 28.0
+                "mapName": "Ab_BloodyGossypium",
+                "mapSize": 33.29999923706055
             },
             "unitList": [
                 {
-                    "unitID": 8627,
-                    "unitLevel": 45,
+                    "unitID": 8578,
+                    "unitLevel": 47,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
@@ -187,10 +146,11 @@
             "supportUnitList": [],
             "isBatonPassOn": false,
             "bgmList": [
-                "Battle_Cp6_Ally_5"
+                "Battle_Cp5_Ally_2",
+                "Battle_Cp5_Enemy_3"
             ],
-            "allyPositionID": 73,
-            "enemyPositionID": 74
+            "allyPositionID": 1,
+            "enemyPositionID": 13
         }
     ],
     "turnLimit": 99,

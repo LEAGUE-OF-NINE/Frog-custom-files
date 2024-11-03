@@ -1,12 +1,9 @@
     {
-      "id": 10532,
+      "id": 584885532,
       "stageLevel": 40,
       "stageType": "Abnormality",
-      "battleCameraInfo": {
-        "defaultPosX": 0,
-        "defaultPosY": 0,
-        "defaultPosZ": 25
-      },
+      "isBatonPassOn": false,
+      "includeBoss": 1,
       "participantInfo": {
         "min": 6,
         "max": 6
@@ -19,13 +16,8 @@
           },
           "unitList": [
             {
-              "unitID": 8097,
-              "unitCount": 2,
-              "unitLevel": 40
-            },
-            {
-              "unitID": 8098,
-              "unitCount": 3,
+              "unitID": 8154,
+              "unitCount": 5,
               "unitLevel": 40
             }
           ],
@@ -79,25 +71,7 @@
       "staminaCost": 20,
       "recommendedLevel": 40,
       "turnLimit": 99,
-      "questlist": [
-        {
-          "args": [
-            "10"
-          ],
-          "localizeId": 1
-        }
-      ],
-      "rewardList": [],
-      "story": {
-        "enter": [
-          "S532B"
-        ],
-        "exit": [
-          "S532A"
-        ]
-      },
-      "stageScriptList": [
-        "a1c5p2_4_2"
-      ],
-      "includeBoss": 1
+      "stageScriptList": [],
+      "eventScriptName": [],
+      "abnormalityEventList": []
     }

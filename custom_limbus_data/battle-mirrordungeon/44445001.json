@@ -7,8 +7,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -35,7 +35,6 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80688,
               "unitCount": 1,
@@ -53,16 +52,15 @@
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
-            },
-    
+            }
+          ],
+          "supportUnitList": [
             {
               "unitID": 80987,
               "unitCount": 1,
               "unitLevel": 46,
               "unitSyncLevel": 4
-            }
-          ],
-          "supportUnitList": [
+            },
             {
               "unitID": 801088,
               "unitCount": 1,
@@ -118,12 +116,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445002,
       "stageLevel": 45,
@@ -131,8 +126,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -159,7 +154,6 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80688,
               "unitCount": 1,
@@ -177,16 +171,15 @@
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
-            },
-    
+            }
+          ],
+          "supportUnitList": [
             {
               "unitID": 80987,
               "unitCount": 1,
               "unitLevel": 46,
               "unitSyncLevel": 4
-            }
-          ],
-          "supportUnitList": [
+            },
             {
               "unitID": 801088,
               "unitCount": 1,
@@ -242,12 +235,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445003,
       "stageLevel": 45,
@@ -255,8 +245,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -283,7 +273,6 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80688,
               "unitCount": 1,
@@ -301,16 +290,15 @@
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
-            },
-    
+            }
+          ],
+          "supportUnitList": [
             {
               "unitID": 80987,
               "unitCount": 1,
               "unitLevel": 46,
               "unitSyncLevel": 4
-            }
-          ],
-          "supportUnitList": [
+            },
             {
               "unitID": 801088,
               "unitCount": 1,
@@ -366,12 +354,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445004,
       "stageLevel": 45,
@@ -379,8 +364,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -407,7 +392,6 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80689,
               "unitCount": 1,
@@ -425,16 +409,15 @@
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
-            },
-    
+            }
+          ],
+          "supportUnitList": [
             {
               "unitID": 80988,
               "unitCount": 1,
               "unitLevel": 46,
               "unitSyncLevel": 4
-            }
-          ],
-          "supportUnitList": [
+            },
             {
               "unitID": 801088,
               "unitCount": 1,
@@ -489,12 +472,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445005,
       "stageLevel": 45,
@@ -502,8 +482,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -530,36 +510,32 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80686,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801283,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801381,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
-            },
-    
+            }
+          ],
+          "supportUnitList": [
             {
               "unitID": 80481,
               "unitCount": 1,
               "unitLevel": 46,
               "unitSyncLevel": 4
-            }
-          ],
-          "supportUnitList": [
+            },
             {
               "unitID": 801186,
               "unitCount": 1,
@@ -572,7 +548,6 @@
               "unitLevel": 47,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 8295,
               "unitCount": 1,
@@ -585,7 +560,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801385,
               "unitCount": 1,
@@ -616,12 +590,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445006,
       "stageLevel": 45,
@@ -629,8 +600,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -657,36 +628,32 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 8320,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80380,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80982,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
-            },
-    
+            }
+          ],
+          "supportUnitList": [
             {
               "unitID": 80881,
               "unitCount": 1,
               "unitLevel": 46,
               "unitSyncLevel": 4
-            }
-          ],
-          "supportUnitList": [
+            },
             {
               "unitID": 801482,
               "unitCount": 1,
@@ -699,7 +666,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801083,
               "unitCount": 1,
@@ -712,7 +678,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801282,
               "unitCount": 1,
@@ -743,12 +708,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445006,
       "stageLevel": 45,
@@ -756,8 +718,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -784,36 +746,32 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 8320,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80380,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80982,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
-            },
-    
+            }
+          ],
+          "supportUnitList": [
             {
               "unitID": 80881,
               "unitCount": 1,
               "unitLevel": 46,
               "unitSyncLevel": 4
-            }
-          ],
-          "supportUnitList": [
+            },
             {
               "unitID": 801482,
               "unitCount": 1,
@@ -826,7 +784,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801083,
               "unitCount": 1,
@@ -839,7 +796,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801282,
               "unitCount": 1,
@@ -870,12 +826,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445007,
       "stageLevel": 45,
@@ -883,8 +836,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -911,36 +864,32 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 8320,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80380,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80982,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
-            },
-    
+            }
+          ],
+          "supportUnitList": [
             {
               "unitID": 80881,
               "unitCount": 1,
               "unitLevel": 46,
               "unitSyncLevel": 4
-            }
-          ],
-          "supportUnitList": [
+            },
             {
               "unitID": 801482,
               "unitCount": 1,
@@ -953,7 +902,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801083,
               "unitCount": 1,
@@ -966,7 +914,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801282,
               "unitCount": 1,
@@ -998,12 +945,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445008,
       "stageLevel": 45,
@@ -1011,8 +955,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1039,21 +983,18 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801184,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80981,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 8311,
               "unitCount": 1,
@@ -1080,7 +1021,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-
             {
               "unitID": 80383,
               "unitCount": 1,
@@ -1124,12 +1064,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445008,
       "stageLevel": 45,
@@ -1137,8 +1074,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1165,21 +1102,18 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 801184,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80981,
               "unitCount": 1,
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 8311,
               "unitCount": 1,
@@ -1206,7 +1140,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80888,
               "unitCount": 1,
@@ -1219,7 +1152,6 @@
               "unitLevel": 48,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 8317,
               "unitCount": 1,
@@ -1251,12 +1183,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 44445009,
       "stageLevel": 45,
@@ -1264,8 +1193,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1338,8 +1267,8 @@
             }
           ],
           "bgmList": [
-                "Battle_Cp4_Ally_2",
-                "Battle_Cp4_Enemy_2"
+            "Battle_Cp4_Ally_2",
+            "Battle_Cp4_Enemy_2"
           ],
           "allyPositionID": 1,
           "enemyPositionID": 2
@@ -1361,12 +1290,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450010,
       "stageLevel": 45,
@@ -1374,8 +1300,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1402,7 +1328,6 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-            
             {
               "unitID": 80383,
               "unitCount": 1,
@@ -1485,14 +1410,9 @@
         "Refill_Abnormality",
         "8182"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
-
-
     {
       "id": 444450011,
       "stageLevel": 45,
@@ -1500,8 +1420,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1609,12 +1529,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450012,
       "stageLevel": 45,
@@ -1622,8 +1539,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1731,12 +1648,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450013,
       "stageLevel": 45,
@@ -1744,8 +1658,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1853,20 +1767,17 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450014,
       "stageLevel": 45,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1905,15 +1816,14 @@
       "attackType": "",
       "attributeType": ""
     },
-
     {
       "id": 444450015,
       "stageLevel": 45,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1952,15 +1862,14 @@
       "attackType": "",
       "attributeType": ""
     },
-
     {
       "id": 444450016,
       "stageLevel": 45,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -1975,7 +1884,7 @@
             },
             {
               "unitID": 8151,
-              "unitCount": 5,
+              "unitCount": 4,
               "unitLevel": 45
             }
           ],
@@ -1999,15 +1908,14 @@
       "attackType": "",
       "attributeType": ""
     },
-
     {
       "id": 444450017,
       "stageLevel": 45,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2046,15 +1954,14 @@
       "attackType": "",
       "attributeType": ""
     },
-
     {
       "id": 444450018,
       "stageLevel": 40,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2098,15 +2005,14 @@
       "attackType": "",
       "attributeType": ""
     },
-
     {
       "id": 444450019,
       "stageLevel": 45,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2119,13 +2025,13 @@
               "unitCount": 2,
               "unitLevel": 45,
               "unitSyncLevel": 1
-          },
-          {
+            },
+            {
               "unitID": 850002,
               "unitCount": 3,
               "unitLevel": 45,
               "unitSyncLevel": 1
-          }
+            }
           ],
           "bgmList": [
             "Battle_Cp5_5_YCGD_Enemy"
@@ -2153,8 +2059,8 @@
       "stageType": "Abnormality",
       "isBatonPassOn": true,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2167,13 +2073,13 @@
               "unitCount": 3,
               "unitLevel": 45,
               "unitSyncLevel": 1
-          },
-          {
+            },
+            {
               "unitID": 850002,
               "unitCount": 2,
               "unitLevel": 45,
               "unitSyncLevel": 1
-          }
+            }
           ],
           "bgmList": [
             "Battle_Cp5_5_YCGD_Enemy"
@@ -2201,8 +2107,8 @@
       "stageType": "Abnormality",
       "isBatonPassOn": true,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2215,13 +2121,13 @@
               "unitCount": 3,
               "unitLevel": 45,
               "unitSyncLevel": 1
-          },
-          {
+            },
+            {
               "unitID": 850002,
               "unitCount": 3,
               "unitLevel": 45,
               "unitSyncLevel": 1
-          }
+            }
           ],
           "bgmList": [
             "Battle_Cp5_5_YCGD_Enemy"
@@ -2243,8 +2149,6 @@
       "attackType": "",
       "attributeType": ""
     },
-
-
     {
       "id": 444450022,
       "stageLevel": 45,
@@ -2252,8 +2156,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2361,12 +2265,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450023,
       "stageLevel": 45,
@@ -2374,8 +2275,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2483,12 +2384,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450024,
       "stageLevel": 45,
@@ -2496,8 +2394,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2604,12 +2502,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450025,
       "stageLevel": 45,
@@ -2617,8 +2512,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2725,12 +2620,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450026,
       "stageLevel": 45,
@@ -2738,8 +2630,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2847,12 +2739,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450027,
       "stageLevel": 45,
@@ -2860,8 +2749,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -2969,12 +2858,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450028,
       "stageLevel": 45,
@@ -2982,8 +2868,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -3092,12 +2978,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450029,
       "stageLevel": 45,
@@ -3105,8 +2988,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -3185,12 +3068,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450030,
       "stageLevel": 45,
@@ -3198,8 +3078,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -3304,12 +3184,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450031,
       "stageLevel": 45,
@@ -3317,8 +3194,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -3346,7 +3223,6 @@
               "unitLevel": 45,
               "unitSyncLevel": 4
             },
-    
             {
               "unitID": 80685,
               "unitCount": 1,
@@ -3426,12 +3302,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450032,
       "stageLevel": 45,
@@ -3439,8 +3312,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -3545,12 +3418,9 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     },
-
     {
       "id": 444450033,
       "stageLevel": 45,
@@ -3558,8 +3428,8 @@
       "isBatonPassOn": true,
       "includeBoss": 0,
       "participantInfo": {
-        "min": 7,
-        "max": 7
+        "min": 6,
+        "max": 6
       },
       "waveList": [
         {
@@ -3644,8 +3514,8 @@
             }
           ],
           "bgmList": [
-              "Battle_Audite_pauper",
-              "Battle_Vovete_miserias"
+            "Battle_Audite_pauper",
+            "Battle_Vovete_miserias"
           ]
         }
       ],
@@ -3665,12 +3535,8 @@
       "stageScriptList": [
         "Refill_Abnormality"
       ],
-      "eventScriptName": [
-      ],
-      "abnormalityEventList": [
-      ]
+      "eventScriptName": [],
+      "abnormalityEventList": []
     }
-
-
   ]
 }

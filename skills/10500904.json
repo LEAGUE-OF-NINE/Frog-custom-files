@@ -22,7 +22,7 @@
                 {
                     "scriptName": "10910baseBlockOnlyLose",
                     "buffData": {
-                        "buffKeyword": "",
+                        "buffKeyword": "Burst",
                         "target": "",
                         "buffOwner": "Target",
                         "stack": 10,

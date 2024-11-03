@@ -29,13 +29,11 @@
     "dangerLevel": 0,
     "attributeType": "NONE",
     "attackType": "",
-    "abnormalityEventList": [
-        860801
-    ],
+    "abnormalityEventList": [],
     "stageScriptList": [
-        "8608"
+        "8105_Rail"
     ],
-    "eventScriptName": "8608",
+    "eventScriptName": "",
     "participantInfo": {
         "min": 6,
         "max": 6,
@@ -44,136 +42,174 @@
     "waveList": [
         {
             "battleMapInfo": {
-                "mapName": "LCorpCenter",
-                "mapSize": -1.0
+                "mapName": "Cp5_DrillingVessel_1F",
+                "mapSize": 28.0
             },
             "unitList": [
                 {
-                    "unitID": 8311,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
+                    "unitID": 8595,
+                    "unitLevel": 51,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
-                    "unitID": 8304,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
+                    "unitID": 8596,
+                    "unitLevel": 51,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
-                    "unitID": 8306,
-                    "unitLevel": 45,
+                    "unitID": 8597,
+                    "unitLevel": 51,
                     "unitCount": 1,
-                    "unitSyncLevel": 4,
+                    "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
-                    "unitID": 8310,
-                    "unitLevel": 45,
+                    "unitID": 8598,
+                    "unitLevel": 51,
                     "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8312,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8309,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
+                    "unitSyncLevel": 1,
                     "isHide": false
                 }
             ],
             "subUnitList": [],
-            "supportUnitList": [
-                {
-                    "unitID": 8314,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8308,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8305,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8307,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8315,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8313,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                }
-            ],
-            "isBatonPassOn": true,
+            "supportUnitList": [],
+            "isBatonPassOn": false,
             "bgmList": [
-                "Battle_Cp1_Ally_3",
-                "Battle_Cp1_Enemy_3"
+                "Battle_Cp5_Ally_1",
+                "Battle_Cp5_Enemy_1"
             ],
             "allyPositionID": 1,
             "enemyPositionID": 2
         },
         {
             "battleMapInfo": {
-                "mapName": "Ab_ElectricSheep",
+                "mapName": "",
                 "mapSize": -1.0
             },
             "unitList": [
                 {
-                    "unitID": 8608,
-                    "unitLevel": 50,
+                    "unitID": 8599,
+                    "unitLevel": 51,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8600,
+                    "unitLevel": 51,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8601,
+                    "unitLevel": 51,
+                    "unitCount": 2,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [],
+            "allyPositionID": 1,
+            "enemyPositionID": 2
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "Cp5_TheDepthsOfHeart",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8588,
+                    "unitLevel": 51,
+                    "unitCount": 3,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8589,
+                    "unitLevel": 51,
+                    "unitCount": 3,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp5_Ally_3",
+                "Battle_Cp5_Enemy_4"
+            ],
+            "allyPositionID": 58,
+            "enemyPositionID": 62
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8579,
+                    "unitLevel": 56,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8580,
+                    "unitLevel": 56,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                },
+                {
+                    "unitID": 8581,
+                    "unitLevel": 56,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
                 }
             ],
-            "subUnitList": [
-                {
-                    "unitID": 8628,
-                    "unitLevel": 50,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": true
-                }
-            ],
+            "subUnitList": [],
             "supportUnitList": [],
             "isBatonPassOn": false,
             "bgmList": [
-                "Battle_Cp6_Enemy_6"
+                "Battle_Cp5_AhabBattle"
             ],
-            "allyPositionID": 1,
-            "enemyPositionID": 86
+            "allyPositionID": 58,
+            "enemyPositionID": 57
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "Cp5_TheDepthsOfHeart_Awaken",
+                "mapSize": -1.0
+            },
+            "unitList": [
+                {
+                    "unitID": 8582,
+                    "unitLevel": 57,
+                    "unitCount": 1,
+                    "unitSyncLevel": 1,
+                    "isHide": false
+                }
+            ],
+            "subUnitList": [],
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_AhabBossBattle_Mirror"
+            ],
+            "allyPositionID": 58,
+            "enemyPositionID": 59
         }
     ],
     "turnLimit": 99,

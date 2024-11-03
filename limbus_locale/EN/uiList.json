@@ -2219,6 +2219,8 @@
   "introduce_sentence_165": {"a":0,"id":"introduce_sentence_165","content":"Now, little {0}~ Dance after me! Ta-da!"},
   "introduce_word_166": {"a":0,"id":"introduce_word_166","content":"Curse"},
   "introduce_sentence_166": {"a":0,"id":"introduce_sentence_166","content":"Feel what it's like to have someone {0} you."},
+  "introduce_word_167": {"a":0,"id":"introduce_word_167","content":"Hemobar"},
+  "introduce_sentence_167": {"a":0,"id":"introduce_sentence_167","content":"There once was a time when I believed in the greatness of {0}(s)."},
   "mainui_shop_charge_enkephalin_tab": {"a":0,"id":"mainui_shop_charge_enkephalin_tab","content":"Charge Enkephalin"},
   "mainui_shop_buy_enkephalin_box_tab": {"a":0,"id":"mainui_shop_buy_enkephalin_box_tab","content":"Purchase Enkephalin Box"},
   "mainui_shop_buy_enkephalin_box": {"a":0,"id":"mainui_shop_buy_enkephalin_box","content":"Enkephalin Box purchased."},

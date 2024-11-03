@@ -119,6 +119,45 @@
                                     "limit": 0
                                 }
                             }
+                        },
+                        {
+                            "scriptName": "DamageFirstBreakSectionOnSuccessAttackViaBuffStack",
+                            "buffData": {
+                                "buffKeyword": "Vibration",
+                                "target": "",
+                                "buffOwner": "Target",
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 10.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
                         }
                     ],
                     "scale": 3,
@@ -289,7 +328,46 @@
                                 "buffKeyword": "Vibration",
                                 "target": "Target",
                                 "buffOwner": "",
-                                "stack": 12,
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "RerollOnSAHUpto9",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
                                 "turn": 0,
                                 "activeRound": 0,
                                 "value": 0.0,
@@ -323,7 +401,7 @@
                             }
                         }
                     ],
-                    "scale": 48,
+                    "scale": 4,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false
@@ -339,7 +417,85 @@
                                 "buffKeyword": "Vibration",
                                 "target": "Target",
                                 "buffOwner": "",
-                                "stack": 12,
+                                "stack": 1,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "RerollOnSAHUpto9",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "DamageFirstBreakSectionOnSuccessAttackViaBuffStack",
+                            "buffData": {
+                                "buffKeyword": "Vibration",
+                                "target": "",
+                                "buffOwner": "Target",
+                                "stack": 0,
                                 "turn": 0,
                                 "activeRound": 0,
                                 "value": 0.0,
@@ -373,7 +529,7 @@
                             }
                         }
                     ],
-                    "scale": 48,
+                    "scale": 4,
                     "prob": 0.5,
                     "actionIndex": -1,
                     "cutsceneStart": false

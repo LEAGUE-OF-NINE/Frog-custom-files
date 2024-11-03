@@ -1,0 +1,282 @@
+{
+    "id": 8106111,
+    "textID": -1,
+    "skillTier": 3,
+    "skillData": [
+        {
+            "actionScript": "",
+            "iconID": "810611",
+            "gaksungLevel": 1,
+            "informationID": -1,
+            "attributeType": "VIOLET",
+            "atkType": "PENETRATE",
+            "defType": "ATTACK",
+            "skillMotion": "S9",
+            "viewType": "ENCOUNTER",
+            "parryingCloseType": "NEAR",
+            "canDuel": "true",
+            "canChangeTarget": "true",
+            "targetNum": 1,
+            "defaultValue": 10,
+            "abilityScriptList": [
+                {
+                    "scriptName": "EmptyBody",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "LoseBuffAbnormalitySelfOnUse",
+                    "buffData": {
+                        "buffKeyword": "AaCePcBq",
+                        "target": "AbnormalitySelf",
+                        "buffOwner": "",
+                        "stack": 5,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "GiveBuffOnWinDuel",
+                    "buffData": {
+                        "buffKeyword": "DefenseUp",
+                        "target": "IfAbnormalityAllPartsOrSelf",
+                        "buffOwner": "",
+                        "stack": 6,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                },
+                {
+                    "scriptName": "GiveMpDmgOnLoseDuelSelf5",
+                    "buffData": {
+                        "buffKeyword": "",
+                        "target": "",
+                        "buffOwner": "",
+                        "stack": 0,
+                        "turn": 0,
+                        "activeRound": 0,
+                        "value": 0.0,
+                        "limit": 0
+                    },
+                    "conditionalData": {
+                        "category": "",
+                        "value": "",
+                        "conditionBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        },
+                        "type": "",
+                        "resultValue": "",
+                        "resultBuffData": {
+                            "buffKeyword": "",
+                            "target": "",
+                            "buffOwner": "",
+                            "stack": 0,
+                            "turn": 0,
+                            "activeRound": 0,
+                            "value": 0.0,
+                            "limit": 0
+                        }
+                    }
+                }
+            ],
+            "mpUsage": -1,
+            "skillLevelCorrection": 0,
+            "range": -1.0,
+            "arearange": 4.0,
+            "skillTargetType": "FRONT",
+            "canTeamKill": "false",
+            "coinList": [
+                {
+                    "operatorType": "ADD",
+                    "color": "GOLD",
+                    "grade": 1,
+                    "abilityScriptList": [
+                        {
+                            "scriptName": "GiveBuffOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "AaCePbBa",
+                                "target": "Target",
+                                "buffOwner": "",
+                                "stack": 2,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        },
+                        {
+                            "scriptName": "BreakTargetOnSucceedAttack",
+                            "buffData": {
+                                "buffKeyword": "",
+                                "target": "",
+                                "buffOwner": "",
+                                "stack": 0,
+                                "turn": 0,
+                                "activeRound": 0,
+                                "value": 0.0,
+                                "limit": 0
+                            },
+                            "conditionalData": {
+                                "category": "",
+                                "value": "",
+                                "conditionBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                },
+                                "type": "",
+                                "resultValue": "",
+                                "resultBuffData": {
+                                    "buffKeyword": "",
+                                    "target": "",
+                                    "buffOwner": "",
+                                    "stack": 0,
+                                    "turn": 0,
+                                    "activeRound": 0,
+                                    "value": 0.0,
+                                    "limit": 0
+                                }
+                            }
+                        }
+                    ],
+                    "scale": 5,
+                    "prob": 0.5,
+                    "actionIndex": -1,
+                    "cutsceneStart": false
+                }
+            ],
+            "actionList": []
+        }
+    ],
+    "requireIDList": [],
+    "skillTagList": [],
+    "skillType": "SKILL"
+}

@@ -45,9 +45,7 @@
       ],
       "rewardList": [],
       "dangerLevel": 0,
-      "stageScriptList": [
-        "Refill_Abnormality"
-      ],
+      "stageScriptList": [],
       "eventScriptName": [],
       "abnormalityEventList": []
     },

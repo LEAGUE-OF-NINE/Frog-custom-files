@@ -4,7 +4,7 @@
     "viewid": 10215,
     "deadsceneid": -1,
     "sdPortrait": "",
-    "appearance": "!custom_10208_Faust_SwordGroupAppearance",
+    "appearance": "10208_Faust_SwordGroupAppearance",
     "panicSkillOnErosion": 1000104,
     "mp": 45,
     "hp": {

@@ -29,11 +29,14 @@
     "dangerLevel": 0,
     "attributeType": "NONE",
     "attackType": "",
-    "abnormalityEventList": [],
-    "stageScriptList": [
-        "403"
+    "abnormalityEventList": [
+        810101
     ],
-    "eventScriptName": "",
+    "stageScriptList": [
+        "8137",
+        "8141"
+    ],
+    "eventScriptName": "8101",
     "participantInfo": {
         "min": 6,
         "max": 6,
@@ -42,135 +45,12 @@
     "waveList": [
         {
             "battleMapInfo": {
-                "mapName": "SinclairMansion",
+                "mapName": "Ab_WalkingPearl",
                 "mapSize": -1.0
             },
             "unitList": [
                 {
-                    "unitID": 8280,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8281,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8282,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8283,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8284,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8285,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                }
-            ],
-            "subUnitList": [],
-            "supportUnitList": [
-                {
-                    "unitID": 8286,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8287,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8288,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8289,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8290,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8291,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                }
-            ],
-            "isBatonPassOn": false,
-            "bgmList": [
-                "Battle_Cp3_Ally_3",
-                "Battle_Cp3_Enemy_3"
-            ],
-            "allyPositionID": 1,
-            "enemyPositionID": 2
-        },
-        {
-            "battleMapInfo": {
-                "mapName": "Cp5.5_YongjinTower_3~5F",
-                "mapSize": -1.0
-            },
-            "unitList": [
-                {
-                    "unitID": 8619,
-                    "unitLevel": 48,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8620,
-                    "unitLevel": 48,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8621,
-                    "unitLevel": 48,
-                    "unitCount": 1,
-                    "unitSyncLevel": 1,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8622,
+                    "unitID": 8573,
                     "unitLevel": 48,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
@@ -179,8 +59,8 @@
             ],
             "subUnitList": [
                 {
-                    "unitID": 8623,
-                    "unitLevel": 48,
+                    "unitID": 8241,
+                    "unitLevel": 40,
                     "unitCount": 1,
                     "unitSyncLevel": 1,
                     "isHide": false
@@ -189,111 +69,66 @@
             "supportUnitList": [],
             "isBatonPassOn": false,
             "bgmList": [
-                "Battle_Cp5_5_YCGD_Enemy"
+                "Battle_Cp5_Ally_4",
+                "Battle_Cp5_Enemy_5"
             ],
             "allyPositionID": 1,
-            "enemyPositionID": 2
+            "enemyPositionID": 52
         },
         {
             "battleMapInfo": {
-                "mapName": "Cp5.5_Satgat",
-                "mapSize": -1.0
+                "mapName": "Ab_SkinProphet",
+                "mapSize": 33.29999923706055
             },
             "unitList": [
                 {
-                    "unitID": 8292,
-                    "unitLevel": 45,
+                    "unitID": 8571,
+                    "unitLevel": 49,
                     "unitCount": 1,
-                    "unitSyncLevel": 4,
+                    "unitSyncLevel": 1,
                     "isHide": false
                 },
                 {
-                    "unitID": 8293,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8294,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8295,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8296,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8297,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
+                    "unitID": 8572,
+                    "unitLevel": 49,
+                    "unitCount": 5,
+                    "unitSyncLevel": 1,
                     "isHide": false
                 }
             ],
             "subUnitList": [],
-            "supportUnitList": [
+            "supportUnitList": [],
+            "isBatonPassOn": false,
+            "bgmList": [
+                "Battle_Cp5_Ally_3",
+                "Battle_Cp5_Enemy_4"
+            ],
+            "allyPositionID": 1,
+            "enemyPositionID": 53
+        },
+        {
+            "battleMapInfo": {
+                "mapName": "Ab_FireMoth",
+                "mapSize": 33.29999923706055
+            },
+            "unitList": [
                 {
-                    "unitID": 8298,
+                    "unitID": 8577,
                     "unitLevel": 45,
                     "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8299,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8300,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8301,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8302,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
-                    "isHide": false
-                },
-                {
-                    "unitID": 8303,
-                    "unitLevel": 45,
-                    "unitCount": 1,
-                    "unitSyncLevel": 4,
+                    "unitSyncLevel": 1,
                     "isHide": false
                 }
             ],
+            "subUnitList": [],
+            "supportUnitList": [],
             "isBatonPassOn": false,
             "bgmList": [
-                "Battle_Cp5_5_YCGD_Boss"
+                "Battle_Cp5_Ally_4",
+                "Battle_Cp5_Enemy_5"
             ],
-            "allyPositionID": 1,
-            "enemyPositionID": 2
+            "allyPositionID": 48,
+            "enemyPositionID": 13
         }
     ],
     "turnLimit": 99,

@@ -1,7 +1,7 @@
 {
   "list": [
     {
-      "id": 4001,
+      "id": 401,
       "stageLevel": 45,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "id": 4003,
+      "id": 403,
       "stageLevel": 48,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
@@ -207,7 +207,8 @@
       "rewardList": [],
       "dangerLevel": 0,
       "stageScriptList": [
-        "8137"
+        "8137",
+        "8141"
       ],
       "eventScriptName": "8101",
       "abnormalityEventList": [
@@ -215,7 +216,7 @@
       ]
     },
     {
-      "id": 4005,
+      "id": 405,
       "stageLevel": 50,
       "stageType": "Abnormality",
       "isBatonPassOn": true,
@@ -230,114 +231,119 @@
       },
       "waveList": [
         {
-          "isBatonPassOn": true,
           "battleMapInfo": {
-            "mapName": "LCorpCenter"
+            "mapName": "Cp5_DrillingVessel_1F",
+            "mapSize": 28
           },
           "unitList": [
             {
-              "unitID": 8311,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
+              "unitID": 8595,
+              "unitCount": 2,
+              "unitLevel": 51
             },
             {
-              "unitID": 8304,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
+              "unitID": 8596,
+              "unitCount": 2,
+              "unitLevel": 51
             },
             {
-              "unitID": 8306,
+              "unitID": 8597,
               "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
+              "unitLevel": 51
             },
             {
-              "unitID": 8310,
+              "unitID": 8598,
               "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
-            },
-            {
-              "unitID": 8312,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
-            },
-            {
-              "unitID": 8309,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
-            }
-          ],
-          "supportUnitList": [
-            {
-              "unitID": 8314,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
-            },
-            {
-              "unitID": 8308,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
-            },
-            {
-              "unitID": 8305,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
-            },
-            {
-              "unitID": 8307,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
-            },
-            {
-              "unitID": 8315,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
-            },
-            {
-              "unitID": 8313,
-              "unitCount": 1,
-              "unitSyncLevel": 4,
-              "unitLevel": 45
+              "unitLevel": 51
             }
           ],
           "bgmList": [
-            "Battle_Cp1_Ally_3",
-            "Battle_Cp1_Enemy_3"
+            "Battle_Cp5_Ally_1",
+            "Battle_Cp5_Enemy_1"
+          ]
+        },
+        {
+          "unitList": [
+            {
+              "unitID": 8599,
+              "unitCount": 2,
+              "unitLevel": 51
+            },
+            {
+              "unitID": 8600,
+              "unitCount": 2,
+              "unitLevel": 51
+            },
+            {
+              "unitID": 8601,
+              "unitCount": 2,
+              "unitLevel": 51
+            }
           ]
         },
         {
           "battleMapInfo": {
-            "mapName": "Ab_ElectricSheep"
+            "mapName": "Cp5_TheDepthsOfHeart"
           },
           "unitList": [
             {
-              "unitID": 8608,
-              "unitCount": 1,
-              "unitLevel": 50
-            }
-          ],
-          "subUnitList": [
+              "unitID": 8588,
+              "unitCount": 3,
+              "unitLevel": 51
+            },
             {
-              "unitID": 8628,
-              "unitCount": 1,
-              "unitLevel": 50,
-              "isHide": true
+              "unitID": 8589,
+              "unitCount": 3,
+              "unitLevel": 51
             }
           ],
           "bgmList": [
-            "Battle_Cp6_Enemy_6"
+            "Battle_Cp5_Ally_3",
+            "Battle_Cp5_Enemy_4"
           ],
-          "enemyPositionID": 86
+          "enemyPositionID": 62,
+          "allyPositionID": 58
+        },
+        {
+          "unitList": [
+            {
+              "unitID": 8579,
+              "unitCount": 1,
+              "unitLevel": 56
+            },
+            {
+              "unitID": 8580,
+              "unitCount": 1,
+              "unitLevel": 56
+            },
+            {
+              "unitID": 8581,
+              "unitCount": 1,
+              "unitLevel": 56
+            }
+          ],
+          "bgmList": [
+            "Battle_Cp5_AhabBattle"
+          ],
+          "enemyPositionID": 57,
+          "allyPositionID": 58
+        },
+        {
+          "battleMapInfo": {
+            "mapName": "Cp5_TheDepthsOfHeart_Awaken"
+          },
+          "unitList": [
+            {
+              "unitID": 8582,
+              "unitCount": 1,
+              "unitLevel": 57
+            }
+          ],
+          "bgmList": [
+            "Battle_AhabBossBattle_Mirror"
+          ],
+          "enemyPositionID": 59,
+          "allyPositionID": 58
         }
       ],
       "staminaCost": 0,
@@ -354,11 +360,7 @@
       "rewardList": [],
       "dangerLevel": 0,
       "stageScriptList": [
-        "8608"
-      ],
-      "eventScriptName": "8608",
-      "abnormalityEventList": [
-        860801
+        "8105_Rail"
       ]
     },
     {

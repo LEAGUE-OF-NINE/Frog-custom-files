@@ -27,7 +27,7 @@
         7
     ],
     "defenseSkillIDList": [
-        1110504
+        11105004
     ],
     "mentalConditionInfo": {
         "add": [
@@ -89,8 +89,14 @@
         "attributeResistList": []
     },
     "passiveSet": {
-        "passiveIdList": [],
-        "supportPassiveIdList": []
+        "passiveIdList": [
+            0,
+            0,
+            0
+        ],
+        "supportPassiveIdList": [
+            0
+        ]
     },
     "attributeList": [
         {
@@ -120,7 +126,7 @@
     "additionalAttachment": "EVENT",
     "promotionId": 0,
     "rank": 3,
-    "uniqueAttribute": "",
+    "uniqueAttribute": "AMBER",
     "supporterPassiveSet": {
         "passiveIdList": [],
         "supportPassiveIdList": []
