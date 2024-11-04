@@ -81,13 +81,13 @@
         },
         {
           "gaksungLevel": 4,
-          "defaultValue": 3,
+          "defaultValue": 4,
           "abilityScriptList": [
             {
-              "scriptName": "EleventhOutisHpRecover20And20"
+              "scriptName": "EleventhOutisHpRecover50And50"
             },
             {
-              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffTurnIfFailed_Laceration4[6:60:6]",
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffTurnIfFailed_Laceration3[6:60:6]",
               "buffData": {
                 "buffKeyword": "BloodScissorPersonalityFirst",
                 "target": "Self",
@@ -124,7 +124,7 @@
                 "buffKeyword": "Laceration",
                 "target": "Self",
                 "stack": 10,
-                "turn": 0,
+                "turn": 1,
                 "activeRound": 0
               }
             }
@@ -315,10 +315,10 @@
           "defaultValue": 4,
           "abilityScriptList": [
             {
-              "scriptName": "EleventhOutisHpRecover20And20"
+              "scriptName": "EleventhOutisHpRecover100And100"
             },
             {
-              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffStackIfFailed_Laceration5[6:60:6]",
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffTurnIfFailed_Laceration3[6:60:6]",
               "buffData": {
                 "buffKeyword": "BloodScissorPersonalityFirst",
                 "target": "Self",
@@ -337,6 +337,26 @@
                 "stack": 6,
                 "turn": 0,
                 "value": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUseIfSelfHpRatioNotLessThan50",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Self",
+                "stack": 10,
+                "turn": 1,
+                "activeRound": 0
               }
             }
           ],
@@ -364,6 +384,17 @@
                     "target": "Target",
                     "stack": 2,
                     "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSAIfTurnNotGreaterThan_Laceration6",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 0,
+                    "turn": 2,
                     "activeRound": 0
                   }
                 }
@@ -395,6 +426,17 @@
                     "turn": 0,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "GiveBuffOnSAIfTurnNotGreaterThan_Laceration6",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
                 }
               ]
             },
@@ -412,6 +454,17 @@
                     "stack": 1,
                     "turn": 0,
                     "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSAIfTurnNotGreaterThan_Laceration10",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 0,
+                    "turn": 4,
+                    "activeRound": 0
                   }
                 }
               ]
@@ -576,7 +629,7 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "EleventhOutisHpRecover30And20"
+              "scriptName": "EleventhOutisHpRecover100And125"
             },
             {
               "scriptName": "EleventhOutisTargetNumAdder10",
@@ -617,17 +670,17 @@
                 "buffKeyword": "Laceration",
                 "target": "",
                 "buffOwner": "Target",
-                "stack": 6,
+                "stack": 3,
                 "turn": 0,
                 "value": 1,
-                "limit": 2
+                "limit": 3
               }
             },
             {
-              "scriptName": "AddBloodDinnerOnBreakOrKillTarget20(limit:1)"
+              "scriptName": "AddBloodDinnerOnBreakOrKillTarget20(limit:2)"
             },
             {
-              "scriptName": "EleventhOutisPayback(limit:1)",
+              "scriptName": "EleventhOutisPayback(limit:2)",
               "buffData": {
                 "buffKeyword": "BloodScissorPersonalityFirst",
                 "target": "Self",
@@ -638,7 +691,7 @@
               }
             },
             {
-              "scriptName": "AddBloodDinnerOnBreakOrKillTargetViaBuffCheck(limit:1)",
+              "scriptName": "AddBloodDinnerOnBreakOrKillTargetViaBuffCheck(limit:2)",
               "buffData": {
                 "buffKeyword": "LineCuttingPersonality",
                 "target": "Target",
@@ -649,7 +702,7 @@
               }
             },
             {
-              "scriptName": "GiveBuffOnBreakOrKillTargetIfHasStack_LineCuttingPersonality1(limit:1)",
+              "scriptName": "GiveBuffOnBreakOrKillTargetIfHasStack_LineCuttingPersonality1(limit:2)",
               "buffData": {
                 "buffKeyword": "BloodScissorPersonalityFirst",
                 "target": "Self",
@@ -722,7 +775,7 @@
               "cutsceneStart": true,
               "abilityScriptList": [
                 {
-                  "scriptName": "EleventhOutisThirdSkillFourthCoinAbility10And30And570And20And40And1200",
+                  "scriptName": "EleventhOutisThirdSkillFourthCoinAbility10And50And950And20And80And2400",
                   "buffData": {
                     "buffKeyword": "BloodScissorPersonalityFirst"
                   }
@@ -807,6 +860,9 @@
           "defaultValue": 7,
           "abilityScriptList": [
             {
+              "scriptName": "EleventhOutisHpRecover100And175"
+            },
+            {
               "scriptName": "SkillPowerAdderOnUseViaBuffCheck",
               "buffData": {
                 "buffKeyword": "BloodScissorPersonalityFirst",
@@ -854,7 +910,18 @@
                     "buffKeyword": "Laceration",
                     "target": "Target",
                     "stack": 0,
-                    "turn": 1,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_LineCuttingPersonality1",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "buffOwner": "Target",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 2,
                     "activeRound": 0
                   }
                 }
