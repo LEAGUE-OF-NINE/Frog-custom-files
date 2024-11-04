@@ -1,0 +1,145 @@
+{
+  "list": [
+    {
+      "id": 10808,
+      "appearance": "10808_Ishmael_AhabAppearance",
+      "unitKeywordList": [
+        "PEQUOD_CAPTAIN",
+        "SMALL"
+      ],
+      "associationList": [
+        "PEQUOD_CREW"
+      ],
+      "characterId": 8,
+      "panicType": 9999,
+      "season": 3,
+      "defenseSkillIDList": [
+        10808004,
+        10808005
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 68,
+        "incrementByLevel": 2.3
+      },
+      "defCorrection": -3,
+      "minSpeedList": [
+        4,
+        4,
+        4,
+        5
+      ],
+      "maxSpeedList": [
+        5,
+        6,
+        7,
+        9
+      ],
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "Bullet",
+              "stack": 13
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "list": [
+            {
+              "buff": "AaCePcBq",
+              "stack": 10
+            },
+            {
+              "buff": "AaCePcBp",
+              "stack": 10
+            },
+            {
+              "buff": "AaCePcBo",
+              "stack": 10
+            }
+          ]
+        }
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyMp15"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply20"
+              },
+              {
+                "conditionID": "OnDieAllyMp10"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnKillEnemyByOtherAllyExceptSupportiveAction5"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 10808006,
+          "number": 3
+        },
+        {
+          "skillId": 10808001,
+          "number": 1
+        },
+        {
+          "skillId": 10808002,
+          "number": 1
+        },
+        {
+          "skillId": 10808003,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}

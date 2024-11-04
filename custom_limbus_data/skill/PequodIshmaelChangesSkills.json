@@ -1,0 +1,1048 @@
+{
+  "list": [
+    {
+      "id": 10808006,
+      "textID": 10808006,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 810508,
+          "gaksungLevel": 1,
+          "attributeType": "VIOLET",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 2,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR"
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 3,
+          "abilityScriptList": [
+            {
+              "scriptName": "HealMpOnUseSelf10"
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1,
+                "limit": 3
+              }
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
+              "buffData": {
+                "buffKeyword": "Combustion",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1,
+                "limit": 3
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "AaCePcBq",
+                "stack": 1,
+                "value": 2,
+                "limit": 10
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "AaCePcBp",
+                "stack": 1,
+                "value": 2,
+                "limit": 10
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "AaCePcBo",
+                "stack": 1,
+                "value": 2,
+                "limit": 10
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "EveryAlly",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "EveryAlly",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10808001,
+      "textID": 10808001,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 1080801,
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 2,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "10808041(Limit:1)"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "1080802_4",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 4,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+              "buffData": {
+                "buffKeyword": "AaCePcBq",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "10808044(Limit:1)",
+              "buffData": {
+                "buffKeyword": "Protection",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "AaCePcBq",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_AaCePcBq",
+                  "buffData": {
+                    "buffKeyword": "ParryingResultDown",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 6
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_AaCePcBq",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1,
+                    "value": 6
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffStack_AaCePcBq6",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 3,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8582_Ahab_Awaken_MirrorAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S2",
+                  "buffData": {
+                    "turn": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10808002,
+      "textID": 10808002,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "iconID": 1080802,
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 3,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "10808021_MAR_10_T"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "10808031_5_50"
+            },
+            {
+              "scriptName": "1080802_4",
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "10808024_MAR_20_T",
+              "buffData": {
+                "buffKeyword": "AttackDmgUp",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "AaCePcBp",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "buffOwner": "Target",
+                "stack": 7,
+                "turn": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_AaCePcBp",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 5
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffStack_AaCePcBp6",
+                  "buffData": {
+                    "buffKeyword": "IndigoTakeDamageUp",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8582_Ahab_Awaken_MirrorAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S5",
+                  "buffData": {
+                    "turn": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10808003,
+      "textID": 10808003,
+      "skillType": "SKILL",
+      "skillTier": 3,
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ],
+      "skillData": [
+        {
+          "gaksungLevel": 3,
+          "iconID": 1080803,
+          "attributeType": "VIOLET",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S3",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "10808031_2_20"
+            },
+            {
+              "scriptName": "10808033_2_10(Limit:2)",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 4,
+                "activeRound": 0
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "cutsceneStart": true,
+              "actionIndex": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "10808031_5_50"
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+              "buffData": {
+                "buffKeyword": "AaCePcBo",
+                "buffOwner": "Self",
+                "stack": 10,
+                "turn": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "10808034_2_15(Limit:6)",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 4,
+                "turn": 6,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "AaCePcBo",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "actionIndex": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "cutsceneStart": true,
+              "actionIndex": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStack_Laceration",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": -1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffStack_AaCePcBo6",
+                  "buffData": {
+                    "buffKeyword": "VioletTakeDamageUp",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8582_Ahab_Awaken_MirrorAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10808004,
+      "textID": 10808004,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "NEUTRAL",
+          "atkType": "NONE",
+          "defType": "EVADE",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 5,
+          "defaultValue": 10,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillMotion": "S4",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "1080801_4(Limit:4)"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "attributeType": "VIOLET",
+          "iconID": "810603",
+          "abilityScriptList": [
+            {
+              "scriptName": "AddShieldOnBattleStartViaBuffStackCheck",
+              "buffData": {
+                "buffKeyword": "AaCePcBq",
+                "target": "Self",
+                "buffOwner": "Self",
+                "stack": 1,
+                "turn": 0,
+                "value": 3
+              }
+            },
+            {
+              "scriptName": "1080801_4(Limit:2)"
+            },
+            {
+              "scriptName": "GiveBuffOnSucceedEvade",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 2,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EvadeThenUseSkill_10808005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10808005,
+      "textID": 10808002,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "iconID": 1080802,
+          "attributeType": "VIOLET",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 3,
+          "defaultValue": 3,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "10808021_MAR_10_T"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Combustion",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "HiddenSkill"
+            },
+            {
+              "scriptName": "10808031_5_50"
+            },
+            {
+              "scriptName": "1080802_4",
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "10808024_MAR_20_T",
+              "buffData": {
+                "buffKeyword": "AttackDmgUp",
+                "target": "Custom",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EDerSchutzeGiveBuffSelfByResonancePerf",
+              "buffData": {
+                "buffKeyword": "AaCePcBp",
+                "stack": 1,
+                "value": 2,
+                "limit": 7
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "buffOwner": "Target",
+                "stack": 7,
+                "turn": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "actionIndex": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_AaCePcBp",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 5
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffStack_AaCePcBp6",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "Self",
+                    "stack": 3,
+                    "turn": 3,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8582_Ahab_Awaken_MirrorAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S5",
+                  "buffData": {
+                    "turn": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

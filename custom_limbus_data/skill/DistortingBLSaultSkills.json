@@ -835,84 +835,7 @@
           "skillMotion": "S2",
           "viewType": "ENCOUNTER",
           "arearange": 3,
-          "parryingCloseType": "NEAR",
-          "abilityScriptList": [
-            {
-              "scriptName": "TagetNumAdderBBViaBuffCheck1",
-              "buffData": {
-                "buffKeyword": "Breath",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 10,
-                "turn": 0,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "CriticalDmgUpByRatioOnStartTurnViaBuffCheckDevideByStackWithLimit50",
-              "buffData": {
-                "buffKeyword": "Breath",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.02
-              }
-            },
-            {
-              "scriptName": "CriticalDmgUpByRatio20"
-            },
-            {
-              "scriptName": "atkmulMeur50And25"
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "cutsceneStart": true,
-              "abilityScriptList": []
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": []
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": []
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Laceration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 3,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Paralysis",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 5,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            }
-          ]
+          "parryingCloseType": "NEAR"
         },
         {
           "gaksungLevel": 4,
@@ -1194,7 +1117,7 @@
             },
             {
               "scriptName": "EvadeThenUseSkill_10508004"
-            } 
+            }
           ],
           "coinList": [
             {
