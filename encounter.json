@@ -1,77 +1,66 @@
+{
+  "id": 10001,
+  "stageLevel": 50,
+  "stageType": "Abnormality",
+  "participantInfo": {
+    "min": 0,
+    "max": 8
+  },
+  "waveList": [
     {
-      "id": 584885532,
-      "stageLevel": 40,
-      "stageType": "Abnormality",
-      "isBatonPassOn": false,
-      "includeBoss": 1,
-      "participantInfo": {
-        "min": 6,
-        "max": 6
+      "battleMapInfo": {
+        "mapName": "DarkForest"
       },
-      "waveList": [
+      "unitList": [
         {
-          "battleMapInfo": {
-            "mapName": "Cp5_DrillingVessel_Outside",
-            "mapSize": 28
-          },
-          "unitList": [
-            {
-              "unitID": 8154,
-              "unitCount": 5,
-              "unitLevel": 40
-            }
-          ],
-          "bgmList": [
-            "Battle_Cp5_MiddleBossBattle"
-          ],
-          "allyPositionID": 48,
-          "enemyPositionID": 49
+          "unitID": 300000002,
+          "unitCount": 1,
+          "unitLevel": 50,
+          "isHide": false
         },
         {
-          "battleMapInfo": {
-            "mapName": "Cp5_DrillingVessel_Outside",
-            "mapSize": 28
-          },
-          "unitList": [
-            {
-              "unitID": 80099,
-              "unitCount": 1,
-              "unitLevel": 60
-            },
-            {
-              "unitID": 8097,
-              "unitCount": 1,
-              "unitLevel": 40
-            },
-            {
-              "unitID": 8098,
-              "unitCount": 1,
-              "unitLevel": 40
-            }
-          ],
-          "subUnitList": [
-            {
-              "unitID": 8097,
-              "unitCount": 1,
-              "unitLevel": 40
-            },
-            {
-              "unitID": 8098,
-              "unitCount": 1,
-              "unitLevel": 40
-            }
-          ],
-          "bgmList": [
-            "Battle_Cp5_MiddleBossBattle"
-          ],
-          "allyPositionID": 48,
-          "enemyPositionID": 47
+          "unitID": 300000001,
+          "unitCount": 1,
+          "unitLevel": 50,
+          "isHide": false
+        },
+        {
+          "unitID": 300000003,
+          "unitCount": 1,
+          "unitLevel": 50,
+          "isHide": false
         }
       ],
-      "staminaCost": 20,
-      "recommendedLevel": 40,
-      "turnLimit": 99,
-      "stageScriptList": [],
-      "eventScriptName": [],
-      "abnormalityEventList": []
+      "bgmList": [
+        "Battle_Cp6_Leviathan"
+      ],
+      "allyPositionID": 1,
+      "enemyPositionID": 79
     }
+  ],
+  "dangerLevel": 0,
+  "staminaCost": 0,
+  "recommendedLevel": 50,
+  "turnLimit": 99,
+  "forceAllyFormation": false,
+  "blockEnemyInfo": false,
+  "questlist": [
+    {
+      "args": [
+        "10"
+      ],
+      "localizeId": 1
+    }
+  ],
+  "rewardList": [],
+  "story": {
+    "enter": [
+      "S001B"
+    ],
+    "exit": []
+  },
+  "stageScriptList": [
+    ""
+  ],
+  "includeBoss": 1
+}

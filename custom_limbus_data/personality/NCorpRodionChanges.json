@@ -1,0 +1,109 @@
+{
+  "list": [
+    {
+      "id": 10904,
+      "appearance": "10904_Rodion_NCorpAppearance",
+      "unitKeywordList": [
+        "SMALL"
+      ],
+      "associationList": [
+        "N_CORP",
+        "N_CORP_FNATIC"
+      ],
+      "characterId": 9,
+      "panicType": 9999,
+      "season": 1,
+      "defenseSkillIDList": [
+        10904004
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 2,
+      "hp": {
+        "defaultStat": 69,
+        "incrementByLevel": 2.39
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        7,
+        7,
+        7
+      ],
+      "uniqueAttribute": "INDIGO",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          70,
+          40,
+          20
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 2
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 10904001,
+          "number": 3
+        },
+        {
+          "skillId": 10904002,
+          "number": 2
+        },
+        {
+          "skillId": 10904003,
+          "number": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "100000001": {
+    "a": 0,
+    "id": "100000001",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Sever",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 1 Haste next turn\n[OnSucceedAttack] Gain 2 Poise and +4 Poise count ",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000002": {
+    "a": 0,
+    "id": "100000002",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Shimmering Cleave",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]\n[OnSucceedAttack] Heal 6 SP\n[OnSucceedAttack] Gain 2 Damage Up",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Coin Power -3\n[OnSucceedAttack] Gain 4 Poise\n[OnSucceedAttackHead] Gain +4 Poise Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000003": {
+    "a": 0,
+    "id": "100000003",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Deal +2% more damage on Critical Hit for every Poise Potency on self (Max 50%)\n+100% Damage on Critical Hit",
+        "name": "Indigo Blade",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]\n[OnSucceedAttack] Heal 10 SP\n[OnSucceedAttack] Inflict 7 Bleed next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Coin Power -2\n[OnSucceedAttack] Inflict 7 Bleed next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Coin Power -2",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "900000004": {
+    "a": 0,
+    "id": "900000004",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[SuperCoin]\n[OnSucceedEvade] Gain 3 SP, Target loses 3 SP\n[OnSucceedEvade] Use Track",
+        "name": "Exhaust",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": []
+      }
+    ]
+  },
+  "900000011": {
+    "a": 0,
+    "id": "900000011",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Track",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Heal 1 HP\n[CriticalOnSucceedAttack] Inflict 1 [MentalCrack]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Coin Power -2\n[CriticalOnSucceedAttack] Inflict 2 [MentalCrack]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000007": {
+    "a": 0,
+    "id": "100000007",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[StartBattle] If the main target has 10+ [Laceration], Atk Weight +1\n[StartBattle] The main target for this Skill does not lose [Laceration] Count for this turn\nDeal +1% more damage for every [Laceration] on target",
+        "name": "Laceration",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 9 Bleed next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 3 Pierce Fragility next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 3 Slash Fragility next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000006": {
+    "a": 0,
+    "id": "100000006",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WinDuel] If the target has [Laceration], gain 1 [Enhancement] next turn\n[WinDuel] If the target has 10+ [Laceration], gain 1 [Enhancement] next turn",
+        "name": "Shimmering Fangs",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 Bleed next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain +7 Poise Count\n[CriticalOnSucceedAttack] Gain 2 Pierce DMG Up next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000005": {
+    "a": 0,
+    "id": "100000005",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WinDuel] If the target has 5+ [Laceration], reuse this Skill on a random enemy After Attack (Once)",
+        "name": "Impale",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 7 Poise\n[OnSucceedAttack] Inflict 3 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain +4 Poise Count\n[CriticalOnSucceedAttack] Inflict +2 Bleed Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "900000005": {
+    "a": 0,
+    "id": "900000005",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[DuelCounter]\n[WhenUse] Lose 14 SP\n[WinDuel] Gain 4 [Breath]",
+        "name": "Prowl",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict +1 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Gain 1 [BloodPocket_Panic] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000010": {
+    "a": 0,
+    "id": "100000010",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "In a clash, opponent has -22 Clash Power",
+        "name": "Discipline",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 2 Fragile",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [PlusCoinValueUp]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 Poise and +2 Poise Count\n[OnSucceedAttackHead] Lose 1~2 SP\n[OnSucceedAttackHead] Reuse this Coin (5 times per Skill)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000009": {
+    "a": 0,
+    "id": "100000009",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "In a clash, opponent has -4 Clash Power",
+        "name": "Shimmering Impact",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [PlusCoinValueUp] next turn\n[OnSucceedAttack] Gain 7 Poise",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Plus Coin Drop next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000008": {
+    "a": 0,
+    "id": "100000008",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "In a clash, opponent has -5 Clash Power",
+        "name": "Strike Down",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain +6 Poise Count\n[OnSucceedAttack] Inflict 2 Attack Power Down",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "900000006": {
+    "a": 0,
+    "id": "900000006",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[DuelCounter]\n[WinDuel] Gain 1 [PlusCoinValueUp] next turn\n[WinDuel] Copies the target's 1~3 Skill Coin Power and Coin Count and uses them as its own",
+        "name": "Keep Em' Comin'",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": []
+      }
+    ]
+  },
+  "900000007": {
+    "a": 0,
+    "id": "900000007",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Cannot be staggered until this skill is used\nIn a clash, opponent has -4 Clash Power\n[DefeatDuel] User becomes Staggered",
+        "name": "Mirage Slash",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "+200% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "900000008": {
+    "a": 0,
+    "id": "900000008",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Cannot be staggered until this skill is used\nIn a clash, opponent has -7 Clash Power\n[WhenUse] Lose 90 SP\n[DefeatDuel] User becomes Staggered",
+        "name": "Mirage Spear",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 Bleed and +5 Bleed Count\n[OnSucceedAttack] Inflict 3 Fragile",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "900000009": {
+    "a": 0,
+    "id": "900000009",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Cannot be staggered until this skill is used\nIn a clash, opponent has -18 Clash Power\n[DefeatDuel] User becomes Staggered",
+        "name": "Mirage Impact",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Raise Stagger Threshold by 50% of damage dealt\n[OnSucceedAttack] Deal 17 Blunt Damage",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000011": {
+    "a": 0,
+    "id": "100000011",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "If user’s speed is higher than target’s, deal 30% more damage",
+        "name": "Feral Guillotine",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 6 Bind",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Coin Power +6\n[OnSucceedAttack] Deal bonus Slash Damage by 45% of damage dealt",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000012": {
+    "a": 0,
+    "id": "100000012",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Azure Rend",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "Deals SP damage instead of HP damage",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Coin Power +1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000013": {
+    "a": 0,
+    "id": "100000013",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Sanguine Onslaught",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Bleed\n[CriticalOnSucceedAttack] Inflict +1 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bleed\n[CriticalOnSucceedAttack] Inflict +2 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Bleed\n[CriticalOnSucceedAttack] Inflict +1 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Bleed\n[CriticalOnSucceedAttack] Inflict +2 Bleed Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Activate [Laceration] on the target equal to its Count. Use up the target's [Laceration] Count down to 1",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000014": {
+    "a": 0,
+    "id": "100000014",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Disembowel",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackTail] Inflict [AttackDmgDown] equal to [Laceration] on the target (max 5)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CriticalOnSucceedAttack] Inflict 1 [ResultReduction]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000015": {
+    "a": 0,
+    "id": "100000015",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "In a clash, opponent has -9 Clash Power",
+        "name": "Savage Beatdown",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [AttackDmgUp] (Max 5)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Deal 10 Blunt Damage\n[OnSucceedAttack] If this unit's Speed is higher than target's, reuse this Skill (Max 8)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "100000016": {
+    "a": 0,
+    "id": "100000016",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "In a clash, opponent has -3 Clash Power",
+        "name": "Pulverize",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [PlusCoinValueUp]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Disarming] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 4 [Paralysis] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Deal 7 Blunt Damage",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

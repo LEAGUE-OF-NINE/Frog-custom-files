@@ -1,0 +1,530 @@
+{
+  "list": [
+    {
+      "id": 333333333333303,
+      "unitScriptID": "",
+      "viewid": 333333333333303,
+      "deadsceneid": -1,
+      "sdPortrait": "",
+      "appearance": "99002_WolfAppearance",
+      "panicSkillOnErosion": 1000104,
+      "mp": 99,
+      "hp": {
+        "defaultStat": 84,
+        "incrementByLevel": 3.5
+      },
+      "defCorrection": 2,
+      "aggro": 1,
+      "panicType": 1014,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "defenseSkillIDList": [
+        900000004
+      ],
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "showUnitLevel": true,
+      "showAtkLevel": true,
+      "showDefLevel": true,
+      "showHp": true,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "breakSection": {
+        "sectionList": [
+          45
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2.0
+          },
+          {
+            "type": "HIT",
+            "value": 1.0
+          }
+        ],
+        "attributeResistList": []
+      },
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 1,
+            "passiveIDList": [
+              900000022,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          },
+          {
+            "level": 2,
+            "passiveIDList": [
+              900000022,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          },
+          {
+            "level": 4,
+            "passiveIDList": [
+              900000022,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": [
+              1110221
+            ]
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 100000001,
+          "number": 3
+        },
+        {
+          "skillId": 100000002,
+          "number": 2
+        },
+        {
+          "skillId": 100000011,
+          "number": 1
+        },
+        {
+          "skillId": 100000003,
+          "number": 1
+        },
+        {
+          "skillId": 100000012,
+          "number": 1
+        },
+        {
+          "skillId": 900000007,
+          "number": 1
+        }
+      ],
+      "initBuffList": [],
+      "associationList": [
+        "ANIMALS"
+      ],
+      "unitKeywordList": [
+        "BASE_APPEARANCE"
+      ],
+      "characterId": 3,
+      "season": 0,
+      "additionalAttachment": "",
+      "promotionId": 0,
+      "rank": 3,
+      "uniqueAttribute": "AZURE",
+      "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+      },
+      "walpurgisType": "1"
+    },
+    {
+      "id": 10000711,
+      "unitScriptID": "",
+      "viewid": 10000711,
+      "deadsceneid": -1,
+      "sdPortrait": "",
+      "appearance": "99003_PantherAppearance",
+      "panicSkillOnErosion": 1000104,
+      "mp": 99,
+      "hp": {
+        "defaultStat": 80,
+        "incrementByLevel": 3.25
+      },
+      "defCorrection": 2,
+      "aggro": 1,
+      "panicType": 1021,
+      "isPlusCoinUnit": false,
+      "minSpeedList": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "maxSpeedList": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "defenseSkillIDList": [
+        900000005
+      ],
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "showUnitLevel": true,
+      "showAtkLevel": true,
+      "showDefLevel": true,
+      "showHp": true,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "breakSection": {
+        "sectionList": [
+          45
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 1.0
+          },
+          {
+            "type": "PENETRATE",
+            "value": 0.5
+          },
+          {
+            "type": "HIT",
+            "value": 2.0
+          }
+        ],
+        "attributeResistList": []
+      },
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 1,
+            "passiveIDList": [
+              900000020,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          },
+          {
+            "level": 2,
+            "passiveIDList": [
+              900000020,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          },
+          {
+            "level": 4,
+            "passiveIDList": [
+              900000020,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": [
+              1110221
+            ]
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 100000005,
+          "number": 3
+        },
+        {
+          "skillId": 100000006,
+          "number": 2
+        },
+        {
+          "skillId": 100000007,
+          "number": 1
+        },
+        {
+          "skillId": 100000013,
+          "number": 1
+        },
+        {
+          "skillId": 100000014,
+          "number": 1
+        },
+        {
+          "skillId": 900000008,
+          "number": 1
+        }
+      ],
+      "initBuffList": [],
+      "associationList": [
+        "ANIMALS"
+      ],
+      "unitKeywordList": [
+        "BASE_APPEARANCE"
+      ],
+      "characterId": 7,
+      "season": 0,
+      "additionalAttachment": "",
+      "promotionId": 0,
+      "rank": 3,
+      "uniqueAttribute": "AZURE",
+      "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+      },
+      "walpurgisType": "1"
+    },
+    {
+      "id": 10000712,
+      "unitScriptID": "",
+      "viewid": 10000712,
+      "deadsceneid": -1,
+      "sdPortrait": "",
+      "appearance": "99001_LionAppearance",
+      "panicSkillOnErosion": 1000104,
+      "mp": 99,
+      "hp": {
+        "defaultStat": 104,
+        "incrementByLevel": 3.5
+      },
+      "defCorrection": 2,
+      "aggro": 1,
+      "panicType": 1014,
+      "minSpeedList": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "maxSpeedList": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "defenseSkillIDList": [
+        900000006
+      ],
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "showUnitLevel": true,
+      "showAtkLevel": true,
+      "showDefLevel": true,
+      "showHp": true,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "breakSection": {
+        "sectionList": [
+          45
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2.0
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1.0
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ],
+        "attributeResistList": []
+      },
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 1,
+            "passiveIDList": [
+              900000021,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          },
+          {
+            "level": 2,
+            "passiveIDList": [
+              900000021,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          },
+          {
+            "level": 4,
+            "passiveIDList": [
+              900000021,
+              900000023,
+              900000024,
+              999906,
+              999907
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": [
+              1110221
+            ]
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 100000008,
+          "number": 3
+        },
+        {
+          "skillId": 100000009,
+          "number": 2
+        },
+        {
+          "skillId": 100000010,
+          "number": 1
+        },
+        {
+          "skillId": 100000015,
+          "number": 1
+        },
+        {
+          "skillId": 100000016,
+          "number": 1
+        },
+        {
+          "skillId": 900000009,
+          "number": 1
+        }
+      ],
+      "initBuffList": [],
+      "associationList": [
+        "ANIMALS"
+      ],
+      "unitKeywordList": [
+        "BASE_APPEARANCE"
+      ],
+      "characterId": 8,
+      "season": 0,
+      "additionalAttachment": "",
+      "promotionId": 0,
+      "rank": 3,
+      "uniqueAttribute": "SHAMROCK",
+      "supporterPassiveSet": {
+        "passiveIdList": [],
+        "supportPassiveIdList": []
+      },
+      "walpurgisType": "1"
+    }
+  ]
+}

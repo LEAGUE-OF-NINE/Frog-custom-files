@@ -1,0 +1,38 @@
+{
+    "300000001": {
+        "a": 0,
+        "id": "300000001",
+        "name": "<color=#f5eb3d><link=\"Lion\">Lion</color></link>",
+        "desc": "Core"
+    },
+    "300000002": {
+        "a": 0,
+        "id": "300000002",
+        "name": "<color=#f5eb3d><link=\"Wolf\">Wolf</color></link>",
+        "desc": "Core"
+    },
+    "300000003": {
+        "a": 0,
+        "id": "300000003",
+        "name": "<color=#f5eb3d><link=\"Panther\">Panther</color></link>",
+        "desc": "Core"
+    },
+    "300000011": {
+        "a": 0,
+        "id": "300000011",
+        "name": "Body",
+        "desc": "Core"
+    },
+    "300000012": {
+        "a": 0,
+        "id": "300000012",
+        "name": "Body",
+        "desc": "Core"
+    },
+    "300000013": {
+        "a": 0,
+        "id": "300000013",
+        "name": "Body",
+        "desc": "Core"
+    }
+}

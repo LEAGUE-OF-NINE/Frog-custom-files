@@ -1,0 +1,300 @@
+{
+  "list": [
+    {
+      "id": 300000001,
+      "appearance": "99001_LionAppearance",
+      "associationList": [
+        "ANIMALS"
+      ],
+      "classType": "ALEPH",
+      "attributeType": "AMBER",
+      "hasMp": true,
+      "showHp": false,
+      "panicType": 1014,
+      "lowMorale": -10,
+      "panic": -35,
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnRoundStartAfterEvent15"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
+              },
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "hp": {
+        "defaultStat": 999,
+        "incrementByLevel": 0
+      },
+      "startActionSlotNum": 4,
+      "maxActionSlotNum": 4,
+      "patternID": "AutoPick",
+      "abnormalityPartList": [
+        300000011
+      ],
+      "attributeList": [
+        {
+          "skillId": 100000008,
+          "number": 1
+        },
+        {
+          "skillId": 100000009,
+          "number": 1
+        },
+        {
+          "skillId": 100000010,
+          "number": 1
+        },
+        {
+          "skillId": 100000015,
+          "number": 1
+        },
+        {
+          "skillId": 100000016,
+          "number": 1
+        },
+        {
+          "skillId": 900000009,
+          "number": 1
+        },
+        {
+          "skillId": 900000006,
+          "number": 1
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          900000021,
+          999906,
+          999907,
+          816605,
+          9101502,
+          9999998
+        ]
+      }
+    },
+    {
+      "id": 300000002,
+      "appearance": "99002_WolfAppearance",
+      "associationList": [
+        "ANIMALS"
+      ],
+      "classType": "ALEPH",
+      "attributeType": "VIOLET",
+      "hasMp": true,
+      "showHp": false,
+      "panicType": 1014,
+      "lowMorale": -10,
+      "panic": -35,
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply5"
+              },
+              {
+                "conditionID": "OnRoundStartAfterEvent15"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
+              },
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "hp": {
+        "defaultStat": 999,
+        "incrementByLevel": 0
+      },
+      "startActionSlotNum": 4,
+      "maxActionSlotNum": 4,
+      "patternID": "AutoPick",
+      "abnormalityPartList": [
+        300000012
+      ],
+      "attributeList": [
+        {
+          "skillId": 100000001,
+          "number": 1
+        },
+        {
+          "skillId": 100000002,
+          "number": 1
+        },
+        {
+          "skillId": 100000011,
+          "number": 1
+        },
+        {
+          "skillId": 100000003,
+          "number": 1
+        },
+        {
+          "skillId": 100000012,
+          "number": 1
+        },
+        {
+          "skillId": 900000007,
+          "number": 1
+        },
+        {
+          "skillId": 900000004,
+          "number": 1
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          900000022,
+          999906,
+          999907,
+          1100801,
+          1030501,
+          9101502,
+          9999998
+        ]
+      }
+    },
+    {
+      "id": 300000003,
+      "appearance": "99003_PantherAppearance",
+      "associationList": [
+        "ANIMALS"
+      ],
+      "classType": "ALEPH",
+      "attributeType": "SHAMROCK",
+      "hasMp": true,
+      "showHp": false,
+      "panicType": 1014,
+      "lowMorale": -10,
+      "panic": -35,
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnRoundStartAfterEvent5"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnLoseDuelAsParryingCountMultiply5AndPlus10Percent"
+              },
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "hp": {
+        "defaultStat": 999,
+        "incrementByLevel": 0
+      },
+      "startActionSlotNum": 4,
+      "maxActionSlotNum": 4,
+      "patternID": "AutoPick",
+      "abnormalityPartList": [
+        300000013
+      ],
+      "attributeList": [
+        {
+          "skillId": 100000005,
+          "number": 1
+        },
+        {
+          "skillId": 100000006,
+          "number": 1
+        },
+        {
+          "skillId": 100000007,
+          "number": 1
+        },
+        {
+          "skillId": 100000013,
+          "number": 1
+        },
+        {
+          "skillId": 100000014,
+          "number": 1
+        },
+        {
+          "skillId": 900000008,
+          "number": 1
+        },
+        {
+          "skillId": 900000005,
+          "number": 1
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          900000020,
+          999906,
+          999907,
+          1100801,
+          1030501,
+          9101502,
+          9999998
+        ]
+      }
+    }
+  ]
+}

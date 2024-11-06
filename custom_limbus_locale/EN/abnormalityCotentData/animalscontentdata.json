@@ -1,0 +1,65 @@
+{
+    "300000001": {
+        "a": 0,
+        "id": "300000001",
+        "codeName": "<color=#a001c4><link=\"PT-??-??-??\">PT-??-??-??</color></link>",
+        "name": "<color=#f5eb3d><link=\"Lion\">Lion</color></link>",
+        "clue": "The Hunt Begins",
+        "storyList": [
+            {
+                "level": 0,
+                "story": "They're back for revenge."
+            },
+            {
+                "level": 1,
+                "story": "They're back for revenge."
+            },
+            {
+                "level": 2,
+                "story": "They're back for revenge."
+            }
+        ]
+    },
+    "300000002": {
+        "a": 0,
+        "id": "300000002",
+        "codeName": "<color=#a001c4><link=\"PT-??-??-??\">PT-??-??-??</color></link>",
+        "name": "<color=#f5eb3d><link=\"Wolf\">Wolf</color></link>",
+        "clue": "The Hunt Begins",
+        "storyList": [
+            {
+                "level": 0,
+                "story": "They're back for revenge."
+            },
+            {
+                "level": 1,
+                "story": "They're back for revenge."
+            },
+            {
+                "level": 2,
+                "story": "They're back for revenge."
+            }
+        ]
+    },
+    "300000003": {
+        "a": 0,
+        "id": "300000003",
+        "codeName": "<color=#a001c4><link=\"PT-??-??-??\">PT-??-??-??</color></link>",
+        "name": "<color=#f5eb3d><link=\"Panther\">Panther</color></link>",
+        "clue": "The Hunt Begins",
+        "storyList": [
+            {
+                "level": 0,
+                "story": "They're back for revenge."
+            },
+            {
+                "level": 1,
+                "story": "They're back for revenge."
+            },
+            {
+                "level": 2,
+                "story": "They're back for revenge."
+            }
+        ]
+    }
+}

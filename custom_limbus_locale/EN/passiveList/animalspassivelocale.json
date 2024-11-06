@@ -1,0 +1,44 @@
+{
+  "900000020": {
+    "a": 0,
+    "id": "900000020",
+    "name": "Panther's Prowess",
+    "desc": "On Hit, lose 9~13 Sanity",
+    "summary": ""
+  },
+  "900000021": {
+    "a": 0,
+    "id": "900000021",
+    "name": "Lion's Might",
+    "desc": "On Hit, deal 7 Blunt Damage",
+    "summary": ""
+  },
+  "900000022": {
+    "a": 0,
+    "id": "900000022",
+    "name": "Wolf's Arrogance",
+    "desc": "On Hit, deal bonus Slash Damage by 15% of damage dealt",
+    "summary": ""
+  },
+  "900000023": {
+    "a": 0,
+    "id": "900000023",
+    "name": "Disciple of a Color Fixer",
+    "desc": "When this unit defeats an enemy, all enemies lose 15 SP",
+    "summary": ""
+  },
+  "900000024": {
+    "a": 0,
+    "id": "900000024",
+    "name": "Thrill of the Hunt",
+    "desc": "After defeating an enemy, gain an additional skill slot next turn",
+    "summary": ""
+  },
+  "999906": {
+    "a": 0,
+    "id": "999906",
+    "name": "<color=#fff6a8><link=\"Shin (心)\">Shin (心)</color></link>",
+    "desc": "Generates Mang based on SP",
+    "summary": ""
+  }
+}

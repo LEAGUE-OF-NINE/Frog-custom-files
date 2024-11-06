@@ -1,0 +1,29 @@
+{
+  "10000711": {
+    "a": 0,
+    "id": "10000711",
+    "name": "",
+    "desc": "",
+    "title": "<color=#f5eb3d><link=\"Panther\">Panther</color></link>",
+    "acquisitionMethod": "Unknown",
+    "oneLineTitle": ""
+  },
+  "10000712": {
+    "a": 0,
+    "id": "10000712",
+    "name": "",
+    "desc": "",
+    "title": "<color=#f5eb3d><link=\"Lion\">Lion</color></link>",
+    "acquisitionMethod": "Unknown",
+    "oneLineTitle": ""
+  },
+  "921490743": {
+    "a": 0,
+    "id": "921490743",
+    "name": "",
+    "desc": "",
+    "title": "<color=#f5eb3d><link=\"Wolf\">Wolf</color></link>",
+    "acquisitionMethod": "Unknown",
+    "oneLineTitle": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "list": [
+    {
+      "id": 900000020
+    },
+    {
+      "id": 900000021
+    },
+    {
+      "id": 900000022
+    },
+    {
+      "id": 900000023
+    },
+    {
+      "id": 900000024
+    },
+    {
+      "id": 1020401,
+      "attributeResonanceCondition": [
+        {
+          "type": "SCARLET",
+          "value": 3
+        }
+      ],
+      "requireIDList": [
+        "CheckAwakenLevel2"
+      ]
+    }
+  ]
+}

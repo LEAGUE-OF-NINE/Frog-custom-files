@@ -1,0 +1,154 @@
+{
+  "10904001": {
+    "a": 0,
+    "id": "10904001",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "Clash Power +1 for every 3 [Nail] on target (Max 2)\n[WhenUse] If the target has 6+ [Laceration], Coin Power +1",
+        "name": "Devoted Hammering",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If target has [Nail], inflict 1 [Nail]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If target has [Nail], inflict 1 [Nail]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10904002": {
+    "a": 0,
+    "id": "10904002",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WinDuel] Gain 2 Fanatic next turn\nIf this unit is Fanatic, deal +25% damage",
+        "name": "Zealous Purge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Nail] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Assemble] to a random ally next turn for every 3 [Nail] on the target (Max 4)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Paralyze next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Assemble] to a random ally next turn for every 3 [Nail] on the target (Max 4)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10904003": {
+    "a": 0,
+    "id": "10904003",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If this unit is Fanatic, deal +25% damage\nDeal +5% damage for each 'N Corp. Fanatic' present in the party\n[WhenUse] Deal +5% damage for every [Nail] on target\n[WhenUse] If the target has 6+ [Laceration], Coin Power +1",
+        "name": "Ironclad Retribution",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 2 Bleed",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10904004": {
+    "a": 0,
+    "id": "10904004",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "",
+        "name": "Counter",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Nail]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse this coin (Max 1)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
