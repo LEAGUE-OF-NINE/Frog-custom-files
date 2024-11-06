@@ -829,7 +829,7 @@
     },
     {
       "id": 10808005,
-      "textID": 10808002,
+      "textID": 10808005,
       "skillType": "SKILL",
       "skillTier": 2,
       "requireIDList": [],
@@ -1021,11 +1021,11 @@
                 {
                   "scriptName": "GiveBuffOnSuccessAttackUsingBuffStack_AaCePcBp6",
                   "buffData": {
-                    "buffKeyword": "Laceration",
+                    "buffKeyword": "VioletTakeDamageUp",
                     "target": "Target",
                     "buffOwner": "Self",
                     "stack": 3,
-                    "turn": 3,
+                    "turn": 0,
                     "activeRound": 0
                   }
                 },

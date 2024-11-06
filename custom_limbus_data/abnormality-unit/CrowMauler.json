@@ -369,7 +369,7 @@
       ]
     },
     {
-      "id": 80372,
+      "id": 800372,
       "appearance": "8372_Barber_NicoleAppearance",
       "associationList": [],
       "unitKeywordList": [
@@ -955,7 +955,7 @@
       ]
     },
     {
-      "id": 80099,
+      "id": 800099,
       "appearance": "8099_MiddleFinger_RicardoAppearance",
       "unitKeywordList": [
         "CLAN"
@@ -1416,7 +1416,7 @@
       ]
     },
     {
-      "id": 8760,
+      "id": 80760,
       "viewid": 8519,
       "nameID": 8519,
       "sdPortrait": 8519,

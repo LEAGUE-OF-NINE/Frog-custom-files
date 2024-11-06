@@ -1,0 +1,153 @@
+{
+  "10204001": {
+    "a": 0,
+    "id": "10204001",
+    "levelList": [
+      {
+        "level": 2,
+        "desc": "If target has [MarkOfHeresy], Coin Power +1\n[WinDuel] Target loses 10 SP\n[WhenUse] Clash Power +1 for every 3 [Laceration] on the target (Max 2)\n[WhenUse] If target is a <Mechanical Amalgam>, deal +20% damage",
+        "name": "Cackle",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Nail]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has [MarkOfHeresy], reuse this coin (Max 1)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse this coin (Max 1)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10204002": {
+    "a": 0,
+    "id": "10204002",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If target has [MarkOfHeresy], Coin Power +1\n[WhenUse] Clash Power +1 for every 3 [Laceration] on the target (Max 2)\n[WhenUse] If target is a <Mechanical Amalgam>, deal +20% damage\n[StartBattle] The main target for this Skill does not lose [Laceration] Count for this turn.",
+        "name": "The Gripping",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Nail]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Assemble] to all allies for every 3 [Nail] on the target (Max 5)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Nail]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Assemble] to all allies for every 3 [Nail] on the target (Max 5)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict Gaze next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 3 Paralyze next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10204003": {
+    "a": 0,
+    "id": "10204003",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If target has [MarkOfHeresy], Coin Power +1\n[WhenUse] Coin Power +1 for every 3 [Laceration] Count on the target (Max 2)\n[WhenUse] Clash Power +1 for every 3 [Laceration] on the target (Max 2)\n[WhenUse] Deal +5% more damage for every [Nail] on target\n- If this unit has [Assemble], deal +25% damage\n- If target is a <Mechanical Amalgam>, deal +25% damage\n[EnemyKill] Heal all allies for 15 SP and apply 3 [Assemble] and 3 [AttackDmgUp] to all allies next turn",
+        "name": "Execution",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Nail]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 2 [Nail]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict Gaze next turn",
+                "summary": ""
+              },
+              {
+                "desc": "+70% damage to targets with 5+ [Nail]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10204004": {
+    "a": 0,
+    "id": "10204004",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If target has [MarkOfHeresy], Coin Power +2\n[OnSucceedEvade] Target loses 5 SP\n[OnSucceedEvade] Heal 5 SP",
+        "name": "Such Filth",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  }
+}

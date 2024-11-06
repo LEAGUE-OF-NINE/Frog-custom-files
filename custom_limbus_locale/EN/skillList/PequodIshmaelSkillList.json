@@ -190,5 +190,56 @@
         ]
       }
     ]
+  },
+  "10808005": {
+    "a": 0,
+    "id": "10808005",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "Deal more damage based on target's missing HP (+0.5% damage per 1% missing HP, max +50%)\n[StartBattle] Apply 3 Offense Level Up to 2 allies adjacent to this unit on the Dashboard\n[WhenUse] Every Reson. of the highest Reson. adds 20% chance that this unit orders the ally on its immediate right(on the Dashboard) to use [CoverAttack] this turn.\n- At 4+ highest A-Reson., apply 2 'Damage Up' to the ally\n- At 4+ Pride A-Reson., apply 2 additional Pride Power Up\nCoin Power +1 for every 5 [Laceration] on target (Max 2)\n[BeforeAttack] Gain (highest Reson. + 1) [AaCePcBp] (max 7)\n- If it was an A-Reson., gain (highest Reson. +2) [AaCePcBp] instead",
+        "name": "Pursue Them to the End!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +1 [Laceration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration] for every 5 [AaCePcBp] on self",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Spend 6 [AaCePcBp] to inflict 3 [VioletTakeDamageUp]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
