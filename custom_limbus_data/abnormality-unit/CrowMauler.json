@@ -12,7 +12,7 @@
       "classType": "TETH",
       "attributeType": "SHAMROCK",
       "hp": {
-        "defaultStat": 515,
+        "defaultStat": 5515,
         "incrementByLevel": 33
       },
       "abnormalityPartList": [
@@ -1430,7 +1430,7 @@
       "classType": "HE",
       "attributeType": "VIOLET",
       "hp": {
-        "defaultStat": 304,
+        "defaultStat": 30004,
         "incrementByLevel": 18.49
       },
       "patternID": "8749",

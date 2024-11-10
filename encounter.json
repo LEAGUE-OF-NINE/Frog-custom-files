@@ -13,19 +13,7 @@
       },
       "unitList": [
         {
-          "unitID": 300000002,
-          "unitCount": 1,
-          "unitLevel": 50,
-          "isHide": false
-        },
-        {
-          "unitID": 300000001,
-          "unitCount": 1,
-          "unitLevel": 50,
-          "isHide": false
-        },
-        {
-          "unitID": 300000003,
+          "unitID": 80760,
           "unitCount": 1,
           "unitLevel": 50,
           "isHide": false
@@ -53,14 +41,7 @@
     }
   ],
   "rewardList": [],
-  "story": {
-    "enter": [
-      "S001B"
-    ],
-    "exit": []
-  },
   "stageScriptList": [
     ""
-  ],
-  "includeBoss": 1
+  ]
 }

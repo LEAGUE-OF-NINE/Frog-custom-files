@@ -77,6 +77,14 @@
                 "activeRound": 0,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "ChangeSkillOnConditional__10504002",
+              "buffData": {
+                "buffKeyword": "Breath",
+                "stack": 3,
+                "turn": 3
+              }
             }
           ],
           "coinList": [
@@ -437,7 +445,7 @@
                 "buffOwner": "",
                 "stack": 1,
                 "turn": 0,
-                "activeRound": 0
+                "activeRound": 1
               }
             },
             {
@@ -453,6 +461,14 @@
                 "turn": 3,
                 "activeRound": 0,
                 "value": 1
+              }
+            },
+            {
+              "scriptName": "ChangeCounterOnConditional_10504002",
+              "buffData": {
+                "buffKeyword": "Orlando",
+                "stack": 1,
+                "turn": 0
               }
             }
           ],

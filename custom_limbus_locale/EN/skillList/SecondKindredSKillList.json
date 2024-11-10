@@ -1,0 +1,80 @@
+{
+  "8380051": {
+    "a": 0,
+    "id": "8380051",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "On Hit with this Skill: heal 100% of the HP damage dealt (max 100)\n[WhenUse] If the target has 6+ [Laceration], Coin Power +1\n[WhenUse] Consume up to 60 [BloodDinner] and gain 1 [BloodArmor] for every 6 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain +3 [Laceration] Count\n[WhenUse] Coin Power +1 for every 10 [BloodArmor] (max 2)\n[WhenUse] Gain 5 [Laceration]\n- At 50%+ HP, gain 10 additional [Laceration] and +1 [Laceration] Count\n[WhenUse] Increase damage by 3% for every [Laceration] on target",
+        "name": "Don Quixote Hardblood Arts 4 - Sundering",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count at 10+ [BloodArmor] on self.",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count at 10+ [BloodArmor] on self.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8380091": {
+    "a": 0,
+    "id": "8380091",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "On Hit with this Skill: heal 100% of the HP damage dealt (max 100)\n[WhenUse] Consume up to 60 [BloodDinner]: gain 1 [BloodArmor] and Base Power +1 for every 10 [BloodDinner] consumed (Max 6)\n- If this unit failed to consume [BloodDinner], gain 10 [Laceration], and activate [Laceration] immediately. Lose 1 [Laceration] Count\n[WhenUse] Gain 5 [Laceration]\n- At 50%+ HP, gain 10 additional [Laceration] and +1 [Laceration] Count\n[WhenUse] Increase damage by 3% for every [Laceration] on target",
+        "name": "Variant Don Quixote Style: Sancho Arts 3 - Ambush",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\n- If this Skill consumed 30 [BloodDinner], inflict +2 additional [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count\n- If this Skill consumed 30 [BloodDinner], inflict +2 additional [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Paralysis] next turn\n- If this Skill consumed 30 [BloodDinner], inflict 2 additional [Paralysis]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

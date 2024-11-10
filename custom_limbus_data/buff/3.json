@@ -1,0 +1,135 @@
+{
+  "list": [
+    {
+      "id": "MDcFaBa",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "maxStack": 4,
+      "list": [
+        {
+          "ability": "MinSpeedAdderPerBuffStack",
+          "value": 1
+        },
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "value": 0.07
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBb",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "maxStack": 4,
+      "list": [
+        {
+          "ability": "GiveBuffOnREPerStack",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "AttackUp",
+            "target": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 1,
+            "limit": 6
+          }
+        },
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "value": 0.07
+        }
+      ]
+    },
+    {
+      "id": "MDcFaBd",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "maxStack": 4,
+      "list": [
+        {
+          "ability": "GiveBuffOnREPerStack",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Protection",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 1,
+            "limit": 3
+          }
+        },
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "value": 0.1
+        }
+      ]
+    },
+    {
+      "id": "BloodArmor",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": false,
+      "destroyableOnZero": true,
+      "maxStack": 30,
+      "list": []
+    },
+    {
+      "id": "BloodArmor_2nd",
+      "iconId": "BloodArmor",
+      "subIdList": [
+        "BloodArmor"
+      ],
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": false,
+      "destroyableOnZero": true,
+      "maxStack": 30,
+      "list": [
+        {
+          "ability": "BloodArmorAtkAndDefAdder_1",
+          "value": 5
+        },
+        {
+          "ability": "BloodArmorSpeedAdder",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "BloodArmor_3rd",
+      "iconId": "BloodArmor",
+      "subIdList": [
+        "BloodArmor"
+      ],
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": false,
+      "destroyableOnZero": true,
+      "maxStack": 40,
+      "list": [
+        {
+          "ability": "BloodArmorAtkAndDefAdder_2",
+          "value": 5
+        },
+        {
+          "ability": "GiveBuffOnREPerStack",
+          "value": 15,
+          "buffData": {
+            "buffKeyword": "AttackDmgUp",
+            "target": "Self",
+            "stack": 2,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "BloodArmorSpeedAdder",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

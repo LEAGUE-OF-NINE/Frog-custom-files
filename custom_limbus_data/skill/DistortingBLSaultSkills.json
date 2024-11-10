@@ -619,7 +619,7 @@
           "coinList": [
             {
               "operatorType": "ADD",
-              "scale": 12,
+              "scale": 10,
               "cutsceneStart": true,
               "abilityScriptList": []
             }
@@ -731,6 +731,12 @@
                     "turn": 2,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8153_KimSatGat_ErodeAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S4"
                 }
               ]
             },
@@ -760,6 +766,12 @@
                     "turn": 2,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8153_KimSatGat_ErodeAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S4"
                 }
               ]
             },
@@ -802,6 +814,12 @@
                     "value": 2.0,
                     "limit": 0
                   }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8153_KimSatGat_ErodeAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S4"
                 }
               ]
             }
@@ -832,7 +850,7 @@
           "canTeamKill": false,
           "canDuel": false,
           "canChangeTarget": true,
-          "skillMotion": "S2",
+          "skillMotion": "S4",
           "viewType": "ENCOUNTER",
           "arearange": 3,
           "parryingCloseType": "NEAR"
@@ -933,8 +951,16 @@
                     "stack": 0,
                     "turn": 0,
                     "activeRound": 0,
-                    "value": 1.0,
-                    "limit": 0
+                    "value": 1.0
+                  }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8153_KimSatGat_ErodeAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S6",
+                  "buffData": {
+                    "turn": 1
                   }
                 }
               ]
@@ -966,6 +992,15 @@
                     "value": 1.0,
                     "limit": 0
                   }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8153_KimSatGat_ErodeAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S6",
+                  "buffData": {
+                    "turn": 2
+                  }
                 }
               ]
             },
@@ -995,6 +1030,15 @@
                     "activeRound": 0,
                     "value": 1.0,
                     "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8153_KimSatGat_ErodeAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S6",
+                  "buffData": {
+                    "turn": 2
                   }
                 }
               ]
@@ -1036,6 +1080,15 @@
                     "activeRound": 0,
                     "value": 1.0,
                     "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "ChangeAppearance_8153_KimSatGat_ErodeAppearance"
+                },
+                {
+                  "scriptName": "ChangeSkillMotion_S6",
+                  "buffData": {
+                    "turn": 3
                   }
                 }
               ]

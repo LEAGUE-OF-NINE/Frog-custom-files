@@ -1,0 +1,541 @@
+{
+  "107060010": {
+    "a": 0,
+    "id": "107060010",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[BeforeUse] At 0 [MDcFaBa], use 'Old Boys Workshop' instead\n[BeforeUse] At 1 [MDcFaBa], use 'Zelkova Workshop' instead\n[BeforeUse] At 2+ [MDcFaBa], use 'Ranga Workshop' instead",
+        "name": "Gloves Of The Black Silence - Stage 1",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "107060011": {
+    "a": 0,
+    "id": "107060011",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "In a clash, opponent has -3 Clash Power\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] Gain 1 [MDcFaBa]",
+        "name": "Old Boys Workshop",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict [Burst] Count equal to their Speed difference (Max 5)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060012": {
+    "a": 0,
+    "id": "107060012",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "In a clash, opponent has -3 Clash Power\nIf this unit's Speed is faster than the target's, gain Coin Power +1 for every 3 Speed difference (Max 2)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] Gain 1 [MDcFaBa]",
+        "name": "Zelkova Workshop",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Burst]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Paralysis] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict [Burst] Count equal to their Speed difference (Max 5)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060013": {
+    "a": 0,
+    "id": "107060013",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "In a clash, opponent has -3 Clash Power\nIf this unit's Speed is faster than the target's, gain Coin Power +1 for every 3 Speed difference (Max 3)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] Gain 1 [MDcFaBa]",
+        "name": "Ranga Workshop",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] The final Coin deals +10% damage",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Burst]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Paralysis] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] The final Coin deals +10% damage",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict [Laceration] Count equal to their Speed difference (Max 5)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If this unit is faster than the target, inflict [Burst] Count equal to their Speed difference (Max 5)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060020": {
+    "a": 0,
+    "id": "107060020",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[BeforeUse] At 0 [MDcFaBb], use 'Mook Workshop' instead\n[BeforeUse] At 1 [MDcFaBb], use 'Allas Workshop' instead\n[BeforeUse] At 2+ [MDcFaBb], use 'Allas Workshop' instead",
+        "name": "Gloves Of The Black Silence - Stage 2",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "107060021": {
+    "a": 0,
+    "id": "107060021",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[StartBattle] Apply 2 [SlashDamageUp] to all allies, including this unit\n[StartBattle] Gain 2 [SlashResultUp]\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] Gain 1 [MDcFaBb]",
+        "name": "Mook Workshop",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has 3+ [Binding], reuse this coin once (Max 1)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060022": {
+    "a": 0,
+    "id": "107060022",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "In a clash, opponent has -13 Clash Power\n[StartBattle] Apply 2 [PenetrateDamageUp] to all allies, including this unit\n[StartBattle] Gain 2 [PenetrateResultUp]\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] Gain 1 [MDcFaBb]",
+        "name": "Allas Workshop",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Apply 2 [AttackDmgUp] next turn to 3 random allies (Max once per turn)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Apply 2 [AttackDmgUp] next turn to 3 random allies (Max once per turn)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has 3+ [Binding], reuse this coin once (Max 1)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060023": {
+    "a": 0,
+    "id": "107060023",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[StartBattle] Apply 2 [HitDamageUp] to all allies, including this unit\n[StartBattle] Gain 2 [HitResultUp]\nIf this unit's Speed is faster than the target's, gain Coin Power +1 for every 2 Speed difference (Max 3)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] Gain 1 [MDcFaBb]",
+        "name": "Atelier Logic",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 8 [Laceration]; Inflict +2 [Laceration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 8 [Laceration]; Inflict +2 [Laceration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Spend 1 Ammo\n[OnSucceedAttack] Inflict 4 Fragile",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +4 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060030": {
+    "a": 0,
+    "id": "107060030",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[BeforeUse] At 0 [MDcFaBd], use 'Wheels Industry' instead\n[BeforeUse] At 1 [MDcFaBd], use 'Crystal Atelier' instead\n[BeforeUse] At 2+ [MDcFaBd], use 'Durandal' instead",
+        "name": "Gloves Of The Black Silence - Stage 3",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "107060031": {
+    "a": 0,
+    "id": "107060031",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain 1 [MDcFaBd]\n[WhenUse] Gain 5 [Breath]\n- Gain an additional 1 [Breath] for every [MDcFaBb] and [MDcFaBa] on self\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit",
+        "name": "Wheels Industry",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 [Burst]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 5 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] +250% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060032": {
+    "a": 0,
+    "id": "107060032",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain 1 [MDcFaBd]\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] For every [MDcFaBa] on self, Base Power +1 (Max 3)\n[WhenUse] For every [MDcFaBb] on self, Base Power +1 (Max 3)\n[WhenUse] Gain 5 [Breath] and +2 [Breath] Count\n- Gain an additional 1 [Breath] for every [MDcFaBb], [MDcFaBa] and [MDcFaBd] on self",
+        "name": "Crystal Atelier",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +6 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] +200% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +6 Count for 1 of the following effects: [Combustion], [Laceration], [Vibration], [Burst], or [Sinking]. Effect selected at random.",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] +200% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060033": {
+    "a": 0,
+    "id": "107060033",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain 1 [MDcFaBd]\n[BeforeAttack] For every 7 [Laceration] on target, Atk Weight +1 (Max +2)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] For every [MDcFaBa] on self, Base Power +1 (Max 3)\n[WhenUse] For every [MDcFaBb] on self, Base Power +1 (Max 3)\n[WhenUse] Gain 5 [Breath] and +3 [Breath] Count\n- Gain an additional 1 [Breath] for every [MDcFaBb], [MDcFaBa] and [MDcFaBd] on self",
+        "name": "Durandal",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] +200% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] +200% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Gain 1 [Enhancement] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] +200% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060041": {
+    "a": 0,
+    "id": "107060041",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[CanDuelGuard]\n[BeforeUse] If this unit has 3 or more of both [MDcFaBa], [MDcFaBb] and [MDcFaBd], use the skill 'Furioso' instead",
+        "name": "Reaching Into The Gloves",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "107060051": {
+    "a": 0,
+    "id": "107060051",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WhenUse] For every [MDcFaBa] on self, Base Power +1 (Max 3)\n[WhenUse] For every [MDcFaBb] on self, Base Power +1 (Max 3)\n[WhenUse] For every [MDcFaBd] on self, Base Power +1 (Max 3)\n[EndSkill] Lose all [MDcFaBa], [MDcFaBb], [MDcFaBd]\n[WinDuel] Every Coin in this skill will inflict 1 Bleed and 1 Rupture\n- Note, this skill has a total of 12 coins",
+        "name": "Furioso!!!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "list": [
+    {
+      "id": 11148,
+      "appearance": "10706_Heathclif_SevenAppearance",
+      "unitKeywordList": [
+        "FIXER",
+        "SMALL"
+      ],
+      "associationList": [],
+      "characterId": 12,
+      "panicType": 9999,
+      "season": 0,
+      "defenseSkillIDList": [
+        107060041,
+        107060051
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 66,
+        "incrementByLevel": 2.3
+      },
+      "defCorrection": -4,
+      "minSpeedList": [
+        2,
+        3,
+        3,
+        4
+      ],
+      "maxSpeedList": [
+        6,
+        6,
+        7,
+        8
+      ],
+      "initBuffList": [
+        {
+          "level": 1,
+          "list": [
+            {
+              "buff": "Bullet",
+              "stack": 13
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "list": [
+            {
+              "buff": "Bullet",
+              "stack": 13
+            }
+          ]
+        }
+      ],
+      "uniqueAttribute": "BLACK",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          35
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 2
+          },
+          {
+            "type": "PENETRATE",
+            "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 107060010,
+          "number": 2
+        },
+        {
+          "skillId": 107060011,
+          "number": 0
+        },
+        {
+          "skillId": 107060012,
+          "number": 0
+        },
+        {
+          "skillId": 107060013,
+          "number": 0
+        },
+        {
+          "skillId": 107060020,
+          "number": 2
+        },
+        {
+          "skillId": 107060021,
+          "number": 0
+        },
+        {
+          "skillId": 107060023,
+          "number": 0
+        },
+        {
+          "skillId": 107060022,
+          "number": 0
+        },
+        {
+          "skillId": 107060030,
+          "number": 1
+        },
+        {
+          "skillId": 107060031,
+          "number": 0
+        },
+        {
+          "skillId": 107060032,
+          "number": 0
+        },
+        {
+          "skillId": 107060033,
+          "number": 0
+        }
+      ]
+    }
+  ]
+}
