@@ -1,20 +1,21 @@
 {
   "list": [
     {
-      "id": 10509,
-      "appearance": "10509_Meursault_DeadrabbitsAppearance",
+      "id": 11004,
+      "appearance": "11004_Sinclair_MexicanAppearance",
       "unitKeywordList": [
         "CLAN",
+        "BACK_STREET",
         "SMALL"
       ],
       "associationList": [
-        "DEAD_RABBITS"
+        "MARIACHI"
       ],
-      "characterId": 5,
+      "characterId": 10,
       "panicType": 9999,
-      "season": 4,
+      "season": 1,
       "defenseSkillIDList": [
-        10500904
+        1100404
       ],
       "panicSkillOnErosion": 1000104,
       "slotWeightConditionList": [
@@ -22,56 +23,23 @@
       ],
       "rank": 3,
       "hp": {
-        "defaultStat": 76,
-        "incrementByLevel": 2.6
+        "defaultStat": 95,
+        "incrementByLevel": 3.26
       },
-      "defCorrection": 2,
+      "defCorrection": 3,
       "minSpeedList": [
-        3,
-        4,
-        4,
-        4
+        1,
+        1,
+        2,
+        1
       ],
       "maxSpeedList": [
-        6,
-        6,
-        7,
-        7
+        2,
+        2,
+        3,
+        1
       ],
-      "passiveSet": {
-        "passiveIdList": [
-          {
-            "level": 1,
-            "passiveIdList": [
-              1050911,
-              9101602
-            ]
-          },
-          {
-            "level": 2,
-            "passiveIdList": [
-              1050911,
-              9101602
-            ]
-          },
-          {
-            "level": 4,
-            "passiveIdList": [
-              1050911,
-              9101602
-            ]
-          }
-        ],
-        "supportPassiveIdList": [
-          {
-            "level": 3,
-            "passiveIdList": [
-              1050931
-            ]
-          }
-        ]
-      },
-      "uniqueAttribute": "SHAMROCK",
+      "uniqueAttribute": "AMBER",
       "mentalConditionInfo": {
         "add": [
           {
@@ -102,37 +70,36 @@
       },
       "breakSection": {
         "sectionList": [
-          65,
-          35
+          50
         ]
       },
       "resistInfo": {
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
-          },
-          {
-            "type": "PENETRATE",
             "value": 2
           },
           {
-            "type": "HIT",
+            "type": "PENETRATE",
             "value": 1
+          },
+          {
+            "type": "HIT",
+            "value": 0.5
           }
         ]
       },
       "attributeList": [
         {
-          "skillId": 10500901,
+          "skillId": 11004011,
           "number": 3
         },
         {
-          "skillId": 10500902,
+          "skillId": 11004021,
           "number": 2
         },
         {
-          "skillId": 10500903,
+          "skillId": 11004031,
           "number": 1
         }
       ]

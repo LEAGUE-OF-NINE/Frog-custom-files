@@ -56,7 +56,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict 1 [Assemble] to a random ally next turn for every 3 [Nail] on the target (Max 4)",
+                "desc": "[OnSucceedAttack] Inflict 1 [AssemblePersonality] to a random ally next turn for every 3 [Nail] on the target (Max 4)",
                 "summary": ""
               }
             ]
@@ -68,7 +68,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict 1 [Assemble] to a random ally next turn for every 3 [Nail] on the target (Max 4)",
+                "desc": "[OnSucceedAttack] Inflict 1 [AssemblePersonality] to a random ally next turn for every 3 [Nail] on the target (Max 4)",
                 "summary": ""
               }
             ]

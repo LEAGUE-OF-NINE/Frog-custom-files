@@ -1,0 +1,130 @@
+{
+  "10803011": {
+    "a": 0,
+    "id": "10803011",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WinDuel] Gain 1 [ParryingResultUp] next turn (Max twice per turn)",
+        "name": "Mend Weapon",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Apply 2 [AttackUp] to a random other ally next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Apply 1 [AttackDmgUp] to a random other ally next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10803021": {
+    "a": 0,
+    "id": "10803021",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WinDuel] +30% damage",
+        "name": "Stab and Detonate",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Next Coin has +3 Power",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Deal bonus damage by 40% of damage dealt",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10803031": {
+    "a": 0,
+    "id": "10803031",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[StartBattle] Apply 2 [Enhancement] next turn to 2 random other allies",
+        "name": "Refine",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Next Coin has +2 Power",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Next Coin has +2 Power",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Vulnerable] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] If all coins landed Heads, inflict 1 [Vulnerable] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10803041": {
+    "a": 0,
+    "id": "10803041",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[CanDuelGuard]\n[WhenUse] Gain 4 [AttackDmgUp] next turn (Max once per turn)",
+        "name": "Whet",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

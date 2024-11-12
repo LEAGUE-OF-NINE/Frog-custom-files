@@ -221,7 +221,7 @@
             {
               "scriptName": "GiveBuffOnWinDuel",
               "buffData": {
-                "buffKeyword": "Assemble",
+                "buffKeyword": "AssemblePersonality",
                 "target": "Self",
                 "buffOwner": "",
                 "stack": 2,
@@ -232,7 +232,7 @@
             {
               "scriptName": "AttackDmgUpByRatioViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Assemble",
+                "buffKeyword": "AssemblePersonality",
                 "buffOwner": "Self",
                 "stack": 1,
                 "turn": 0,
@@ -260,7 +260,7 @@
                 {
                   "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_Nail",
                   "buffData": {
-                    "buffKeyword": "Assemble",
+                    "buffKeyword": "AssemblePersonality",
                     "target": "RandomAlly",
                     "buffOwner": "Target",
                     "stack": 1,
@@ -290,7 +290,7 @@
                 {
                   "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_Nail",
                   "buffData": {
-                    "buffKeyword": "Assemble",
+                    "buffKeyword": "AssemblePersonality",
                     "target": "RandomAlly",
                     "buffOwner": "Target",
                     "stack": 1,
@@ -385,7 +385,7 @@
             {
               "scriptName": "AttackDmgUpByRatioViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Assemble",
+                "buffKeyword": "AssemblePersonality",
                 "buffOwner": "Self",
                 "stack": 1,
                 "turn": 0,

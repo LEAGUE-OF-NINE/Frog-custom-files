@@ -11,12 +11,12 @@
       "associationList": [
         "LA_MANCHA_LAND"
       ],
-      "unitScriptID": "11111",
+      "unitScriptID": "8380",
       "characterId": 3,
       "panicType": 9999,
       "season": 5,
       "defenseSkillIDList": [
-        1030404
+        8380021
       ],
       "panicSkillOnErosion": 1000104,
       "slotWeightConditionList": [
@@ -43,23 +43,11 @@
       "passiveSet": {
         "passiveIdList": [
           {
-            "level": 1,
-            "passiveIdList": [
-              9999907,
-              838005
-            ]
-          },
-          {
-            "level": 2,
-            "passiveIdList": [
-              9999907,
-              838005
-            ]
-          },
-          {
             "level": 4,
             "passiveIdList": [
-              9999907,
+              1111102,
+              810305,
+              9011002,
               838005
             ]
           }
@@ -68,7 +56,7 @@
           {
             "level": 3,
             "passiveIdList": [
-              1050821
+              1060221
             ]
           }
         ]
@@ -80,7 +68,7 @@
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
+                "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
               },
               {
                 "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
@@ -104,8 +92,8 @@
       },
       "breakSection": {
         "sectionList": [
-          60,
-          30
+          45,
+          15
         ]
       },
       "resistInfo": {
@@ -132,6 +120,10 @@
         {
           "skillId": 8380091,
           "number": 2
+        },
+        {
+          "skillId": 8380071,
+          "number": 1
         }
       ]
     }

@@ -14,8 +14,8 @@
       "unitList": [
         {
           "unitID": 80760,
-          "unitCount": 1,
-          "unitLevel": 50,
+          "unitCount": 4,
+          "unitLevel": 1,
           "isHide": false
         }
       ],
@@ -41,7 +41,14 @@
     }
   ],
   "rewardList": [],
+  "story": {
+    "enter": [
+      "S001B"
+    ],
+    "exit": []
+  },
   "stageScriptList": [
     ""
-  ]
+  ],
+  "includeBoss": 1
 }

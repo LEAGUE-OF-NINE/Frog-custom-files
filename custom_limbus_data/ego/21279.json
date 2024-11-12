@@ -94,6 +94,80 @@
       ],
       "awakeningSkillId": 21200511,
       "corrosionSkillId": 21200521
+    },
+    {
+      "id": 21001,
+      "characterId": 10,
+      "egoType": "ZAYIN",
+      "egoClass": 1,
+      "season": 0,
+      "skillTier": 3,
+      "attributeResistList": [
+        {
+          "type": "CRIMSON",
+          "value": 2
+        },
+        {
+          "type": "SCARLET",
+          "value": 1
+        },
+        {
+          "type": "AMBER",
+          "value": 1
+        },
+        {
+          "type": "SHAMROCK",
+          "value": 0.75
+        },
+        {
+          "type": "AZURE",
+          "value": 1
+        },
+        {
+          "type": "INDIGO",
+          "value": 2
+        },
+        {
+          "type": "VIOLET",
+          "value": 1
+        },
+        {
+          "type": "WHITE",
+          "value": 2
+        },
+        {
+          "type": "BLACK",
+          "value": 2
+        }
+      ],
+      "requirementList": [
+        {
+          "attributeType": "CRIMSON",
+          "num": 1
+        },
+        {
+          "attributeType": "SHAMROCK",
+          "num": 3
+        }
+      ],
+      "corrosionSectionList": [
+        {
+          "section": 0.5,
+          "probability": 0.25
+        },
+        {
+          "section": 0.25,
+          "probability": 0.75
+        },
+        {
+          "section": 0,
+          "probability": 1
+        }
+      ],
+      "awakeningPassiveList": [
+        2100111
+      ],
+      "awakeningSkillId": 21000111
     }
   ]
 }

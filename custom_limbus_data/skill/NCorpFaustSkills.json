@@ -71,12 +71,12 @@
           "defaultValue": 4,
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
                 "buffKeyword": "MentalSystemResultDecrease_Typo",
                 "target": "LowestMpAlly1",
                 "buffOwner": "",
-                "stack": 3,
+                "stack": 1,
                 "turn": 0,
                 "activeRound": 0
               }
@@ -235,12 +235,12 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
                 "buffKeyword": "MentalSystemResultDecrease_Typo",
                 "target": "LowestMpAlly1",
                 "buffOwner": "",
-                "stack": 3,
+                "stack": 1,
                 "turn": 0,
                 "activeRound": 0
               }
@@ -296,7 +296,7 @@
                 {
                   "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_Nail",
                   "buffData": {
-                    "buffKeyword": "Assemble",
+                    "buffKeyword": "AssemblePersonality",
                     "target": "EveryAlly",
                     "buffOwner": "Target",
                     "stack": 1,
@@ -326,7 +326,7 @@
                 {
                   "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_Nail",
                   "buffData": {
-                    "buffKeyword": "Assemble",
+                    "buffKeyword": "AssemblePersonality",
                     "target": "EveryAlly",
                     "buffOwner": "Target",
                     "stack": 1,
@@ -485,12 +485,12 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
                 "buffKeyword": "MentalSystemResultDecrease_Typo",
                 "target": "LowestMpAlly1",
                 "buffOwner": "",
-                "stack": 3,
+                "stack": 1,
                 "turn": 0,
                 "activeRound": 0
               }
@@ -546,7 +546,7 @@
             {
               "scriptName": "AttackDmgUpByRatioViaBuffCheck",
               "buffData": {
-                "buffKeyword": "Assemble",
+                "buffKeyword": "AssemblePersonality",
                 "buffOwner": "Self",
                 "stack": 1,
                 "turn": 0,
@@ -563,7 +563,7 @@
             {
               "scriptName": "GiveBuffOnKillTarget",
               "buffData": {
-                "buffKeyword": "Assemble",
+                "buffKeyword": "AssemblePersonality",
                 "target": "EveryAlly",
                 "buffOwner": "",
                 "stack": 3,

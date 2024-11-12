@@ -56,9 +56,9 @@
               "scriptName": "CoinScaleAdder2IfSelfHpRatioLessThan75"
             },
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
-                "buffKeyword": "Assemble",
+                "buffKeyword": "AssemblePersonality",
                 "target": "RandomAlly2",
                 "buffOwner": "",
                 "stack": 3,
@@ -204,9 +204,9 @@
               "scriptName": "CoinScaleAdder2IfSelfHpRatioLessThan75"
             },
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
-                "buffKeyword": "Assemble",
+                "buffKeyword": "AssemblePersonality",
                 "target": "RandomAlly2",
                 "buffOwner": "",
                 "stack": 3,
@@ -355,9 +355,9 @@
               "scriptName": "CoinScaleAdder2IfSelfHpRatioLessThan75"
             },
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
-                "buffKeyword": "Assemble",
+                "buffKeyword": "AssemblePersonality",
                 "target": "RandomAlly2",
                 "buffOwner": "",
                 "stack": 3,

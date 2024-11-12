@@ -5,7 +5,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\nAt less than 75% HP, Coin Power +2\n[StartBattle] Apply 3 [Assemble] to 2 random allies next turn\n[WhenUse] Coin Power +1 for every 3 [Laceration] Count on the target (Max 2)",
+        "desc": "[WhenUse] Gain +4 Aggro to this Skill Slot next turn\nAt less than 75% HP, Coin Power +2\n[StartBattle] Apply 3 [AssemblePersonality] to 2 random allies next turn\n[WhenUse] Coin Power +1 for every 3 [Laceration] Count on the target (Max 2)",
         "name": "Drive",
         "rawDesc": "",
         "abName": "",
@@ -44,7 +44,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "[WhenUse] Gain +6 Aggro to this Skill Slot next turn\nAt less than 75% HP, Coin Power +2\n[StartBattle] Apply 3 [Assemble] to 2 random allies next turn\n[WhenUse] Coin Power +1 for every 3 [Laceration] Count on the target (Max 2)",
+        "desc": "[WhenUse] Gain +6 Aggro to this Skill Slot next turn\nAt less than 75% HP, Coin Power +2\n[StartBattle] Apply 3 [AssemblePersonality] to 2 random allies next turn\n[WhenUse] Coin Power +1 for every 3 [Laceration] Count on the target (Max 2)",
         "name": "You Are Cleansed of Sin",
         "rawDesc": "",
         "abName": "",
@@ -79,7 +79,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "[WhenUse] Gain +6 Aggro to this Skill Slot next turn\nAt less than 75% HP, Coin Power +2\n[StartBattle] Apply 3 [Assemble] to 2 random allies next turn\n[WhenUse] Coin Power +1 for every 3 [Laceration] Count on the target (Max 2)",
+        "desc": "[WhenUse] Gain +6 Aggro to this Skill Slot next turn\nAt less than 75% HP, Coin Power +2\n[StartBattle] Apply 3 [AssemblePersonality] to 2 random allies next turn\n[WhenUse] Coin Power +1 for every 3 [Laceration] Count on the target (Max 2)",
         "name": "Annihilate Heretics",
         "rawDesc": "",
         "abName": "",

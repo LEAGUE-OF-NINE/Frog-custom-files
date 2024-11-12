@@ -1,0 +1,206 @@
+{
+  "11005011": {
+    "a": 0,
+    "id": "11005011",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "In a clash, opponent has -13 Clash Power\n[WhenUse] Lose 10 SP\n[StartBattle] Apply 3 [AssemblePersonality] to 2 random allies next turn\n[EndSkill] If this Skill was part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills",
+        "name": "Coerced Judgement",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Gain 1 [AssemblePersonality] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 Burn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Reuse this coin once (Max 2 times)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11005021": {
+    "a": 0,
+    "id": "11005021",
+    "levelList": [
+      {
+        "level": 2,
+        "desc": "In a clash, opponent has -13 Clash Power\n[WhenUse] Lose 15 SP\nIf this unit is [AssemblePersonality], deal +20% damage\n[StartBattle] Apply 3 [AssemblePersonality] to 2 random allies next turn\n[EndSkill] If this Skill was part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills",
+        "name": "Amoral Enactment",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Inflict 2 Burn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Burn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Nail]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Inflict 2 Burn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Burn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Nail]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Inflict +1 Burn Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 Bleed",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Nail]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11005031": {
+    "a": 0,
+    "id": "11005031",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "In a clash, opponent has -13 Clash Power\n[WhenUse] Lose 15 SP\n- If this unit is [AssemblePersonality], deal +35% damage\n- If target is a <Mechanical Amalgam>, deal +10% damage\n[StartBattle] Apply 3 [AssemblePersonality] to 2 random allies next turn\n[BeforeAttack] For every 3 [AssemblePersonality] on self, Atk Weight +1 (Max +3)\n[EndSkill] If this Skill was part of a Lust Reson., gain 1 E.G.O resource in Affinities corresponding to each of this unit's Attack Skills",
+        "name": "Self-destructive Purge",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Raise Stagger Threshold by 50% of damage dealt",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If target has 5+ Bleed, inflict 7 Burn",
+                "summary": ""
+              },
+              {
+                "desc": "[EnemyKill] Gain 5 Blunt Power Up next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackTail] Reuse this coin once (Max 2 times)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11005041": {
+    "a": 0,
+    "id": "11005041",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[StartBattle] Heal 5~10 SP\n[OnSucceedEvade] After Successfully Evading, use 'Self-Destructive Purge' Skill",
+        "name": "Enough…",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SuperCoin]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

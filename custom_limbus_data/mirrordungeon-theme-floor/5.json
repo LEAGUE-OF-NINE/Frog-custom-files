@@ -228,6 +228,374 @@
           }
         ]
       }
+    },
+    {
+      "id": 1507,
+      "unlockCondition": {
+        "unlockCode": 9110
+      },
+      "desc": "제4회 발푸르기스의 밤",
+      "exceptionConditions": [
+        {
+          "dungeonIdx": 0,
+          "selectableFloors": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "dungeonIdx": 1,
+          "selectableFloors": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "mapGenOption": {
+        "bossPool": [
+          2066511,
+          4440313
+        ],
+        "battlePool": [],
+        "abBattlePool": [],
+        "hardBattlePool": [
+          4440301,
+          4440302,
+          4440303,
+          4440305,
+          4440306,
+          4440307,
+          4440309,
+          4440310,
+          4440311
+        ],
+        "eventPool": [],
+        "specialEventPool": [
+          971032,
+          971033,
+          971034,
+          971035
+        ],
+        "specialEventProb": 1
+      },
+      "egoGiftPool": [
+        9001,
+        9003,
+        9005,
+        9008,
+        9009,
+        9012,
+        9013,
+        9016,
+        9018,
+        9019,
+        9020,
+        9023,
+        9024,
+        9027,
+        9029,
+        9030,
+        9031,
+        9032,
+        9033,
+        9034,
+        9041,
+        9042,
+        9043,
+        9044,
+        9045,
+        9046,
+        9047,
+        9048,
+        9049,
+        9050,
+        9051,
+        9052,
+        9053,
+        9054,
+        9055,
+        9056,
+        9057,
+        9058,
+        9059,
+        9060,
+        9061,
+        9062,
+        9063,
+        9064,
+        9065,
+        9066,
+        9067,
+        9068,
+        9069,
+        9070,
+        9071,
+        9072,
+        9073,
+        9074,
+        9075,
+        9076,
+        9077,
+        9078,
+        9079,
+        9080,
+        9081,
+        9082,
+        9083,
+        9084,
+        9085,
+        9086,
+        9087,
+        9089,
+        9091,
+        9093,
+        9095,
+        9097,
+        9099,
+        9744,
+        9745,
+        9746,
+        9747,
+        9748,
+        9749,
+        9750
+      ],
+      "specificEgoGiftPool": [
+        9744,
+        9745,
+        9746,
+        9747,
+        9748,
+        9749,
+        9750
+      ],
+      "specificEgoGiftForUpegsProbs": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mapGenSequence": [
+        {
+          "type": "CREATE_FIXED_FLOOR",
+          "numberList": [
+            15,
+            3,
+            1
+          ],
+          "nodeList": [
+            {
+              "sector": 0,
+              "idx": 0,
+              "encounterType": 0,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 1,
+              "idx": 1,
+              "encounterType": 11,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                0,
+                2
+              ]
+            },
+            {
+              "sector": 2,
+              "idx": 0,
+              "encounterType": 11,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                0
+              ]
+            },
+            {
+              "sector": 2,
+              "idx": 2,
+              "encounterType": 11,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                2
+              ]
+            },
+            {
+              "sector": 3,
+              "idx": 0,
+              "encounterType": 11,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 3,
+              "idx": 2,
+              "encounterType": 11,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 4,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440301,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 5,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440302,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 6,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440303,
+              "connectedNextNodeIdxList": [
+                0
+              ]
+            },
+            {
+              "sector": 7,
+              "idx": 0,
+              "encounterType": 11,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 8,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440305,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 9,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440306,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 10,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440307,
+              "connectedNextNodeIdxList": [
+                0
+              ]
+            },
+            {
+              "sector": 11,
+              "idx": 0,
+              "encounterType": 11,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 12,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440309,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 13,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440310,
+              "connectedNextNodeIdxList": [
+                1
+              ]
+            },
+            {
+              "sector": 14,
+              "idx": 1,
+              "encounterType": 2,
+              "encounterId": 4440311,
+              "connectedNextNodeIdxList": [
+                0
+              ]
+            },
+            {
+              "sector": 15,
+              "idx": 0,
+              "encounterType": 11,
+              "encounterId": 0,
+              "connectedNextNodeIdxList": [
+                0
+              ]
+            },
+            {
+              "sector": 16,
+              "idx": 0,
+              "encounterType": 6,
+              "encounterId": 4440313,
+              "connectedNextNodeIdxList": []
+            }
+          ]
+        },
+        {
+          "type": "FILL_EMPTY_EVENT",
+          "numberList": [
+            971032,
+            971033,
+            971034,
+            971035
+          ]
+        }
+      ],
+      "uiConfigs": {
+        "showBossIds": [
+          8366
+        ],
+        "packSpriteId": "Walpu4_NoonOfViolet",
+        "textColor": "9378d9",
+        "isHideLogo": true,
+        "attributeType": "AZURE",
+        "mapOptions": [
+          {
+            "key": "SetColor_Basic",
+            "value": "e46324"
+          },
+          {
+            "key": "SetColor_Cleared",
+            "value": "702500"
+          },
+          {
+            "key": "Theme_Walpu4"
+          },
+          {
+            "key": "MirrorDungeon4_Base"
+          }
+        ]
+      }
     }
   ]
 }

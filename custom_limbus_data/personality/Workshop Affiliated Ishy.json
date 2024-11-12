@@ -1,77 +1,43 @@
 {
   "list": [
     {
-      "id": 10509,
-      "appearance": "10509_Meursault_DeadrabbitsAppearance",
+      "id": 10823,
+      "appearance": "10810_Ishmael_ZweiAppearance",
       "unitKeywordList": [
-        "CLAN",
+        "FIXER",
         "SMALL"
       ],
-      "associationList": [
-        "DEAD_RABBITS"
-      ],
-      "characterId": 5,
+      "associationList": [],
+      "characterId": 8,
       "panicType": 9999,
-      "season": 4,
+      "season": 0,
+      "unitScriptID": "10810",
       "defenseSkillIDList": [
-        10500904
+        10803041
       ],
       "panicSkillOnErosion": 1000104,
       "slotWeightConditionList": [
         "Default1"
       ],
-      "rank": 3,
+      "rank": 2,
       "hp": {
-        "defaultStat": 76,
-        "incrementByLevel": 2.6
+        "defaultStat": 72,
+        "incrementByLevel": 2.42
       },
-      "defCorrection": 2,
+      "defCorrection": 1,
       "minSpeedList": [
-        3,
-        4,
-        4,
-        4
+        1,
+        1,
+        2,
+        3
       ],
       "maxSpeedList": [
-        6,
-        6,
-        7,
+        4,
+        5,
+        5,
         7
       ],
-      "passiveSet": {
-        "passiveIdList": [
-          {
-            "level": 1,
-            "passiveIdList": [
-              1050911,
-              9101602
-            ]
-          },
-          {
-            "level": 2,
-            "passiveIdList": [
-              1050911,
-              9101602
-            ]
-          },
-          {
-            "level": 4,
-            "passiveIdList": [
-              1050911,
-              9101602
-            ]
-          }
-        ],
-        "supportPassiveIdList": [
-          {
-            "level": 3,
-            "passiveIdList": [
-              1050931
-            ]
-          }
-        ]
-      },
-      "uniqueAttribute": "SHAMROCK",
+      "uniqueAttribute": "VIOLET",
       "mentalConditionInfo": {
         "add": [
           {
@@ -102,19 +68,20 @@
       },
       "breakSection": {
         "sectionList": [
-          65,
-          35
+          70,
+          30,
+          20
         ]
       },
       "resistInfo": {
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 2
           },
           {
             "type": "PENETRATE",
-            "value": 2
+            "value": 0.5
           },
           {
             "type": "HIT",
@@ -124,15 +91,15 @@
       },
       "attributeList": [
         {
-          "skillId": 10500901,
+          "skillId": 10803011,
           "number": 3
         },
         {
-          "skillId": 10500902,
+          "skillId": 10803021,
           "number": 2
         },
         {
-          "skillId": 10500903,
+          "skillId": 10803031,
           "number": 1
         }
       ]

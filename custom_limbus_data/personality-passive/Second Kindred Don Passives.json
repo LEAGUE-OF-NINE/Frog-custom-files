@@ -4,9 +4,11 @@
       "personalityID": 10384,
       "battlePassiveList": [
         {
-          "level": 2,
+          "level": 4,
           "passiveIDList": [
-            9999907,
+            1111102,
+            810305,
+            9011002,
             838005
           ]
         }
@@ -15,7 +17,7 @@
         {
           "level": 3,
           "passiveIDList": [
-            1050821
+            1060221
           ]
         }
       ]

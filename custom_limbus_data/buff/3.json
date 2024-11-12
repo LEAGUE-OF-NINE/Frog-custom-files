@@ -115,12 +115,12 @@
           "value": 5
         },
         {
-          "ability": "GiveBuffOnREPerStack",
+          "ability": "GiveBuffOnRoundStartByBuffStackDevideByValue",
           "value": 15,
           "buffData": {
             "buffKeyword": "AttackDmgUp",
             "target": "Self",
-            "stack": 2,
+            "stack": 1,
             "turn": 0,
             "activeRound": 0
           }
@@ -128,6 +128,28 @@
         {
           "ability": "BloodArmorSpeedAdder",
           "value": 2
+        }
+      ]
+    },
+    {
+      "id": "AssemblePersonality",
+      "iconId": "Assemble",
+      "buffClass": "VolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": true,
+      "list": [
+        {
+          "ability": "AssemblePersonality"
+        },
+        {
+          "ability": "SkillPowerResultAdderAsStackIfSatisfied",
+          "value": 1,
+          "buffData": {
+            "buffKeyword": "Nail",
+            "buffOwner": "Target",
+            "stack": 1,
+            "turn": 0
+          }
         }
       ]
     }
