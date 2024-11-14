@@ -68,7 +68,7 @@
               "scriptName": "ParryingPowerResultReducerTarget13"
             },
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
                 "buffKeyword": "AssemblePersonality",
                 "target": "RandomAlly2",
@@ -359,7 +359,7 @@
               }
             },
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
                 "buffKeyword": "AssemblePersonality",
                 "target": "RandomAlly2",
@@ -565,7 +565,7 @@
               "scriptName": "AttackDmgUpByRatio10IfTargetHasUnitKeyword_MACHINE_BOUND_ORGANISM"
             },
             {
-              "scriptName": "GiveBuffOnRoundStart",
+              "scriptName": "GiveBuffOnBattleStart",
               "buffData": {
                 "buffKeyword": "AssemblePersonality",
                 "target": "RandomAlly2",

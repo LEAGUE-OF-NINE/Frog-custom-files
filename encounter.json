@@ -32,21 +32,6 @@
   "turnLimit": 99,
   "forceAllyFormation": false,
   "blockEnemyInfo": false,
-  "questlist": [
-    {
-      "args": [
-        "10"
-      ],
-      "localizeId": 1
-    }
-  ],
-  "rewardList": [],
-  "story": {
-    "enter": [
-      "S001B"
-    ],
-    "exit": []
-  },
   "stageScriptList": [
     ""
   ],

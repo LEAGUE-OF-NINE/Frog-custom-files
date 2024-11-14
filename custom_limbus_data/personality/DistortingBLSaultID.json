@@ -13,8 +13,8 @@
       "characterId": 5,
       "panicType": 1016,
       "season": 3,
-      "additionalAttachment": "EVENT",
       "isPlusCoinUnit": false,
+      "additionalAttachment": "EVENT",
       "defenseSkillIDList": [
         10508006,
         10508005,

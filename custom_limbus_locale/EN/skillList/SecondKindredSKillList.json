@@ -111,7 +111,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Laceration] on target.",
+                "desc": "[OnSucceedAttack] Activate [Laceration] on the target once (target loses 1 [Laceration] Count)",
                 "summary": ""
               },
               {
@@ -131,7 +131,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Laceration] on target.",
+                "desc": "[OnSucceedAttack] Activate [Laceration] on the target once (target loses 1 [Laceration] Count)",
                 "summary": ""
               },
               {
@@ -139,7 +139,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]",
                 "summary": ""
               }
             ]
@@ -151,7 +151,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Laceration] on target.",
+                "desc": "[OnSucceedAttack] Activate [Laceration] on the target once (target loses 1 [Laceration] Count)",
                 "summary": ""
               },
               {
@@ -159,7 +159,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]",
                 "summary": ""
               }
             ]
@@ -171,7 +171,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict Wrath Affinity damage equal to the amount of [Laceration] on target.",
+                "desc": "[OnSucceedAttack] Activate [Laceration] on the target once (target loses 1 [Laceration] Count)",
                 "summary": ""
               },
               {
@@ -179,7 +179,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "desc": "[OnSucceedAttackHead] Inflict 1 [Burst]",
                 "summary": ""
               }
             ]

@@ -486,14 +486,12 @@
               "color": "GREY",
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_CRIMSON",
+                  "scriptName": "ForceToActivateBuffOSA",
                   "buffData": {
                     "buffKeyword": "Laceration",
                     "target": "Target",
-                    "buffOwner": "Target",
                     "stack": 0,
-                    "turn": 0,
-                    "value": 1
+                    "turn": 1
                   }
                 },
                 {
@@ -532,14 +530,12 @@
               "color": "GREY",
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_CRIMSON",
+                  "scriptName": "ForceToActivateBuffOSA",
                   "buffData": {
                     "buffKeyword": "Laceration",
                     "target": "Target",
-                    "buffOwner": "Target",
                     "stack": 0,
-                    "turn": 0,
-                    "value": 1
+                    "turn": 1
                   }
                 },
                 {
@@ -578,14 +574,12 @@
               "color": "GREY",
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_CRIMSON",
+                  "scriptName": "ForceToActivateBuffOSA",
                   "buffData": {
                     "buffKeyword": "Laceration",
                     "target": "Target",
-                    "buffOwner": "Target",
                     "stack": 0,
-                    "turn": 0,
-                    "value": 1
+                    "turn": 1
                   }
                 },
                 {
@@ -624,14 +618,12 @@
               "color": "GREY",
               "abilityScriptList": [
                 {
-                  "scriptName": "GiveAdditionalBuffStackAttributeDmgOnSuccessAttack_CRIMSON",
+                  "scriptName": "ForceToActivateBuffOSA",
                   "buffData": {
                     "buffKeyword": "Laceration",
                     "target": "Target",
-                    "buffOwner": "Target",
                     "stack": 0,
-                    "turn": 0,
-                    "value": 1
+                    "turn": 1
                   }
                 },
                 {

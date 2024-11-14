@@ -71,17 +71,6 @@
           "defaultValue": 4,
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnBattleStart",
-              "buffData": {
-                "buffKeyword": "MentalSystemResultDecrease_Typo",
-                "target": "LowestMpAlly1",
-                "buffOwner": "",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 0
-              }
-            },
-            {
               "scriptName": "CoinScaleAdderViaBuffCheck",
               "buffData": {
                 "buffKeyword": "MarkOfHeresy",
@@ -111,9 +100,35 @@
             },
             {
               "scriptName": "AttackDmgUpByRatio20IfTargetHasUnitKeyword_MACHINE_BOUND_ORGANISM"
+            },
+            {
+              "scriptName": "GiveBuffOnUseFactionCheck_N_CORP",
+              "buffData": {
+                "buffKeyword": "AssemblePersonality",
+                "stack": 20,
+                "turn": 0,
+                "activeRound": 1
+              }
             }
           ],
           "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
             {
               "operatorType": "ADD",
               "scale": 3,
@@ -140,23 +155,6 @@
                     "buffOwner": "Target",
                     "stack": 1,
                     "turn": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Laceration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
                   }
                 }
               ]
@@ -235,17 +233,6 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnBattleStart",
-              "buffData": {
-                "buffKeyword": "MentalSystemResultDecrease_Typo",
-                "target": "LowestMpAlly1",
-                "buffOwner": "",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 0
-              }
-            },
-            {
               "scriptName": "CoinScaleAdderViaBuffCheck",
               "buffData": {
                 "buffKeyword": "MarkOfHeresy",
@@ -258,7 +245,7 @@
               }
             },
             {
-              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffDevide",
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
                 "buffKeyword": "Laceration",
                 "target": "Self",
@@ -485,17 +472,6 @@
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
-              "scriptName": "GiveBuffOnBattleStart",
-              "buffData": {
-                "buffKeyword": "MentalSystemResultDecrease_Typo",
-                "target": "LowestMpAlly1",
-                "buffOwner": "",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 0
-              }
-            },
-            {
               "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
               "buffData": {
                 "buffKeyword": "MarkOfHeresy",
@@ -520,7 +496,7 @@
               }
             },
             {
-              "scriptName": "ParryingPowerResultAdderOnStartTurnSelfViaBuffDevide",
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffDevide",
               "buffData": {
                 "buffKeyword": "Laceration",
                 "target": "Self",
@@ -537,10 +513,11 @@
               "buffData": {
                 "buffKeyword": "Nail",
                 "buffOwner": "Target",
-                "stack": 1,
+                "stack": 2,
                 "turn": 0,
                 "activeRound": 0,
-                "value": 0.05
+                "value": 0.05,
+                "limit": 20
               }
             },
             {
@@ -563,21 +540,19 @@
             {
               "scriptName": "GiveBuffOnKillTarget",
               "buffData": {
-                "buffKeyword": "AssemblePersonality",
+                "buffKeyword": "AttackDmgUp",
                 "target": "EveryAlly",
                 "buffOwner": "",
-                "stack": 3,
+                "stack": 1,
                 "turn": 0,
                 "activeRound": 1
               }
             },
             {
-              "scriptName": "GiveBuffOnKillTarget",
+              "scriptName": "GiveBuffOnUseFactionCheck_N_CORP",
               "buffData": {
-                "buffKeyword": "AttackDmgUp",
-                "target": "EveryAlly",
-                "buffOwner": "",
-                "stack": 1,
+                "buffKeyword": "AssemblePersonality",
+                "stack": 20,
                 "turn": 0,
                 "activeRound": 1
               }

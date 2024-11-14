@@ -376,6 +376,15 @@
                 "activeRound": 0,
                 "value": 1
               }
+            },
+            {
+              "scriptName": "GiveBuffOnSAFactionCheck__N_CORP",
+              "buffData": {
+                "buffKeyword": "AssemblePersonality",
+                "stack": 20,
+                "turn": 0,
+                "activeRound": 1
+              }
             }
           ],
           "coinList": [
@@ -464,9 +473,9 @@
               }
             },
             {
-              "scriptName": "ChangeCounterOnConditional_10504002",
+              "scriptName": "ChangeSkillOnConditional_10504003",
               "buffData": {
-                "buffKeyword": "Orlando",
+                "buffKeyword": "AssemblePersonality",
                 "stack": 1,
                 "turn": 0
               }

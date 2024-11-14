@@ -1,0 +1,141 @@
+{
+  "10603011": {
+    "a": 0,
+    "id": "10603011",
+    "levelList": [
+      {
+        "level": 2,
+        "desc": "[WhenUse] For every 6 [Laceration] on target, Coin Power +1 (Max 2)\n[WhenUse] Deal +5% more damage for every A-Reson. (Max 20%)",
+        "name": "Throat Slit",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1~4 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1~4 [Laceration]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10603021": {
+    "a": 0,
+    "id": "10603021",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If target has 7+ Bleed, deal +20% damage\n[BeforeAttack] If this unit has 40+ SP, spend 15 SP.\n[EndSkill] For every Coin that rolled Heads on this skill, this unit heals 10 SP. If this effect's healing exceeds this unit's Max SP, redirect the excess SP healing to 1 ally with the lowest SP instead (ignores IsNegativeCoinUnit)",
+        "name": "Shank",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict an additional 3~11 damage",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] If this skill spent SP, inflict 1~6 [Laceration] Potency/Count (Potency or Count amount is randomly decided)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict an additional 3~11 damage",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] If this skill spent SP, inflict 1~6 [Laceration] Potency/Count (Potency or Count amount is randomly decided)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] If this skill spent SP, inflict 1~6 [Laceration] Potency/Count (Potency or Count amount is randomly decided)",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] If target is below 25% HP, use this Coin an additional time if target survives\nHeads: +50% Damage for this Coin",
+                "summary": ""
+              },
+              {
+                "desc": "[ReUseOnSucceedAttackHead] +50% Damage for this Coin",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10603031": {
+    "a": 0,
+    "id": "10603031",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[EnemyKill] Reuse this skill once (Max 1, increase the Max by 1 for every 10 [ElectricShock] on self)\n[StartBattle] Double the amount of [ElectricShock] this unit gains and loses for the rest of the turn (Max once per turn, does not stack with itself)\n[BeforeAttack] If this unit has 40+ SP, spend 20 SP.\n[EnemyKill] This unit heals 25 SP. If this effect's healing exceeds this unit's Max SP, redirect the excess SP healing to 1 ally with the lowest SP instead (ignores IsNegativeCoinUnit)\n[WinDuel] If the target lost Bleed Count during this clash, regain half of all the Bleed Count lost during the Clash\n[DefeatDuel] Lose 15 SP",
+        "name": "Mutilate",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict an additional 5~19 damage",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] If this skill spent SP, inflict 3~10 [Laceration] Potency/Count (Potency or Count amount is randomly decided)",
+                "summary": ""
+              },
+              {
+                "desc": "[ReUseOnSucceedAttackHead] +100% damage for this Coin",
+                "summary": ""
+              },
+              {
+                "desc": "[ReUseOnSucceedAttackHead] If target has 10+ Bleed, deal +50% damage",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10603041": {
+    "a": 0,
+    "id": "10603041",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "If target has 5+ Bleed, Coin Power +2\n[OnSucceedEvade] Heal 5~9 SP\n[OnSucceedEvade] After the enemy Skill Finishes, if this unit has 30+ [ElectricShock], spend 20 [ElectricShock] to use 'Throat Slit' Skill.",
+        "name": "Rapid Steps",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  }
+}
