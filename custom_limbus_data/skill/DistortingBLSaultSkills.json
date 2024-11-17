@@ -76,75 +76,8 @@
           ]
         },
         {
-          "gaksungLevel": 2,
-          "abilityScriptList": [
-            {
-              "scriptName": "10508012(limit:2)",
-              "buffData": {
-                "buffKeyword": "BladeResultUpTier1",
-                "target": "Custom",
-                "buffOwner": "",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnUse",
-              "buffData": {
-                "buffKeyword": "Breath",
-                "target": "Self",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 2,
-                "activeRound": 0
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Breath",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Breath",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 1,
-                    "turn": 0,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 3,
-          "defaultValue": 13
-        },
-        {
           "gaksungLevel": 4,
+          "defaultValue": 13,
           "abilityScriptList": [
             {
               "scriptName": "CoinScaleAdderViaBuffCheck",

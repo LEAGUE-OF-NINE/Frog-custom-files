@@ -35,10 +35,11 @@
     "name": "Armadura de Sangre III",
     "desc": "- Max Value: 40\n- Stage 3 Armadura de Sangre\n- Turn Start: Gain 2 Offense Level Up and 2 Defense Level Up for every 5 value on self\n- Turn Start: Gain 1 Damage Up for every 15 value on self\n- Raise Min & Max Speed values by 2\n- Used for special Skills"
   },
-  "ElectricShock": {
+  "KeptBlood": {
     "a": 0,
-    "id": "ElectricShock",
-    "name": "Gambler's Falacy",
-    "desc": "A resource used by certain skills\n- Whenever this unit loses SP, increases by the amount of SP lost\n- Clash Win: Increase value by 5\n- Clash Lose: Lower value by 5\n- For every 10 Value, the minimum this unit rolls on all ranges increases by 1 (Max 5)\n- Max Value: 90"
+    "id": "KeptBlood",
+    "name": "Stored Blood",
+    "desc": "- Max Value: 15\n- Lose 1 value every time this unit loses 5% HP.\n- On Hit, heal 2% of this unit's HP\n- Increase damage dealt by 1% for every value on self",
+    "summary": ""
   }
 }

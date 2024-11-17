@@ -100,15 +100,6 @@
             },
             {
               "scriptName": "AttackDmgUpByRatio20IfTargetHasUnitKeyword_MACHINE_BOUND_ORGANISM"
-            },
-            {
-              "scriptName": "GiveBuffOnUseFactionCheck_N_CORP",
-              "buffData": {
-                "buffKeyword": "AssemblePersonality",
-                "stack": 20,
-                "turn": 0,
-                "activeRound": 1
-              }
             }
           ],
           "coinList": [
@@ -124,6 +115,17 @@
                     "buffOwner": "",
                     "stack": 0,
                     "turn": 2,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Breath",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 10,
+                    "turn": 82,
                     "activeRound": 0
                   }
                 }
@@ -259,9 +261,6 @@
             },
             {
               "scriptName": "AttackDmgUpByRatio20IfTargetHasUnitKeyword_MACHINE_BOUND_ORGANISM"
-            },
-            {
-              "scriptName": "RodionSixthEgoSkillFirstAbility"
             }
           ],
           "coinList": [
@@ -281,16 +280,12 @@
                   }
                 },
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_Nail",
+                  "scriptName": "OnSAGiveBuffFactionCheck_N_CORP_FNATIC",
                   "buffData": {
                     "buffKeyword": "AssemblePersonality",
-                    "target": "EveryAlly",
-                    "buffOwner": "Target",
                     "stack": 1,
                     "turn": 0,
-                    "activeRound": 1,
-                    "value": 3,
-                    "limit": 5
+                    "activeRound": 1
                   }
                 }
               ]
@@ -305,22 +300,18 @@
                     "buffKeyword": "Nail",
                     "target": "Target",
                     "buffOwner": "",
-                    "stack": 3,
+                    "stack": 2,
                     "turn": 0,
                     "activeRound": 0
                   }
                 },
                 {
-                  "scriptName": "GiveBuffOnSucceedAttackByDuplicateStackDevideByValue_Nail",
+                  "scriptName": "OnSAGiveBuffFactionCheck_N_CORP_FNATIC",
                   "buffData": {
                     "buffKeyword": "AssemblePersonality",
-                    "target": "EveryAlly",
-                    "buffOwner": "Target",
                     "stack": 1,
                     "turn": 0,
-                    "activeRound": 1,
-                    "value": 3,
-                    "limit": 5
+                    "activeRound": 1
                   }
                 }
               ]
@@ -544,15 +535,6 @@
                 "target": "EveryAlly",
                 "buffOwner": "",
                 "stack": 1,
-                "turn": 0,
-                "activeRound": 1
-              }
-            },
-            {
-              "scriptName": "GiveBuffOnUseFactionCheck_N_CORP",
-              "buffData": {
-                "buffKeyword": "AssemblePersonality",
-                "stack": 20,
                 "turn": 0,
                 "activeRound": 1
               }

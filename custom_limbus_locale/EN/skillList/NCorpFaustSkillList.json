@@ -44,7 +44,7 @@
     "levelList": [
       {
         "level": 4,
-        "desc": "If target has [MarkOfHeresy], Coin Power +1\n[WhenUse] Clash Power +1 for every 3 [Laceration] on the target (Max 2)\n[WhenUse] If target is a <Mechanical Amalgam>, deal +20% damage\n[StartBattle] The main target for this Skill does not lose [Laceration] Count for this turn.",
+        "desc": "If target has [MarkOfHeresy], Coin Power +1\n[WhenUse] Clash Power +1 for every 3 [Laceration] on the target (Max 2)\n[WhenUse] If target is a <Mechanical Amalgam>, deal +20% damage",
         "name": "The Gripping",
         "rawDesc": "",
         "abName": "",
@@ -56,7 +56,7 @@
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict 1 [AssemblePersonality] to all allies next turn for every 3 [Nail] on the target (Max 5)",
+                "desc": "[OnSucceedAttack] Inflict 1 [AssemblePersonality] to all <N Corp. Fanatic> allies next turn",
                 "summary": ""
               }
             ]
@@ -64,11 +64,11 @@
           {
             "coindescs": [
               {
-                "desc": "[OnSucceedAttack] Inflict 3 [Nail]",
+                "desc": "[OnSucceedAttack] Inflict 2 [Nail]",
                 "summary": ""
               },
               {
-                "desc": "[OnSucceedAttack] Inflict 1 [AssemblePersonality] to all allies next turnfor every 3 [Nail] on the target (Max 5)",
+                "desc": "[OnSucceedAttack] Inflict 1 [AssemblePersonality] to all <N Corp. Fanatic> allies next turn",
                 "summary": ""
               }
             ]

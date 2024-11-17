@@ -10,14 +10,14 @@
         "unlockCode": 106
       },
       "challengeType": "CLEAR_TURN_COUNT_SPECIFIC_STAGE",
-      "isSaveBattleState": false,
+      "isSaveBattleState": true,
       "isLoadSinFromSave": false,
       "isNotAbleToAddSlot": false,
       "isGiveUpNodeWhenAllDead": false,
       "hasRestHeal": true,
       "restHPHealRate": 10,
       "restMPHeal": 0,
-      "isResetMPAtRestNode": true,
+      "isResetMPAtRestNode": false,
       "isResetAfterLose": false,
       "disableDanteAbilityIds": [
         80101

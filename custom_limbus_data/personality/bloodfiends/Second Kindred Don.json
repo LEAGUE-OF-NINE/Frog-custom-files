@@ -1,0 +1,135 @@
+{
+  "list": [
+    {
+      "id": 10384,
+      "appearance": "8380_SanchoAppearance",
+      "unitKeywordList": [
+        "SMALL",
+        "BLOODFIEND",
+        "SECOND_DEPENDENT"
+      ],
+      "associationList": [
+        "LA_MANCHA_LAND"
+      ],
+      "unitScriptID": "8380",
+      "characterId": 3,
+      "panicType": 9999,
+      "season": 5,
+      "defenseSkillIDList": [
+        8380021
+      ],
+      "panicSkillOnErosion": 1000104,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
+      "hp": {
+        "defaultStat": 82,
+        "incrementByLevel": 2.82
+      },
+      "defCorrection": 0,
+      "minSpeedList": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "maxSpeedList": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          {
+            "level": 4,
+            "passiveIdList": [
+              1111102,
+              810305,
+              9011002,
+              838005
+            ]
+          }
+        ],
+        "supportPassiveIdList": [
+          {
+            "level": 3,
+            "passiveIdList": [
+              1060221
+            ]
+          }
+        ]
+      },
+      "uniqueAttribute": "CRIMSON",
+      "mentalConditionInfo": {
+        "add": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
+              },
+              {
+                "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
+              },
+              {
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
+              }
+            ]
+          }
+        ],
+        "min": [
+          {
+            "level": 1,
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
+          }
+        ]
+      },
+      "breakSection": {
+        "sectionList": [
+          65,
+          25
+        ]
+      },
+      "resistInfo": {
+        "atkResistList": [
+          {
+            "type": "SLASH",
+            "value": 0.5
+          },
+          {
+            "type": "PENETRATE",
+            "value": 2
+          },
+          {
+            "type": "HIT",
+            "value": 1
+          }
+        ]
+      },
+      "attributeList": [
+        {
+          "skillId": 8380051,
+          "number": 3
+        },
+        {
+          "skillId": 8380091,
+          "number": 2
+        },
+        {
+          "skillId": 8380111,
+          "number": 1
+        },
+        {
+          "skillId": 8380071,
+          "number": 0
+        }
+      ]
+    }
+  ]
+}

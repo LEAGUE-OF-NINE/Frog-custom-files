@@ -83,16 +83,6 @@
             },
             {
               "scriptName": "DuelViewer_9999"
-            },
-            {
-              "scriptName": "AttackDmgUpByRatioViaBuffCheckDevideByStack",
-              "buffData": {
-                "buffKeyword": "Laceration",
-                "buffOwner": "Target",
-                "stack": 1,
-                "turn": 0,
-                "value": 0.03
-              }
             }
           ],
           "coinList": [
@@ -352,8 +342,8 @@
       ]
     },
     {
-      "id": 8380071,
-      "textID": 8380071,
+      "id": 8380111,
+      "textID": 8380111,
       "skillTier": 3,
       "skillData": [
         {
@@ -369,6 +359,184 @@
           "range": 0,
           "viewType": "ENCOUNTER",
           "targetNum": 1,
+          "defaultValue": 4,
+          "arearange": 10,
+          "skillLevelCorrection": 5,
+          "abilityScriptList": [
+            {
+              "scriptName": "EleventhOutisHpRecover100And200"
+            },
+            {
+              "scriptName": "SeventhDonquixoteEgoImmortalSkillAbility"
+            },
+            {
+              "scriptName": "ChangeSkillOnConditional_107060012",
+              "buffData": {
+                "buffKeyword": "BloodArmor",
+                "stack": 20,
+                "turn": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUseWithBloodDinnerGainBuffTurnIfFailed_Laceration3[6:60:6]",
+              "buffData": {
+                "buffKeyword": "BloodArmor",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUseIfSelfHpRatioNotLessThan50",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Self",
+                "stack": 15,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "DuelViewer_9999"
+            },
+            {
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "value": 0.05
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "buffOwner": "Target",
+                "target": "",
+                "stack": 6,
+                "turn": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": [
+                {
+                  "scriptName": "ForceToActivateBuffOSA",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 4,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": [
+                {
+                  "scriptName": "ForceToActivateBuffOSA",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": [
+                {
+                  "scriptName": "ForceToActivateBuffOSA",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "stack": 0,
+                    "turn": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Burst",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8380071,
+      "textID": 8380071,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "iconID": 838011,
+          "skillTargetType": "FRONT",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "SCARLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "skillMotion": "S7",
+          "range": 0,
+          "viewType": "ENCOUNTER",
+          "targetNum": 4,
           "defaultValue": 4,
           "arearange": 10,
           "skillLevelCorrection": 5,
@@ -414,46 +582,13 @@
               "scriptName": "DuelViewer_9999"
             },
             {
-              "scriptName": "AttackDmgUpByRatioViaBuffCheckDevideByStack",
+              "scriptName": "AttackDmgUpByRatioOnUseViaBuffCheckDevideByStackWithLimit50",
               "buffData": {
                 "buffKeyword": "Laceration",
                 "buffOwner": "Target",
-                "stack": 1,
+                "stack": 3,
                 "turn": 0,
-                "value": 0.03
-              }
-            },
-            {
-              "scriptName": "EleventhOutisTargetNumAdder10",
-              "buffData": {
-                "buffKeyword": "BloodArmor",
-                "target": "Self",
-                "buffOwner": "Self",
-                "stack": 10,
-                "turn": 0,
-                "value": 1
-              }
-            },
-            {
-              "scriptName": "EleventhOutisTargetNumAdder10",
-              "buffData": {
-                "buffKeyword": "BloodArmor",
-                "target": "Self",
-                "buffOwner": "Self",
-                "stack": 20,
-                "turn": 0,
-                "value": 1
-              }
-            },
-            {
-              "scriptName": "EleventhOutisTargetNumAdder10",
-              "buffData": {
-                "buffKeyword": "BloodArmor",
-                "target": "Self",
-                "buffOwner": "Self",
-                "stack": 30,
-                "turn": 0,
-                "value": 1
+                "value": 0.05
               }
             },
             {
@@ -468,13 +603,14 @@
               }
             },
             {
-              "scriptName": "AttackDmgUpByRatioViaBuffCheckDevideByStack",
+              "scriptName": "LoseBuffSelfOnEndSkill",
               "buffData": {
                 "buffKeyword": "BloodArmor",
-                "buffOwner": "Self",
-                "stack": 1,
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 5,
                 "turn": 0,
-                "value": 0.05
+                "activeRound": 0
               }
             }
           ],

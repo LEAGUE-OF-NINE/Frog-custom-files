@@ -1,0 +1,165 @@
+{
+  "8350011": {
+    "a": 0,
+    "id": "8350011",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "On Hit with this Skill: heal 20% of the HP damage dealt (max 100)\n[WhenUse] Coin Power +1 for every 5 [Laceration] on self (max 2)\n[WhenUse] Gain 3 [Laceration] and +6 [Laceration] Count\n[WhenUse] Apply 3 [AttackUp] next turn to all <Bloodfiend> allies\n- At 3+ highest A-Reson, apply an additional 1 [AttackDmgUp] next turn\n[WhenUse] If this unit's [Laceration] Potency is greater than 30, lower [Laceration] Potency on self by (([Laceration] on self) - 30)\n[WinDuel] Gain 1 [KeptBlood]",
+        "name": "Grovel.",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8350021": {
+    "a": 0,
+    "id": "8350021",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "On Hit with this Skill: heal 50% of the HP damage dealt (max 100)\n[WhenUse] Coin Power +1 for every 5 [Laceration] on self (max 2)\n[WhenUse] Gain 4 [Laceration] and +7 [Laceration] Count\n[WhenUse] Apply 1 [Enhancement] next turn to all <Bloodfiend> allies\n- At 3+ highest A-Reson, apply an additional 1 [Enhancement] next turn\n[WhenUse] If this unit's [Laceration] Potency is greater than 30, lower [Laceration] Potency on self by (([Laceration] on self) - 30)\n[WhenUse] Deal +5% damage for every 3 [Laceration] on self (Max 30%)\n[WinDuel] Gain 2 [KeptBlood]",
+        "name": "Blood... I Need... Blood",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8350031": {
+    "a": 0,
+    "id": "8350031",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "This unit's HP does not drop below 1 while using this Skill.\n[BeforeAttack] For every 7 [KeptBlood] on self, Atk Weight +1 (Max +2)\n[WhenUse] If the target has 10+ [Laceration], Coin Power +1\n[WhenUse] Gain 60 [Laceration] and +10 [Laceration] Count\n[WhenUse] Apply 1 [PlusCoinValueUp] next turn to all <Bloodfiend> allies\n[WhenUse] If this unit's [Laceration] Potency is greater than 60, lower [Laceration] Potency on self by (([Laceration] on self) - 60)\n[WinDuel] Gain 3 [KeptBlood]",
+        "name": "The Parade's Prince",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Laceration] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 [Burst] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8350041": {
+    "a": 0,
+    "id": "8350041",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUseEvade] Base Power +1 for every [Laceration] Count on the target (max 4)",
+        "name": "Leave Me Alone...!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  }
+}
