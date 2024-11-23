@@ -1,0 +1,219 @@
+{
+  "10500901": {
+    "a": 0,
+    "id": "10500901",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Bat Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 2 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "If the target has 5+ [Burst], Coin Power +1",
+        "name": "Bat Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If the target has 5+ [Burst], Coin Power +<style=\"highlight\">2</style>\nIf the target has 5+ [Burst] Count, Coin Power +<style=\"highlight\">2</style>\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit",
+        "name": "Bat Strike",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Burst]\nIf the target has 4+ [Burst], inflict +2 Rupture Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10500902": {
+    "a": 0,
+    "id": "10500902",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] If the target has 3+ [Burst], Coin Power +1\n[WhenUse] For every 5 [Burst] on target, Clash Power +1 (Max 3)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WinDuel] Inflict +4 [Burst] Count",
+        "name": "Smackdown",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Burst]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has 4+ [Burst], inflict 2 [AttackDown] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Burst]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has 4+ [Burst], inflict 2 [AttackDown] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10500903": {
+    "a": 0,
+    "id": "10500903",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "[WhenUse] If the target has 6+ [Burst], Coin Power +1\n[WinDuel] Inflict 2 [AttackDown]",
+        "name": "Relentless",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 [Burst]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has 6+ [Burst], inflict 2 [AttackDown] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "Deal more damage based on the target's missing HP (+1% more damage per 1% missing HP)\n[WhenUse] If the target has 6+ [Burst], Coin Power +1\n[WhenUse] Clash Power +1 for every 5 [Burst] on target (Max 3)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit\n[WinDuel] Inflict 3 [AttackDown] next turn",
+        "name": "Relentless",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +4 [Burst] Count\n[OnSucceedAttack] If the target has 4+ [Burst], inflict 2 [AttackDown] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]\n[OnSucceedAttack] If the target has 4+ [Burst], inflict 2 [AttackDown] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]\n[OnSucceedAttack] If the target has 6+ [Burst], inflict 2 [AttackDown] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Burst] Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] If the target has 6+ [Burst], inflict 3 [AttackDown] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10500904": {
+    "a": 0,
+    "id": "10500904",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Counter",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Burst]",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "Deal +3% more damage for every [Burst] on target\nDeal more damage based on the target's missing HP (+1% more damage per 1% missing HP)\n[WhenUse] If the target has 10+ [Burst] and 2+ [Burst] Count: this Skill does not consume target's [Burst] Count On Hit",
+        "name": "Counter",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Burst] and +1 [Burst] Count\n[OnSucceedAttack] If the target has 6+ [Burst], inflict 3 [AttackDown] next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -13,9 +13,15 @@
       },
       "unitList": [
         {
-          "unitID": 80760,
-          "unitCount": 4,
-          "unitLevel": 1,
+          "unitID": 85555,
+          "unitCount": 1,
+          "unitLevel": 55,
+          "isHide": false
+        },
+        {
+          "unitID": 8378,
+          "unitCount": 1,
+          "unitLevel": 55,
           "isHide": false
         }
       ],
@@ -32,8 +38,16 @@
   "turnLimit": 99,
   "forceAllyFormation": false,
   "blockEnemyInfo": false,
-  "stageScriptList": [
-    ""
+  "questlist": [
+    {
+      "args": [
+        "10"
+      ],
+      "localizeId": 1
+    }
   ],
-  "includeBoss": 1
+  "rewardList": [],
+  "stageScriptList": [
+    "8366"
+  ]
 }

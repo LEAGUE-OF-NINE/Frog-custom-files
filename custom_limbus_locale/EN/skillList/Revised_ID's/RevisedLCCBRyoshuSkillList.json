@@ -1,0 +1,153 @@
+{
+  "10406011": {
+    "a": 0,
+    "id": "10406011",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain +4 [Breath] Count",
+        "name": "K.O",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Target loses 5 SP",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "104060112": {
+    "a": 0,
+    "id": "104060112",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain 3 [Breath]\nAt 7+ [Breath], Coin Power +1",
+        "name": "T.N.",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Gain 2 [Breath]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Spend 1 [Bullet]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [AttackDown] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] +60% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10406013": {
+    "a": 0,
+    "id": "10406013",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain 4 [Breath]\nGain +1 Coin Power for every 7 [Breath] on self (max 2)",
+        "name": "O.O.F.",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Gain +2 [Breath] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [DefenseDown] next turn",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Gain +2 [Breath] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Spend 1 [Bullet]",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] Double the application of Tremor & Rupture Potency and Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 Tremor and +2 Tremor Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict 4 Rupture and +2 Rupture Count",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              },
+              {
+                "desc": "[CriticalOnSucceedAttack] +60% Damage on Critical Hit",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10406014": {
+    "a": 0,
+    "id": "10406014",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] This unit triggers a Reload\n- (Reload: If this unit has less than 7 [Bullet], regain (7-(Current [Bullet] Amount)) [Bullet]\n- If this unit's [Bullet] was at 0 upon triggering a Reload, gain 3 [Breath] and +3 [Breath] Count",
+        "name": "A.S.B",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  }
+}

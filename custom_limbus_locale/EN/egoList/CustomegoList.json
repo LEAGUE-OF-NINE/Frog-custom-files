@@ -1,3 +1,14 @@
 {
-  "21279": {"a":0,"id":"21279","name":"Refracted Garden of Thorns","desc":"Gregor’s E.G.O Gear"}
+  "21279": {
+    "a": 0,
+    "id": "21279",
+    "name": "Refracted Garden of Thorns",
+    "desc": "Gregor’s E.G.O Gear"
+  },
+  "20627": {
+    "a": 0,
+    "id": "20627",
+    "name": "Da Capo",
+    "desc": "Hong Lu's E.G.O Gear"
+  }
 }

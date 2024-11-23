@@ -1,0 +1,456 @@
+{
+  "list": [
+    {
+      "id": 20607110,
+      "textID": 20607110,
+      "skillType": "EGO_AWAKEN",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 20607,
+          "gaksungLevel": 1,
+          "attributeType": "AZURE",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 7,
+          "mpUsage": 10,
+          "skillLevelCorrection": 5,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "actionScript": 2060711,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit2",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "stack": 7,
+                "turn": 0,
+                "buffOwner": "Target",
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 2
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Snare",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSADevideByRC2060711_SHAMROCK2",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0,
+                    "limit": 3
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack2060711",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "HeathcliffSixthEgoSkillAbility4And20"
+            },
+            {
+              "scriptName": "CoinScaleAdderViaBuffCheckDevideByStackWithLimit4",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "stack": 5,
+                "turn": 0,
+                "buffOwner": "Target",
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "SkipThisRoundOnEndAttack"
+            },
+            {
+              "scriptName": "GiveBuffOnBattleStart",
+              "buffData": {
+                "buffKeyword": "PlusCoinValueUp",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnBattleStart",
+              "buffData": {
+                "buffKeyword": "MinusCoinValueDown",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnBattleStart",
+              "buffData": {
+                "buffKeyword": "Sinking",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnBreakOrKillTarget(limit:1)",
+              "buffData": {
+                "buffKeyword": "PlusCoinValueUp",
+                "target": "EveryAlly",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "color": "GREY",
+              "grade": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSADevideByRC2060711_AZURE1",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "limit": 20
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSADevideByRC2060711_AZURE2",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0,
+                    "limit": 6
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "color": "GREY",
+              "grade": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSADevideByRC2060711_AZURE2",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0,
+                    "limit": 6
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "color": "GREY",
+              "grade": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSADevideByRC2060711_AZURE2",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0,
+                    "limit": 6
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 5,
+              "color": "GREY",
+              "grade": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSADevideByRC2060711_AZURE2",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0,
+                    "limit": 6
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackHead",
+                  "buffData": {
+                    "buffKeyword": "Reduction",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "DmgUpByBuffStackWithLimit150",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "value": 0.05
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20607210,
+      "textID": 20607210,
+      "skillType": "EGO_EROSION",
+      "skillTier": 3,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 2060721,
+          "gaksungLevel": 1,
+          "attributeType": "AZURE",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "RANDOM",
+          "targetNum": 12,
+          "mpUsage": 40,
+          "skillLevelCorrection": 5,
+          "defaultValue": 40,
+          "canTeamKill": true,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "actionScript": 2060721,
+          "skillMotion": "Default",
+          "viewType": "SKILL",
+          "parryingCloseType": "NEAR"
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByTurnWithLimit23",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffBeforeAttack",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffBeforeAttack",
+              "buffData": {
+                "buffKeyword": "AttackDmgUp",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 2,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 8,
+              "color": "GREY",
+              "grade": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 10,
+                    "turn": 8,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 8,
+              "color": "GREY",
+              "grade": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSADevideByRC2060711_AZURE2",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0,
+                    "limit": 6
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 8,
+              "color": "GREY",
+              "grade": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSADevideByRC2060711_AZURE2",
+                  "buffData": {
+                    "buffKeyword": "Sinking",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0,
+                    "limit": 6
+                  }
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                },
+                {
+                  "scriptName": "VibrationExplosionOnSucceedAttackTail"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

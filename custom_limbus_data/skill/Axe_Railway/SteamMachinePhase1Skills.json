@@ -1,0 +1,249 @@
+{
+  "list": [
+    {
+      "id": 85555001,
+      "textID": 85555001,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 1020204,
+          "gaksungLevel": 1,
+          "attributeType": "NEUTRAL",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": -5,
+          "defaultValue": 10,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "GiveBuffOnBattleStart",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": 50,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85555002,
+      "textID": 85555002,
+      "skillTier": 1,
+      "skillType": "SKILL",
+      "skillData": [
+        {
+          "iconID": 855501,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "INDIGO",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "defaultValue": 1,
+          "skillLevelCorrection": -5,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "AttackHighestMaxHpTarget"
+            },
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByTurnWithLimit99",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "Self",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "LoseHpOnLoseDuelSelf123"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 0,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": [
+                {
+                  "scriptName": "AttackDmgDownByRatio5000"
+                },
+                {
+                  "scriptName": "OnSaAfterWinDuelDealAbsHpDmg",
+                  "buffData": {
+                    "stack": 75
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85555003,
+      "textID": 85555003,
+      "skillTier": 1,
+      "skillType": "SKILL",
+      "skillData": [
+        {
+          "iconID": 855501,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "attributeType": "VIOLET",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "defaultValue": 2,
+          "skillLevelCorrection": -5,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "AttackFastestTarget"
+            },
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 1,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnLoseDuel",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnLoseDuel",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 0,
+                "turn": 3,
+                "activeround": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSuccessAttackUsingBuffTurn_Vibration3",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Self",
+                    "buffOwner": "Self",
+                    "stack": 0,
+                    "turn": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85555004,
+      "textID": 85555004,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 1020204,
+          "gaksungLevel": 1,
+          "attributeType": "NEUTRAL",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": -5,
+          "defaultValue": 50,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "CustomSteamMachineRecounting",
+              "buffData": {
+                "buffKeyword": "Vibration",
+                "stack": 99,
+                "turn": 99,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

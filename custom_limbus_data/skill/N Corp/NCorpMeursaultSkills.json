@@ -1,0 +1,466 @@
+{
+  "list": [
+    {
+      "id": 10504001,
+      "textID": 10504001,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 1050401,
+          "gaksungLevel": 1,
+          "attributeType": "SCARLET",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 0,
+          "defaultValue": 4,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealFirstBreakSectionOnSuccessAttackByDamageRatio3"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealFirstBreakSectionOnSuccessAttackByDamageRatio3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 8,
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse4"
+            },
+            {
+              "scriptName": "CoinScaleAdder2IfSelfHpRatioLessThan75"
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByTurnWithLimit2",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Self",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUseFactionCheck_N_CORP_FNATIC",
+              "buffData": {
+                "buffKeyword": "AssemblePersonality",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealFirstBreakSectionOnSuccessAttackByDamageRatio6"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 1,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealFirstBreakSectionOnSuccessAttackByDamageRatio6"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10504002,
+      "textID": 10504002,
+      "skillType": "SKILL",
+      "skillTier": 2,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 1050402,
+          "gaksungLevel": 1,
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 0,
+          "defaultValue": 5,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "defaultValue": 6,
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse6"
+            },
+            {
+              "scriptName": "CoinScaleAdder2IfSelfHpRatioLessThan75"
+            },
+            {
+              "scriptName": "GiveBuffOnUseFactionCheck_N_CORP_FNATIC",
+              "buffData": {
+                "buffKeyword": "AssemblePersonality",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByTurnWithLimit2",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Self",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Nail5",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfHasStack_Nail5",
+                  "buffData": {
+                    "buffKeyword": "Reduction",
+                    "target": "Target",
+                    "buffOwner": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10504003,
+      "textID": 10504003,
+      "skillType": "SKILL",
+      "skillTier": 3,
+      "requireIDList": [
+        "CheckAwakenLevel3"
+      ],
+      "skillData": [
+        {
+          "iconID": 1050403,
+          "gaksungLevel": 3,
+          "attributeType": "INDIGO",
+          "atkType": "PENETRATE",
+          "defType": "ATTACK",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 0,
+          "defaultValue": 8,
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillMotion": "S3",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "range": 5,
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio50"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gaksungLevel": 4,
+          "abilityScriptList": [
+            {
+              "scriptName": "AddTauntOnUse6"
+            },
+            {
+              "scriptName": "CoinScaleAdder2IfSelfHpRatioLessThan75"
+            },
+            {
+              "scriptName": "GiveBuffOnUseFactionCheck_N_CORP_FNATIC",
+              "buffData": {
+                "buffKeyword": "AssemblePersonality",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByTurnWithLimit2",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Self",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Nail",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "cutsceneStart": true,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealAbnormalityNSelfOnSuccessAttackByDmgRatio50AddValuePerBuffStack",
+                  "buffData": {
+                    "buffOwner": "Target",
+                    "buffKeyword": "Nail",
+                    "value": 0.05
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10504004,
+      "textID": 10504004,
+      "skillType": "SKILL",
+      "skillTier": 1,
+      "requireIDList": [],
+      "skillData": [
+        {
+          "iconID": 1050404,
+          "gaksungLevel": 1,
+          "attributeType": "CRIMSON",
+          "atkType": "PENETRATE",
+          "defType": "COUNTER",
+          "skillTargetType": "FRONT",
+          "targetNum": 1,
+          "mpUsage": 0,
+          "skillLevelCorrection": 5,
+          "defaultValue": 15,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnBattleStart",
+              "buffData": {
+                "buffKeyword": "Protection",
+                "target": "Self",
+                "buffOwner": "",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "SkillPowerResultAdder2IfSelfHpRatioLessThan75"
+            },
+            {
+              "scriptName": "CoinScaleAdderOnStartTurnViaBuffCheckDevideByTurnWithLimit2",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "target": "Self",
+                "buffOwner": "Target",
+                "stack": 0,
+                "turn": 3,
+                "activeRound": 0,
+                "value": 1
+              }
+            }
+          ],
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

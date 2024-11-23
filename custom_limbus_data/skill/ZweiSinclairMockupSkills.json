@@ -448,134 +448,6 @@
           ]
         },
         {
-          "gaksungLevel": 2,
-          "abilityScriptList": [
-            {
-              "scriptName": "AddTauntOnUse3"
-            },
-            {
-              "scriptName": "GiveBuffOnUsePerBuffTurn_Vibration3_Limit2",
-              "buffData": {
-                "buffKeyword": "DefenseUp",
-                "target": "Self",
-                "buffOwner": "Self",
-                "stack": 1,
-                "turn": 0,
-                "activeRound": 0
-              }
-            },
-            {
-              "scriptName": "SkillPowerAdderOnUseViaBuffCheck",
-              "buffData": {
-                "buffKeyword": "DefenseUp",
-                "target": "",
-                "buffOwner": "Self",
-                "stack": 4,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 1
-              }
-            }
-          ],
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "DefenseUp",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 3,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 1,
-                    "activeRound": 0
-                  }
-                },
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "DefenseUp",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "gaksungLevel": 3,
-          "coinList": [
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttackAfterWinDuel",
-                  "buffData": {
-                    "buffKeyword": "Vibration",
-                    "target": "Target",
-                    "buffOwner": "",
-                    "stack": 0,
-                    "turn": 2,
-                    "activeRound": 0
-                  }
-                }
-              ]
-            },
-            {
-              "operatorType": "ADD",
-              "scale": 4,
-              "abilityScriptList": [
-                {
-                  "scriptName": "GiveBuffOnSucceedAttack",
-                  "buffData": {
-                    "buffKeyword": "DefenseUp",
-                    "target": "Self",
-                    "buffOwner": "",
-                    "stack": 2,
-                    "turn": 0,
-                    "activeRound": 1
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
           "gaksungLevel": 4,
           "abilityScriptList": [
             {
@@ -612,9 +484,45 @@
                 "target": "Self",
                 "buffOwner": "",
                 "stack": 0,
-                "turn": 4,
+                "turn": 3,
                 "activeRound": 0
               }
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackAfterWinDuel",
+                  "buffData": {
+                    "buffKeyword": "Vibration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "DefenseUp",
+                    "target": "Self",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
             }
           ]
         }

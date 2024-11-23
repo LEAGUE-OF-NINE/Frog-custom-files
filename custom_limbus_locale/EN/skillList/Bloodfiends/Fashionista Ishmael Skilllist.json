@@ -1,0 +1,103 @@
+{
+  "1082011": {
+    "a": 0,
+    "id": "1082011",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] If the target has 6+ [Laceration], deal +20% more damage\n[WhenUse] Final Power +1 for every 2 [HardenedBlood] on self (Max 2)\n[WhenUse] Consume up to 20 [BloodDinner] and gain 1 [HardenedBlood] for every 10 [BloodDinner] this unit consumed\n- If this unit failed to consume [BloodDinner], gain 15 [Laceration]",
+        "name": "Just a Taste Please!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1082021": {
+    "a": 0,
+    "id": "1082021",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] Consume up to 30 [BloodDinner]; gain 1 [HardenedBlood] and heal 5 SP for every 10 [BloodDinner] consumed\n[WhenUse] Coin Power +1 for every 2 [HardenedBlood] on self (Max 2)",
+        "name": "Textile Cut",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttack] Spend 2 [HardenedBlood] to inflict 1 [BloodScissorScars] next turn (Max once per turn)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1082031": {
+    "a": 0,
+    "id": "1082031",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "[WhenUse] If the target has 6+ [Laceration], Coin Power +1\n[WhenUse] Final Power +1 for every 2 [HardenedBlood] on self (Max 2)\n[WhenUse] Deal +5% damage for every 1 [HardenedBlood] on self (Max 25%)\n[EndSkill] If the target is killed, increase [BloodDinner] by 30 and gain 2 [AttackDmgUp] next turn.",
+        "name": "Don't Rush Me!",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Laceration]",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "Consume up to 5 [HardenedBlood] to increase damage dealt by 15% for every [HardenedBlood] spent",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -71,7 +71,7 @@
       },
       {
         "level": 4,
-        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 3 [DefenseUp]\n[WhenUse] If the target has 6+ Tremor Count, Clash Power +2\n[WinDuel] Gain +4 Tremor Count",
+        "desc": "[WhenUse] Gain +3 [Aggro] to this Skill Slot next turn\n[WhenUse] Gain 3 [DefenseUp]\n[WhenUse] If the target has 6+ Tremor Count, Clash Power +2\n[WinDuel] Gain +3 Tremor Count",
         "name": "Suppressing",
         "rawDesc": "",
         "abName": "",

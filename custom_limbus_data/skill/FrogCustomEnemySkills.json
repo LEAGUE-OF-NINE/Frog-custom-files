@@ -299,30 +299,10 @@
               }
             },
             {
-              "scriptName": "1070204_gaksung4th",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "1070204_gaksung4th"
             },
             {
-              "scriptName": "HealMpOnUseSelf5",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "HealMpOnUseSelf5"
             }
           ],
           "coinList": [
@@ -439,43 +419,13 @@
               }
             },
             {
-              "scriptName": "HealMpOnWinDuelEveryAlly10",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "HealMpOnWinDuelEveryAlly10"
             },
             {
-              "scriptName": "GiveMpDmgOnUseTarget10",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "GiveMpDmgOnUseTarget10"
             },
             {
-              "scriptName": "1070204_gaksung4th",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "1070204_gaksung4th"
             }
           ],
           "coinList": [
@@ -767,17 +717,7 @@
               }
             },
             {
-              "scriptName": "HealMpOnWinDuelEveryAlly10",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "HealMpOnWinDuelEveryAlly10"
             }
           ],
           "mpUsage": -1,

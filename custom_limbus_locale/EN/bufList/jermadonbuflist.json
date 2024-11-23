@@ -52,7 +52,7 @@
     "a": 0,
     "id": "KeptBlood",
     "name": "Stored Blood",
-    "desc": "- Max Value: 15\n- Lose 1 value every time this unit loses 5% HP.\n- On Hit, heal 2% of this unit's HP\n- Increase damage dealt by 1% for every value on self",
+    "desc": "- Max Value: 15\n- On Hit, heal 2% of this unit's HP\n- Increase damage dealt by 2% for every value on self",
     "summary": ""
   }
 }

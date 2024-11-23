@@ -162,16 +162,30 @@
       "maxStack": 15,
       "list": [
         {
-          "ability": "KeptBloodLoseStackAbility",
-          "value": 0.05
+          "ability": "KeptBloodHealAbility",
+          "value": 0.02
         },
+        {
+          "ability": "AtkDamageMultiplierByStack",
+          "value": 0.02
+        }
+      ]
+    },
+    {
+      "id": "Orlando",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": false,
+      "destroyableOnZero": false,
+      "maxStack": 15,
+      "list": [
         {
           "ability": "KeptBloodHealAbility",
           "value": 0.02
         },
         {
           "ability": "AtkDamageMultiplierByStack",
-          "value": 0.01
+          "value": 0.02
         }
       ]
     }

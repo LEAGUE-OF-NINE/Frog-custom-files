@@ -1,0 +1,112 @@
+{
+  "list": [
+    {
+      "id": 85555,
+      "nameID": 8118,
+      "viewid": 8555,
+      "sdPortrait": 8555,
+      "originID": 8555,
+      "storyID": 8555,
+      "appearance": "8555_SteamMachineAppearance",
+      "unitKeywordList": [
+        "LARGE"
+      ],
+      "level": 55,
+      "classType": "ALEPH",
+      "attributeType": "AZURE",
+      "phaseIDList": [
+        85555,
+        8083
+      ],
+      "hp": {
+        "defaultStat": 4321,
+        "incrementByLevel": 0
+      },
+      "abnormalityPartList": [
+        855501,
+        8555002
+      ],
+      "patternID": "PickByPattern_Abnormality_CheckActionable",
+      "startActionSlotNum": 5,
+      "maxActionSlotNum": 6,
+      "attributeList": [
+        {
+          "skillId": 85555001,
+          "number": 0
+        },
+        {
+          "skillId": 85555002,
+          "number": 0
+        },
+        {
+          "skillId": 85555003,
+          "number": 0
+        },
+        {
+          "skillId": 85555004,
+          "number": 0
+        }
+      ],
+      "passiveSet": {
+        "passiveIdList": [
+          855501,
+          855507,
+          855508
+        ]
+      },
+      "patternList": [
+        {
+          "slotList": [
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 85555001,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slotList": [
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 85555004,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slotList": [
+            {
+              "skillParentList": [
+                {
+                  "skillChildList": [
+                    {
+                      "skillID": 85555003,
+                      "chance": 1
+                    }
+                  ],
+                  "chance": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

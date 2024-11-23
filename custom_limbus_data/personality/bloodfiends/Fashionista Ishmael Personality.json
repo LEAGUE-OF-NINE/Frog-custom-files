@@ -1,8 +1,8 @@
 {
   "list": [
     {
-      "id": 11035,
-      "appearance": "8350_CassetteAppearance",
+      "id": 10820,
+      "appearance": "90155_barber_vamp_2Appearance",
       "unitKeywordList": [
         "BLOODFIEND",
         "DEPENDENT",
@@ -12,23 +12,22 @@
         "LA_MANCHA_LAND"
       ],
       "unitScriptID": "11111",
-      "characterId": 10,
+      "characterId": 8,
       "panicType": 9999,
       "season": 5,
       "defenseSkillIDList": [
-        8350041,
-        8350051
+        9015505
       ],
       "panicSkillOnErosion": 1000104,
       "slotWeightConditionList": [
         "Default1"
       ],
-      "rank": 3,
+      "rank": 2,
       "hp": {
-        "defaultStat": 79,
-        "incrementByLevel": 2.73
+        "defaultStat": 72,
+        "incrementByLevel": 2.38
       },
-      "defCorrection": -3,
+      "defCorrection": 1,
       "minSpeedList": [
         1,
         1,
@@ -39,26 +38,15 @@
         4,
         5,
         5,
-        6
-      ],
-      "initBuffList": [
-        {
-          "level": 4,
-          "list": [
-            {
-              "buff": "KeptBlood",
-              "stack": 5
-            }
-          ]
-        }
+        7
       ],
       "passiveSet": {
         "passiveIdList": [
           {
             "level": 4,
             "passiveIdList": [
-              835001,
-              835005
+              1111102,
+              9017503
             ]
           }
         ],
@@ -78,7 +66,7 @@
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
               },
               {
                 "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
@@ -102,9 +90,8 @@
       },
       "breakSection": {
         "sectionList": [
-          70,
-          40,
-          15
+          60,
+          40
         ]
       },
       "resistInfo": {
@@ -115,25 +102,25 @@
           },
           {
             "type": "PENETRATE",
-            "value": 2
+            "value": 1
           },
           {
             "type": "HIT",
-            "value": 1
+            "value": 2
           }
         ]
       },
       "attributeList": [
         {
-          "skillId": 8350011,
+          "skillId": 1082011,
           "number": 3
         },
         {
-          "skillId": 8350021,
+          "skillId": 1082021,
           "number": 2
         },
         {
-          "skillId": 8350031,
+          "skillId": 1082031,
           "number": 1
         }
       ]

@@ -39,17 +39,7 @@
               }
             },
             {
-              "scriptName": "HealMpOnWinDuelEveryAlly10",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "HealMpOnWinDuelEveryAlly10"
             }
           ],
           "coinList": [
@@ -204,17 +194,7 @@
               }
             },
             {
-              "scriptName": "HealMpOnWinDuelEveryAlly10",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "HealMpOnWinDuelEveryAlly10"
             }
           ],
           "coinList": [
@@ -541,17 +521,7 @@
               }
             },
             {
-              "scriptName": "HealMpOnWinDuelEveryAlly10",
-              "buffData": {
-                "buffKeyword": "",
-                "target": "",
-                "buffOwner": "",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0,
-                "value": 0.0,
-                "limit": 0
-              }
+              "scriptName": "HealMpOnWinDuelEveryAlly10"
             },
             {
               "scriptName": "GiveBuffOnWinDuel",

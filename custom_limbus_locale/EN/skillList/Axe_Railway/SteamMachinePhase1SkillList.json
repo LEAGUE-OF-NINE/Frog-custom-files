@@ -1,0 +1,62 @@
+{
+  "85555001": {
+    "a": 0,
+    "id": "85555001",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[StartBattle] Gain +50 [Vibration] Count next turn",
+        "name": "Boot Sequence",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": []
+      }
+    ]
+  },
+  "85555002": {
+    "a": 0,
+    "id": "85555002",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Targets the unit with the highest Max HP\nFinal Power +1 for every 1 [Vibration] Count on self (Max 99)",
+        "name": "Tank Buster",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[AlwaysUse] Reduce damage dealt by 5000%",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "85555003": {
+    "a": 0,
+    "id": "85555003",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "Targets the unit with the highest Speed\n[WhenUse] Gain +1 [Vibration] Count\n[DefeatDuel] Gain 1 [Vulnerable] and +3 [Vibration] Count next turn",
+        "name": "Charge Up",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[SucceedAttack] Lower [Vibration] Count on self by 2",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

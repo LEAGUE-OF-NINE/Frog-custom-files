@@ -1,0 +1,79 @@
+{
+  "list": [
+    {
+      "id": 20627,
+      "characterId": 6,
+      "egoType": "ALEPH",
+      "egoClass": 1,
+      "season": 5,
+      "skillTier": 3,
+      "attributeResistList": [
+        {
+          "type": "CRIMSON",
+          "value": 2
+        },
+        {
+          "type": "SCARLET",
+          "value": 0.75
+        },
+        {
+          "type": "AMBER",
+          "value": 0.75
+        },
+        {
+          "type": "SHAMROCK",
+          "value": 2
+        },
+        {
+          "type": "AZURE",
+          "value": 0.5
+        },
+        {
+          "type": "INDIGO",
+          "value": 0.5
+        },
+        {
+          "type": "VIOLET",
+          "value": 1
+        },
+        {
+          "type": "WHITE",
+          "value": 2
+        },
+        {
+          "type": "BLACK",
+          "value": 2
+        }
+      ],
+      "requirementList": [
+        {
+          "attributeType": "AMBER",
+          "num": 4
+        },
+        {
+          "attributeType": "AZURE",
+          "num": 12
+        }
+      ],
+      "corrosionSectionList": [
+        {
+          "section": 0.5,
+          "probability": 0.25
+        },
+        {
+          "section": 0.25,
+          "probability": 0.75
+        },
+        {
+          "section": 0,
+          "probability": 1
+        }
+      ],
+      "awakeningPassiveList": [
+        2050511
+      ],
+      "awakeningSkillId": 20607110,
+      "corrosionSkillId": 20607210
+    }
+  ]
+}

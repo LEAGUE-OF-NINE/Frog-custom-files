@@ -155,6 +155,15 @@
                     "turn": 1,
                     "activeRound": 0
                   }
+                },
+                {
+                  "scriptName": "OnSAGiveBuffFactionCheck_BLOODFIEND",
+                  "buffData": {
+                    "buffKeyword": "Enhancement",
+                    "stack": 50,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
                 }
               ]
             },

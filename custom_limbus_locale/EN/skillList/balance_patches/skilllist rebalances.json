@@ -1,0 +1,75 @@
+{
+    "2020211": {
+        "a": 0,
+        "id": "2020211",
+        "levelList": [
+            {
+                "level": 1,
+                "desc": "",
+                "name": "Fluid Sac",
+                "rawDesc": "",
+                "abName": "Headless Ichthys",
+                "coinlist": [
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[EndSkill] Heal 10 SP for all allies",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[EndSkill] Heal all allies for 10% of Max HP",
+                                "summary": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "level": 3,
+                "desc": "",
+                "name": "Fluid Sac",
+                "rawDesc": "",
+                "abName": "Headless Ichthys",
+                "coinlist": [
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[EndSkill] Heal 15 SP for all allies",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[EndSkill] Heal all allies for 15% of Max HP",
+                                "summary": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "level": 4,
+                "desc": "",
+                "name": "Fluid Sac",
+                "rawDesc": "",
+                "abName": "Headless Ichthys",
+                "coinlist": [
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[EndSkill] Heal 15 SP for all allies",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[EndSkill] Heal all allies for 15% of Max HP",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[EndSkillHead] Heal 10 SP for all allies",
+                                "summary": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

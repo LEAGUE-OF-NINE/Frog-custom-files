@@ -1,0 +1,164 @@
+{
+    "20607110": {
+        "a": 0,
+        "id": "20607110",
+        "levelList": [
+            {
+                "level": 4,
+                "desc": "[EndSkill] For 4 turns, lose 20 SP at Turn End\nCoin Power +1 for every 5 [Sinking] on the main target (max 4)\n[EndSkill] Ends this turn\n[StartBattle] Apply 1 [PlusCoinValueUp], 1 [MinusCoinValueDown] and 5 [Sinking] next turn to all allies\n[EndSkill] If any target is Staggered or defeated, apply 2 Plus Coin Boost to all allies next turn (Max once per turn)",
+                "name": "Da Capo",
+                "rawDesc": "",
+                "abName": "The Silent Orchestra",
+                "coinlist": [
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[SuperCoin]",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Inflict 3 [Sinking] for every 1 Gloom Reson. (Max 20)",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count for every 2 Gloom Reson. (Max 6)",
+                                "summary": ""
+                            }
+                        ]
+                    },
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[SuperCoin]",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count for every 2 Gloom Reson. (Max 6)",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackTail] Trigger Tremor Burst",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackTail] Trigger Tremor Burst",
+                                "summary": ""
+                            }
+                        ]
+                    },
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[SuperCoin]",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count for every 2 Gloom Reson. (Max 6)",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackHead] Inflict 3 [Binding] next turn",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackTail] Trigger Tremor Burst",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackTail] Trigger Tremor Burst",
+                                "summary": ""
+                            }
+                        ]
+                    },
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[SuperCoin]",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count for every 2 Gloom Reson. (Max 6)",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackHead] Inflict 3 [Reduction] next turn",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Deal +5% more damage for every [Sinking] on the target (max 150%)<style=\"highlight\"></style>",
+                                "summary": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "20607210": {
+        "a": 0,
+        "id": "20607210",
+        "levelList": [
+            {
+                "level": 4,
+                "desc": "[CantIdentify]\nTargets randomly\nFinal Power +1 for every 3 [Sinking] on the target (Max 23)\n[BeforeAttack] Gain 2 [Vulnerable] and 2 [AttackDmgUp] next turn",
+                "name": "Da Capo",
+                "rawDesc": "",
+                "abName": "The Silent Orchestra",
+                "coinlist": [
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[SuperCoin]",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Inflict 10 [Sinking] and +8 [Sinking] Count",
+                                "summary": ""
+                            }
+                        ]
+                    },
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[SuperCoin]",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count for every 2 Gloom Reson. (Max 6)",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackTail] Trigger Tremor Burst",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackTail] Trigger Tremor Burst",
+                                "summary": ""
+                            }
+                        ]
+                    },
+                    {
+                        "coindescs": [
+                            {
+                                "desc": "[SuperCoin]",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttack] Inflict +2 [Sinking] Count for every 2 Gloom Reson. (Max 6)",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackTail] Trigger Tremor Burst",
+                                "summary": ""
+                            },
+                            {
+                                "desc": "[OnSucceedAttackTail] Trigger Tremor Burst",
+                                "summary": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

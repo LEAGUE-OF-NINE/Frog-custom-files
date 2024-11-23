@@ -1,0 +1,472 @@
+{
+  "11204001": {
+    "a": 0,
+    "id": "11204001",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Keep It Fresh",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Paralyze",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "",
+        "name": "Keep It Fresh",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Paralyze; if target has Bleed, inflict 1 Paralyze next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If target has 2+ Bind, deal +50% damage\nDeal +10% Damage for every 1 [Laceration] Count on target\n[WhenUse] If target has [Binding], and if this unit has a faster Speed, gain Clash Power equal to the Speed difference",
+        "name": "Keep It Fresh",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 2 [Binding] next turn; if target has [Laceration], inflict 2 Paralyze next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11204002": {
+    "a": 0,
+    "id": "11204002",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "You Fresh Enough?",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +1 Bleed Count; Inflict 1 Bind next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "",
+        "name": "You Fresh Enough?",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +2 Bleed Count; Inflict 2 Bind next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If this unit's Speed is faster than the target's, gain Coin Power +1 for every 2 Speed difference (Max 4)\n[WhenUse] Deal +10% damage for every 1 [Laceration] Count on target",
+        "name": "You Fresh Enough?",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +3 Bleed Count; Inflict 3 Bind next turn",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11204003": {
+    "a": 0,
+    "id": "11204003",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "",
+        "name": "Butcher Viand",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Bleed",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Paralyze",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Paralyze",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Heal HP based on target’s Bleed (Max 20%)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "If target has 7+ Bleed, Coin Power +1\nIf this unit's Speed is faster than the target's, gain Clash Power +1 for every 2 Speed difference (Max 4)",
+        "name": "Butcher Viand",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Binding] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Paralysis] next turn",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 3 [Laceration] and +3 [Laceration] Count",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Heal HP based on target’s Bleed (Max 50%)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "11204004": {
+    "a": 0,
+    "id": "11204004",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "[WhenUse] Heal 20 HP\n[WhenUse] Final Power +1 for every 1 [Laceration] on target (Max 20)",
+        "name": "Grab A Snack",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "10501001": {
+    "a": 0,
+    "id": "10501001",
+    "levelList": [
+      {
+        "level": 4,
+        "desc": "",
+        "name": "Un, Deux, Trois, Quatre, Cinq, Six, Sept, Huit, Neuf, Dix, Onze, Douze, Treize, Quatorze, Quinze, Seize, Dix-sept, Dix-huit, Dix-neuf, Vingt, Vingt et un, Vingt-Deux, Vingt-Trois, Vingt-Quatre",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse this coin (Max 9 times)",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict 1 Tremor",
+                "summary": ""
+              },
+              {
+                "desc": "[OnSucceedAttackHead] Reuse this coin (Max 9 times)",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10501002": {
+    "a": 0,
+    "id": "10501002",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Nailing Fists",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "desc": "[WhenUse] Gain 36 Defense Power Up next turn",
+        "name": "Nailing Fist",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Trigger Tremor Burst",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10501003": {
+    "a": 0,
+    "id": "10501003",
+    "levelList": [
+      {
+        "level": 3,
+        "desc": "[WhenUse] Gain 3 Protection next turn",
+        "name": "Des Coups",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict +2 Tremor Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "desc": "[WhenUse] Gain 36 Protection next turn",
+        "name": "Des Coups",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 12 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 12 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttackHead] Inflict 12 Tremor",
+                "summary": ""
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedAttack] Inflict +24 Tremor Count",
+                "summary": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "10501004": {
+    "a": 0,
+    "id": "10501004",
+    "levelList": [
+      {
+        "level": 1,
+        "desc": "",
+        "name": "Guards",
+        "rawDesc": "",
+        "abName": "",
+        "coinlist": [
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  }
+}
