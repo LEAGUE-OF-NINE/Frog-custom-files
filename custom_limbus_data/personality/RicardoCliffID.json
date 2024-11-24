@@ -2,20 +2,30 @@
   "list": [
     {
       "id": 10000710,
-      "unitScriptID": "",
-      "viewid": 10000710,
-      "deadsceneid": -1,
-      "sdPortrait": "",
-      "appearance": "!enemy_8099_MiddleFinger_RicardoAppearance",
+      "viewID": 10000710,
+      "appearance": "8099_MiddleFinger_RicardoAppearance",
+      "associationList": [
+        "MIDDLE_FINGER"
+      ],
+      "unitKeywordList": [
+        "CLAN"
+      ],
+      "characterId": 7,
+      "season": 3,
+      "panicType": 9999,
+      "defenseSkillIDList": [
+        700000011
+      ],
       "panicSkillOnErosion": 1000104,
-      "mp": 45,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "rank": 3,
       "hp": {
         "defaultStat": 86,
-        "incrementByLevel": 2.9600000381469728
+        "incrementByLevel": 2.28
       },
-      "defCorrection": -2,
-      "aggro": 1,
-      "panicType": 1014,
+      "defCorrection": -4,
       "minSpeedList": [
         3,
         3,
@@ -23,30 +33,25 @@
         3
       ],
       "maxSpeedList": [
+        5,
         6,
         6,
-        7,
-        7
+        6
       ],
-      "defenseSkillIDList": [
-        700000011
-      ],
+      "uniqueAttribute": "VIOLET",
       "mentalConditionInfo": {
         "add": [
           {
             "level": 1,
             "conditionIDList": [
               {
-                "conditionID": "OnWinDuelAsParryingCountMultiply15AndPlus20Percent"
-              },
-              {
-                "conditionID": "OnKillEnemyMp15"
+                "conditionID": "OnWinDuelAsParryingCountMultiply10AndPlus20Percent"
               },
               {
                 "conditionID": "OnKillEnemyAsLevelRatioMultiply10"
               },
               {
-                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply10"
+                "conditionID": "OnKillEnemyByOtherAllyAsLevelRatioMultiply5"
               }
             ]
           }
@@ -54,20 +59,17 @@
         "min": [
           {
             "level": 1,
-            "conditionIDList": [ ]
+            "conditionIDList": [
+              {
+                "conditionID": "OnDieAllyAsLevelRatio10"
+              }
+            ]
           }
         ]
       },
-      "showUnitLevel": true,
-      "showAtkLevel": true,
-      "showDefLevel": true,
-      "showHp": true,
-      "slotWeightConditionList": [
-        "Default1"
-      ],
       "breakSection": {
         "sectionList": [
-          50,
+          70,
           20
         ]
       },
@@ -75,22 +77,17 @@
         "atkResistList": [
           {
             "type": "SLASH",
-            "value": 0.5
+            "value": 1
           },
           {
             "type": "PENETRATE",
-            "value": 1.0
+            "value": 0.5
           },
           {
             "type": "HIT",
-            "value": 2.0
+            "value": 2
           }
-        ],
-        "attributeResistList": []
-      },
-      "passiveSet": {
-        "passiveIdList": [],
-        "supportPassiveIdList": []
+        ]
       },
       "attributeList": [
         {
@@ -105,25 +102,7 @@
           "skillId": 700000005,
           "number": 1
         }
-      ],
-      "initBuffList": [],
-      "associationList": [
-        "MIDDLE_FINGER"
-      ],
-      "unitKeywordList": [
-        "CLAN"
-      ],
-      "characterId": 7,
-      "season": 3,
-      "additionalAttachment": "",
-      "promotionId": 0,
-      "rank": 3,
-      "uniqueAttribute": "AZURE",
-      "supporterPassiveSet": {
-        "passiveIdList": [],
-        "supportPassiveIdList": []
-      },
-      "walpurgisType": ""
+      ]
     }
   ]
 }
